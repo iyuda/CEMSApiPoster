@@ -1,0 +1,10 @@
+
+2/11/2017 1:39:41 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+2/11/2017 1:39:45 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster

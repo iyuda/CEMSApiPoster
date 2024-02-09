@@ -1,0 +1,79 @@
+
+3/5/2017 2:13:51 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData, String pcr_id, String agency) in c:\Work Area\WebApi\WebApiPoster\PCR\Pcr.cs:line 310
+Source: WebApiPoster
+
+3/5/2017 2:15:18 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData, String pcr_id, String agency) in c:\Work Area\WebApi\WebApiPoster\PCR\Pcr.cs:line 310
+Source: WebApiPoster
+
+3/5/2017 2:52:28 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/5/2017 2:53:02 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/5/2017 2:53:40 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/5/2017 2:54:04 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/5/2017 2:56:14 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/5/2017 3:07:37 PM
+Unexpected character while parsing path indexer: G:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseQuotedField(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist)
+Source: Newtonsoft.Json
+
+3/5/2017 3:10:44 PM
+Unexpected character while parsing path indexer: G:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseQuotedField(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist)
+Source: Newtonsoft.Json

@@ -1,0 +1,383 @@
+
+3/3/2017 10:56:53 AM
+insert into person(first_name,last_name,is_male,age,active,id)
+values
+('Rocky','Mountain','0','0','1','5627728c-ea3a-4544-9aca-09f51c493ad2')
+
+3/3/2017 10:56:53 AM
+update person set 
+first_name = 'Rocky',
+last_name = 'Mountain',
+is_male = '0',
+age = '0',
+active = '1' where id ='5627728c-ea3a-4544-9aca-09f51c493ad2'
+
+3/3/2017 10:56:53 AM
+insert into phone_number(id)
+values
+('cd398c97-5e90-4bae-b2c5-093cd629b213')
+
+3/3/2017 10:56:53 AM
+insert into person_phones(person_id,phone_id,id)
+values
+('5627728c-ea3a-4544-9aca-09f51c493ad2','cd398c97-5e90-4bae-b2c5-093cd629b213','91266122-8192-4a24-9b2e-dea314bdaeab')
+
+3/3/2017 10:56:53 AM
+update person set 
+first_name = 'Rocky',
+last_name = 'Mountain',
+is_male = '0',
+age = '0',
+active = '1' where id ='5627728c-ea3a-4544-9aca-09f51c493ad2'
+
+3/3/2017 10:56:53 AM
+insert into phone_number(id)
+values
+('b34b4a17-cdd1-4030-8cfb-28aea296b424')
+
+3/3/2017 10:56:53 AM
+insert into person_phones(person_id,phone_id,id)
+values
+('5627728c-ea3a-4544-9aca-09f51c493ad2','b34b4a17-cdd1-4030-8cfb-28aea296b424','774388ba-49a1-4167-b55c-7a54519df371')
+
+3/3/2017 10:56:54 AM
+insert into Address(address,unit,country_id,id)
+values
+('Dmmm','1','14b00896-d006-480c-9d74-00f2995ce168','a38bd4a6-e5a2-4475-89e5-363a71d53128')
+
+3/3/2017 10:56:54 AM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('a38bd4a6-e5a2-4475-89e5-363a71d53128','5627728c-ea3a-4544-9aca-09f51c493ad2','1','815183aa-196d-4670-b952-3a6e4c19ba93')
+
+3/3/2017 10:56:54 AM
+insert into person(active,id)
+values
+('1','e15daf5d-f023-4a67-b5e6-0438b4038a50')
+
+3/3/2017 10:56:54 AM
+update person set 
+active = '1' where id ='e15daf5d-f023-4a67-b5e6-0438b4038a50'
+
+3/3/2017 10:56:54 AM
+insert into phone_number(id)
+values
+('2214ab93-0bec-44af-bbf7-7046b8baa951')
+
+3/3/2017 10:56:55 AM
+insert into person_phones(person_id,phone_id,id)
+values
+('e15daf5d-f023-4a67-b5e6-0438b4038a50','2214ab93-0bec-44af-bbf7-7046b8baa951','9623437e-a477-4130-a503-036dd7f07f9b')
+
+3/3/2017 10:56:55 AM
+update person set 
+active = '1' where id ='e15daf5d-f023-4a67-b5e6-0438b4038a50'
+
+3/3/2017 10:56:55 AM
+insert into phone_number(id)
+values
+('f749398e-c0c7-4027-826c-bb45398867c8')
+
+3/3/2017 10:56:55 AM
+insert into person_phones(person_id,phone_id,id)
+values
+('e15daf5d-f023-4a67-b5e6-0438b4038a50','f749398e-c0c7-4027-826c-bb45398867c8','72daece2-ec49-4366-a353-fa22b2cb2b85')
+
+3/3/2017 10:56:55 AM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','b8a67d8b-a1b0-4fee-bf40-6f07163839e7')
+
+3/3/2017 10:56:55 AM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('b8a67d8b-a1b0-4fee-bf40-6f07163839e7','e15daf5d-f023-4a67-b5e6-0438b4038a50','1','7dde2bc9-be71-4d78-858f-da687d80e60a')
+
+3/3/2017 10:56:55 AM
+insert into person(active,id)
+values
+('1','a3566601-3115-4c67-bd24-3ec68c7d2c53')
+
+3/3/2017 10:56:55 AM
+update person set 
+active = '1' where id ='a3566601-3115-4c67-bd24-3ec68c7d2c53'
+
+3/3/2017 10:56:55 AM
+insert into phone_number(id)
+values
+('adfaa6e7-f3c1-42ad-a46f-4ebdc5dae51d')
+
+3/3/2017 10:56:55 AM
+insert into person_phones(person_id,phone_id,id)
+values
+('a3566601-3115-4c67-bd24-3ec68c7d2c53','adfaa6e7-f3c1-42ad-a46f-4ebdc5dae51d','fa74809f-5083-43ca-9cb7-9f7615ba0476')
+
+3/3/2017 10:56:55 AM
+update person set 
+active = '1' where id ='a3566601-3115-4c67-bd24-3ec68c7d2c53'
+
+3/3/2017 10:56:55 AM
+insert into phone_number(id)
+values
+('11b81121-51cd-43ec-acc8-3886f635a433')
+
+3/3/2017 10:56:55 AM
+insert into person_phones(person_id,phone_id,id)
+values
+('a3566601-3115-4c67-bd24-3ec68c7d2c53','11b81121-51cd-43ec-acc8-3886f635a433','4f3041b7-6ffc-48a1-97ad-9c6b11f9b9c3')
+
+3/3/2017 10:56:55 AM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','c69299ee-b99b-4982-a31b-55f80f318b6c')
+
+3/3/2017 10:56:55 AM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('c69299ee-b99b-4982-a31b-55f80f318b6c','a3566601-3115-4c67-bd24-3ec68c7d2c53','1','fae03b06-a7ce-4233-898a-28f3cb1d66c7')
+
+3/3/2017 10:56:56 AM
+insert into Insurance(name,payer_id,id)
+values
+('Jdmndn','Ndjdn','aa6f4b45-304c-47fe-890b-06b41bc65a1f')
+
+3/3/2017 10:56:56 AM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('Policy','Gn','c345d196-4461-4630-8559-cd09cf2b448b')
+
+3/3/2017 10:56:56 AM
+insert into Insurance(name,payer_id,id)
+values
+('Jdmndn','Id2','a621fff9-4ecc-40e6-906f-dadf07c56f78')
+
+3/3/2017 10:56:56 AM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('Policy','Gn','dcc5a7fa-841e-46bd-8113-fcb69ada1807')
+
+3/3/2017 10:56:56 AM
+update person set 
+first_name = 'Rocky',
+last_name = 'Mountain',
+is_male = '0',
+age = '0',
+active = '1' where id ='5627728c-ea3a-4544-9aca-09f51c493ad2'
+
+3/3/2017 10:56:56 AM
+update person set 
+active = '1' where id ='e15daf5d-f023-4a67-b5e6-0438b4038a50'
+
+3/3/2017 10:56:56 AM
+update person set 
+active = '1' where id ='a3566601-3115-4c67-bd24-3ec68c7d2c53'
+
+3/3/2017 10:56:56 AM
+update insurance_policy set 
+policy_no = 'Policy',
+group_no = 'Gn' where id ='c345d196-4461-4630-8559-cd09cf2b448b'
+
+3/3/2017 10:56:56 AM
+update insurance_policy set 
+policy_no = 'Policy',
+group_no = 'Gn' where id ='dcc5a7fa-841e-46bd-8113-fcb69ada1807'
+
+3/3/2017 10:56:56 AM
+insert into insurance_policy(id)
+values
+('881dbb69-6610-46dd-9809-8907f9b5bbb5')
+
+3/3/2017 10:56:57 AM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('5627728c-ea3a-4544-9aca-09f51c493ad2','e15daf5d-f023-4a67-b5e6-0438b4038a50','a3566601-3115-4c67-bd24-3ec68c7d2c53','c345d196-4461-4630-8559-cd09cf2b448b','dcc5a7fa-841e-46bd-8113-fcb69ada1807','dcc5a7fa-841e-46bd-8113-fcb69ada1807','180a9ed5-b386-4820-9679-bbb2162f196a','5a670cc1-ac63-4560-a995-d870095ae06b')
+
+3/3/2017 10:56:57 AM
+insert into town(town_name,location_code,id)
+values
+('Ny','Code','bc3d1bfc-dcdd-4ac9-bba7-8d1ba595d2e9')
+
+3/3/2017 10:56:57 AM
+insert into Address(address,unit,city_id,zip_id,country_id,id)
+values
+('Address','Apt','2119398a-f239-44ec-8829-52d4dc59648b','5d8fe650-58ea-4486-b00c-9d997d479b7b','14b00896-d006-480c-9d74-00f2995ce168','cd068fb2-f325-4649-be06-2b9b07fc8de5')
+
+3/3/2017 10:56:58 AM
+insert into business(name,id)
+values
+('Art','fcd79f99-0f74-47d2-8ba6-fe9e2736cb59')
+
+3/3/2017 10:56:58 AM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,from_scene_82,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('I','Street','bc3d1bfc-dcdd-4ac9-bba7-8d1ba595d2e9','Hospital','2017-03-03 12:38:00','2017-03-03 15:28:00','1','O','12','0','cd068fb2-f325-4649-be06-2b9b07fc8de5','fcd79f99-0f74-47d2-8ba6-fe9e2736cb59','728c07e2-806b-4449-93aa-109e97156454')
+
+3/3/2017 10:57:07 AM
+insert into ems_run(id)
+values
+('e5167f12-fced-4590-b5cc-57c3106a6dab')
+
+3/3/2017 10:57:21 AM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('6f79bbd8-c01b-4b73-b6a9-841ff40de9d3','6f4ada40-3ed3-4871-832d-b8d01d15305e','5a402918-b924-45f7-97e0-7b4deb8f6a04','3b7380b1-f9f4-48ed-8dd5-0b26126b0e83','fa6f7760-a670-4790-8326-e0c43794d14e')
+
+3/3/2017 10:57:22 AM
+insert into run_logins(ems_run,user_login,id)
+values
+('e5167f12-fced-4590-b5cc-57c3106a6dab','fa6f7760-a670-4790-8326-e0c43794d14e','d249d95d-fca7-44c7-a6f4-1fc5b8e5d96e')
+
+3/3/2017 10:57:22 AM
+insert into pcr_narrative_notes(id)
+values
+('3346c701-e253-4d34-80f8-43309353e7ae')
+
+3/3/2017 10:57:22 AM
+insert into pcr_rma(id)
+values
+('55a189ca-d77b-4a30-85ae-5ac7a617f554')
+
+3/3/2017 10:57:22 AM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','fdda02fe-2e89-4f85-a0d0-bee97665562e')
+
+3/3/2017 10:57:22 AM
+insert into pcr_Narcotic(id)
+values
+('5240d994-ac06-40c7-9f57-f68969c09d46')
+
+3/3/2017 10:57:23 AM
+insert into pcr_Authorization(id)
+values
+('de90a1f9-bd85-47b3-aa2a-a2c973433494')
+
+3/3/2017 10:57:23 AM
+update pcr set 
+pcr_dispatch_id = '728c07e2-806b-4449-93aa-109e97156454',
+pcr_demographic_id = '5a670cc1-ac63-4560-a995-d870095ae06b',
+pcr_assessment_id = 'b2399722-48d5-4e76-be79-7ad87cad0ed8',
+pcr_narrative_notes_id = '3346c701-e253-4d34-80f8-43309353e7ae',
+pcr_rma_id = '55a189ca-d77b-4a30-85ae-5ac7a617f554',
+pcr_authorization_id = 'de90a1f9-bd85-47b3-aa2a-a2c973433494',
+pcr_apcf_id = '2552db2e-660f-467b-9199-be6935136d80',
+pcr_disposition_id = 'fdda02fe-2e89-4f85-a0d0-bee97665562e',
+ems_run = 'e5167f12-fced-4590-b5cc-57c3106a6dab',
+pcr_narcotics_id = '5240d994-ac06-40c7-9f57-f68969c09d46',
+agency_id = '180a9ed5-b386-4820-9679-bbb2162f196a' where id ='126fb0d4-7fe3-479e-ac79-da396a2876b6'
+
+3/3/2017 10:57:26 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','2f986ec7-a5bc-11e1-bbb3-842b2b4bbc99','1','dde2bf59-2547-4319-bb34-850be02848d5')
+
+3/3/2017 11:01:34 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d455b54-adbf-11e1-bbb3-842b2b4bbc99','0','b5ccf2e4-0e4a-4158-89d3-16b4edd924cf')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d454b6b-adbf-11e1-bbb3-842b2b4bbc99','0','11fb769a-a85a-4a07-b011-a55631ef0e52')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d453212-adbf-11e1-bbb3-842b2b4bbc99','1','4febac51-d3a5-4c9c-8f59-1429966e6cbc')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d452cbf-adbf-11e1-bbb3-842b2b4bbc99','0','f56c631c-30d6-45cd-a13f-6a7700b43f72')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d455695-adbf-11e1-bbb3-842b2b4bbc99','0','92254b63-b1fb-4e31-9b99-834bf8fc221a')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d4546ce-adbf-11e1-bbb3-842b2b4bbc99','0','6a1f9491-e0b5-4f66-ac55-258e1bef1219')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d453c4a-adbf-11e1-bbb3-842b2b4bbc99','1','7e3c0a2f-67b9-4df8-b449-8db4cb4d3f41')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d457c6c-adbf-11e1-bbb3-842b2b4bbc99','0','17d01389-2f2d-4027-8faf-5c5622c5c6ee')
+
+3/3/2017 11:02:07 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d455012-adbf-11e1-bbb3-842b2b4bbc99','0','a80624e4-680f-4d19-b696-2ef0a67604cf')
+
+3/3/2017 11:02:08 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d4522fa-adbf-11e1-bbb3-842b2b4bbc99','0','8f3c63c9-275b-4cf4-b001-867d398f5c31')
+
+3/3/2017 11:02:08 AM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('5a402918-b924-45f7-97e0-7b4deb8f6a04','5d454186-adbf-11e1-bbb3-842b2b4bbc99','1','c2f5b88d-c753-46c2-b436-22bd98a05d59')
+
+3/3/2017 11:02:08 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','f398960b-2a34-11e5-b454-842b2b4bbc99','1','401b7891-74f1-43f5-8300-b1b46a09921e')
+
+3/3/2017 11:02:09 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','d3fad464-8fd6-11e1-b08b-842b2b4bbc99','1','c8a79467-32bf-4fd0-af1a-86e0e4b6b29e')
+
+3/3/2017 11:02:10 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','06a662b1-07a7-11e0-bdc9-8e92303c9d5f','1','f3275356-80a4-4fac-8fc2-bb31994fc300')
+
+3/3/2017 11:02:11 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','8c49e631-22ff-4990-91c6-6c9a429cc510')
+
+3/3/2017 11:02:12 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','55138912-8fd9-11e1-b08b-842b2b4bbc99','1','6e1f329b-7d15-4442-8d70-b9435fae7f2d')
+
+3/3/2017 11:02:13 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','975c504e-0610-11e0-9c66-0ba20c568bb6','1','06c3e118-e03d-4f47-ab4a-737bc41b55f1')
+
+3/3/2017 11:02:14 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','975be590-0610-11e0-9c66-0ba20c568bb6','1','93e47747-5970-49f3-b297-cef709a95f74')
+
+3/3/2017 11:02:15 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','4225726f-8fd9-11e1-b08b-842b2b4bbc99','1','37bbdf89-5209-42f0-a77b-f24e36660dd4')
+
+3/3/2017 11:02:16 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','9760b07f-0610-11e0-9c66-0ba20c568bb6','1','67316786-161f-4bd9-bb65-4c04599a53d3')
+
+3/3/2017 11:02:17 AM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('126fb0d4-7fe3-479e-ac79-da396a2876b6','8e27539d-3c4d-11e4-9a60-842b2b4bbc99','1','75447c2a-258c-4f96-be41-0f22e9f7fa32')
+
+3/3/2017 11:02:22 AM
+update json_pcr set 
+data = '{"RMA": {"RMAReason": {"model": {"buttons": [{"id": "RMA1", "img": "check-circle-o", "str": "Signed & Witnessed", "choice": "off"}, {"id": "RMA2", "img": "check-circle-o", "str": "Signed & Witnessed AMA", "choice": "on"}, {"id": "RMA3", "img": "check-circle-o", "str": "Approved by OLMC", "choice": "off"}, {"id": "RMA4", "img": "check-circle-o", "str": "Signed & Witnessed by Supervisor", "choice": "off"}, {"id": "RMA5", "img": "check-circle-o", "str": "Refused All", "choice": "off"}]}}}, "debug": false, "Vehicle": {"Siren": {"choice": "off"}, "Light_Bar": {"choice": "off"}, "Tail_Lights": {"choice": "on"}, "Brake_Lights": {"choice": "off"}, "Scene_Lights": {"choice": "off"}, "Turn_Signals": {"choice": "off"}, "Reverse_Lights": {"choice": "on"}, "Jack/Lug_Wrench": {"choice": "off"}, "Emergency_Flashers": {"choice": "off"}, "Instrumental_Lights": {"choice": "off"}, "Headlights/High_Beams": {"choice": "on"}}, "Dispatch": {"CallLocation": {"model": {"buttons": [{"id": "R", "img": "check-square-o", "str": "Residence", "choice": "off"}, {"id": "H", "img": "check-square-o", "str": "Hospital", "choice": "on"}, {"id": "F", "img": "check-square-o", "str": "Facility", "choice": "off"}]}}, "DispatchInfo": {"model": {"buttons": [{"id": "R", "img": "check-circle-o", "str": "Residence", "choice": "off"}, {"id": "S", "img": "check-circle-o", "str": "Street", "choice": "on"}, {"id": "H", "img": "check-circle-o", "str": "Health", "choice": "off"}, {"id": "I", "img": "check-circle-o", "str": "Industrial", "choice": "off"}, {"id": "C", "img": "check-circle-o", "str": "Scene", "choice": "off"}]}}, "LightsSirens": {"model": {"buttons": [{"id": "LSToScene", "img": "check-square-o", "str": "To Scene", "choice": "on"}, {"id": "LSToDestination", "img": "check-square-o", "str": "To Destination", "choice": "on"}]}}, "CALLTYPE.5585": {"model": {"buttons": [{"id": "CALLTYPE.5585", "str": "", "choice": "on", "caption": "Minor Hold (5585) 3DH"}]}}, "DispatchAborted": {"model": {"buttons": [{"id": "DryRun", "img": "check-circle-o", "str": "Dry Run", "choice": "off"}, {"id": "DOA", "img": "check-circle-o", "str": "DOA", "choice": "off"}, {"id": "Gone", "img": "check-circle-o", "str": "Gone", "choice": "off"}, {"id": "NotFound", "img": "check-circle-o", "str": "Not Found", "choice": "off"}, {"id": "Transported", "img": "check-circle-o", "str": "Transported", "choice": "off"}, {"id": "PDMatter", "img": "check-circle-o", "str": "PD Matter", "choice": "on"}]}}, "CALLTYPE.Dialysis": {"model": {"buttons": [{"id": "CALLTYPE.Dialysis", "str": "", "choice": "on", "caption": "Dialysis"}]}}, "Members.Members_M1": {"Members_M1": "Conway, Betty"}, "Members.Members_M2": {"Members_M2": "Sullivan, Peter"}, "CALLTYPE.BLSStandby": {"model": {"buttons": [{"id": "CALLTYPE.BLSStandby", "str": "", "choice": "on", "caption": "BLS Standby"}]}}, "Mileage.Mileage_End": {"Mileage_End": "Wrr"}, "Mileage.Mileage_Begin": {"Mileage_Begin": "12"}, "Mileage.Mileage_Total": {"Mileage_Total": "N/A"}, "Timeline.Timeline_EnRoute": {"Timeline_EnRoute": "Ddf"}, "Timeline.Timeline_Assigned": {"Timeline_Assigned": "12:38"}, "Timeline.Timeline_FromScene": {"Timeline_FromScene": "15:28"}, "DispatchInfo.DispatchInfo_CAD": {"DispatchInfo_CAD": "I"}, "CallLocation.CallLocation_City": {"CallLocation_City": "Brooklyn"}, "CallLocation.CallLocation_Name": {"CallLocation_Name": "Art"}, "CallLocation.CallLocation_Room": {"CallLocation_Room": "Rm"}, "CallLocation.CallLocation_State": {"CallLocation_State": "NY"}, "CallLocation.CallLocation_Address": {"CallLocation_Address": "Address"}, "CallLocation.CallLocation_ZipCode": {"CallLocation_ZipCode": "11214-     "}, "DispatchInfo.DispatchInfo_Borough": {"DispatchInfo_Borough": "Ny"}, "CallLocation.CallLocation_Apartment": {"CallLocation_Apartment": "Apt"}, "DispatchInfo.DispatchInfo_LocationCode": {"DispatchInfo_LocationCode": "Code"}, "CallLocation.CallLocation_RespondedFrom": {"CallLocation_RespondedFrom": "Hospital"}, "DispatchInfo.DispatchInfo_DispatchMethod": {"DispatchInfo_DispatchMethod": "O"}, "DispatchInfo.DispatchInfo_TransportedFrom": {"DispatchInfo_TransportedFrom": "Street"}}, "Vitals_1": {"SP02": {"model": {"buttons": [{"id": "ORA", "img": "check-circle-o", "str": "ORA", "choice": "off"}, {"id": "W02", "img": "check-circle-o", "str": "W02", "choice": "on"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "on"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "off"}]}}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "off"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "on"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "TempScale": {"model": {"buttons": [{"id": "Ferenheit", "img": "check-circle-o", "str": "F", "choice": "off"}, {"id": "Centegrade", "img": "check-circle-o", "str": "C", "choice": "on"}]}}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}}, "Vitals_2": {"Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "on"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "off"}]}}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "off"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "on"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}}, "Vitals_4": {"Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "on"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "off"}]}}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}}, "logmount": false, "Necessity": {"SignerCred": {"model": {"buttons": [{"id": "MD", "img": "check-circle-o", "str": "MD", "choice": "on"}, {"id": "PA", "img": "check-circle-o", "str": "PA", "choice": "off"}, {"id": "RN", "img": "check-circle-o", "str": "RN", "choice": "off"}, {"id": "SW", "img": "check-circle-o", "str": "SW", "choice": "off"}, {"id": "DP", "img": "check-circle-o", "str": "DP", "choice": "off"}]}}}, "transcript": [], "Demographics": {"PatientInfo.PatientInfo_Zip": {"PatientInfo_Zip": "11111-1111 "}, "PatientInfo.PatientInfo_City": {"PatientInfo_City": "Si"}, "PatientInfo.PatientInfo_State": {"PatientInfo_State": "Ny"}, "PatientInfo.PatientInfo_Address": {"PatientInfo_Address": "Dmmm"}, "PatientInfo.PatientInfo_LastName": {"PatientInfo_LastName": "Mountain"}, "PatientInfo.PatientInfo_Apartment": {"PatientInfo_Apartment": "1"}, "PatientInfo.PatientInfo_FirstName": {"PatientInfo_FirstName": "Rocky"}, "PrimaryInsurance.PrimaryInsurance_Name": {"PrimaryInsurance_Name": "Jdmndn"}, "PrimaryInsurance.PrimaryInsurance_PayerID": {"PrimaryInsurance_PayerID": "Ndjdn"}, "PrimaryInsurance.PrimaryInsurance_PolicyID": {"PrimaryInsurance_PolicyID": "Policy"}, "SecondaryInsurance.SecondaryInsurance_Name": {"SecondaryInsurance_Name": "Jdmndn"}, "PrimaryInsurance.PrimaryInsurance_GroupNumber": {"PrimaryInsurance_GroupNumber": "Gn"}, "SecondaryInsurance.SecondaryInsurance_PayerID": {"SecondaryInsurance_PayerID": "Id2"}, "PrimaryInsurance.PrimaryInsurance_PolicyHolder": {"PrimaryInsurance_PolicyHolder": "Jnn"}, "SecondaryInsurance.SecondaryInsurance_PolicyID": {"SecondaryInsurance_PolicyID": "Policy"}, "SecondaryInsurance.SecondaryInsurance_GroupNumber": {"SecondaryInsurance_GroupNumber": "Gn"}, "SecondaryInsurance.SecondaryInsurance_PolicyHolder": {"SecondaryInsurance_PolicyHolder": "Jnn"}}, "auth_created": {"user": "userone", "badge": ""}, "auth_uploaded": {"user": "userone", "badge": ""}, "DispositionWide": {"moved": {"model": {"buttons": [{"id": "Cancelled", "img": "check-circle-o", "str": "Cancelled (10-87)", "choice": "off"}, {"id": "DOAD", "img": "check-circle-o", "str": "DOA (10-83D)", "choice": "off"}, {"id": "DOAR", "img": "check-circle-o", "str": "DOA (10-83R)", "choice": "on"}, {"id": "NoPatientFound", "img": "check-circle-o", "str": "No Patient Found (10-90)", "choice": "off"}, {"id": "TreatedTX", "img": "check-circle-o", "str": "Treated, Transported (10-82)", "choice": "off"}, {"id": "TreatedTXO", "img": "check-circle-o", "str": "Treated, TX by other (10-94)", "choice": "on"}, {"id": "TreatedTXWO", "img": "check-circle-o", "str": "Treated, TX W/O", "choice": "off"}, {"id": "TriageThroughTelemetry", "img": "check-circle-o", "str": "Triage Through Telemetry (10-95)", "choice": "off"}, {"id": "Gone", "img": "check-circle-o", "str": "Gone  prior to arrival (10-96)", "choice": "off"}, {"id": "StandbyOnly", "img": "check-circle-o", "str": "Standby Only", "choice": "off", "factorWidth": 1.5}, {"id": "Helicopter", "img": "check-circle-o", "str": "Heicopter", "choice": "on", "factorWidth": 1.5}]}}}, "GEN:ppMapppApgarList": {"a4e7e521-3c4b-11e4-9a60-842b2b4bbc99": {"model": {"buttons": [{"id": "83852873-3c4d-11e4-9a60-842b2b4bbc99", "img": "check-circle-o", "str": "Active Motion", "choice": "off"}, {"id": "8920b1b1-3c4d-11e4-9a60-842b2b4bbc99", "img": "check-circle-o", "str": "Some Flexion of Extremities", "choice": "off"}, {"id": "8e27539d-3c4d-11e4-9a60-842b2b4bbc99", "img": "check-circle-o", "str": "Limp", "choice": "on"}]}}}}',
+received = '2017-03-03 11:02:17',
+sent = '1970-01-01 12:00:00' where id ='126fb0d4-7fe3-479e-ac79-da396a2876b6'

@@ -1,0 +1,1597 @@
+
+1/23/2017 1:20:09 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 4:25:24 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 4:27:10 PM
+Could not find any recognizable digits.:
+Stack trace: at System.ParseNumbers.StringToInt(String s, Int32 radix, Int32 flags, Int32* currPos)
+   at System.Convert.ToByte(String value, Int32 fromBase)
+   at WebApiPoster.PCR.Utilities.BinaryToString(String data)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: mscorlib
+
+1/23/2017 4:27:21 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/23/2017 4:28:26 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 4:29:09 PM
+Path returned multiple tokens.:
+Stack trace: at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 67
+Source: Newtonsoft.Json
+
+1/23/2017 4:37:56 PM
+Path returned multiple tokens.:
+Stack trace: at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 67
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:13 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:14 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:21 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:22 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:26 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:26 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:26 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:26 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:38 PM
+Can not convert Object to String.:
+Stack trace: at Newtonsoft.Json.Linq.JToken.op_Explicit(JToken value)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:38 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Town..ctor(Object JsonData, String PathPrefix)
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 4:49:40 PM
+Field 'pcr_dispatch_id' doesn't have a default value:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:19 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:26 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:26 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:27 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:28 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:28 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:28 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:33 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:33 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:33 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:33 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:34 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 111
+Source: Newtonsoft.Json
+
+1/23/2017 4:56:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Town..ctor(Object JsonData, String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Town.cs:line 30
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Dispatch.cs:line 107
+Source: WebApiPoster
+
+1/23/2017 4:56:43 PM
+Field 'pcr_dispatch_id' doesn't have a default value:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 5:05:41 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 5:12:33 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 205
+Source: Newtonsoft.Json
+
+1/23/2017 5:12:43 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 5:15:53 PM
+Error parsing NaN value. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseNumberNaN()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.ReadForType(JsonReader reader, JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: Newtonsoft.Json
+
+1/23/2017 5:16:02 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/23/2017 5:27:05 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 5:30:26 PM
+Unable to cast object of type '<ExecuteFilter>d__0' to type 'Newtonsoft.Json.Linq.JToken'.:
+Stack trace: at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster
+
+1/23/2017 5:30:46 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/23/2017 5:57:25 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 6:08:45 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/23/2017 6:14:10 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data

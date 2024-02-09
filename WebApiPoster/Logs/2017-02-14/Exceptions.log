@@ -1,0 +1,623 @@
+
+2/14/2017 11:38:27 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:38:27 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:38:27 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:41:00 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:41:00 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:41:00 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:56:33 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:56:33 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 11:56:33 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 12:07:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 12:07:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 12:07:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:12:56 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:12:56 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:12:56 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:14:47 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.ModifyArrayItem(String Path, String SearchValue, String ModifyValue, String SearchField, String ModifyField)
+   at WebApiPoster.PCR.Buttons.LoadButton(String Path)
+   at WebApiPoster.PCR.Pcr.MapIntoIOSJson(Object JsonData, String pcr_id)
+   at WebApiPoster.Controllers.CEMSController.GetJsonFromEMS(String pcr_id)
+Source: Newtonsoft.Json
+
+2/14/2017 1:15:11 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:15:12 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:15:12 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:18:28 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 1:19:48 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 1:19:51 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 1:20:13 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 1:21:24 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.ModifyArrayItem(String Path, String SearchValue, String ModifyValue, String SearchField, String ModifyField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 105
+   at WebApiPoster.PCR.Buttons.LoadButton(String Path) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Buttons.cs:line 206
+   at WebApiPoster.PCR.Pcr.MapIntoIOSJson(Object JsonData, String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 108
+   at WebApiPoster.Controllers.CEMSController.GetJsonFromEMS(String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Controllers\CEMSController.cs:line 252
+Source: Newtonsoft.Json
+
+2/14/2017 1:22:28 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/14/2017 1:22:28 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/14/2017 1:22:28 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/14/2017 1:23:02 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+2/14/2017 1:23:11 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+2/14/2017 1:23:32 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+2/14/2017 1:29:54 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+2/14/2017 1:30:07 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+2/14/2017 1:30:14 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: Newtonsoft.Json
+
+2/14/2017 1:47:33 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:47:33 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 1:47:33 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:12:48 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:13:03 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:13:40 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 2:14:07 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 2:14:13 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 2:15:11 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 184
+Source: Newtonsoft.Json
+
+2/14/2017 2:17:09 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:17:15 PM
+Unexpected character while parsing path indexer: r:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseArrayIndexer(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:17:23 PM
+Unexpected character while parsing path indexer: r:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseArrayIndexer(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:18:27 PM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:20:25 PM
+Unexpected character while parsing path indexer: G:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseArrayIndexer(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:20:37 PM
+Unexpected character while parsing path indexer: $:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseArrayIndexer(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:21:48 PM
+Unexpected character while parsing path indexer: ":
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseArrayIndexer(Char indexerCloseChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseIndexer(Char indexerOpenChar)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:23:31 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:23:31 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:23:31 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:24:11 PM
+Unexpected character following indexer: 0:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.ModifyArrayItem(String Path, String SearchValue, String ModifyValue, String SearchField, String ModifyField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 105
+   at WebApiPoster.PCR.Buttons.LoadButton(String Path) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Buttons.cs:line 206
+   at WebApiPoster.PCR.Pcr.MapIntoIOSJson(Object JsonData, String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 108
+   at WebApiPoster.Controllers.CEMSController.GetJsonFromEMS(String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Controllers\CEMSController.cs:line 252
+Source: Newtonsoft.Json
+
+2/14/2017 2:24:17 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:24:17 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:24:17 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:25:56 PM
+Unexpected character following indexer: 0:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:26:16 PM
+Unexpected character following indexer: 0:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:27:03 PM
+Unexpected character following indexer: 9:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:34:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:34:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:34:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:34:57 PM
+Unexpected character following indexer: m:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.ModifyArrayItem(String Path, String SearchValue, String ModifyValue, String SearchField, String ModifyField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 105
+   at WebApiPoster.PCR.Buttons.LoadButton(String Path) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Buttons.cs:line 206
+   at WebApiPoster.PCR.Pcr.MapIntoIOSJson(Object JsonData, String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 109
+   at WebApiPoster.Controllers.CEMSController.GetJsonFromEMS(String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Controllers\CEMSController.cs:line 252
+Source: Newtonsoft.Json
+
+2/14/2017 2:35:02 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:35:02 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:35:02 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:35:22 PM
+Unexpected character following indexer: m:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.ModifyArrayItem(String Path, String SearchValue, String ModifyValue, String SearchField, String ModifyField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 105
+   at WebApiPoster.PCR.Buttons.LoadButton(String Path) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Buttons.cs:line 206
+   at WebApiPoster.PCR.Pcr.MapIntoIOSJson(Object JsonData, String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 109
+   at WebApiPoster.Controllers.CEMSController.GetJsonFromEMS(String pcr_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Controllers\CEMSController.cs:line 252
+Source: Newtonsoft.Json
+
+2/14/2017 2:35:25 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:35:25 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:35:25 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:36:00 PM
+Unexpected character following indexer: m:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:39:03 PM
+Unexpected character following indexer: m:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:39:39 PM
+Unexpected character following indexer: b:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 69
+Source: Newtonsoft.Json
+
+2/14/2017 2:40:32 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:40:32 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:40:32 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:57:06 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:57:06 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 2:57:06 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 3:21:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 3:21:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 3:21:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/14/2017 3:33:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 156
+Source: WebApiPoster
+
+2/14/2017 3:51:09 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 124
+Source: MySql.Data
+
+2/14/2017 6:19:22 PM
+Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'Newtonsoft.Json.Linq.JObject'.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist)
+Source: WebApiPoster
+
+2/14/2017 6:25:30 PM
+Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'Newtonsoft.Json.Linq.JObject'.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 132
+Source: WebApiPoster
+
+2/14/2017 6:26:02 PM
+Unable to cast object of type 'Newtonsoft.Json.Linq.JValue' to type 'Newtonsoft.Json.Linq.JObject'.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 132
+Source: WebApiPoster
+
+2/14/2017 6:30:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 157
+Source: WebApiPoster

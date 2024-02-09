@@ -1,0 +1,344 @@
+
+2/9/2017 12:35:19 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+2/9/2017 12:38:39 AM
+Every derived table must have its own alias:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 237
+Source: MySql.Data
+
+2/9/2017 12:41:05 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:41:05 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:41:05 AM
+Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index:
+Stack trace: at System.ThrowHelper.ThrowArgumentOutOfRangeException()
+   at System.Collections.Generic.List`1.get_Item(Int32 index)
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(Object JsonData, String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 50
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: mscorlib
+
+2/9/2017 12:41:24 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:41:24 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:41:58 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:41:58 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:43:11 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:43:11 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:44:13 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:44:13 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= '40e04410-3414-4df4-8d26-768d7fadcd89'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 192
+Source: MySql.Data
+
+2/9/2017 12:52:35 AM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+2/9/2017 1:15:20 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson()
+Source: WebApiPoster
+
+2/9/2017 1:20:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/9/2017 7:50:41 PM
+Table 'newcems.json_pcr' doesn't exist:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 227
+Source: MySql.Data
+
+2/9/2017 7:50:41 PM
+Table 'newcems.json_pcr' doesn't exist:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 227
+Source: MySql.Data
+
+2/9/2017 7:51:14 PM
+Table 'newcems.json_pcr' doesn't exist:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.System.Data.IDbCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.FillInternal(DataSet dataset, DataTable[] datatables, Int32 startRecord, Int32 maxRecords, String srcTable, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable[] dataTables, Int32 startRecord, Int32 maxRecords, IDbCommand command, CommandBehavior behavior)
+   at System.Data.Common.DbDataAdapter.Fill(DataTable dataTable)
+   at DbConnect.GetDataTable(MySqlConnection cn, String SelectQuery) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\DBConnect.cs:line 64
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 227
+Source: MySql.Data
+
+2/9/2017 7:55:33 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson()
+Source: WebApiPoster
+
+2/9/2017 7:55:43 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/9/2017 7:56:14 PM
+Incorrect datetime value: '0001-01-01 12:00:00' for column 'received' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/9/2017 7:58:05 PM
+Incorrect datetime value: '0001-01-01 12:00:00' for column 'received' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/9/2017 7:59:22 PM
+Incorrect datetime value: '0001-01-01 12:00:00' for column 'received' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/9/2017 8:00:41 PM
+Incorrect datetime value: '0001-01-01 12:00:00' for column 'received' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/9/2017 8:12:32 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+2/9/2017 8:12:34 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+2/9/2017 9:12:07 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+2/9/2017 9:12:07 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster

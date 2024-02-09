@@ -1,0 +1,486 @@
+
+2/9/2017 8:12:49 PM
+update json_pcr set 
+data = '{
+  "auth": {
+    "user": "jrubin",
+    "badge": ""
+  },
+  "debug": false,
+  "Dispatch": {
+    "LightsSirens": {
+      "model": {
+        "buttons": [
+          {
+            "id": "LSToScene",
+            "img": "check-square-o",
+            "str": "To Scene",
+            "choice": "on"
+          },
+          {
+            "id": "LSToDestination",
+            "img": "check-square-o",
+            "str": "To Destination",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@5250": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@5250",
+            "str": "",
+            "choice": "on",
+            "caption": "Psychiatric Hold (5250) 14 DH"
+          }
+        ]
+      }
+    },
+    "DispatchAborted": {
+      "model": {
+        "buttons": [
+          {
+            "id": "DryRun",
+            "img": "check-circle-o",
+            "str": "Dry Run",
+            "choice": "off"
+          },
+          {
+            "id": "DOA",
+            "img": "check-circle-o",
+            "str": "DOA",
+            "choice": "off"
+          },
+          {
+            "id": "Gone",
+            "img": "check-circle-o",
+            "str": "Gone",
+            "choice": "off"
+          },
+          {
+            "id": "NotFound",
+            "img": "check-circle-o",
+            "str": "Not Found",
+            "choice": "off"
+          },
+          {
+            "id": "Transported",
+            "img": "check-circle-o",
+            "str": "Transported",
+            "choice": "off"
+          },
+          {
+            "id": "PDMatter",
+            "img": "check-circle-o",
+            "str": "PD Matter",
+            "choice": "on"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@Discharge": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@Discharge",
+            "str": "",
+            "choice": "on",
+            "caption": "Discharge"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@BLSStandby": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@BLSStandby",
+            "str": "",
+            "choice": "on",
+            "caption": "BLS Standby"
+          }
+        ]
+      }
+    },
+    "DispatchInfo@DispatchInfo_CAD": {
+      "DispatchInfo_CAD": null
+    },
+    "DispatchInfo@DispatchInfo_TransportedFrom": {
+      "DispatchInfo_TransportedFrom": null
+    },
+    "CallLocation@CallLocation_RespondedFrom": {
+      "CallLocation_RespondedFrom": null
+    },
+    "Timeline@Timeline_Assigned": {
+      "Timeline_Assigned": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_EnRoute": {
+      "Timeline_EnRoute": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_OnScene": {
+      "Timeline_OnScene": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_PatientContact": {
+      "Timeline_PatientContact": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_FromScene": {
+      "Timeline_FromScene": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_AtDestination": {
+      "Timeline_AtDestination": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_InService": {
+      "Timeline_InService": "1/1/1970 12:00:00 AM"
+    },
+    "DispatchInfo@DispatchInfo_DispatchMethod": {
+      "DispatchInfo_DispatchMethod": null
+    },
+    "Mileage@Mileage_Begin": {
+      "Mileage_Begin": null
+    },
+    "Mileage@Mileage_End": {
+      "Mileage_End": null
+    },
+    "DispatchInfo@DispatchInfo_Borough": {
+      "DispatchInfo_Borough": null
+    },
+    "DispatchInfo@DispatchInfo_LocationCode": {
+      "DispatchInfo_LocationCode": null
+    },
+    "CallLocation@CallLocation_Address": {
+      "CallLocation_Address": null
+    },
+    "CallLocation@CallLocation_Apartment": {
+      "CallLocation_Apartment": null
+    },
+    "CallLocation@CallLocation_City": {
+      "CallLocation_City": ""
+    },
+    "CallLocation@CallLocation_State": {
+      "CallLocation_State": ""
+    },
+    "CallLocation@CallLocation_ZipCode": {
+      "CallLocation_ZipCode": ""
+    },
+    "CallLocation@CallLocation_Name": {
+      "CallLocation_Name": null
+    }
+  },
+  "logmount": false,
+  "transcript": [],
+  "Demographics": {
+    "PatientInfo@PatientInfo_LastName": {
+      "PatientInfo_LastName": "Tester"
+    },
+    "PatientInfo@PatientInfo_FirstName": {
+      "PatientInfo_FirstName": "Login"
+    },
+    "PatientInfo@PatientInfo_MiddleInitial": {
+      "PatientInfo_MiddleInitial": "L"
+    },
+    "PatientDetail@PatientDetail_DOB": {
+      "PatientDetail_DOB": null
+    },
+    "PatientDetail@PatientDetail_WeightLbs": {
+      "PatientDetail_WeightLbs": null
+    },
+    "PatientDetail@PatientDetail_Gender": {
+      "PatientDetail_Gender": "Female"
+    },
+    "PatientDetail@PatientDetail_Age": {
+      "PatientDetail_Age": "0"
+    },
+    "PatientDetail@PatientDetail_SSN": {
+      "PatientDetail_SSN": null
+    },
+    "PatientDetail@PatientDetail_Phone1": {
+      "PatientDetail_Phone1": ""
+    },
+    "PatientDetail@PatientDetail_Phone2": {
+      "PatientDetail_Phone2": ""
+    },
+    "PatientInfo@PatientInfo_Address": {
+      "PatientInfo_Address": ""
+    },
+    "PatientInfo@PatientInfo_Apartment": {
+      "PatientInfo_Apartment": ""
+    },
+    "PatientInfo@PatientInfo_City": {
+      "PatientInfo_City": ""
+    },
+    "PatientInfo@PatientInfo_State": {
+      "PatientInfo_State": ""
+    },
+    "PatientInfo@PatientInfo_ZipCode": {
+      "PatientInfo_ZipCode": ""
+    },
+    "EmergencyContact@EmergencyContact_FirstName": {
+      "EmergencyContact_FirstName": null
+    },
+    "EmergencyContact@EmergencyContact_MiddleInitial": {
+      "EmergencyContact_MiddleInitial": null
+    },
+    "EmergencyContact@EmergencyContact_LastName": {
+      "EmergencyContact_LastName": null
+    },
+    "PhysicianInfo@PhysicianInfo_FirstName": {
+      "PhysicianInfo_FirstName": null
+    },
+    "PhysicianInfo@PhysicianInfo_MiddleInitial": {
+      "PhysicianInfo_MiddleInitial": null
+    },
+    "PhysicianInfo@PhysicianInfo_LastName": {
+      "PhysicianInfo_LastName": null
+    }
+  }
+}',
+received = '1970-01-01 12:00:00',
+sent = '2017-02-09 08:12:34' where id ='8718afb6-ed67-11e6-99d9-569f0d38ba3c'
+
+2/9/2017 9:12:08 PM
+update json_pcr set 
+data = '{
+  "auth": {
+    "user": "jrubin",
+    "badge": ""
+  },
+  "debug": false,
+  "Dispatch": {
+    "LightsSirens": {
+      "model": {
+        "buttons": [
+          {
+            "id": "LSToScene",
+            "img": "check-square-o",
+            "str": "To Scene",
+            "choice": "on"
+          },
+          {
+            "id": "LSToDestination",
+            "img": "check-square-o",
+            "str": "To Destination",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@5250": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@5250",
+            "str": "",
+            "choice": "on",
+            "caption": "Psychiatric Hold (5250) 14 DH"
+          }
+        ]
+      }
+    },
+    "DispatchAborted": {
+      "model": {
+        "buttons": [
+          {
+            "id": "DryRun",
+            "img": "check-circle-o",
+            "str": "Dry Run",
+            "choice": "off"
+          },
+          {
+            "id": "DOA",
+            "img": "check-circle-o",
+            "str": "DOA",
+            "choice": "off"
+          },
+          {
+            "id": "Gone",
+            "img": "check-circle-o",
+            "str": "Gone",
+            "choice": "off"
+          },
+          {
+            "id": "NotFound",
+            "img": "check-circle-o",
+            "str": "Not Found",
+            "choice": "off"
+          },
+          {
+            "id": "Transported",
+            "img": "check-circle-o",
+            "str": "Transported",
+            "choice": "off"
+          },
+          {
+            "id": "PDMatter",
+            "img": "check-circle-o",
+            "str": "PD Matter",
+            "choice": "on"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@Discharge": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@Discharge",
+            "str": "",
+            "choice": "on",
+            "caption": "Discharge"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@BLSStandby": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@BLSStandby",
+            "str": "",
+            "choice": "on",
+            "caption": "BLS Standby"
+          }
+        ]
+      }
+    },
+    "Mileage@Mileage_End": {
+      "Mileage_End": null
+    },
+    "Mileage@Mileage_Begin": {
+      "Mileage_Begin": null
+    },
+    "Timeline@Timeline_EnRoute": {
+      "Timeline_EnRoute": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_OnScene": {
+      "Timeline_OnScene": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_Assigned": {
+      "Timeline_Assigned": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_FromScene": {
+      "Timeline_FromScene": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_InService": {
+      "Timeline_InService": "1/1/1970 12:00:00 AM"
+    },
+    "DispatchInfo@DispatchInfo_CAD": {
+      "DispatchInfo_CAD": null
+    },
+    "CallLocation@CallLocation_City": {
+      "CallLocation_City": ""
+    },
+    "CallLocation@CallLocation_Name": {
+      "CallLocation_Name": null
+    },
+    "CallLocation@CallLocation_State": {
+      "CallLocation_State": ""
+    },
+    "Timeline@Timeline_AtDestination": {
+      "Timeline_AtDestination": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_PatientContact": {
+      "Timeline_PatientContact": "1/1/1970 12:00:00 AM"
+    },
+    "CallLocation@CallLocation_Address": {
+      "CallLocation_Address": null
+    },
+    "CallLocation@CallLocation_ZipCode": {
+      "CallLocation_ZipCode": ""
+    },
+    "DispatchInfo@DispatchInfo_Borough": {
+      "DispatchInfo_Borough": null
+    },
+    "CallLocation@CallLocation_Apartment": {
+      "CallLocation_Apartment": null
+    },
+    "DispatchInfo@DispatchInfo_LocationCode": {
+      "DispatchInfo_LocationCode": null
+    },
+    "CallLocation@CallLocation_RespondedFrom": {
+      "CallLocation_RespondedFrom": null
+    },
+    "DispatchInfo@DispatchInfo_DispatchMethod": {
+      "DispatchInfo_DispatchMethod": null
+    },
+    "DispatchInfo@DispatchInfo_TransportedFrom": {
+      "DispatchInfo_TransportedFrom": null
+    }
+  },
+  "logmount": false,
+  "transcript": [],
+  "Demographics": {
+    "PatientInfo@PatientInfo_City": {
+      "PatientInfo_City": ""
+    },
+    "PatientInfo@PatientInfo_State": {
+      "PatientInfo_State": ""
+    },
+    "PatientDetail@PatientDetail_Age": {
+      "PatientDetail_Age": "0"
+    },
+    "PatientDetail@PatientDetail_DOB": {
+      "PatientDetail_DOB": null
+    },
+    "PatientDetail@PatientDetail_SSN": {
+      "PatientDetail_SSN": null
+    },
+    "PatientInfo@PatientInfo_Address": {
+      "PatientInfo_Address": ""
+    },
+    "PatientInfo@PatientInfo_ZipCode": {
+      "PatientInfo_ZipCode": ""
+    },
+    "PatientInfo@PatientInfo_LastName": {
+      "PatientInfo_LastName": "Tester"
+    },
+    "PatientInfo@PatientInfo_Apartment": {
+      "PatientInfo_Apartment": ""
+    },
+    "PatientInfo@PatientInfo_FirstName": {
+      "PatientInfo_FirstName": "Login"
+    },
+    "PatientDetail@PatientDetail_Gender": {
+      "PatientDetail_Gender": "Female"
+    },
+    "PatientDetail@PatientDetail_Phone1": {
+      "PatientDetail_Phone1": ""
+    },
+    "PatientDetail@PatientDetail_Phone2": {
+      "PatientDetail_Phone2": ""
+    },
+    "PhysicianInfo@PhysicianInfo_LastName": {
+      "PhysicianInfo_LastName": null
+    },
+    "PatientDetail@PatientDetail_WeightLbs": {
+      "PatientDetail_WeightLbs": null
+    },
+    "PatientInfo@PatientInfo_MiddleInitial": {
+      "PatientInfo_MiddleInitial": "L"
+    },
+    "PhysicianInfo@PhysicianInfo_FirstName": {
+      "PhysicianInfo_FirstName": null
+    },
+    "PhysicianInfo@PhysicianInfo_MiddleInitial": {
+      "PhysicianInfo_MiddleInitial": null
+    },
+    "EmergencyContact@EmergencyContact_LastName": {
+      "EmergencyContact_LastName": null
+    },
+    "EmergencyContact@EmergencyContact_FirstName": {
+      "EmergencyContact_FirstName": null
+    },
+    "EmergencyContact@EmergencyContact_MiddleInitial": {
+      "EmergencyContact_MiddleInitial": null
+    }
+  }
+}',
+received = '1970-01-01 12:00:00',
+sent = '2017-02-09 09:12:07' where id ='8718afb6-ed67-11e6-99d9-569f0d38ba3c'
+
+2/9/2017 9:12:58 PM
+update json_pcr set 
+data = '{"debug": false, "NEMSIS": {"Exam": {"model": {"buttons": [{"id": "3519001", "img": "check-circle-o", "str": "Combative", "choice": "off"}, {"id": "3519003", "img": "check-circle-o", "str": "Confused", "choice": "off"}, {"id": "3519005", "img": "check-circle-o", "str": "Hallucinations", "choice": "off"}, {"id": "3519007", "img": "check-circle-o", "str": "Normal Baseline for Patient", "choice": "off"}, {"id": "3519009", "img": "check-circle-o", "str": "Not Done", "choice": "off"}, {"id": "3519011", "img": "check-circle-o", "str": "Oriented-Person", "choice": "on"}, {"id": "3519013", "img": "check-circle-o", "str": "Oriented-Place", "choice": "off"}, {"id": "3519015", "img": "check-circle-o", "str": "Oriented-Event", "choice": "off"}, {"id": "3519017", "img": "check-circle-o", "str": "Oriented-Time", "choice": "off"}, {"id": "3519019", "img": "check-circle-o", "str": "Pharmacologically Sedated/Paralyzed", "choice": "off"}, {"id": "3519021", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}, {"id": "3519023", "img": "check-circle-o", "str": "Agitation", "choice": "off"}, {"id": "3519025", "img": "check-circle-o", "str": "somnolent", "choice": "off"}, {"id": "3519027", "img": "check-circle-o", "str": "stupor", "choice": "off"}]}}, "Labs": {"model": {"buttons": [{"id": "3405001", "img": "check-circle-o", "str": "CAT Scan", "choice": "off"}, {"id": "3405003", "img": "check-circle-o", "str": "Magnetic Resonance Imaging (MRI)", "choice": "off"}, {"id": "3405005", "img": "check-circle-o", "str": "Other", "choice": "off"}, {"id": "3405007", "img": "check-circle-o", "str": "PET Scan", "choice": "on"}, {"id": "3405009", "img": "check-circle-o", "str": "Ultrasound", "choice": "off"}, {"id": "3405011", "img": "check-circle-o", "str": "X-ray", "choice": "off"}, {"id": "3405013", "img": "check-circle-o", "str": "Angiography", "choice": "off"}]}}, "scene": {"model": {"buttons": [{"id": "2708001", "img": "check-circle-o", "str": "Red - Immediate", "choice": "off"}, {"id": "2708003", "img": "check-circle-o", "str": "Yellow - Delayed", "choice": "off"}, {"id": "2708005", "img": "check-circle-o", "str": "Green - Minimal (Minor)", "choice": "off"}, {"id": "2708007", "img": "check-circle-o", "str": "Gray - Expectant", "choice": "off"}, {"id": "2708009", "img": "check-circle-o", "str": "Black - Deceased", "choice": "on"}]}}, "Device": {"model": {"buttons": [{"id": "1603001", "img": "check-circle-o", "str": "Capnography-Numeric", "choice": "off"}, {"id": "1603003", "img": "check-circle-o", "str": "Capnography-Waveform", "choice": "off"}, {"id": "1603005", "img": "check-circle-o", "str": "Chemistry Measurement-Blood or Serum", "choice": "off"}, {"id": "1603007", "img": "check-circle-o", "str": "Chemistry Measurement-Glucometer", "choice": "off"}, {"id": "1603009", "img": "check-circle-o", "str": "Chemistry Measurement-Urine", "choice": "off"}, {"id": "1603011", "img": "check-circle-o", "str": "CPR-External Device", "choice": "on"}, {"id": "1603013", "img": "check-circle-o", "str": "Defibrillator-Automated", "choice": "off"}, {"id": "1603015", "img": "check-circle-o", "str": "Defibrillator-Manual", "choice": "off"}, {"id": "1603017", "img": "check-circle-o", "str": "ECG-12 Lead or Greater", "choice": "off"}, {"id": "1603019", "img": "check-circle-o", "str": "ECG-Less than 12 Lead (Cardiac Monitor)", "choice": "off"}, {"id": "1603021", "img": "check-circle-o", "str": "Medication Infusion Pump", "choice": "off"}, {"id": "1603023", "img": "check-circle-o", "str": "Other", "choice": "off"}, {"id": "1603025", "img": "check-circle-o", "str": "Oximetry-Carbon Monoxide", "choice": "off"}, {"id": "1603027", "img": "check-circle-o", "str": "Oximetry-Oxygen", "choice": "off"}, {"id": "1603029", "img": "check-circle-o", "str": "Pressure Monitors-Invasive", "choice": "off"}, {"id": "1603031", "img": "check-circle-o", "str": "Pressure Monitors-Non-Invasive", "choice": "off"}, {"id": "1603033", "img": "check-circle-o", "str": "Respirator (BLS)", "choice": "off"}, {"id": "1603035", "img": "check-circle-o", "str": "Ventilator (ALS)", "choice": "off"}, {"id": "1603037", "img": "check-circle-o", "str": "Ventilator Assistance-BiPAP", "choice": "off"}, {"id": "1603039", "img": "check-circle-o", "str": "Ventilator Assistance-CPAP", "choice": "off"}]}}, "Injury": {"model": {"buttons": [{"id": "2902001", "img": "check-circle-o", "str": "Blunt", "choice": "off"}, {"id": "2902003", "img": "check-circle-o", "str": "Burn", "choice": "off"}, {"id": "2902005", "img": "check-circle-o", "str": "Other", "choice": "off"}, {"id": "2902007", "img": "check-circle-o", "str": "Penetrating", "choice": "on"}]}}, "Vitals": {"model": {"buttons": [{"id": "3305001", "img": "check-circle-o", "str": "Computer Interpretation", "choice": "on"}, {"id": "3305003", "img": "check-circle-o", "str": "Manual Interpretation", "choice": "off"}, {"id": "3305005", "img": "check-circle-o", "str": "Transmission with No Interpretation", "choice": "off"}, {"id": "3305007", "img": "check-circle-o", "str": "Transmission with Remote Interpretation", "choice": "off"}]}}, "History": {"model": {"buttons": [{"id": "3109001", "img": "check-circle-o", "str": "Bystander/Other", "choice": "off"}, {"id": "3109003", "img": "check-circle-o", "str": "Family", "choice": "on"}, {"id": "3109005", "img": "check-circle-o", "str": "Health Care Personnel", "choice": "off"}, {"id": "3109007", "img": "check-circle-o", "str": "Patient", "choice": "off"}]}}, "Vehicle": {"model": {"buttons": [{"id": "9917001", "img": "check-circle-o", "str": "2009 Advanced Emergency Medical Technician (AEMT)", "choice": "off"}, {"id": "9917003", "img": "check-circle-o", "str": "2009 Emergency Medical Responder (EMR)", "choice": "off"}, {"id": "9917005", "img": "check-circle-o", "str": "2009 Emergency Medical Technician (EMT)", "choice": "off"}, {"id": "9917007", "img": "check-circle-o", "str": "2009 Paramedic", "choice": "off"}, {"id": "9917009", "img": "check-circle-o", "str": "First Responder", "choice": "off"}, {"id": "9917011", "img": "check-circle-o", "str": "EMT-Basic", "choice": "on"}, {"id": "9917013", "img": "check-circle-o", "str": "EMT-Intermediate", "choice": "off"}, {"id": "9917015", "img": "check-circle-o", "str": "EMT-Paramedic", "choice": "off"}, {"id": "9917019", "img": "check-circle-o", "str": "Physician", "choice": "off"}, {"id": "9917021", "img": "check-circle-o", "str": "Critical Care Paramedic", "choice": "off"}, {"id": "9917023", "img": "check-circle-o", "str": "Community Paramedicine", "choice": "off"}, {"id": "9917025", "img": "check-circle-o", "str": "Nurse Practitioner", "choice": "off"}, {"id": "9917027", "img": "check-circle-o", "str": "Physician Assistant", "choice": "off"}, {"id": "9917029", "img": "check-circle-o", "str": "Licensed Practical Nurse (LPN)", "choice": "off"}, {"id": "9917031", "img": "check-circle-o", "str": "Registered Nurse", "choice": "off"}]}}, "Dispatch": {"model": {"buttons": [{"id": "2301001", "img": "check-circle-o", "str": "Abdominal Pain/Problems", "choice": "on"}, {"id": "2301003", "img": "check-circle-o", "str": "Allergic Reaction/Stings", "choice": "off"}, {"id": "2301005", "img": "check-circle-o", "str": "Animal Bite", "choice": "off"}, {"id": "2301007", "img": "check-circle-o", "str": "Assault", "choice": "off"}, {"id": "2301009", "img": "check-circle-o", "str": "Automated Crash Notification", "choice": "off"}, {"id": "2301011", "img": "check-circle-o", "str": "Back Pain (Non-Traumatic)", "choice": "off"}, {"id": "2301013", "img": "check-circle-o", "str": "Breathing Problem", "choice": "off"}, {"id": "2301015", "img": "check-circle-o", "str": "Burns/Explosion", "choice": "off"}, {"id": "2301017", "img": "check-circle-o", "str": "Carbon Monoxide/Hazmat/Inhalation/CBRN", "choice": "off"}, {"id": "2301019", "img": "check-circle-o", "str": "Cardiac Arrest/Death", "choice": "off"}, {"id": "2301021", "img": "check-circle-o", "str": "Chest Pain (Non-Traumatic)", "choice": "off"}, {"id": "2301023", "img": "check-circle-o", "str": "Choking", "choice": "off"}, {"id": "2301025", "img": "check-circle-o", "str": "Convulsions/Seizure", "choice": "off"}, {"id": "2301027", "img": "check-circle-o", "str": "Diabetic Problem", "choice": "off"}, {"id": "2301029", "img": "check-circle-o", "str": "Electrocution/Lightning", "choice": "off"}, {"id": "2301031", "img": "check-circle-o", "str": "Eye Problem/Injury", "choice": "off"}, {"id": "2301033", "img": "check-circle-o", "str": "Falls", "choice": "off"}, {"id": "2301035", "img": "check-circle-o", "str": "Fire", "choice": "off"}, {"id": "2301037", "img": "check-circle-o", "str": "Headache", "choice": "off"}, {"id": "2301039", "img": "check-circle-o", "str": "Healthcare Professional/Admission", "choice": "off"}, {"id": "2301041", "img": "check-circle-o", "str": "Heart Problems/AICD", "choice": "off"}, {"id": "2301043", "img": "check-circle-o", "str": "Heat/Cold Exposure", "choice": "off"}, {"id": "2301045", "img": "check-circle-o", "str": "Hemorrhage/Laceration", "choice": "off"}, {"id": "2301047", "img": "check-circle-o", "str": "Industrial Accident/Inaccessible Incident/Other Entrapments (Non-Vehicle)", "choice": "off"}, {"id": "2301049", "img": "check-circle-o", "str": "Medical Alarm", "choice": "off"}, {"id": "2301051", "img": "check-circle-o", "str": "No Other Appropriate Choice", "choice": "off"}, {"id": "2301053", "img": "check-circle-o", "str": "Overdose/Poisoning/Ingestion", "choice": "off"}, {"id": "2301055", "img": "check-circle-o", "str": "Pandemic/Epidemic/Outbreak", "choice": "off"}, {"id": "2301057", "img": "check-circle-o", "str": "Pregnancy/Childbirth/Miscarriage", "choice": "off"}, {"id": "2301059", "img": "check-circle-o", "str": "Psychiatric Problem/Abnormal Behavior/Suicide Attempt", "choice": "off"}, {"id": "2301061", "img": "check-circle-o", "str": "sick Person", "choice": "off"}, {"id": "2301063", "img": "check-circle-o", "str": "stab/Gunshot Wound/Penetrating Trauma", "choice": "off"}, {"id": "2301065", "img": "check-circle-o", "str": "standby", "choice": "off"}, {"id": "2301067", "img": "check-circle-o", "str": "stroke/CVA", "choice": "off"}, {"id": "2301069", "img": "check-circle-o", "str": "Traffic/Transportation Incident", "choice": "off"}, {"id": "2301071", "img": "check-circle-o", "str": "Transfer/Interfacility/Palliative Care", "choice": "off"}, {"id": "2301073", "img": "check-circle-o", "str": "Traumatic Injury", "choice": "off"}, {"id": "2301075", "img": "check-circle-o", "str": "Well Person Check", "choice": "off"}, {"id": "2301077", "img": "check-circle-o", "str": "Unconscious/Fainting/Near-Fainting", "choice": "off"}, {"id": "2301079", "img": "check-circle-o", "str": "Unknown Problem/Person Down", "choice": "off"}, {"id": "2301081", "img": "check-circle-o", "str": "Drowning/Diving/SCUBA Accident", "choice": "off"}, {"id": "2301083", "img": "check-circle-o", "str": "Airmedical Transport", "choice": "off"}]}}, "Facility": {"model": {"buttons": [{"id": "1701001", "img": "check-circle-o", "str": "Assisted Living Facility", "choice": "off"}, {"id": "1701003", "img": "check-circle-o", "str": "Clinic", "choice": "off"}, {"id": "1701005", "img": "check-circle-o", "str": "Hospital", "choice": "on"}, {"id": "1701007", "img": "check-circle-o", "str": "Nursing Home", "choice": "off"}, {"id": "1701009", "img": "check-circle-o", "str": "Other", "choice": "off"}, {"id": "1701011", "img": "check-circle-o", "str": "Urgent Care", "choice": "off"}, {"id": "1701013", "img": "check-circle-o", "str": "Rehabilitation Facility", "choice": "off"}, {"id": "1701015", "img": "check-circle-o", "str": "Mental Health Facility", "choice": "off"}, {"id": "1701017", "img": "check-circle-o", "str": "Dialysis Center", "choice": "off"}]}}, "Location": {"model": {"buttons": [{"id": "1301001", "img": "check-circle-o", "str": "EMS Agency Headquarters", "choice": "off"}, {"id": "1301003", "img": "check-circle-o", "str": "EMS Staging Area", "choice": "off"}, {"id": "1301005", "img": "check-circle-o", "str": "EMS Station", "choice": "off"}, {"id": "1301007", "img": "check-circle-o", "str": "Other", "choice": "on"}]}}, "Response": {"model": {"buttons": [{"id": "2205001", "img": "check-circle-o", "str": "911 Response (Scene)", "choice": "off"}, {"id": "2205003", "img": "check-circle-o", "str": "Intercept", "choice": "off"}, {"id": "2205005", "img": "check-circle-o", "str": "Interfacility Transport", "choice": "off"}, {"id": "2205007", "img": "check-circle-o", "str": "Medical Transport", "choice": "off"}, {"id": "2205009", "img": "check-circle-o", "str": "Mutual Aid", "choice": "on"}, {"id": "2205011", "img": "check-circle-o", "str": "Public Assistance/Other Not Listed", "choice": "off"}, {"id": "2205013", "img": "check-circle-o", "str": "standby", "choice": "off"}]}}, "Protocols": {"model": {"buttons": [{"id": "3602001", "img": "check-circle-o", "str": "Adult Only", "choice": "on"}, {"id": "3602003", "img": "check-circle-o", "str": "General", "choice": "off"}, {"id": "3602005", "img": "check-circle-o", "str": "Pediatric Only", "choice": "off"}]}}, "situation": {"model": {"buttons": [{"id": "9922001", "img": "check-circle-o", "str": "No", "choice": "off"}, {"id": "9922003", "img": "check-circle-o", "str": "Unknown", "choice": "off"}, {"id": "9922005", "img": "check-circle-o", "str": "Yes", "choice": "on"}]}}, "Procedures": {"model": {"buttons": [{"id": "3907001", "img": "check-circle-o", "str": "Altered Mental Status", "choice": "on"}, {"id": "3907003", "img": "check-circle-o", "str": "Apnea", "choice": "off"}, {"id": "3907005", "img": "check-circle-o", "str": "Bleeding", "choice": "off"}, {"id": "3907007", "img": "check-circle-o", "str": "Bradypnea", "choice": "off"}, {"id": "3907009", "img": "check-circle-o", "str": "Diarrhea", "choice": "off"}, {"id": "3907011", "img": "check-circle-o", "str": "Esophageal Intubation-immediately", "choice": "off"}, {"id": "3907013", "img": "check-circle-o", "str": "Esophageal Intubation-other", "choice": "off"}, {"id": "3907015", "img": "check-circle-o", "str": "Extravasation", "choice": "off"}, {"id": "3907017", "img": "check-circle-o", "str": "Hypertension", "choice": "off"}, {"id": "3907019", "img": "check-circle-o", "str": "Hyperthermia", "choice": "off"}, {"id": "3907021", "img": "check-circle-o", "str": "Hypotension", "choice": "off"}, {"id": "3907023", "img": "check-circle-o", "str": "Hypothermia", "choice": "off"}, {"id": "3907025", "img": "check-circle-o", "str": "Hypoxia", "choice": "off"}, {"id": "3907027", "img": "check-circle-o", "str": "Injury", "choice": "off"}, {"id": "3907031", "img": "check-circle-o", "str": "Nausea", "choice": "off"}, {"id": "3907033", "img": "check-circle-o", "str": "None", "choice": "off"}, {"id": "3907035", "img": "check-circle-o", "str": "Other", "choice": "off"}, {"id": "3907039", "img": "check-circle-o", "str": "Respiratory Distress", "choice": "off"}, {"id": "3907041", "img": "check-circle-o", "str": "Tachycardia", "choice": "off"}, {"id": "3907043", "img": "check-circle-o", "str": "Tachypnea", "choice": "off"}, {"id": "3907045", "img": "check-circle-o", "str": "Vomiting", "choice": "off"}, {"id": "3907047", "img": "check-circle-o", "str": "Bradycardia", "choice": "off"}, {"id": "3907049", "img": "check-circle-o", "str": "Itching", "choice": "off"}, {"id": "3907051", "img": "check-circle-o", "str": "Urticaria", "choice": "off"}]}}, "Medications": {"model": {"buttons": [{"id": "3708001", "img": "check-square-o", "str": "Altered Mental Status", "choice": "off"}, {"id": "3708003", "img": "check-square-o", "str": "Apnea", "choice": "on"}, {"id": "3708005", "img": "check-square-o", "str": "Bleeding", "choice": "off"}, {"id": "3708007", "img": "check-square-o", "str": "Bradycardia", "choice": "on"}, {"id": "3708009", "img": "check-square-o", "str": "Bradypnea", "choice": "off"}, {"id": "3708011", "img": "check-square-o", "str": "Diarrhea", "choice": "off"}, {"id": "3708013", "img": "check-square-o", "str": "Extravasation", "choice": "on"}, {"id": "3708015", "img": "check-square-o", "str": "Hypertension", "choice": "off"}, {"id": "3708017", "img": "check-square-o", "str": "Hyperthermia", "choice": "off"}, {"id": "3708019", "img": "check-square-o", "str": "Hypotension", "choice": "off"}, {"id": "3708021", "img": "check-square-o", "str": "Hypothermia", "choice": "off"}, {"id": "3708023", "img": "check-square-o", "str": "Hypoxia", "choice": "off"}, {"id": "3708025", "img": "check-square-o", "str": "Injury", "choice": "off"}, {"id": "3708029", "img": "check-square-o", "str": "Nausea", "choice": "off"}, {"id": "3708031", "img": "check-square-o", "str": "None", "choice": "off"}, {"id": "3708033", "img": "check-square-o", "str": "Other", "choice": "off"}, {"id": "3708035", "img": "check-square-o", "str": "Respiratory Distress", "choice": "off"}, {"id": "3708037", "img": "check-square-o", "str": "Tachycardia", "choice": "off"}, {"id": "3708039", "img": "check-square-o", "str": "Tachypnea", "choice": "off"}, {"id": "3708041", "img": "check-square-o", "str": "Vomiting", "choice": "off"}, {"id": "3708043", "img": "check-square-o", "str": "Itching", "choice": "off"}, {"id": "3708045", "img": "check-square-o", "str": "Urticaria", "choice": "off"}]}}, "PatientInfo": {"model": {"buttons": [{"id": "9920001", "img": "check-circle-o", "str": "911 Response (Scene) with Transport Capability", "choice": "off"}, {"id": "9920003", "img": "check-circle-o", "str": "911 Response (Scene) without Transport Capability", "choice": "off"}, {"id": "9920005", "img": "check-circle-o", "str": "Air Medical", "choice": "on"}, {"id": "9920007", "img": "check-circle-o", "str": "ALS Intercept", "choice": "off"}, {"id": "9920011", "img": "check-circle-o", "str": "Hazmat", "choice": "off"}, {"id": "9920013", "img": "check-circle-o", "str": "Medical Transport (Convalescent, Interfacility Transfer Hospital and Nursing Home)", "choice": "off"}, {"id": "9920015", "img": "check-circle-o", "str": "Rescue", "choice": "off"}, {"id": "9920017", "img": "check-circle-o", "str": "Community Paramedicine", "choice": "off"}, {"id": "9920019", "img": "check-circle-o", "str": "Critical Care (Ground)", "choice": "off"}]}}, "Exam.Exam_eExam.02": {"Exam_eExam.02": ""}, "Exam.Exam_eExam.07": {"Exam_eExam.07": ""}, "Exam.Exam_eExam.10": {"Exam_eExam.10": ""}, "Exam.Exam_eExam.18": {"Exam_eExam.18": "4-mm"}, "Exam.Exam_eExam.19": {"Exam_eExam.19": "Oriented-Person"}, "Exam.Exam_eExam.20": {"Exam_eExam.20": "Aphagia"}, "Labs.Labs_eLabs.03": {"Labs_eLabs.03": "Alcohol-Blood (through The Roof!)"}, "Labs.Labs_eLabs.05": {"Labs_eLabs.05": "PET Scan"}, "CustomConfiguration": {"model": {"buttons": [{"id": "9903001", "img": "check-circle-o", "str": "Mandatory", "choice": "off"}, {"id": "9903003", "img": "check-circle-o", "str": "Required", "choice": "off"}, {"id": "9903005", "img": "check-circle-o", "str": "Recommended", "choice": "on"}, {"id": "9903007", "img": "check-circle-o", "str": "Optional", "choice": "off"}]}}, "Other.Other_eOther.03": {"Other_eOther.03": ""}, "Other.Other_eOther.15": {"Other_eOther.15": ""}, "scene.scene_eScene.01": {"scene_eScene.01": ""}, "scene.scene_eScene.04": {"scene_eScene.04": "Fire"}, "scene.scene_eScene.06": {"scene_eScene.06": "single"}, "scene.scene_eScene.07": {"scene_eScene.07": ""}, "scene.scene_eScene.08": {"scene_eScene.08": "Black - Deceased (BDE)"}, "Arrest.Arrest_eArrest.01": {"Arrest_eArrest.01": ""}, "Device.Device_dDevice.03": {"Device_dDevice.03": "CPR-External Device"}, "Injury.Injury_eInjury.02": {"Injury_eInjury.02": "Penetrating"}, "Injury.Injury_eInjury.03": {"Injury_eInjury.03": "Glasgow Coma Score <= 13"}, "Injury.Injury_eInjury.04": {"Injury_eInjury.04": "Crash Death in Same Passenger Compartment"}, "Injury.Injury_eInjury.06": {"Injury_eInjury.06": "Front Seat-Middle"}, "Injury.Injury_eInjury.07": {"Injury_eInjury.07": "Protective Clothing"}, "Injury.Injury_eInjury.08": {"Injury_eInjury.08": "Airbag Deployed Side"}, "Injury.Injury_eInjury.09": {"Injury_eInjury.09": "20"}, "Injury.Injury_eInjury.10": {"Injury_eInjury.10": "Eye and Face Protection"}, "Injury.Injury_eInjury.23": {"Injury_eInjury.23": ""}, "Vitals.Vitals_eVitals.02": {"Vitals_eVitals.02": "Yes"}, "Vitals.Vitals_eVitals.03": {"Vitals_eVitals.03": "AV Block-2nd Degree-Type 1"}, "Vitals.Vitals_eVitals.04": {"Vitals_eVitals.04": "12 Lead-Right Sided"}, "Vitals.Vitals_eVitals.05": {"Vitals_eVitals.05": "Computer Interpretation"}, "Vitals.Vitals_eVitals.08": {"Vitals_eVitals.08": ""}, "History.History_eHistory.01": {"History_eHistory.01": "Hearing Impaired"}, "History.History_eHistory.05": {"History_eHistory.05": "Family/Guardian request DNR (but no documentation)"}, "History.History_eHistory.09": {"History_eHistory.09": "Family"}, "Payment.Payment_ePayment.41": {"Payment_ePayment.41": ""}, "Payment.Payment_ePayment.44": {"Payment_ePayment.44": ""}, "Vehicle.Vehicle_dVehicle.04": {"Vehicle_dVehicle.04": "Ambulance"}, "Vehicle.Vehicle_dVehicle.05": {"Vehicle_dVehicle.05": "EMT-Basic"}, "Dispatch.Dispatch_eDispatch.01": {"Dispatch_eDispatch.01": "Abdominal Pain/Problems"}, "Dispatch.Dispatch_eDispatch.02": {"Dispatch_eDispatch.02": "Yes, With Pre-Arrival Instructions"}, "Dispatch.Dispatch_eDispatch.05": {"Dispatch_eDispatch.05": "Emergent"}, "Facility.Facility_dFacility.01": {"Facility_dFacility.01": "Hospital"}, "Location.Location_dLocation.01": {"Location_dLocation.01": "Other"}, "Response.Response_eResponse.05": {"Response_eResponse.05": "Mutual Aid"}, "Response.Response_eResponse.08": {"Response_eResponse.08": "No EMS Vehicles (Units) Available"}, "Response.Response_eResponse.15": {"Response_eResponse.15": "BLS-AEMT"}, "Personnel.Personnel_dPersonnel.08": {"Personnel_dPersonnel.08": ""}, "Personnel.Personnel_dPersonnel.12": {"Personnel_dPersonnel.12": ""}, "Personnel.Personnel_dPersonnel.24": {"Personnel_dPersonnel.24": ""}, "Protocols.Protocols_eProtocols.01": {"Protocols_eProtocols.01": "Environmental-Hypothermia"}, "Protocols.Protocols_eProtocols.02": {"Protocols_eProtocols.02": "Adult Only"}, "situation.situation_eSituation.02": {"situation_eSituation.02": "Yes"}, "situation.situation_eSituation.03": {"situation_eSituation.03": "Chief (Primary)"}, "situation.situation_eSituation.06": {"situation_eSituation.06": "Weeks"}, "situation.situation_eSituation.07": {"situation_eSituation.07": "Genitalia"}, "situation.situation_eSituation.08": {"situation_eSituation.08": "Musculoskeletal/Skin"}, "situation.situation_eSituation.13": {"situation_eSituation.13": "Lower Acuity (Green)"}, "situation.situation_eSituation.14": {"situation_eSituation.14": "Yes"}, "PatientInfo.PatientInfo_dAgency.04": {"PatientInfo_dAgency.04": ""}, "PatientInfo.PatientInfo_dAgency.09": {"PatientInfo_dAgency.09": "Air Medical"}, "Procedures.Procedures_eProcedures.02": {"Procedures_eProcedures.02": "Yes"}, "Procedures.Procedures_eProcedures.06": {"Procedures_eProcedures.06": ""}, "Procedures.Procedures_eProcedures.07": {"Procedures_eProcedures.07": "Altered Mental Status"}, "Medications.Medications_eMedications.02": {"Medications_eMedications.02": "Yes"}, "Medications.Medications_eMedications.04": {"Medications_eMedications.04": "Gastrostomy Tube"}, "Medications.Medications_eMedications.05": {"Medications_eMedications.05": "100"}, "Medications.Medications_eMedications.06": {"Medications_eMedications.06": "Micrograms (mcg)"}, "Medications.Medications_eMedications.07": {"Medications_eMedications.07": "Worse"}, "Medications.Medications_eMedications.08": {"Medications_eMedications.08": "Apnea,Bradycardia,Extravasation"}, "Medications.Medications_eMedications.10": {"Medications_eMedications.10": "EMT-Paramedic"}, "Procedures.Procedures_eProcedures.03.CNS": {"Procedures_eProcedures.03.CNS": "Procedure for monitoring intracranial pressure (regime/therapy)"}, "Procedures.Procedures_eProcedures.03.GI-GU": {"Procedures_eProcedures.03.GI-GU": "Insertion of nasogastric tube (procedure)"}, "Procedures.Procedures_eProcedures.03.Cardiac": {"Procedures_eProcedures.03.Cardiac": "Defibrillation using Automated External Cardiac Defibrillator (procedure)"}, "Procedures.Procedures_eProcedures.03.General": {"Procedures_eProcedures.03.General": "Maintenance of device (procedure)"}, "Procedures.Procedures_eProcedures.03.Assessment": {"Procedures_eProcedures.03.Assessment": "Assessment using functional capacity evaluation (procedure)"}, "Procedures.Procedures_eProcedures.03.Soft-Tissue": {"Procedures_eProcedures.03.Soft-Tissue": "Application of chemical hemostatic agents (procedure)"}, "Procedures.Procedures_eProcedures.03.Airway-Basic": {"Procedures_eProcedures.03.Airway-Basic": "Bag valve mask ventilation (procedure)"}, "Procedures.Procedures_eProcedures.03.Chest-Thoracic": {"Procedures_eProcedures.03.Chest-Thoracic": "Insertion of pleural tube drain (procedure)"}, "Procedures.Procedures_eProcedures.03.Airway-Advanced": {"Procedures_eProcedures.03.Airway-Advanced": "Open cricothyroidotomy (procedure)"}, "Procedures.Procedures_eProcedures.03.Blood-Administration": {"Procedures_eProcedures.03.Blood-Administration": ""}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.03": {"CustomConfiguration_dCustomConfiguration.03": "Date/Time"}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.04": {"CustomConfiguration_dCustomConfiguration.04": "Yes"}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.05": {"CustomConfiguration_dCustomConfiguration.05": "Recommended"}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.07": {"CustomConfiguration_dCustomConfiguration.07": ""}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.08": {"CustomConfiguration_dCustomConfiguration.08": ""}}, "Dispatch": {"Members": {"model": {"buttons": [{"id": "jrubin", "img": "check-circle-o", "str": "Rubin, Joel, Owner & CEO", "choice": "on"}, {"id": "E099692", "img": "check-circle-o", "str": "ACOSTA, CYNTHIA", "choice": "off"}, {"id": "E113251", "img": "check-circle-o", "str": "Acosta, Pedro", "choice": "off"}, {"id": "E114592", "img": "check-circle-o", "str": "Aguila Gallardo, Oscar", "choice": "off"}, {"id": "P33820", "img": "check-circle-o", "str": "Aguilar, Amilcar", "choice": "off"}, {"id": "Jenna", "img": "check-circle-o", "str": "Ahern, Jenna", "choice": "off"}, {"id": "A6316", "img": "check-circle-o", "str": "Ahern, Jenna", "choice": "off"}, {"id": "E092674", "img": "check-circle-o", "str": "Ali, Brandon", "choice": "off"}, {"id": "jane", "img": "check-circle-o", "str": "Almansky, Zhanna", "choice": "off"}, {"id": "E090137", "img": "check-circle-o", "str": "Apelian, Ararat", "choice": "off"}, {"id": "E082561", "img": "check-circle-o", "str": "Ardon, Stacey", "choice": "off"}, {"id": "E082561", "img": "check-circle-o", "str": "ARDON, STACEY", "choice": "off"}, {"id": "P21173", "img": "check-circle-o", "str": "Askin, Lisa", "choice": "off"}, {"id": "E113654", "img": "check-circle-o", "str": "Aung, May", "choice": "off"}, {"id": "P26681", "img": "check-circle-o", "str": "Baca, Abraham", "choice": "off"}, {"id": "Baca", "img": "check-circle-o", "str": "Baca, Abraham", "choice": "off"}, {"id": "E119990", "img": "check-circle-o", "str": "BARBA, KIANA", "choice": "off"}, {"id": "E119990", "img": "check-circle-o", "str": "Barba, Kiana", "choice": "off"}, {"id": "E121181", "img": "check-circle-o", "str": "Barocio, Joseph", "choice": "off"}, {"id": "E084802", "img": "check-circle-o", "str": "BARRAGAN, EMMANUEL", "choice": "off"}, {"id": "E073548", "img": "check-circle-o", "str": "Barreras, Rafael", "choice": "off"}, {"id": "E093329", "img": "check-circle-o", "str": "BARRIOS, MIGUEL", "choice": "off"}, {"id": "E117813", "img": "check-circle-o", "str": "Barstad, Jefferson", "choice": "off"}, {"id": "E095343", "img": "check-circle-o", "str": "BLANCO, JOHN", "choice": "off"}, {"id": "E072739", "img": "check-circle-o", "str": "Bowles, Logan", "choice": "off"}, {"id": "Nichole", "img": "check-circle-o", "str": "Brookshire, Nichole", "choice": "off"}, {"id": "E101634", "img": "check-circle-o", "str": "Brotherly, Brian", "choice": "off"}, {"id": "Burova", "img": "check-circle-o", "str": "Burova, Nicole", "choice": "off"}, {"id": "E114862", "img": "check-circle-o", "str": "Burris, David", "choice": "off"}, {"id": "CHERRY", "img": "check-circle-o", "str": "CALAUNAN, CHERRY", "choice": "off"}, {"id": "P35443", "img": "check-circle-o", "str": "Calkins, Nicolas", "choice": "off"}, {"id": "Camacho", "img": "check-circle-o", "str": "Camacho, Peter", "choice": "off"}, {"id": "Campbell", "img": "check-circle-o", "str": "Campbell, William", "choice": "off"}, {"id": "P17736", "img": "check-circle-o", "str": "Campbell, Michael", "choice": "off"}, {"id": "99999", "img": "check-circle-o", "str": "Campbell, Will", "choice": "off"}, {"id": "E116526", "img": "check-circle-o", "str": "CAO, DAVID", "choice": "off"}, {"id": "E119956", "img": "check-circle-o", "str": "Cardenas, Joshua", "choice": "off"}, {"id": "E111738", "img": "check-circle-o", "str": "Carlin, David", "choice": "off"}, {"id": "E105505", "img": "check-circle-o", "str": "CARPENTER JR, RICHARD", "choice": "off"}, {"id": "E118012", "img": "check-circle-o", "str": "CARUANA, KOHLBY D", "choice": "off"}, {"id": "E108444", "img": "check-circle-o", "str": "CASTANEDA, SAUL", "choice": "off"}, {"id": "E116008", "img": "check-circle-o", "str": "CENDANA, BRYAN", "choice": "off"}, {"id": "E116008", "img": "check-circle-o", "str": "Cendana, Bryan", "choice": "off"}, {"id": "E114540", "img": "check-circle-o", "str": "Chan, Jeffrey", "choice": "off"}, {"id": "E096976", "img": "check-circle-o", "str": "Chavez, Judah", "choice": "off"}, {"id": "E079219", "img": "check-circle-o", "str": "CHIPRES, ALAN", "choice": "off"}, {"id": "E095779", "img": "check-circle-o", "str": "Choo, Edmund", "choice": "off"}, {"id": "E098564", "img": "check-circle-o", "str": "Christman, Levi", "choice": "off"}, {"id": "P10308", "img": "check-circle-o", "str": "Chu, Fleming", "choice": "off"}, {"id": "Danielle", "img": "check-circle-o", "str": "Cisneros, Danielle", "choice": "off"}, {"id": "Jrcoleman", "img": "check-circle-o", "str": "Coleman, Jordan", "choice": "off"}, {"id": "E113128", "img": "check-circle-o", "str": "Cortez, Jose", "choice": "off"}, {"id": "E113128", "img": "check-circle-o", "str": "Cortez, Jose", "choice": "off"}, {"id": "E101724", "img": "check-circle-o", "str": "Cowan, Joshua", "choice": "off"}, {"id": "E093406", "img": "check-circle-o", "str": "CRAIG, TAYLOR", "choice": "off"}, {"id": "E113772", "img": "check-circle-o", "str": "Crumbaker, James", "choice": "off"}, {"id": "E109347", "img": "check-circle-o", "str": "CRUZ, DANIEL", "choice": "off"}, {"id": "E081976", "img": "check-circle-o", "str": "CUELLAR, LUIS", "choice": "off"}, {"id": "E080586", "img": "check-circle-o", "str": "Del Valle, Gustavo", "choice": "off"}, {"id": "E109077", "img": "check-circle-o", "str": "Delgado, Rudy", "choice": "off"}, {"id": "E093690", "img": "check-circle-o", "str": "Dhillon, Navneet", "choice": "off"}, {"id": "E118539", "img": "check-circle-o", "str": "Diaz, Eric", "choice": "off"}, {"id": "E118362", "img": "check-circle-o", "str": "DiCamillo, Roxanne", "choice": "off"}, {"id": "E053729", "img": "check-circle-o", "str": "Downs, Anne", "choice": "off"}, {"id": "E113030", "img": "check-circle-o", "str": "Duarte, Joshua", "choice": "off"}, {"id": "E119931", "img": "check-circle-o", "str": "Eddy, Andrew", "choice": "off"}, {"id": "E115643", "img": "check-circle-o", "str": "EDWARDS, JONATHAN", "choice": "off"}, {"id": "E102013", "img": "check-circle-o", "str": "Elias, Irene", "choice": "off"}, {"id": "E102013", "img": "check-circle-o", "str": "Elias, Irene", "choice": "off"}, {"id": "EricEll", "img": "check-circle-o", "str": "Ell, Eric", "choice": "off"}, {"id": "Eell", "img": "check-circle-o", "str": "Ell, Eric", "choice": "off"}, {"id": "E113508", "img": "check-circle-o", "str": "Emerson, Cory", "choice": "off"}, {"id": "E102268", "img": "check-circle-o", "str": "Erivez, Jessie", "choice": "off"}, {"id": "E110409", "img": "check-circle-o", "str": "Erro, Justin", "choice": "off"}, {"id": "E117347", "img": "check-circle-o", "str": "Escandon, Lashay", "choice": "off"}, {"id": "P33385", "img": "check-circle-o", "str": "Estrada, Nicholas", "choice": "off"}, {"id": "E111754", "img": "check-circle-o", "str": "Evans, Amir", "choice": "off"}, {"id": "Fair", "img": "check-circle-o", "str": "Fair, David", "choice": "off"}, {"id": "E088403", "img": "check-circle-o", "str": "Farrow, Shannon", "choice": "off"}, {"id": "E111908", "img": "check-circle-o", "str": "Figueroa, Michelle", "choice": "off"}, {"id": "E107782", "img": "check-circle-o", "str": "Fischer, Anton", "choice": "off"}, {"id": "Fly", "img": "check-circle-o", "str": "Fly, Fly", "choice": "off"}, {"id": "E123802", "img": "check-circle-o", "str": "Fort, Taylor", "choice": "off"}, {"id": "E110403", "img": "check-circle-o", "str": "FOUTCH, BRIAN", "choice": "off"}, {"id": "E118785", "img": "check-circle-o", "str": "FREGOSO, ALAN", "choice": "off"}, {"id": "E112504", "img": "check-circle-o", "str": "FRIAS, JARED", "choice": "off"}, {"id": "F0370", "img": "check-circle-o", "str": "Fuentes, Susana", "choice": "off"}, {"id": "E106842", "img": "check-circle-o", "str": "FUNG, JOSEPH", "choice": "off"}, {"id": "E112529", "img": "check-circle-o", "str": "Garcia, Jonathan", "choice": "off"}, {"id": "E105026", "img": "check-circle-o", "str": "GATLIFF, ARTHUR A", "choice": "off"}, {"id": "E097846", "img": "check-circle-o", "str": "Gibson, Jacob", "choice": "off"}, {"id": "G2974", "img": "check-circle-o", "str": "Gilpatrick, Jonathan", "choice": "off"}, {"id": "Zelig", "img": "check-circle-o", "str": "Gitelis, Zelig", "choice": "off"}, {"id": "E081812", "img": "check-circle-o", "str": "GLICKMAN, TODD", "choice": "off"}, {"id": "E108820", "img": "check-circle-o", "str": "Glover, Chanel", "choice": "off"}, {"id": "E102299", "img": "check-circle-o", "str": "Go, Darwin", "choice": "off"}, {"id": "G0676", "img": "check-circle-o", "str": "Gonzales, Timothy", "choice": "off"}, {"id": "Timoty", "img": "check-circle-o", "str": "Gonzales, Timoty", "choice": "off"}, {"id": "E121806", "img": "check-circle-o", "str": "GONZALEZ, ADRIEENE", "choice": "off"}, {"id": "E109599", "img": "check-circle-o", "str": "GONZALEZ, FERNANDO", "choice": "off"}, {"id": "E042746", "img": "check-circle-o", "str": "GOODWIN, BRAD", "choice": "off"}, {"id": "E114491", "img": "check-circle-o", "str": "GRANT, LAMAR", "choice": "off"}, {"id": "E119827", "img": "check-circle-o", "str": "HACKENBERG, JOSHUA", "choice": "off"}, {"id": "E117390", "img": "check-circle-o", "str": "Harada, Allison", "choice": "off"}, {"id": "E115658", "img": "check-circle-o", "str": "Hardy, Christina", "choice": "off"}, {"id": "Arth", "img": "check-circle-o", "str": "Hartoyan, Artoush", "choice": "off"}, {"id": "E109326", "img": "check-circle-o", "str": "Hauck, Alysha", "choice": "off"}, {"id": "E104222", "img": "check-circle-o", "str": "Hein, Taylor", "choice": "off"}, {"id": "P20374", "img": "check-circle-o", "str": "Hennessy, Veronica", "choice": "off"}, {"id": "E092802", "img": "check-circle-o", "str": "Hernandez, Alexandro", "choice": "off"}, {"id": "H6930", "img": "check-circle-o", "str": "Hester, Cheri", "choice": "off"}, {"id": "E115197", "img": "check-circle-o", "str": "HO, JASON", "choice": "off"}, {"id": "E116374", "img": "check-circle-o", "str": "Houston, Jake", "choice": "off"}, {"id": "E113678", "img": "check-circle-o", "str": "Hoxie, Tiffany", "choice": "off"}, {"id": "E098418", "img": "check-circle-o", "str": "Hunnewell, Troy", "choice": "off"}, {"id": "Hyam", "img": "check-circle-o", "str": "Hyam, Sarah", "choice": "off"}, {"id": "Taylor", "img": "check-circle-o", "str": "Hynes, Taylor", "choice": "off"}, {"id": "E105973", "img": "check-circle-o", "str": "Jackson, Daniel", "choice": "off"}, {"id": "E109312", "img": "check-circle-o", "str": "Jackson, Benjamin", "choice": "off"}, {"id": "E121194", "img": "check-circle-o", "str": "Japlit, Timothy", "choice": "off"}, {"id": "cathi", "img": "check-circle-o", "str": "Johnson, Cathi", "choice": "off"}, {"id": "E118131", "img": "check-circle-o", "str": "Johnson, Dajon", "choice": "off"}, {"id": "E113690", "img": "check-circle-o", "str": "Kerney, James", "choice": "off"}, {"id": "E120587", "img": "check-circle-o", "str": "Lansang, William", "choice": "off"}, {"id": "E123086", "img": "check-circle-o", "str": "Larrazabal, Emilio", "choice": "off"}, {"id": "E118055", "img": "check-circle-o", "str": "Law, Colten", "choice": "off"}, {"id": "E111104", "img": "check-circle-o", "str": "Lee, Daniel", "choice": "off"}, {"id": "E111744", "img": "check-circle-o", "str": "LEE, JENNY", "choice": "off"}, {"id": "E103418", "img": "check-circle-o", "str": "LINARES, FLOR", "choice": "off"}, {"id": "E113260", "img": "check-circle-o", "str": "LIU, CHERYL", "choice": "off"}, {"id": "E107617", "img": "check-circle-o", "str": "Lo, Tsz", "choice": "off"}, {"id": "E107617", "img": "check-circle-o", "str": "Lo, Tsz", "choice": "off"}, {"id": "E091065", "img": "check-circle-o", "str": "LOMELI, MICHAEL", "choice": "off"}, {"id": "E119563", "img": "check-circle-o", "str": "LOPEZ, MEDARDO", "choice": "off"}, {"id": "DanL", "img": "check-circle-o", "str": "Louk, Dan", "choice": "off"}, {"id": "Dlouk", "img": "check-circle-o", "str": "Louk, Dan", "choice": "off"}, {"id": "E102132", "img": "check-circle-o", "str": "Mahmoudi, Clara", "choice": "off"}, {"id": "E115193", "img": "check-circle-o", "str": "Major, Jasmine", "choice": "off"}, {"id": "E117761", "img": "check-circle-o", "str": "Mank, Eric", "choice": "off"}, {"id": "E116927", "img": "check-circle-o", "str": "Manobanda, Daniel", "choice": "off"}, {"id": "E101302", "img": "check-circle-o", "str": "Marijne, Kevin", "choice": "off"}, {"id": "E114899", "img": "check-circle-o", "str": "MARRUFO, IVAN", "choice": "off"}, {"id": "E122375", "img": "check-circle-o", "str": "Martinez, Anthony", "choice": "off"}, {"id": "E122371", "img": "check-circle-o", "str": "Mast, Abbey", "choice": "off"}, {"id": "E108913", "img": "check-circle-o", "str": "MATSUNE, KENNETH", "choice": "off"}, {"id": "E113289", "img": "check-circle-o", "str": "MAYO, ARIEL N", "choice": "off"}, {"id": "E096092", "img": "check-circle-o", "str": "McConnell, Andrew", "choice": "off"}, {"id": "E092107", "img": "check-circle-o", "str": "McNamee, Nathan", "choice": "off"}, {"id": "E103994", "img": "check-circle-o", "str": "MEDINA, RONALD", "choice": "off"}, {"id": "E099325", "img": "check-circle-o", "str": "Mendez, David", "choice": "off"}, {"id": "E104608", "img": "check-circle-o", "str": "Mendez, Lenard", "choice": "off"}, {"id": "M1029", "img": "check-circle-o", "str": "Mikell, John", "choice": "off"}, {"id": "E111880", "img": "check-circle-o", "str": "Milleman, Benjamin", "choice": "off"}, {"id": "E102237", "img": "check-circle-o", "str": "Moffatt, Kelan", "choice": "off"}, {"id": "E099704", "img": "check-circle-o", "str": "Monreal, Julio", "choice": "off"}, {"id": "E120479", "img": "check-circle-o", "str": "Montenegro, Michael", "choice": "off"}, {"id": "E121458", "img": "check-circle-o", "str": "Monteverde, Jonathan", "choice": "off"}, {"id": "E112300", "img": "check-circle-o", "str": "Moore, Daejon", "choice": "off"}, {"id": "E117345", "img": "check-circle-o", "str": "MOSELEY, ALLEN", "choice": "off"}, {"id": "E032569", "img": "check-circle-o", "str": "Munoz, Jose", "choice": "off"}, {"id": "E074876", "img": "check-circle-o", "str": "Murtha, Kelly", "choice": "off"}, {"id": "E122531", "img": "check-circle-o", "str": "MUTYABA, JOHNNY", "choice": "off"}, {"id": "E120612", "img": "check-circle-o", "str": "Najera, Alberto", "choice": "off"}, {"id": "E086567", "img": "check-circle-o", "str": "Nelson, Alex", "choice": "off"}, {"id": "E078655", "img": "check-circle-o", "str": "NELSON, ADAM", "choice": "off"}, {"id": "E113388", "img": "check-circle-o", "str": "NGUYEN, JOHN", "choice": "off"}, {"id": "GIZELLE", "img": "check-circle-o", "str": "NICHOLS, GIZELLE", "choice": "off"}, {"id": "E108740", "img": "check-circle-o", "str": "NOLEN, LAUREN", "choice": "off"}, {"id": "E116816", "img": "check-circle-o", "str": "Ntzouras, George", "choice": "off"}, {"id": "E119502", "img": "check-circle-o", "str": "Nune, Eric", "choice": "off"}, {"id": "E113031", "img": "check-circle-o", "str": "Nunez, Miguel", "choice": "off"}, {"id": "Andre", "img": "check-circle-o", "str": "Oberholzer, Andre", "choice": "off"}, {"id": "Pachita", "img": "check-circle-o", "str": "Obeso, Pachita", "choice": "off"}, {"id": "E107250", "img": "check-circle-o", "str": "Orange, Ellon", "choice": "off"}, {"id": "E061850", "img": "check-circle-o", "str": "OVERHOLT, ASHLY", "choice": "off"}, {"id": "E103202", "img": "check-circle-o", "str": "PACHECO, CHRISTOPHER C", "choice": "off"}, {"id": "P2255", "img": "check-circle-o", "str": "PADILLA, ISAAC", "choice": "off"}, {"id": "Parsons", "img": "check-circle-o", "str": "Parsons, Dana", "choice": "off"}, {"id": "E022814", "img": "check-circle-o", "str": "Parsons, Ryan", "choice": "off"}, {"id": "RELIEF", "img": "check-circle-o", "str": "Partner, Relief", "choice": "off"}, {"id": "E084072", "img": "check-circle-o", "str": "Pashabezyan, Sarkis", "choice": "off"}, {"id": "E115716", "img": "check-circle-o", "str": "Perales, Jordan", "choice": "off"}, {"id": "E773818", "img": "check-circle-o", "str": "Perez, Keila", "choice": "off"}, {"id": "Pinsky", "img": "check-circle-o", "str": "Pinsky, Vince", "choice": "off"}, {"id": "E011675", "img": "check-circle-o", "str": "Pitchford, Charlene", "choice": "off"}, {"id": "E100248", "img": "check-circle-o", "str": "Predom, Deandre", "choice": "off"}, {"id": "E093000", "img": "check-circle-o", "str": "QUACH, CUONG", "choice": "off"}, {"id": "E103575", "img": "check-circle-o", "str": "Quijada, Maria", "choice": "off"}, {"id": "E118262", "img": "check-circle-o", "str": "Quintana, Jorge", "choice": "off"}, {"id": "E103208", "img": "check-circle-o", "str": "Ramirez, Hazahel", "choice": "off"}, {"id": "E078879", "img": "check-circle-o", "str": "RAYA, JONATHAN", "choice": "off"}, {"id": "E054345", "img": "check-circle-o", "str": "REED, SCOTT", "choice": "off"}, {"id": "E115968", "img": "check-circle-o", "str": "REMLEY, MYLON", "choice": "off"}, {"id": "prichart", "img": "check-circle-o", "str": "Richart, Paul", "choice": "off"}, {"id": "E104703", "img": "check-circle-o", "str": "Rivera, Esteban", "choice": "off"}, {"id": "E105614", "img": "check-circle-o", "str": "Rodriguez, Esther", "choice": "off"}, {"id": "E105614", "img": "check-circle-o", "str": "Rodriguez, Esther", "choice": "off"}, {"id": "E122355", "img": "check-circle-o", "str": "Rogina, CODY", "choice": "off"}, {"id": "E098620", "img": "check-circle-o", "str": "Ros, Denise", "choice": "off"}, {"id": "Rosenfeld", "img": "check-circle-o", "str": "Rosenfeld, Abraham", "choice": "off"}, {"id": "4732", "img": "check-circle-o", "str": "Rubin, Joel", "choice": "off"}, {"id": "Ruffo", "img": "check-circle-o", "str": "Ruffo, Ozzy", "choice": "off"}, {"id": "E026016", "img": "check-circle-o", "str": "Ruiz, Eddy", "choice": "off"}, {"id": "S8745", "img": "check-circle-o", "str": "SALAS, JASON", "choice": "off"}, {"id": "Jason", "img": "check-circle-o", "str": "Salas, Jason", "choice": "off"}, {"id": "E082546", "img": "check-circle-o", "str": "SALAS, JOESPH", "choice": "off"}, {"id": "E098894", "img": "check-circle-o", "str": "SANDOVAL, MICHAEL", "choice": "off"}, {"id": "E113198", "img": "check-circle-o", "str": "Santana, Ruben", "choice": "off"}, {"id": "P31724", "img": "check-circle-o", "str": "Santos, John", "choice": "off"}, {"id": "E111194", "img": "check-circle-o", "str": "SCALZO, JOHN", "choice": "off"}, {"id": "DispatchScreen", "img": "check-circle-o", "str": "Screen, Dispatch", "choice": "off"}, {"id": "E100534", "img": "check-circle-o", "str": "Sequeira, Christian", "choice": "off"}, {"id": "E107514", "img": "check-circle-o", "str": "SEQUEIRA, NATALIA", "choice": "off"}, {"id": "E110237", "img": "check-circle-o", "str": "SERRANO, ANDREW", "choice": "off"}, {"id": "E118601", "img": "check-circle-o", "str": "SERRANO, BAUDELIO", "choice": "off"}, {"id": "S3533", "img": "check-circle-o", "str": "SHARMA, ROHAN", "choice": "off"}, {"id": "E105819", "img": "check-circle-o", "str": "SHERRATT, JACOB", "choice": "off"}, {"id": "E117398", "img": "check-circle-o", "str": "Siasi, Alexander", "choice": "off"}, {"id": "S1851", "img": "check-circle-o", "str": "Sibley-Thomas, Lanette", "choice": "off"}, {"id": "E117049", "img": "check-circle-o", "str": "Singleton, Marcus", "choice": "off"}, {"id": "P33704", "img": "check-circle-o", "str": "Skaggs, Mickle", "choice": "off"}, {"id": "E113582", "img": "check-circle-o", "str": "Smith, Alexandra", "choice": "off"}, {"id": "E114625", "img": "check-circle-o", "str": "SOBRITO, JACOB", "choice": "off"}, {"id": "E046265", "img": "check-circle-o", "str": "SOLORIO, JOSE J", "choice": "off"}, {"id": "E101919", "img": "check-circle-o", "str": "Sosa, Edwardo", "choice": "off"}, {"id": "E101919", "img": "check-circle-o", "str": "Sosa, Edwardo", "choice": "off"}, {"id": "29175", "img": "check-circle-o", "str": "Stepanov, Mikhail", "choice": "off"}, {"id": "E112419", "img": "check-circle-o", "str": "Stewart, Rachel", "choice": "off"}, {"id": "E109101", "img": "check-circle-o", "str": "Tabu, Johnenric", "choice": "off"}, {"id": "E115376", "img": "check-circle-o", "str": "Tapia, Franco", "choice": "off"}, {"id": "testtest", "img": "check-circle-o", "str": "Test, Test", "choice": "off"}, {"id": "kris", "img": "check-circle-o", "str": "Thomas, Kris", "choice": "off"}, {"id": "E109478", "img": "check-circle-o", "str": "Tosello, Chris", "choice": "off"}, {"id": "Trasovan", "img": "check-circle-o", "str": "Trasovan, Yakov", "choice": "off"}, {"id": "E105560", "img": "check-circle-o", "str": "Trevare, Julien", "choice": "off"}, {"id": "E032761", "img": "check-circle-o", "str": "TRIPODI, JIMMY", "choice": "off"}, {"id": "Turk", "img": "check-circle-o", "str": "Turk, Gregg", "choice": "off"}, {"id": "user1", "img": "check-circle-o", "str": "User1, User1", "choice": "off"}, {"id": "user2", "img": "check-circle-o", "str": "User2, User2", "choice": "off"}, {"id": "vashovsky", "img": "check-circle-o", "str": "Vashovsky, Stan", "choice": "off"}, {"id": "Orlando", "img": "check-circle-o", "str": "Vasquez, Orlando", "choice": "off"}, {"id": "E110225", "img": "check-circle-o", "str": "Vogt, Megan", "choice": "off"}, {"id": "E095405", "img": "check-circle-o", "str": "Wegner, Samuel", "choice": "off"}, {"id": "E121555", "img": "check-circle-o", "str": "WEISSENBORN, BREE", "choice": "off"}, {"id": "Naima", "img": "check-circle-o", "str": "Welcome, Naima", "choice": "off"}, {"id": "E120688", "img": "check-circle-o", "str": "White, Carter", "choice": "off"}, {"id": "mike", "img": "check-circle-o", "str": "Whitehead, Mike", "choice": "off"}, {"id": "E000241", "img": "check-circle-o", "str": "Wiedemann, Russell", "choice": "off"}, {"id": "Wolfman", "img": "check-circle-o", "str": "Wolfman, Shachar", "choice": "off"}, {"id": "E084071", "img": "check-circle-o", "str": "Wong, Dillon", "choice": "off"}, {"id": "E117768", "img": "check-circle-o", "str": "WONG, ERNEST", "choice": "off"}, {"id": "E116180", "img": "check-circle-o", "str": "Xu, Mike", "choice": "off"}, {"id": "E122172", "img": "check-circle-o", "str": "Yan, Courtley", "choice": "off"}, {"id": "Zandstra", "img": "check-circle-o", "str": "Zandstra, Jeanie", "choice": "off"}, {"id": "E122295", "img": "check-circle-o", "str": "Zhitnitsky, Michael", "choice": "off"}]}}, "CallLocation": {"model": {"buttons": [{"id": "R", "img": "check-square-o", "str": "Residence", "choice": "on"}, {"id": "H", "img": "check-square-o", "str": "Hospital", "choice": "off"}, {"id": "F", "img": "check-square-o", "str": "Facility", "choice": "off"}]}}, "DispatchInfo": {"model": {"buttons": [{"id": "R", "img": "check-circle-o", "str": "Residence", "choice": "off"}, {"id": "S", "img": "check-circle-o", "str": "Street", "choice": "on"}, {"id": "H", "img": "check-circle-o", "str": "Health", "choice": "off"}, {"id": "I", "img": "check-circle-o", "str": "Industrial", "choice": "off"}, {"id": "C", "img": "check-circle-o", "str": "Scene", "choice": "off"}]}}, "CALLTYPE.5230": {"model": {"buttons": [{"id": "CALLTYPE.5230", "str": "", "choice": "on", "caption": "Psychiatric Hold (5230) 180 DH"}]}}, "CALLTYPE.5260": {"model": {"buttons": [{"id": "CALLTYPE.5260", "str": "", "choice": "on", "caption": "Psychiatric Hold (5260) 14 DH"}]}}, "CALLTYPE.5585": {"model": {"buttons": [{"id": "CALLTYPE.5585", "str": "", "choice": "on", "caption": "Minor Hold (5585) 3DH"}]}}, "CALLTYPE.Discharge": {"model": {"buttons": [{"id": "CALLTYPE.Discharge", "str": "", "choice": "on", "caption": "Discharge"}]}}, "Members.Members_M1": {"Members_M1": "Rubin, Joel, Owner & CEO"}, "Members.Members_M2": {"Members_M2": "Rubin, Joel, Owner & CEO"}, "CallLocation.CallLocation_RespondedFrom": {"CallLocation_RespondedFrom": "Residence"}, "DispatchInfo.DispatchInfo_TransportedFrom": {"DispatchInfo_TransportedFrom": "Street"}}, "Vitals_1": {"Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "TakenBy": {"selected": "EMT"}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Clear"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "logmount": false, "transcript": [], "Demographics": {"PatientInfo": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str": "Alabama", "choice": "off"}, {"id": 1, "img": "check-circle-o", "str": "Alaska", "choice": "off"}, {"id": 2, "img": "check-circle-o", "str": "Arizona", "choice": "off"}, {"id": 3, "img": "check-circle-o", "str": "Arkansas", "choice": "off"}, {"id": 4, "img": "check-circle-o", "str": "California", "choice": "on"}, {"id": 5, "img": "check-circle-o", "str": "Colorado", "choice": "off"}, {"id": 6, "img": "check-circle-o", "str": "Connecticut", "choice": "off"}, {"id": 7, "img": "check-circle-o", "str": "Delaware", "choice": "off"}, {"id": 8, "img": "check-circle-o", "str": "Florida", "choice": "off"}, {"id": 9, "img": "check-circle-o", "str": "Georgia", "choice": "off"}, {"id": 10, "img": "check-circle-o", "str": "Hawaii", "choice": "off"}, {"id": 11, "img": "check-circle-o", "str": "Idaho", "choice": "off"}, {"id": 12, "img": "check-circle-o", "str": "Illinois", "choice": "off"}, {"id": 13, "img": "check-circle-o", "str": "Indiana", "choice": "off"}, {"id": 14, "img": "check-circle-o", "str": "Iowa", "choice": "off"}, {"id": 15, "img": "check-circle-o", "str": "Kansas", "choice": "off"}, {"id": 16, "img": "check-circle-o", "str": "Kentucky", "choice": "off"}, {"id": 17, "img": "check-circle-o", "str": "Louisiana", "choice": "off"}, {"id": 18, "img": "check-circle-o", "str": "Maine", "choice": "off"}, {"id": 19, "img": "check-circle-o", "str": "Maryland", "choice": "off"}, {"id": 20, "img": "check-circle-o", "str": "Massachusetts", "choice": "off"}, {"id": 21, "img": "check-circle-o", "str": "Michigan", "choice": "off"}, {"id": 22, "img": "check-circle-o", "str": "Minnesota", "choice": "off"}, {"id": 23, "img": "check-circle-o", "str": "Mississippi", "choice": "off"}, {"id": 24, "img": "check-circle-o", "str": "Missouri", "choice": "off"}, {"id": 25, "img": "check-circle-o", "str": "Montana", "choice": "off"}, {"id": 26, "img": "check-circle-o", "str": "Nebraska", "choice": "off"}, {"id": 27, "img": "check-circle-o", "str": "Nevada", "choice": "off"}, {"id": 28, "img": "check-circle-o", "str": "New Hampshire", "choice": "off"}, {"id": 29, "img": "check-circle-o", "str": "New Jersey", "choice": "off"}, {"id": 30, "img": "check-circle-o", "str": "New Mexico", "choice": "off"}, {"id": 31, "img": "check-circle-o", "str": "New York", "choice": "off"}, {"id": 32, "img": "check-circle-o", "str": "North Carolina", "choice": "off"}, {"id": 33, "img": "check-circle-o", "str": "North Dakota", "choice": "off"}, {"id": 34, "img": "check-circle-o", "str": "Ohio", "choice": "off"}, {"id": 35, "img": "check-circle-o", "str": "Oklahoma", "choice": "off"}, {"id": 36, "img": "check-circle-o", "str": "Oregon", "choice": "off"}, {"id": 37, "img": "check-circle-o", "str": "Pennsylvania", "choice": "off"}, {"id": 38, "img": "check-circle-o", "str": "Rhode Island", "choice": "off"}, {"id": 39, "img": "check-circle-o", "str": "South Carolina", "choice": "off"}, {"id": 40, "img": "check-circle-o", "str": "South Dakota", "choice": "off"}, {"id": 41, "img": "check-circle-o", "str": "Tennessee", "choice": "off"}, {"id": 42, "img": "check-circle-o", "str": "Texas", "choice": "off"}, {"id": 43, "img": "check-circle-o", "str": "Utah", "choice": "off"}, {"id": 44, "img": "check-circle-o", "str": "Vermont", "choice": "off"}, {"id": 45, "img": "check-circle-o", "str": "Virginia", "choice": "off"}, {"id": 46, "img": "check-circle-o", "str": "Washington", "choice": "off"}, {"id": 47, "img": "check-circle-o", "str": "West Virginia", "choice": "off"}, {"id": 48, "img": "check-circle-o", "str": "Wisconsin", "choice": "off"}, {"id": 49, "img": "check-circle-o", "str": "Wyoming", "choice": "off"}]}}, "PatientInfo.PatientInfo_City": {"PatientInfo_City": "Star City"}, "PatientInfo.PatientInfo_State": {"PatientInfo_State": "California"}, "PatientDetail.PatientDetail_Age": {"PatientDetail_Age": ""}, "PatientDetail.PatientDetail_DOB": {"PatientDetail_DOB": "01/11/2017"}, "PatientInfo.PatientInfo_Address": {"PatientInfo_Address": "11 Star Labs Drive"}, "PatientInfo.PatientInfo_LastName": {"PatientInfo_LastName": "Wells"}, "PatientInfo.PatientInfo_FirstName": {"PatientInfo_FirstName": "Harry"}, "PatientDetail.PatientDetail_Gender": {"PatientDetail_Gender": ""}}, "GEN:suppliesMapUsedList": {"9634c31c-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "9634c31c-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "5 x 9"}]}}, "e2e5eafb-8c7f-4fe4-94d4-d877f6d2f359": {"model": {"buttons": [{"id": "e2e5eafb-8c7f-4fe4-94d4-d877f6d2f359", "str": "", "choice": "on", "caption": "Gloves"}]}}}, "GEN:CPAP (oxyMapCpapList)": {"4352bbf1-4a67-11e4-9a60-842b2b4bbc99": {"choice": "12:33 "}}, "GEN:divChiefComplaintEmergency": {"18822419-0614-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "18822419-0614-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Asthma"}]}}, "18824b59-0614-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "18824b59-0614-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Cardiac Related"}]}}, "4fb8a78e-0614-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "4fb8a78e-0614-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Airway"}]}}, "4fb8ba94-0614-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "4fb8ba94-0614-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Amniotic Sac Not Ruptured"}]}}}, "GEN:Refused Treatment (refusedOxygenList)": {"97d6f664-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "97d6f664-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "off", "caption": "All O2 Therapy"}]}}, "97d6fc8d-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "97d6fc8d-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "off", "caption": "O2 via Nasal Cannula"}]}}}}',
+received = '2017-02-09 09:12:47',
+sent = '1970-01-01 12:00:00' where id ='4f0f9f16-e41d-11e6-99d9-569f0d38ba3c'

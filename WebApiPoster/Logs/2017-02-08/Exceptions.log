@@ -1,0 +1,171 @@
+
+2/8/2017 3:10:46 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 190
+Source: WebApiPoster
+
+2/8/2017 3:10:46 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/8/2017 5:57:39 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(Object& JsonData, String Path, String Value) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 139
+Source: WebApiPoster
+
+2/8/2017 5:57:59 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(Object& JsonData, String Path, String Value) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 139
+Source: WebApiPoster
+
+2/8/2017 5:58:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(Object& JsonData, String Path, String Value) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 139
+Source: WebApiPoster
+
+2/8/2017 6:02:41 PM
+Unexpected character encountered while parsing value: L. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 162
+Source: Newtonsoft.Json
+
+2/8/2017 6:02:55 PM
+Unexpected character encountered while parsing value: L. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 162
+Source: Newtonsoft.Json
+
+2/8/2017 6:02:56 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(Object& JsonData, String Path, String Value) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 139
+Source: WebApiPoster
+
+2/8/2017 6:08:55 PM
+Unexpected character encountered while parsing value: L. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 163
+Source: Newtonsoft.Json
+
+2/8/2017 6:09:28 PM
+Unexpected character encountered while parsing value: L. Path '', line 0, position 0.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 163
+Source: Newtonsoft.Json
+
+2/8/2017 6:39:41 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select pn.* from person n inner join person_phones pp on p.id=pp.person_id inner' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 236
+Source: MySql.Data
+
+2/8/2017 6:39:48 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 195
+Source: System.Data.DataSetExtensions
+
+2/8/2017 6:41:25 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select pn.* from person p inner join person_phones pp on p.id=pp.person_id inner' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/8/2017 6:41:33 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/8/2017 6:42:17 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'select pn.* from person p inner join person_phones pp on p.id=pp.person_id inner' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/8/2017 6:42:29 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/8/2017 6:43:09 PM
+Every derived table must have its own alias:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/8/2017 6:43:14 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/8/2017 6:46:12 PM
+Every derived table must have its own alias:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/8/2017 6:46:14 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/8/2017 6:50:10 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Person.MapIntoIOSJson(Object JsonData, String PathPrefix, Boolean HasDetail)
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson(Object JsonData)
+Source: WebApiPoster

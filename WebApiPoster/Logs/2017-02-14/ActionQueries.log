@@ -1,0 +1,806 @@
+
+2/14/2017 5:26:32 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','db0cfe97-5081-46f3-8684-66d9e35dcf70')
+
+2/14/2017 5:26:32 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='db0cfe97-5081-46f3-8684-66d9e35dcf70'
+
+2/14/2017 5:26:32 PM
+insert into phone_number(id)
+values
+('cd43b78f-3d27-4ad2-953e-9dcfd69e4544')
+
+2/14/2017 5:26:32 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('db0cfe97-5081-46f3-8684-66d9e35dcf70','cd43b78f-3d27-4ad2-953e-9dcfd69e4544','13cd60f7-5f2f-4194-857b-9b461d3c0927')
+
+2/14/2017 5:26:32 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='db0cfe97-5081-46f3-8684-66d9e35dcf70'
+
+2/14/2017 5:26:32 PM
+insert into phone_number(id)
+values
+('dd44c63a-5077-403e-b29b-b9772d0e88de')
+
+2/14/2017 5:26:32 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('db0cfe97-5081-46f3-8684-66d9e35dcf70','dd44c63a-5077-403e-b29b-b9772d0e88de','456622af-2cef-4056-b118-6468fa261b31')
+
+2/14/2017 5:26:36 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','d52108c7-db28-4dac-8b43-6fc93d4d6217','14b00896-d006-480c-9d74-00f2995ce168','e5255352-c5e6-488c-ac5e-c1544e9bda60')
+
+2/14/2017 5:26:36 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('e5255352-c5e6-488c-ac5e-c1544e9bda60','db0cfe97-5081-46f3-8684-66d9e35dcf70','1','41efdb5c-c3f1-4ff1-bae8-9205d7ad9514')
+
+2/14/2017 5:26:37 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','da03f724-3949-4431-b352-2bcf76feb408')
+
+2/14/2017 5:26:37 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','c0ec393c-1689-40a7-82c5-898084c8424a')
+
+2/14/2017 5:26:37 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='da03f724-3949-4431-b352-2bcf76feb408'
+
+2/14/2017 5:26:37 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='c0ec393c-1689-40a7-82c5-898084c8424a'
+
+2/14/2017 5:26:37 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('da03f724-3949-4431-b352-2bcf76feb408','c0ec393c-1689-40a7-82c5-898084c8424a','1','71e395ad-a415-4f4b-ad68-2f9617fd078b')
+
+2/14/2017 5:26:37 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='da03f724-3949-4431-b352-2bcf76feb408'
+
+2/14/2017 5:26:37 PM
+insert into phone_number(id)
+values
+('fea06b9e-27bc-4d89-b038-6bc368a2d592')
+
+2/14/2017 5:26:37 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('da03f724-3949-4431-b352-2bcf76feb408','fea06b9e-27bc-4d89-b038-6bc368a2d592','e0d0311c-06a9-48f0-b925-a351142846a6')
+
+2/14/2017 5:26:37 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','238b360e-0e8b-46de-b711-ecf46bf44603')
+
+2/14/2017 5:26:37 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('238b360e-0e8b-46de-b711-ecf46bf44603','da03f724-3949-4431-b352-2bcf76feb408','1','c1404276-183c-4762-b6f6-5801b28f0ec3')
+
+2/14/2017 5:26:37 PM
+insert into person(active,id)
+values
+('1','6c60ba08-7ccf-43c2-9c2f-42404a4ac2c5')
+
+2/14/2017 5:26:37 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('6c60ba08-7ccf-43c2-9c2f-42404a4ac2c5','da03f724-3949-4431-b352-2bcf76feb408','b0b28262-0c81-11e0-99b7-08d30bba8775','b64b29b6-9228-47e5-977d-947d99d34388')
+
+2/14/2017 5:26:37 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','d4628d5a-e315-48b1-afa2-810680392486')
+
+2/14/2017 5:26:38 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','5b6a6609-e982-49d6-9761-75e746860112')
+
+2/14/2017 5:26:38 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='d4628d5a-e315-48b1-afa2-810680392486'
+
+2/14/2017 5:26:38 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='5b6a6609-e982-49d6-9761-75e746860112'
+
+2/14/2017 5:26:38 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('d4628d5a-e315-48b1-afa2-810680392486','5b6a6609-e982-49d6-9761-75e746860112','1','5e06a04a-ebeb-439f-b560-965ecdb31bee')
+
+2/14/2017 5:26:38 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='d4628d5a-e315-48b1-afa2-810680392486'
+
+2/14/2017 5:26:38 PM
+insert into phone_number(id)
+values
+('1a5b0cba-cf90-44fe-933d-ac4e37159efb')
+
+2/14/2017 5:26:38 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('d4628d5a-e315-48b1-afa2-810680392486','1a5b0cba-cf90-44fe-933d-ac4e37159efb','33afa927-56e1-43b9-a2fa-ba7419ee6e52')
+
+2/14/2017 5:26:38 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','844b32b3-229f-4dba-9cfa-a00873bd4849')
+
+2/14/2017 5:26:38 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('844b32b3-229f-4dba-9cfa-a00873bd4849','d4628d5a-e315-48b1-afa2-810680392486','1','1e58be7f-e3a6-4643-9fef-099ad9ac70d6')
+
+2/14/2017 5:26:39 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','850bf7c3-2f9c-4958-bb01-14c80ed56a53')
+
+2/14/2017 5:26:39 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','5dd6819b-2033-449b-9061-0d6df74edbba')
+
+2/14/2017 5:26:39 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','167d360e-65aa-473c-aba3-52001b408539')
+
+2/14/2017 5:26:39 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','79e6f291-0d49-4b57-9039-89dd168c85d4')
+
+2/14/2017 5:26:39 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='db0cfe97-5081-46f3-8684-66d9e35dcf70'
+
+2/14/2017 5:26:39 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='da03f724-3949-4431-b352-2bcf76feb408'
+
+2/14/2017 5:26:39 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='d4628d5a-e315-48b1-afa2-810680392486'
+
+2/14/2017 5:26:39 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='5dd6819b-2033-449b-9061-0d6df74edbba'
+
+2/14/2017 5:26:39 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='79e6f291-0d49-4b57-9039-89dd168c85d4'
+
+2/14/2017 5:26:39 PM
+insert into insurance_policy(id)
+values
+('24f44834-9406-4863-b1bb-87d7dfa5caea')
+
+2/14/2017 5:26:40 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('db0cfe97-5081-46f3-8684-66d9e35dcf70','da03f724-3949-4431-b352-2bcf76feb408','d4628d5a-e315-48b1-afa2-810680392486','5dd6819b-2033-449b-9061-0d6df74edbba','79e6f291-0d49-4b57-9039-89dd168c85d4','79e6f291-0d49-4b57-9039-89dd168c85d4','7ad76866-88c5-11e1-b08b-842b2b4bbc99','a1518c24-601a-42b8-9010-96e47c9d0d45')
+
+2/14/2017 5:26:40 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','b5f36195-a518-4ba4-9fa9-bb7a973cf3f1')
+
+2/14/2017 5:26:40 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','b55a6011-b460-4381-8ae1-e48bbc186840')
+
+2/14/2017 5:26:40 PM
+insert into business(name,id)
+values
+('Name','912726d1-f006-49f6-b906-660928f74259')
+
+2/14/2017 5:26:40 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','b5f36195-a518-4ba4-9fa9-bb7a973cf3f1','Residence,Hospital,Facility','2017-02-14 20:51:00','2017-02-14 20:51:00','2017-02-14 20:51:00','2017-02-14 20:51:00','2017-02-14 20:51:00','2017-02-14 20:51:00','2017-02-14 20:51:00','1','Method','21007','21046','b55a6011-b460-4381-8ae1-e48bbc186840','912726d1-f006-49f6-b906-660928f74259','ecaf5b34-6894-4ecf-9838-6c52f2d5057e')
+
+2/14/2017 5:26:40 PM
+insert into ems_run(id)
+values
+('c88ee994-dea4-4a10-aceb-9e00b1825240')
+
+2/14/2017 5:26:41 PM
+insert into user_login(driver_user_id,emt_user_id,id)
+values
+('08aa738e-f284-4d65-8c88-54339117bebf','28673809-6832-4739-8a4b-c8d34bacb7c4','81dc17b0-a7c1-412d-b490-70236c48c35a')
+
+2/14/2017 5:26:41 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('c88ee994-dea4-4a10-aceb-9e00b1825240','81dc17b0-a7c1-412d-b490-70236c48c35a','413d71a1-0c88-4133-bffd-b69387c9e0b0')
+
+2/14/2017 5:26:42 PM
+insert into pcr_narrative_notes(id)
+values
+('1a404152-3d46-4d0f-86e8-c6e3f82fb632')
+
+2/14/2017 5:26:43 PM
+insert into pcr_rma(id)
+values
+('cb6ee088-b973-4902-b8aa-fc4aaf1de55c')
+
+2/14/2017 5:26:43 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','8bb551ae-ec9c-48fd-beeb-1a4eb19237a2')
+
+2/14/2017 5:26:44 PM
+insert into pcr_Narcotic(id)
+values
+('aba94f35-acc9-4ea9-8990-5863b5839b5b')
+
+2/14/2017 5:26:44 PM
+insert into pcr_Authorization(id)
+values
+('46c6f579-0846-44a4-af8f-0451d5f72ce1')
+
+2/14/2017 5:26:45 PM
+insert into pcr(pcr_dispatch_id,pcr_demographic_id,pcr_assessment_id,pcr_narrative_notes_id,pcr_rma_id,pcr_authorization_id,pcr_apcf_id,pcr_disposition_id,ems_run,pcr_narcotics_id,agency_id,id)
+values
+('ecaf5b34-6894-4ecf-9838-6c52f2d5057e','a1518c24-601a-42b8-9010-96e47c9d0d45','40dc8799-fd6a-4bf1-8cfc-e5e4bc6abd57','1a404152-3d46-4d0f-86e8-c6e3f82fb632','cb6ee088-b973-4902-b8aa-fc4aaf1de55c','46c6f579-0846-44a4-af8f-0451d5f72ce1','b5762890-8126-4572-8f72-eb9b33a5ec44','8bb551ae-ec9c-48fd-beeb-1a4eb19237a2','c88ee994-dea4-4a10-aceb-9e00b1825240','aba94f35-acc9-4ea9-8990-5863b5839b5b','7ad76866-88c5-11e1-b08b-842b2b4bbc99','5db404f9-d2eb-11e6-b953-3052cb650342')
+
+2/14/2017 5:27:43 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','65926e15-9cef-4162-8e79-4b423e130ce8','1','da85dd31-0623-4426-b9b7-f956a2a663b9')
+
+2/14/2017 5:27:43 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','3c9df40f-9306-46cc-a6af-35a4f820935d','1','d575efcf-2f8c-4d51-ac4a-81b9ffd325bb')
+
+2/14/2017 5:27:44 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','f398960b-2a34-11e5-b454-842b2b4bbc99','1','c35d44ec-73c1-47f2-b0be-b13a04c60a9e')
+
+2/14/2017 5:27:44 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','13fd9ea3-7457-4997-9cfb-872ab7a5dc04')
+
+2/14/2017 5:27:44 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06a61fa9-07a7-11e0-bdc9-8e92303c9d5f','1','f4ae9a9f-a831-4933-b68f-933890f5358f')
+
+2/14/2017 5:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','88659042-807d-409c-9f52-150fe35eb869')
+
+2/14/2017 5:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06a6ef2b-07a7-11e0-bdc9-8e92303c9d5f','1','f7fa9840-dc7a-4606-9d2e-734189285b11')
+
+2/14/2017 5:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06a5aaae-07a7-11e0-bdc9-8e92303c9d5f','1','38607a12-979b-4207-9021-27ea652290b9')
+
+2/14/2017 5:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06a65c4a-07a7-11e0-bdc9-8e92303c9d5f','1','cfd738a6-b7b6-4ef6-8406-b2e63096989d')
+
+2/14/2017 5:27:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','cf11b1e4-24be-11e5-b454-842b2b4bbc99','1','45bf06f3-b089-40ca-9c96-b8d1927dd363')
+
+2/14/2017 5:27:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','067157f3-07a7-11e0-bdc9-8e92303c9d5f','1','d51555d7-f831-40fa-859f-ac75336626e0')
+
+2/14/2017 5:27:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06a67cb9-07a7-11e0-bdc9-8e92303c9d5f','1','1e94ea18-bfed-4da4-9f31-8e9ed31e104a')
+
+2/14/2017 5:27:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','067569e5-07a7-11e0-bdc9-8e92303c9d5f','1','de3bfd34-1d13-4615-9649-ef0a76ba75d9')
+
+2/14/2017 5:27:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06751742-07a7-11e0-bdc9-8e92303c9d5f','1','2588b1a3-6b44-4baa-b879-9251d50f1240')
+
+2/14/2017 5:27:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','c1aa5ced-f792-4ee3-8e38-2446ef88c7e4')
+
+2/14/2017 5:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','067686e0-07a7-11e0-bdc9-8e92303c9d5f','1','db489050-a823-469f-91ff-0f2c1863d43a')
+
+2/14/2017 5:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','92e83342-cbba-4d59-981b-3f26cca24d42')
+
+2/14/2017 5:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','0674c31d-07a7-11e0-bdc9-8e92303c9d5f','1','ef843224-ad9b-4b7d-877c-d4023be1ab5d')
+
+2/14/2017 5:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06746e27-07a7-11e0-bdc9-8e92303c9d5f','1','c5c3f1d8-821f-4165-89f8-4fd2df960c80')
+
+2/14/2017 5:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06716e4f-07a7-11e0-bdc9-8e92303c9d5f','1','62c35b2e-0646-4c31-9164-0ec442cee42c')
+
+2/14/2017 5:27:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','aebd28b2-5b00-43fb-9617-72b4ecaa2143','1','b6e3a0ee-bc88-4828-9126-5f9078554d9c')
+
+2/14/2017 5:27:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','6d9b5ef3-512c-47ac-b0f7-86416ac015e3','1','f77fc39a-9510-4d29-ad38-c816333c5a74')
+
+2/14/2017 5:27:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975bf929-0610-11e0-9c66-0ba20c568bb6','1','fcbdbec1-07bc-4ad2-b3bf-68758badf145')
+
+2/14/2017 5:27:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975b78c7-0610-11e0-9c66-0ba20c568bb6','1','6790bd14-4530-42db-a380-2633cd34911a')
+
+2/14/2017 5:27:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','6b5eefa0-8fd9-11e1-b08b-842b2b4bbc99','1','58501776-f35a-4a1c-aea9-209b316b8422')
+
+2/14/2017 5:27:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975d95e6-0610-11e0-9c66-0ba20c568bb6','1','250cb2f3-ad6b-44d2-b231-033a99022e4e')
+
+2/14/2017 5:27:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975c36e6-0610-11e0-9c66-0ba20c568bb6','1','254db055-3413-40e1-b5ef-afca249d1bf6')
+
+2/14/2017 5:27:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975ba3a3-0610-11e0-9c66-0ba20c568bb6','1','fdb112f6-b262-45fd-93db-5f022f21216e')
+
+2/14/2017 5:27:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975ce58f-0610-11e0-9c66-0ba20c568bb6','1','a70dbbd9-6d0b-4ef2-9355-ab3879b78ee6')
+
+2/14/2017 5:27:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975ba90f-0610-11e0-9c66-0ba20c568bb6','1','ab906d11-ad81-44ad-95f7-6a469d0443fd')
+
+2/14/2017 5:27:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975cc813-0610-11e0-9c66-0ba20c568bb6','1','c756ef59-4d6a-42c0-a8b8-15e216c4444f')
+
+2/14/2017 5:27:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975ca379-0610-11e0-9c66-0ba20c568bb6','1','2a5c6e05-9eca-47de-9d91-085c5eb014a7')
+
+2/14/2017 5:27:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975c4b5e-0610-11e0-9c66-0ba20c568bb6','1','e2e10aa9-9c08-4c23-8b40-51fbeb0aa21b')
+
+2/14/2017 5:27:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975c1c3e-0610-11e0-9c66-0ba20c568bb6','1','38d33e00-0be2-4182-8d8c-c28f12a40d79')
+
+2/14/2017 5:27:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975c815b-0610-11e0-9c66-0ba20c568bb6','1','173c2bad-a809-4a93-8fca-f1600cf81c36')
+
+2/14/2017 5:27:52 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975c5f21-0610-11e0-9c66-0ba20c568bb6','1','caaa0100-e6d9-458b-ba4e-bc85ff936e87')
+
+2/14/2017 5:27:52 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','975cfb67-0610-11e0-9c66-0ba20c568bb6','1','f458a059-8650-48d4-a842-3089f8917cdf')
+
+2/14/2017 5:27:52 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','97d738ec-0610-11e0-9c66-0ba20c568bb6','1','6e873919-3c2d-435d-ad1a-0805fa7c49bb')
+
+2/14/2017 5:27:52 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','9622ce50-0610-11e0-9c66-0ba20c568bb6','1','b6e8b5b6-2b7b-4b9c-8144-9b4f001c68fe')
+
+2/14/2017 5:28:20 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('More Information','5db404f9-d2eb-11e6-b953-3052cb650342','962317b6-0610-11e0-9c66-0ba20c568bb6','b29c5cf8-1451-4c1e-bab9-f8ba79c374a6')
+
+2/14/2017 5:28:20 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','96230b7d-0610-11e0-9c66-0ba20c568bb6','1','fc8b1891-230e-44e9-9dae-4628c808c86c')
+
+2/14/2017 5:28:22 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('Lots of shock','5db404f9-d2eb-11e6-b953-3052cb650342','06f6352b-07a7-11e0-bdc9-8e92303c9d5f','25220ee3-be8e-4c2f-a605-e9a9e36daa45')
+
+2/14/2017 5:28:22 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('electrocuted him','5db404f9-d2eb-11e6-b953-3052cb650342','06f63fe6-07a7-11e0-bdc9-8e92303c9d5f','f4e96728-900a-4883-8da8-fe4bbe6f41ce')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f62afb-07a7-11e0-bdc9-8e92303c9d5f','1','7199f6a8-529b-4b24-9713-206f0be0c537')
+
+2/14/2017 5:28:22 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('all cut up','5db404f9-d2eb-11e6-b953-3052cb650342','02793f25-71ea-11e1-bd51-842b2b4bbc99','e5fa73cd-6e97-42b2-a621-53a92d0ab9a0')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4732c-07a7-11e0-bdc9-8e92303c9d5f','1','6c2a8ebd-c7e1-49e6-a3ee-0f91ee82f553')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b47cec-07a7-11e0-bdc9-8e92303c9d5f','1','c2a970b9-676b-4bb7-b857-bb11d591cceb')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b48694-07a7-11e0-bdc9-8e92303c9d5f','1','50e7a01d-1ecc-4570-ac3f-0af963b15f0b')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b49017-07a7-11e0-bdc9-8e92303c9d5f','1','87b02c3b-1da2-4c25-97a6-c0df32ba5f5b')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b499bb-07a7-11e0-bdc9-8e92303c9d5f','1','e21e5f87-62df-42f6-94b2-71850dcd96f4')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b49e8f-07a7-11e0-bdc9-8e92303c9d5f','1','3a05734f-e30b-48ea-84da-b345537c5745')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4a34a-07a7-11e0-bdc9-8e92303c9d5f','1','244cc811-a4dd-4bcc-a7bb-d463308eb689')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4a812-07a7-11e0-bdc9-8e92303c9d5f','1','261c57f3-7754-4ecd-bf37-4093510f8892')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4ace6-07a7-11e0-bdc9-8e92303c9d5f','1','726a1bd4-a206-43fc-998b-705cfac67f7b')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4b669-07a7-11e0-bdc9-8e92303c9d5f','1','45f7f3d7-7fab-41d7-adae-d29d337ca0ff')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4bb2c-07a7-11e0-bdc9-8e92303c9d5f','1','3f8b8e13-9fd4-4490-83b2-83a1ec43559f')
+
+2/14/2017 5:28:22 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4c5eb-07a7-11e0-bdc9-8e92303c9d5f','1','0d49c9ff-18cf-41e1-898f-efea41fd1f07')
+
+2/14/2017 5:28:22 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('a real mess - will need amputation','5db404f9-d2eb-11e6-b953-3052cb650342','06b533c7-07a7-11e0-bdc9-8e92303c9d5f','cd1c0084-67d2-45f3-9bc3-f53dda578dee')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4d53d-07a7-11e0-bdc9-8e92303c9d5f','1','371c8de4-5ebf-4fdd-b3d5-21d8039245e7')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b4f62f-07a7-11e0-bdc9-8e92303c9d5f','1','7803c9c0-6678-4784-b215-61c5574809f0')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06b50aa2-07a7-11e0-bdc9-8e92303c9d5f','1','9d80c0da-e1dd-4e59-8665-69a332880e27')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','f91d05d2-d1b1-4f6b-9e05-a90ce6418213','1','92035380-b7d4-4284-a64b-c2bf4d3693be')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f8572e-07a7-11e0-bdc9-8e92303c9d5f','1','875cc61d-ce33-4322-bd32-7ec985687fe8')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f860fb-07a7-11e0-bdc9-8e92303c9d5f','1','8e58641f-57c7-49b5-92b7-c2ed744fdcc6')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f86a61-07a7-11e0-bdc9-8e92303c9d5f','1','3c0ea0a5-74be-4e25-9c7c-93aba334fd24')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f875c0-07a7-11e0-bdc9-8e92303c9d5f','1','f61229e1-887b-4919-a56c-02e9d6dc86b4')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f87f48-07a7-11e0-bdc9-8e92303c9d5f','1','4d736528-a024-41c6-a04a-fc2db3310c37')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f8894a-07a7-11e0-bdc9-8e92303c9d5f','1','7359421a-b467-4987-9b2f-9e11c7368412')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f892c0-07a7-11e0-bdc9-8e92303c9d5f','1','0460069c-e7df-4932-9318-1b7889992048')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f8a05f-07a7-11e0-bdc9-8e92303c9d5f','1','630a9e5d-f08e-4c85-95b7-39f005a98ee8')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f8a9de-07a7-11e0-bdc9-8e92303c9d5f','1','97168f56-9278-48ab-829c-5b6b95628e01')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f98e21-07a7-11e0-bdc9-8e92303c9d5f','1','ace52134-6162-464e-b4f2-00a34581538e')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f992e0-07a7-11e0-bdc9-8e92303c9d5f','1','ae4ab231-7a93-4bb3-b524-34758e885b08')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f99b79-07a7-11e0-bdc9-8e92303c9d5f','1','e9d50f90-9a25-4266-97ce-0a4a3bdd26a1')
+
+2/14/2017 5:28:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9a055-07a7-11e0-bdc9-8e92303c9d5f','1','1adec874-b90e-474e-ab12-77ed482c9cc4')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9a54a-07a7-11e0-bdc9-8e92303c9d5f','1','98556b87-5da4-41b7-916d-d1683961bfff')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9aa1a-07a7-11e0-bdc9-8e92303c9d5f','1','b596bdb4-15eb-467a-b8dc-500fa56d9b86')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9aec9-07a7-11e0-bdc9-8e92303c9d5f','1','98645fc5-1946-4cb5-939f-0f93e639a27c')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9b37c-07a7-11e0-bdc9-8e92303c9d5f','1','de37ca26-9623-4d7f-a90e-70c9d010b704')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9b844-07a7-11e0-bdc9-8e92303c9d5f','1','7b41be50-f928-47c1-abf1-e88e17b6a908')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9bd55-07a7-11e0-bdc9-8e92303c9d5f','1','506b4a22-be48-478c-8108-f270394bc2c8')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9c23e-07a7-11e0-bdc9-8e92303c9d5f','1','f7066d9a-7c5e-4ed6-a9aa-9276f4957c34')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9c6fd-07a7-11e0-bdc9-8e92303c9d5f','1','faaf4346-6c5d-41fa-9553-1f043cf06bca')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9cbc5-07a7-11e0-bdc9-8e92303c9d5f','1','1ae0b3f7-4ea4-4c13-9edb-b1a1919ad06a')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9d074-07a7-11e0-bdc9-8e92303c9d5f','1','8504882f-8b36-49cf-8c6b-10716c07228b')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9d527-07a7-11e0-bdc9-8e92303c9d5f','1','47d56832-d202-4d6a-b2db-b8da73c3f3a2')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9d9de-07a7-11e0-bdc9-8e92303c9d5f','1','52203967-7ea8-4b2a-880f-465ad07cdff0')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9dea6-07a7-11e0-bdc9-8e92303c9d5f','1','1f1c074a-9521-45c6-8ba3-aa40d67ccb38')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06f9f095-07a7-11e0-bdc9-8e92303c9d5f','1','e52c479e-0f13-43ee-a8b7-0de9953c7fab')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa35a6-07a7-11e0-bdc9-8e92303c9d5f','1','46911ac0-c8b2-47ca-a8d5-fb1c9a524e44')
+
+2/14/2017 5:28:24 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa492b-07a7-11e0-bdc9-8e92303c9d5f','1','ad16ca0f-3744-475a-a1b1-78a2d44d50a2')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa52bb-07a7-11e0-bdc9-8e92303c9d5f','1','956a5152-569c-4dd6-aeca-fe8fbeeda4cb')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa5c5e-07a7-11e0-bdc9-8e92303c9d5f','1','ee67f1b7-54c0-40c7-9570-8707af81509f')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa65e1-07a7-11e0-bdc9-8e92303c9d5f','1','cf54e929-f48c-4718-81c9-f236a9cbe747')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa72d3-07a7-11e0-bdc9-8e92303c9d5f','1','9ffdd33e-0198-4260-bafb-1db833db624f')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa812e-07a7-11e0-bdc9-8e92303c9d5f','1','0019ae1f-3582-4337-8b22-b683ec92bd2a')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa8a8c-07a7-11e0-bdc9-8e92303c9d5f','1','10e3f1eb-12d1-43d2-9354-6e59a9bcb4b2')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fa93de-07a7-11e0-bdc9-8e92303c9d5f','1','df079979-4ecc-4689-a418-ca90b80c057f')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06faac33-07a7-11e0-bdc9-8e92303c9d5f','1','fff07bf3-22a7-4fd4-8022-ad65a0fb744d')
+
+2/14/2017 5:28:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('5db404f9-d2eb-11e6-b953-3052cb650342','06fabadc-07a7-11e0-bdc9-8e92303c9d5f','1','a6c539ea-d959-4d5e-b4bc-9458a313681b')
+
+2/14/2017 5:28:27 PM
+update json_pcr set 
+data = '{"ALS": {"1_EDD": {"choice": "on"}, "5_Lancets": {"choice": "on"}, "1_Adult_NC": {"choice": "on"}, "1_Adult_NRB": {"choice": "on"}, "1_Glucometer": {"choice": "on"}, "1_10cc_Syringe": {"choice": "on"}, "2_2mg_Nalaxone": {"choice": "on"}, "10_Saline_Locks": {"choice": "on"}, "1_12_Lead_Cable": {"choice": "on"}, "1_Glucose_Paste": {"choice": "on"}, "5_IV_Start_Kits": {"choice": "on"}, "1_ETCO2_Detector": {"choice": "on"}, "1_ET_Tube_Holder": {"choice": "on"}, "1_Pulse_Oximeter": {"choice": "on"}, "1_Adult_Miller_#3": {"choice": "on"}, "1_Adult_Miller_#4": {"choice": "on"}, "2_Petroleum_Gauze": {"choice": "on"}, "6_Macrodip_Tubing": {"choice": "on"}, "1_Padded_Hemostats": {"choice": "on"}, "1_Standard_BP_Cuff": {"choice": "on"}, "2_Adult_Defib_Pads": {"choice": "on"}, "2_Tube_Introducers": {"choice": "on"}, "6_Microdrip_Tubing": {"choice": "on"}, "Drug_Bag_w/_ET_Kit": {"choice": "on"}, "Resp_Sense_Monitor": {"choice": "on"}, "10_Adult_Electrodes": {"choice": "on"}, "1_1mg_Glucagon_Vial": {"choice": "on"}, "1_Aspirin_Container": {"choice": "on"}, "1Pediatric_Miller_#1": {"choice": "on"}, "1_Adult_Macintosh_#3": {"choice": "on"}, "1_Adult_Macintosh_#4": {"choice": "on"}, "1_LA_Co_Policy_806.1": {"choice": "on"}, "1_Rhythm_Strip_Cable": {"choice": "on"}, "2_Handheld_Nebulizer": {"choice": "on"}, "Asst._Needles_18-22G": {"choice": "on"}, "IV_Pump_w/_cassettes": {"choice": "on"}, "Waveform_Capnography": {"choice": "on"}, "1_400mg_Dopamine_Vial": {"choice": "on"}, "1_ALS_Treatment_Guide": {"choice": "on"}, "1_Pediatric_Miller_#2": {"choice": "on"}, "1_pair_Sterile_Gloves": {"choice": "on"}, "4_4mg_Ondansetron_ODT": {"choice": "on"}, "1_Adult_Magill_Forceps": {"choice": "on"}, "1_LA_Co_Peds_Drug_Dose": {"choice": "on"}, "1_Nitroglycerine_Spray": {"choice": "on"}, "1_box_Alcohol_Prep_Pad": {"choice": "on"}, "2_Pediatric_Defib_Pads": {"choice": "on"}, "4_1mg_Atropine_Preload": {"choice": "on"}, "10_Pediatric_Electrodes": {"choice": "on"}, "2_6mg_Adenosine_Preload": {"choice": "on"}, "5_Micron_Filter_Needles": {"choice": "on"}, "Asst._Syringes_1mL-60mL": {"choice": "on"}, "Needle_Thoracostomy_Kit": {"choice": "on"}, "1_12mg_Adenosine_Preload": {"choice": "on"}, "1_Two_Way_portable_radio": {"choice": "on"}, "6_150mg_Amiodarione_Vial": {"choice": "on"}, "1_Pediatric_Broselow_Tape": {"choice": "on"}, "2_500mL_Normal_Saline_bag": {"choice": "on"}, "4_4mg_Ondansetron_Preload": {"choice": "on"}, "5_5mL_Normal_Saline_Flush": {"choice": "on"}, "7_1:1K_Epinephrine_Ampule": {"choice": "on"}, "8_2.5mg_Albuterol_Bullets": {"choice": "on"}, "1_Adult_Laryngoscope_Blade": {"choice": "on"}, "1_Pediatric_Magill_Forceps": {"choice": "on"}, "1_each_King_LTS-D_Size_3-5": {"choice": "on"}, "5_each_IV_Catheters_14-24G": {"choice": "on"}, "2_50mg_Diphenhydramine_Vial": {"choice": "on"}, "3_25gm_Dextrose_50%_Preload": {"choice": "on"}, "6_1,000mL_Normal_Saline_Bag": {"choice": "on"}, "10_1:10K_Epinephrine_Preload": {"choice": "on"}, "2_Mucosal_Atomization_Device": {"choice": "on"}, "1_50mEq_Sodium_Bicarb_Preload": {"choice": "on"}, "3_Vent_Circuits/_Viral_Filter": {"choice": "on"}, "8_(min._4)_5mg_Midazolam_Vial": {"choice": "on"}, "1_1gm_Calcium_Chloride_Preload": {"choice": "on"}, "1_Pediatric_Laryngoscope_Blade": {"choice": "on"}, "10_(min._8)_4mg_Morphine_Carpuject": {"choice": "on"}, "2_each_ET_Tubes_with_stylets_Sizes_6.0-8.0": {"choice": "on"}}, "BLS": {"12_2x2s": {"choice": "on"}, "12_3x3s": {"choice": "on"}, "24_4x4s": {"choice": "on"}, "2_Gowns": {"choice": "on"}, "1_Shears": {"choice": "on"}, "2_Urinals": {"choice": "on"}, "1_Adult_BP": {"choice": "on"}, "1_Penlight": {"choice": "on"}, "1_Thigh_BP": {"choice": "on"}, "4_ABD_Pads": {"choice": "on"}, "6_Adult_NC": {"choice": "on"}, "1_Adult_BVM": {"choice": "on"}, "1_Infant_BP": {"choice": "on"}, "1_Infant_NC": {"choice": "on"}, "4_Ice_Packs": {"choice": "on"}, "6_Adult_NRB": {"choice": "on"}, "1_Bite_Stick": {"choice": "on"}, "1_Infant_BVM": {"choice": "on"}, "24_Band-Aids": {"choice": "on"}, "6_Infant_NRB": {"choice": "on"}, "1_Set_of_OPAs": {"choice": "on"}, "1_Stethoscope": {"choice": "on"}, "2_1000cc_NaCL": {"choice": "on"}, "2_Burn_Sheets": {"choice": "on"}, "1_Pediatric_BP": {"choice": "on"}, "2_Blue_Helmets": {"choice": "on"}, "2_Vent_Circuit": {"choice": "on"}, "2_Yellow_Vests": {"choice": "on"}, "6_Pediatric_NC": {"choice": "on"}, "1_22_French_NPA": {"choice": "on"}, "1_26_French_NPA": {"choice": "on"}, "1_30_French_NPA": {"choice": "on"}, "1_34_French_NPA": {"choice": "on"}, "1_Box_N95_Masks": {"choice": "on"}, "1_Pediatric_BVM": {"choice": "on"}, "2_Emesis_Basins": {"choice": "on"}, "2_Fracture_Pans": {"choice": "on"}, "2_Kidney_Basins": {"choice": "on"}, "2_Rolls_Webbing": {"choice": "on"}, "6_Pediatric_NRB": {"choice": "on"}, "1_Large_Adult_BP": {"choice": "on"}, "2_MAT_Tourniquet": {"choice": "on"}, "2_Sets_Head_Beds": {"choice": "on"}, "2_Suction_Tubing": {"choice": "on"}, "4_Adult_C-Collar": {"choice": "on"}, "5_Biohazard_Bags": {"choice": "on"}, "1_each_1,2,3_Tape": {"choice": "on"}, "2_Petroleum_Gauze": {"choice": "on"}, "2_Sets_Hearing_Pro": {"choice": "on"}, "1_250cc_Sterile_H2O": {"choice": "on"}, "1_Each_BVM_Mask_0-5": {"choice": "on"}, "6_Tongue_Depressors": {"choice": "on"}, "1_Box_Surgical_Masks": {"choice": "on"}, "1_Set_Sterile_Gloves": {"choice": "on"}, "2_1000cc_Sterile_H2O": {"choice": "on"}, "3_Suction_Cannisters": {"choice": "on"}, "4_Pediatric_C-Collar": {"choice": "on"}, "2_Sets_Leather_Gloves": {"choice": "on"}, "3_Each_2,3,4,6_Kerlix": {"choice": "on"}, "4_Triangular_Bandages": {"choice": "on"}, "1_Each_Regulator_&_Key": {"choice": "on"}, "1_Each_SM/Med/Lg_Gloves": {"choice": "on"}, "1_OB_Kit_w/Clamp_Cutter": {"choice": "on"}, "1_Unit_Portable_Suction": {"choice": "on"}, "2_Multitrauma_Dressings": {"choice": "on"}, "12_Bloodstopper_Dressings": {"choice": "on"}, "1_Each_Sm/Med/Lg/XL_Gloves": {"choice": "on"}, "2_Each_6_-_18_French_Caths": {"choice": "on"}, "1_Adult_Tract_(If_Sager-Type)": {"choice": "on"}}, "debug": false, "Vehicle": {"Radio": {"choice": "on"}, "Siren": {"choice": "on"}, "Mirrors": {"choice": "on"}, "Vehicle": {"sig1_Encoding": "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"}, "Light_Bar": {"choice": "on"}, "Tires_(OK)": {"choice": "on"}, "Tail_Lights": {"choice": "on"}, "Brake_Lights": {"choice": "on"}, "Oil_Level_OK": {"choice": "on"}, "Scene_Lights": {"choice": "on"}, "Turn_Signals": {"choice": "on"}, "License_Plate": {"choice": "on"}, "Fuel_Above_3/4": {"choice": "on"}, "Power_Steering": {"choice": "on"}, "Radiator_Fluid": {"choice": "on"}, "Reverse_Lights": {"choice": "on"}, "Jack/Lug_Wrench": {"choice": "on"}, "Transmission_OK": {"choice": "on"}, "Incident_Reports": {"choice": "on"}, "Accident_Form/Kit": {"choice": "on"}, "Clean_In/Clean_Out": {"choice": "on"}, "Emergency_Flashers": {"choice": "on"}, "Instrumental_Lights": {"choice": "on"}, "Headlights/High_Beams": {"choice": "on"}, "Air_Conditioning/Heating": {"choice": "on"}, "Equipment_Clean/Sanitary": {"choice": "on"}, "Exhaust_System_(No_Leaks)": {"choice": "on"}, "Seat_Belts_(Front_&_Rear)": {"choice": "on"}}, "Dispatch": {"Members": {"model": {"buttons": [{"id": "jrubin", "img": "check-circle-o", "str": "Rubin, Joel, Owner & CEO", "choice": "off"}, {"id": "E099692", "img": "check-circle-o", "str": "ACOSTA, CYNTHIA", "choice": "off"}, {"id": "E113251", "img": "check-circle-o", "str": "Acosta, Pedro", "choice": "off"}, {"id": "E114592", "img": "check-circle-o", "str": "Aguila Gallardo, Oscar", "choice": "off"}, {"id": "P33820", "img": "check-circle-o", "str": "Aguilar, Amilcar", "choice": "off"}, {"id": "Jenna", "img": "check-circle-o", "str": "Ahern, Jenna", "choice": "off"}, {"id": "A6316", "img": "check-circle-o", "str": "Ahern, Jenna", "choice": "off"}, {"id": "E092674", "img": "check-circle-o", "str": "Ali, Brandon", "choice": "off"}, {"id": "jane", "img": "check-circle-o", "str": "Almansky, Zhanna", "choice": "off"}, {"id": "E090137", "img": "check-circle-o", "str": "Apelian, Ararat", "choice": "off"}, {"id": "E082561", "img": "check-circle-o", "str": "Ardon, Stacey", "choice": "off"}, {"id": "E082561", "img": "check-circle-o", "str": "ARDON, STACEY", "choice": "off"}, {"id": "P21173", "img": "check-circle-o", "str": "Askin, Lisa", "choice": "off"}, {"id": "E113654", "img": "check-circle-o", "str": "Aung, May", "choice": "off"}, {"id": "P26681", "img": "check-circle-o", "str": "Baca, Abraham", "choice": "off"}, {"id": "Baca", "img": "check-circle-o", "str": "Baca, Abraham", "choice": "off"}, {"id": "E119990", "img": "check-circle-o", "str": "BARBA, KIANA", "choice": "off"}, {"id": "E119990", "img": "check-circle-o", "str": "Barba, Kiana", "choice": "off"}, {"id": "E121181", "img": "check-circle-o", "str": "Barocio, Joseph", "choice": "off"}, {"id": "E084802", "img": "check-circle-o", "str": "BARRAGAN, EMMANUEL", "choice": "off"}, {"id": "E073548", "img": "check-circle-o", "str": "Barreras, Rafael", "choice": "off"}, {"id": "E093329", "img": "check-circle-o", "str": "BARRIOS, MIGUEL", "choice": "off"}, {"id": "E117813", "img": "check-circle-o", "str": "Barstad, Jefferson", "choice": "off"}, {"id": "E095343", "img": "check-circle-o", "str": "BLANCO, JOHN", "choice": "off"}, {"id": "E072739", "img": "check-circle-o", "str": "Bowles, Logan", "choice": "off"}, {"id": "Nichole", "img": "check-circle-o", "str": "Brookshire, Nichole", "choice": "off"}, {"id": "E101634", "img": "check-circle-o", "str": "Brotherly, Brian", "choice": "off"}, {"id": "Burova", "img": "check-circle-o", "str": "Burova, Nicole", "choice": "off"}, {"id": "E114862", "img": "check-circle-o", "str": "Burris, David", "choice": "off"}, {"id": "CHERRY", "img": "check-circle-o", "str": "CALAUNAN, CHERRY", "choice": "off"}, {"id": "P35443", "img": "check-circle-o", "str": "Calkins, Nicolas", "choice": "off"}, {"id": "Camacho", "img": "check-circle-o", "str": "Camacho, Peter", "choice": "off"}, {"id": "Campbell", "img": "check-circle-o", "str": "Campbell, William", "choice": "off"}, {"id": "P17736", "img": "check-circle-o", "str": "Campbell, Michael", "choice": "off"}, {"id": "99999", "img": "check-circle-o", "str": "Campbell, Will", "choice": "off"}, {"id": "E116526", "img": "check-circle-o", "str": "CAO, DAVID", "choice": "off"}, {"id": "E119956", "img": "check-circle-o", "str": "Cardenas, Joshua", "choice": "off"}, {"id": "E111738", "img": "check-circle-o", "str": "Carlin, David", "choice": "on"}, {"id": "E105505", "img": "check-circle-o", "str": "CARPENTER JR, RICHARD", "choice": "off"}, {"id": "E118012", "img": "check-circle-o", "str": "CARUANA, KOHLBY D", "choice": "off"}, {"id": "E108444", "img": "check-circle-o", "str": "CASTANEDA, SAUL", "choice": "off"}, {"id": "E116008", "img": "check-circle-o", "str": "CENDANA, BRYAN", "choice": "off"}, {"id": "E116008", "img": "check-circle-o", "str": "Cendana, Bryan", "choice": "off"}, {"id": "E114540", "img": "check-circle-o", "str": "Chan, Jeffrey", "choice": "off"}, {"id": "E096976", "img": "check-circle-o", "str": "Chavez, Judah", "choice": "off"}, {"id": "E079219", "img": "check-circle-o", "str": "CHIPRES, ALAN", "choice": "off"}, {"id": "E095779", "img": "check-circle-o", "str": "Choo, Edmund", "choice": "off"}, {"id": "E098564", "img": "check-circle-o", "str": "Christman, Levi", "choice": "off"}, {"id": "P10308", "img": "check-circle-o", "str": "Chu, Fleming", "choice": "off"}, {"id": "Danielle", "img": "check-circle-o", "str": "Cisneros, Danielle", "choice": "off"}, {"id": "Jrcoleman", "img": "check-circle-o", "str": "Coleman, Jordan", "choice": "off"}, {"id": "E113128", "img": "check-circle-o", "str": "Cortez, Jose", "choice": "off"}, {"id": "E113128", "img": "check-circle-o", "str": "Cortez, Jose", "choice": "off"}, {"id": "E101724", "img": "check-circle-o", "str": "Cowan, Joshua", "choice": "off"}, {"id": "E093406", "img": "check-circle-o", "str": "CRAIG, TAYLOR", "choice": "off"}, {"id": "E113772", "img": "check-circle-o", "str": "Crumbaker, James", "choice": "off"}, {"id": "E109347", "img": "check-circle-o", "str": "CRUZ, DANIEL", "choice": "off"}, {"id": "E081976", "img": "check-circle-o", "str": "CUELLAR, LUIS", "choice": "off"}, {"id": "E080586", "img": "check-circle-o", "str": "Del Valle, Gustavo", "choice": "off"}, {"id": "E109077", "img": "check-circle-o", "str": "Delgado, Rudy", "choice": "off"}, {"id": "E093690", "img": "check-circle-o", "str": "Dhillon, Navneet", "choice": "off"}, {"id": "E118539", "img": "check-circle-o", "str": "Diaz, Eric", "choice": "off"}, {"id": "E118362", "img": "check-circle-o", "str": "DiCamillo, Roxanne", "choice": "off"}, {"id": "E053729", "img": "check-circle-o", "str": "Downs, Anne", "choice": "off"}, {"id": "E113030", "img": "check-circle-o", "str": "Duarte, Joshua", "choice": "off"}, {"id": "E119931", "img": "check-circle-o", "str": "Eddy, Andrew", "choice": "off"}, {"id": "E115643", "img": "check-circle-o", "str": "EDWARDS, JONATHAN", "choice": "off"}, {"id": "E102013", "img": "check-circle-o", "str": "Elias, Irene", "choice": "off"}, {"id": "E102013", "img": "check-circle-o", "str": "Elias, Irene", "choice": "off"}, {"id": "EricEll", "img": "check-circle-o", "str": "Ell, Eric", "choice": "off"}, {"id": "Eell", "img": "check-circle-o", "str": "Ell, Eric", "choice": "off"}, {"id": "E113508", "img": "check-circle-o", "str": "Emerson, Cory", "choice": "off"}, {"id": "E102268", "img": "check-circle-o", "str": "Erivez, Jessie", "choice": "off"}, {"id": "E110409", "img": "check-circle-o", "str": "Erro, Justin", "choice": "off"}, {"id": "E117347", "img": "check-circle-o", "str": "Escandon, Lashay", "choice": "off"}, {"id": "P33385", "img": "check-circle-o", "str": "Estrada, Nicholas", "choice": "off"}, {"id": "E111754", "img": "check-circle-o", "str": "Evans, Amir", "choice": "off"}, {"id": "Fair", "img": "check-circle-o", "str": "Fair, David", "choice": "off"}, {"id": "E088403", "img": "check-circle-o", "str": "Farrow, Shannon", "choice": "off"}, {"id": "E111908", "img": "check-circle-o", "str": "Figueroa, Michelle", "choice": "off"}, {"id": "E107782", "img": "check-circle-o", "str": "Fischer, Anton", "choice": "off"}, {"id": "Fly", "img": "check-circle-o", "str": "Fly, Fly", "choice": "off"}, {"id": "E123802", "img": "check-circle-o", "str": "Fort, Taylor", "choice": "off"}, {"id": "E110403", "img": "check-circle-o", "str": "FOUTCH, BRIAN", "choice": "off"}, {"id": "E118785", "img": "check-circle-o", "str": "FREGOSO, ALAN", "choice": "off"}, {"id": "E112504", "img": "check-circle-o", "str": "FRIAS, JARED", "choice": "off"}, {"id": "F0370", "img": "check-circle-o", "str": "Fuentes, Susana", "choice": "off"}, {"id": "E106842", "img": "check-circle-o", "str": "FUNG, JOSEPH", "choice": "off"}, {"id": "E112529", "img": "check-circle-o", "str": "Garcia, Jonathan", "choice": "off"}, {"id": "E105026", "img": "check-circle-o", "str": "GATLIFF, ARTHUR A", "choice": "off"}, {"id": "E097846", "img": "check-circle-o", "str": "Gibson, Jacob", "choice": "off"}, {"id": "G2974", "img": "check-circle-o", "str": "Gilpatrick, Jonathan", "choice": "off"}, {"id": "Zelig", "img": "check-circle-o", "str": "Gitelis, Zelig", "choice": "off"}, {"id": "E081812", "img": "check-circle-o", "str": "GLICKMAN, TODD", "choice": "off"}, {"id": "E108820", "img": "check-circle-o", "str": "Glover, Chanel", "choice": "off"}, {"id": "E102299", "img": "check-circle-o", "str": "Go, Darwin", "choice": "off"}, {"id": "G0676", "img": "check-circle-o", "str": "Gonzales, Timothy", "choice": "off"}, {"id": "Timoty", "img": "check-circle-o", "str": "Gonzales, Timoty", "choice": "off"}, {"id": "E121806", "img": "check-circle-o", "str": "GONZALEZ, ADRIEENE", "choice": "off"}, {"id": "E109599", "img": "check-circle-o", "str": "GONZALEZ, FERNANDO", "choice": "off"}, {"id": "E042746", "img": "check-circle-o", "str": "GOODWIN, BRAD", "choice": "off"}, {"id": "E114491", "img": "check-circle-o", "str": "GRANT, LAMAR", "choice": "off"}, {"id": "E119827", "img": "check-circle-o", "str": "HACKENBERG, JOSHUA", "choice": "off"}, {"id": "E117390", "img": "check-circle-o", "str": "Harada, Allison", "choice": "off"}, {"id": "E115658", "img": "check-circle-o", "str": "Hardy, Christina", "choice": "off"}, {"id": "Arth", "img": "check-circle-o", "str": "Hartoyan, Artoush", "choice": "off"}, {"id": "E109326", "img": "check-circle-o", "str": "Hauck, Alysha", "choice": "off"}, {"id": "E104222", "img": "check-circle-o", "str": "Hein, Taylor", "choice": "off"}, {"id": "P20374", "img": "check-circle-o", "str": "Hennessy, Veronica", "choice": "off"}, {"id": "E092802", "img": "check-circle-o", "str": "Hernandez, Alexandro", "choice": "off"}, {"id": "H6930", "img": "check-circle-o", "str": "Hester, Cheri", "choice": "off"}, {"id": "E115197", "img": "check-circle-o", "str": "HO, JASON", "choice": "off"}, {"id": "E116374", "img": "check-circle-o", "str": "Houston, Jake", "choice": "off"}, {"id": "E113678", "img": "check-circle-o", "str": "Hoxie, Tiffany", "choice": "off"}, {"id": "E098418", "img": "check-circle-o", "str": "Hunnewell, Troy", "choice": "off"}, {"id": "Hyam", "img": "check-circle-o", "str": "Hyam, Sarah", "choice": "off"}, {"id": "Taylor", "img": "check-circle-o", "str": "Hynes, Taylor", "choice": "off"}, {"id": "E105973", "img": "check-circle-o", "str": "Jackson, Daniel", "choice": "off"}, {"id": "E109312", "img": "check-circle-o", "str": "Jackson, Benjamin", "choice": "off"}, {"id": "E121194", "img": "check-circle-o", "str": "Japlit, Timothy", "choice": "off"}, {"id": "cathi", "img": "check-circle-o", "str": "Johnson, Cathi", "choice": "off"}, {"id": "E118131", "img": "check-circle-o", "str": "Johnson, Dajon", "choice": "off"}, {"id": "E113690", "img": "check-circle-o", "str": "Kerney, James", "choice": "off"}, {"id": "E120587", "img": "check-circle-o", "str": "Lansang, William", "choice": "off"}, {"id": "E123086", "img": "check-circle-o", "str": "Larrazabal, Emilio", "choice": "off"}, {"id": "E118055", "img": "check-circle-o", "str": "Law, Colten", "choice": "off"}, {"id": "E111104", "img": "check-circle-o", "str": "Lee, Daniel", "choice": "off"}, {"id": "E111744", "img": "check-circle-o", "str": "LEE, JENNY", "choice": "off"}, {"id": "E103418", "img": "check-circle-o", "str": "LINARES, FLOR", "choice": "off"}, {"id": "E113260", "img": "check-circle-o", "str": "LIU, CHERYL", "choice": "off"}, {"id": "E107617", "img": "check-circle-o", "str": "Lo, Tsz", "choice": "off"}, {"id": "E107617", "img": "check-circle-o", "str": "Lo, Tsz", "choice": "off"}, {"id": "E091065", "img": "check-circle-o", "str": "LOMELI, MICHAEL", "choice": "off"}, {"id": "E119563", "img": "check-circle-o", "str": "LOPEZ, MEDARDO", "choice": "off"}, {"id": "DanL", "img": "check-circle-o", "str": "Louk, Dan", "choice": "off"}, {"id": "Dlouk", "img": "check-circle-o", "str": "Louk, Dan", "choice": "off"}, {"id": "E102132", "img": "check-circle-o", "str": "Mahmoudi, Clara", "choice": "off"}, {"id": "E115193", "img": "check-circle-o", "str": "Major, Jasmine", "choice": "off"}, {"id": "E117761", "img": "check-circle-o", "str": "Mank, Eric", "choice": "off"}, {"id": "E116927", "img": "check-circle-o", "str": "Manobanda, Daniel", "choice": "off"}, {"id": "E101302", "img": "check-circle-o", "str": "Marijne, Kevin", "choice": "off"}, {"id": "E114899", "img": "check-circle-o", "str": "MARRUFO, IVAN", "choice": "off"}, {"id": "E122375", "img": "check-circle-o", "str": "Martinez, Anthony", "choice": "off"}, {"id": "E122371", "img": "check-circle-o", "str": "Mast, Abbey", "choice": "off"}, {"id": "E108913", "img": "check-circle-o", "str": "MATSUNE, KENNETH", "choice": "off"}, {"id": "E113289", "img": "check-circle-o", "str": "MAYO, ARIEL N", "choice": "off"}, {"id": "E096092", "img": "check-circle-o", "str": "McConnell, Andrew", "choice": "off"}, {"id": "E092107", "img": "check-circle-o", "str": "McNamee, Nathan", "choice": "off"}, {"id": "E103994", "img": "check-circle-o", "str": "MEDINA, RONALD", "choice": "off"}, {"id": "E099325", "img": "check-circle-o", "str": "Mendez, David", "choice": "off"}, {"id": "E104608", "img": "check-circle-o", "str": "Mendez, Lenard", "choice": "off"}, {"id": "M1029", "img": "check-circle-o", "str": "Mikell, John", "choice": "off"}, {"id": "E111880", "img": "check-circle-o", "str": "Milleman, Benjamin", "choice": "off"}, {"id": "E102237", "img": "check-circle-o", "str": "Moffatt, Kelan", "choice": "off"}, {"id": "E099704", "img": "check-circle-o", "str": "Monreal, Julio", "choice": "off"}, {"id": "E120479", "img": "check-circle-o", "str": "Montenegro, Michael", "choice": "off"}, {"id": "E121458", "img": "check-circle-o", "str": "Monteverde, Jonathan", "choice": "off"}, {"id": "E112300", "img": "check-circle-o", "str": "Moore, Daejon", "choice": "off"}, {"id": "E117345", "img": "check-circle-o", "str": "MOSELEY, ALLEN", "choice": "off"}, {"id": "E032569", "img": "check-circle-o", "str": "Munoz, Jose", "choice": "off"}, {"id": "E074876", "img": "check-circle-o", "str": "Murtha, Kelly", "choice": "off"}, {"id": "E122531", "img": "check-circle-o", "str": "MUTYABA, JOHNNY", "choice": "off"}, {"id": "E120612", "img": "check-circle-o", "str": "Najera, Alberto", "choice": "off"}, {"id": "E086567", "img": "check-circle-o", "str": "Nelson, Alex", "choice": "off"}, {"id": "E078655", "img": "check-circle-o", "str": "NELSON, ADAM", "choice": "off"}, {"id": "E113388", "img": "check-circle-o", "str": "NGUYEN, JOHN", "choice": "off"}, {"id": "GIZELLE", "img": "check-circle-o", "str": "NICHOLS, GIZELLE", "choice": "off"}, {"id": "E108740", "img": "check-circle-o", "str": "NOLEN, LAUREN", "choice": "off"}, {"id": "E116816", "img": "check-circle-o", "str": "Ntzouras, George", "choice": "off"}, {"id": "E119502", "img": "check-circle-o", "str": "Nune, Eric", "choice": "off"}, {"id": "E113031", "img": "check-circle-o", "str": "Nunez, Miguel", "choice": "off"}, {"id": "Andre", "img": "check-circle-o", "str": "Oberholzer, Andre", "choice": "off"}, {"id": "Pachita", "img": "check-circle-o", "str": "Obeso, Pachita", "choice": "off"}, {"id": "E107250", "img": "check-circle-o", "str": "Orange, Ellon", "choice": "off"}, {"id": "E061850", "img": "check-circle-o", "str": "OVERHOLT, ASHLY", "choice": "off"}, {"id": "E103202", "img": "check-circle-o", "str": "PACHECO, CHRISTOPHER C", "choice": "off"}, {"id": "P2255", "img": "check-circle-o", "str": "PADILLA, ISAAC", "choice": "off"}, {"id": "Parsons", "img": "check-circle-o", "str": "Parsons, Dana", "choice": "off"}, {"id": "E022814", "img": "check-circle-o", "str": "Parsons, Ryan", "choice": "off"}, {"id": "RELIEF", "img": "check-circle-o", "str": "Partner, Relief", "choice": "off"}, {"id": "E084072", "img": "check-circle-o", "str": "Pashabezyan, Sarkis", "choice": "off"}, {"id": "E115716", "img": "check-circle-o", "str": "Perales, Jordan", "choice": "off"}, {"id": "E773818", "img": "check-circle-o", "str": "Perez, Keila", "choice": "off"}, {"id": "Pinsky", "img": "check-circle-o", "str": "Pinsky, Vince", "choice": "off"}, {"id": "E011675", "img": "check-circle-o", "str": "Pitchford, Charlene", "choice": "off"}, {"id": "E100248", "img": "check-circle-o", "str": "Predom, Deandre", "choice": "off"}, {"id": "E093000", "img": "check-circle-o", "str": "QUACH, CUONG", "choice": "off"}, {"id": "E103575", "img": "check-circle-o", "str": "Quijada, Maria", "choice": "off"}, {"id": "E118262", "img": "check-circle-o", "str": "Quintana, Jorge", "choice": "off"}, {"id": "E103208", "img": "check-circle-o", "str": "Ramirez, Hazahel", "choice": "off"}, {"id": "E078879", "img": "check-circle-o", "str": "RAYA, JONATHAN", "choice": "off"}, {"id": "E054345", "img": "check-circle-o", "str": "REED, SCOTT", "choice": "off"}, {"id": "E115968", "img": "check-circle-o", "str": "REMLEY, MYLON", "choice": "off"}, {"id": "prichart", "img": "check-circle-o", "str": "Richart, Paul", "choice": "off"}, {"id": "E104703", "img": "check-circle-o", "str": "Rivera, Esteban", "choice": "off"}, {"id": "E105614", "img": "check-circle-o", "str": "Rodriguez, Esther", "choice": "off"}, {"id": "E105614", "img": "check-circle-o", "str": "Rodriguez, Esther", "choice": "off"}, {"id": "E122355", "img": "check-circle-o", "str": "Rogina, CODY", "choice": "off"}, {"id": "E098620", "img": "check-circle-o", "str": "Ros, Denise", "choice": "off"}, {"id": "Rosenfeld", "img": "check-circle-o", "str": "Rosenfeld, Abraham", "choice": "off"}, {"id": "4732", "img": "check-circle-o", "str": "Rubin, Joel", "choice": "off"}, {"id": "Ruffo", "img": "check-circle-o", "str": "Ruffo, Ozzy", "choice": "off"}, {"id": "E026016", "img": "check-circle-o", "str": "Ruiz, Eddy", "choice": "off"}, {"id": "S8745", "img": "check-circle-o", "str": "SALAS, JASON", "choice": "off"}, {"id": "Jason", "img": "check-circle-o", "str": "Salas, Jason", "choice": "off"}, {"id": "E082546", "img": "check-circle-o", "str": "SALAS, JOESPH", "choice": "off"}, {"id": "E098894", "img": "check-circle-o", "str": "SANDOVAL, MICHAEL", "choice": "off"}, {"id": "E113198", "img": "check-circle-o", "str": "Santana, Ruben", "choice": "off"}, {"id": "P31724", "img": "check-circle-o", "str": "Santos, John", "choice": "off"}, {"id": "E111194", "img": "check-circle-o", "str": "SCALZO, JOHN", "choice": "off"}, {"id": "DispatchScreen", "img": "check-circle-o", "str": "Screen, Dispatch", "choice": "off"}, {"id": "E100534", "img": "check-circle-o", "str": "Sequeira, Christian", "choice": "off"}, {"id": "E107514", "img": "check-circle-o", "str": "SEQUEIRA, NATALIA", "choice": "off"}, {"id": "E110237", "img": "check-circle-o", "str": "SERRANO, ANDREW", "choice": "off"}, {"id": "E118601", "img": "check-circle-o", "str": "SERRANO, BAUDELIO", "choice": "off"}, {"id": "S3533", "img": "check-circle-o", "str": "SHARMA, ROHAN", "choice": "off"}, {"id": "E105819", "img": "check-circle-o", "str": "SHERRATT, JACOB", "choice": "off"}, {"id": "E117398", "img": "check-circle-o", "str": "Siasi, Alexander", "choice": "off"}, {"id": "S1851", "img": "check-circle-o", "str": "Sibley-Thomas, Lanette", "choice": "off"}, {"id": "E117049", "img": "check-circle-o", "str": "Singleton, Marcus", "choice": "off"}, {"id": "P33704", "img": "check-circle-o", "str": "Skaggs, Mickle", "choice": "off"}, {"id": "E113582", "img": "check-circle-o", "str": "Smith, Alexandra", "choice": "off"}, {"id": "E114625", "img": "check-circle-o", "str": "SOBRITO, JACOB", "choice": "off"}, {"id": "E046265", "img": "check-circle-o", "str": "SOLORIO, JOSE J", "choice": "off"}, {"id": "E101919", "img": "check-circle-o", "str": "Sosa, Edwardo", "choice": "off"}, {"id": "E101919", "img": "check-circle-o", "str": "Sosa, Edwardo", "choice": "off"}, {"id": "29175", "img": "check-circle-o", "str": "Stepanov, Mikhail", "choice": "off"}, {"id": "E112419", "img": "check-circle-o", "str": "Stewart, Rachel", "choice": "off"}, {"id": "E109101", "img": "check-circle-o", "str": "Tabu, Johnenric", "choice": "off"}, {"id": "E115376", "img": "check-circle-o", "str": "Tapia, Franco", "choice": "off"}, {"id": "testtest", "img": "check-circle-o", "str": "Test, Test", "choice": "off"}, {"id": "kris", "img": "check-circle-o", "str": "Thomas, Kris", "choice": "off"}, {"id": "E109478", "img": "check-circle-o", "str": "Tosello, Chris", "choice": "off"}, {"id": "Trasovan", "img": "check-circle-o", "str": "Trasovan, Yakov", "choice": "off"}, {"id": "E105560", "img": "check-circle-o", "str": "Trevare, Julien", "choice": "off"}, {"id": "E032761", "img": "check-circle-o", "str": "TRIPODI, JIMMY", "choice": "off"}, {"id": "Turk", "img": "check-circle-o", "str": "Turk, Gregg", "choice": "off"}, {"id": "user1", "img": "check-circle-o", "str": "User1, User1", "choice": "off"}, {"id": "user2", "img": "check-circle-o", "str": "User2, User2", "choice": "off"}, {"id": "vashovsky", "img": "check-circle-o", "str": "Vashovsky, Stan", "choice": "off"}, {"id": "Orlando", "img": "check-circle-o", "str": "Vasquez, Orlando", "choice": "off"}, {"id": "E110225", "img": "check-circle-o", "str": "Vogt, Megan", "choice": "off"}, {"id": "E095405", "img": "check-circle-o", "str": "Wegner, Samuel", "choice": "off"}, {"id": "E121555", "img": "check-circle-o", "str": "WEISSENBORN, BREE", "choice": "off"}, {"id": "Naima", "img": "check-circle-o", "str": "Welcome, Naima", "choice": "off"}, {"id": "E120688", "img": "check-circle-o", "str": "White, Carter", "choice": "off"}, {"id": "mike", "img": "check-circle-o", "str": "Whitehead, Mike", "choice": "off"}, {"id": "E000241", "img": "check-circle-o", "str": "Wiedemann, Russell", "choice": "off"}, {"id": "Wolfman", "img": "check-circle-o", "str": "Wolfman, Shachar", "choice": "off"}, {"id": "E084071", "img": "check-circle-o", "str": "Wong, Dillon", "choice": "off"}, {"id": "E117768", "img": "check-circle-o", "str": "WONG, ERNEST", "choice": "off"}, {"id": "E116180", "img": "check-circle-o", "str": "Xu, Mike", "choice": "off"}, {"id": "E122172", "img": "check-circle-o", "str": "Yan, Courtley", "choice": "off"}, {"id": "Zandstra", "img": "check-circle-o", "str": "Zandstra, Jeanie", "choice": "off"}, {"id": "E122295", "img": "check-circle-o", "str": "Zhitnitsky, Michael", "choice": "off"}]}}, "CallLocation": {"model": {"buttons": [{"id": "R", "img": "check-square-o", "str": "Residence", "choice": "on"}, {"id": "H", "img": "check-square-o", "str": "Hospital", "choice": "on"}, {"id": "F", "img": "check-square-o", "str": "Facility", "choice": "on"}]}}, "DispatchInfo": {"model": {"buttons": [{"id": "R", "img": "check-circle-o", "str": "Residence", "choice": "on"}, {"id": "S", "img": "check-circle-o", "str": "Street", "choice": "off"}, {"id": "H", "img": "check-circle-o", "str": "Health", "choice": "off"}, {"id": "I", "img": "check-circle-o", "str": "Industrial", "choice": "off"}, {"id": "C", "img": "check-circle-o", "str": "Scene", "choice": "off"}]}}, "LightsSirens": {"model": {"buttons": [{"id": "LSToScene", "img": "check-square-o", "str": "To Scene", "choice": "on"}, {"id": "LSToDestination", "img": "check-square-o", "str": "To Destination", "choice": "on"}]}}, "CALLTYPE.5150": {"model": {"buttons": [{"id": "CALLTYPE.5150", "str": "", "choice": "on", "caption": "Psychiatric Hold (5150) 72 HH"}]}}, "CALLTYPE.5250": {"model": {"buttons": [{"id": "CALLTYPE.5250", "str": "", "choice": "on", "caption": "Psychiatric Hold (5250) 14 DH"}]}}, "CALLTYPE.5350": {"model": {"buttons": [{"id": "CALLTYPE.5350", "str": "", "choice": "on", "caption": "Psychiatric Hold (5350) 1 YH"}]}}, "DispatchAborted": {"model": {"buttons": [{"id": "DryRun", "img": "check-circle-o", "str": "Dry Run", "choice": "on"}, {"id": "DOA", "img": "check-circle-o", "str": "DOA", "choice": "off"}, {"id": "Gone", "img": "check-circle-o", "str": "Gone", "choice": "off"}, {"id": "NotFound", "img": "check-circle-o", "str": "Not Found", "choice": "off"}, {"id": "Transported", "img": "check-circle-o", "str": "Transported", "choice": "off"}, {"id": "PDMatter", "img": "check-circle-o", "str": "PD Matter", "choice": "off"}]}}, "CALLTYPE.Discharge": {"model": {"buttons": [{"id": "CALLTYPE.Discharge", "str": "", "choice": "on", "caption": "Discharge"}]}}, "Members.Members_M1": {"Members_M1": "Barba, Kiana"}, "Members.Members_M2": {"Members_M2": "BARRIOS, MIGUEL"}, "Members.Members_M3": {"Members_M3": "Camacho, Peter"}, "Members.Members_M4": {"Members_M4": "Carlin, David"}, "CALLTYPE.ALSStandby": {"model": {"buttons": [{"id": "CALLTYPE.ALSStandby", "str": "", "choice": "on", "caption": "ALS Standby"}]}}, "CALLTYPE.WaitReturn": {"model": {"buttons": [{"id": "CALLTYPE.WaitReturn", "str": "", "choice": "on", "caption": "Wait and Return"}]}}, "Mileage.Mileage_End": {"Mileage_End": "21046"}, "Mileage.Mileage_Begin": {"Mileage_Begin": "21007"}, "Mileage.Mileage_Total": {"Mileage_Total": "39"}, "Timeline.Timeline_EnRoute": {"Timeline_EnRoute": "20:51"}, "Timeline.Timeline_OnScene": {"Timeline_OnScene": "20:51"}, "Timeline.Timeline_Assigned": {"Timeline_Assigned": "20:51"}, "Timeline.Timeline_FromScene": {"Timeline_FromScene": "20:51"}, "Timeline.Timeline_InService": {"Timeline_InService": "20:51"}, "DispatchInfo.DispatchInfo_CAD": {"DispatchInfo_CAD": "CAD#"}, "CallLocation.CallLocation_City": {"CallLocation_City": "City"}, "CallLocation.CallLocation_Name": {"CallLocation_Name": "Name"}, "CallLocation.CallLocation_Room": {"CallLocation_Room": "Room"}, "CallLocation.CallLocation_State": {"CallLocation_State": "STATE"}, "Timeline.Timeline_AtDestination": {"Timeline_AtDestination": "20:51"}, "Timeline.Timeline_PatientContact": {"Timeline_PatientContact": "20:51"}, "CallLocation.CallLocation_Address": {"CallLocation_Address": "Address"}, "CallLocation.CallLocation_ZipCode": {"CallLocation_ZipCode": "12301-0030 "}, "DispatchInfo.DispatchInfo_Borough": {"DispatchInfo_Borough": "Borough"}, "CallLocation.CallLocation_Apartment": {"CallLocation_Apartment": "Apartment"}, "DispatchInfo.DispatchInfo_LocationCode": {"DispatchInfo_LocationCode": "Location Code"}, "CallLocation.CallLocation_RespondedFrom": {"CallLocation_RespondedFrom": "Residence,Hospital,Facility"}, "DispatchInfo.DispatchInfo_DispatchMethod": {"DispatchInfo_DispatchMethod": "Method"}, "DispatchInfo.DispatchInfo_TransportedFrom": {"DispatchInfo_TransportedFrom": "Residence"}}, "Vitals_1": {"BP": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "on"}, {"id": "PALP", "img": "check-circle-o", "str": "PALP", "choice": "on"}]}}, "SP02": {"model": {"buttons": [{"id": "ORA", "img": "check-circle-o", "str": "ORA", "choice": "off"}, {"id": "W02", "img": "check-circle-o", "str": "W02", "choice": "on"}]}}, "Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "TakenBy": {"selected": "EMT"}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "TempScale": {"model": {"buttons": [{"id": "Ferenheit", "img": "check-circle-o", "str": "F", "choice": "on"}, {"id": "Centegrade", "img": "check-circle-o", "str": "C", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Clear"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "Vitals_2": {"BP": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "on"}, {"id": "PALP", "img": "check-circle-o", "str": "PALP", "choice": "on"}]}}, "SP02": {"model": {"buttons": [{"id": "ORA", "img": "check-circle-o", "str": "ORA", "choice": "off"}, {"id": "W02", "img": "check-circle-o", "str": "W02", "choice": "on"}]}}, "Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "TakenBy": {"selected": "Driver"}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Clear"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "logmount": false, "transcript": [], "Demographics": {"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str": "Male", "choice": "on"}, {"id": 1, "img": "check-circle-o", "str": "Female", "choice": "off"}, {"id": 2, "img": "check-circle-o", "str": "Unknown", "choice": "off"}]}}, "EmergencyContact": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str": "Spouse", "choice": "on"}, {"id": 1, "img": "check-circle-o", "str": "Parent", "choice": "off"}, {"id": 2, "img": "check-circle-o", "str": "Child", "choice": "off"}, {"id": 3, "img": "check-circle-o", "str": "Other", "choice": "off"}]}}, "PatientInfo.PatientInfo_Zip": {"PatientInfo_Zip": "20303-0030 "}, "PatientInfo.PatientInfo_City": {"PatientInfo_City": "City"}, "PatientInfo.PatientInfo_State": {"PatientInfo_State": "State"}, "PatientDetail.PatientDetail_Age": {"PatientDetail_Age": "56"}, "PatientDetail.PatientDetail_DOB": {"PatientDetail_DOB": "02/12/1960 "}, "PatientDetail.PatientDetail_SSN": {"PatientDetail_SSN": "123-45-6789 "}, "PatientInfo.PatientInfo_Address": {"PatientInfo_Address": "Address"}, "PatientInfo.PatientInfo_LastName": {"PatientInfo_LastName": "Conway"}, "PatientInfo.PatientInfo_Apartment": {"PatientInfo_Apartment": "Apartment"}, "PatientInfo.PatientInfo_FirstName": {"PatientInfo_FirstName": "Terrence"}, "PatientDetail.PatientDetail_Gender": {"PatientDetail_Gender": "Male"}, "PatientDetail.PatientDetail_Phone1": {"PatientDetail_Phone1": "(201) 245-2020 "}, "PatientDetail.PatientDetail_Phone2": {"PatientDetail_Phone2": "(201) 245-2021 "}, "PhysicianInfo.PhysicianInfo_Phone1": {"PhysicianInfo_Phone1": "(201) 826-3774 "}, "PhysicianInfo.PhysicianInfo_LastName": {"PhysicianInfo_LastName": "Sullivan"}, "PatientDetail.PatientDetail_WeightLbs": {"PatientDetail_WeightLbs": "210"}, "PatientInfo.PatientInfo_MiddleInitial": {"PatientInfo_MiddleInitial": "O"}, "PhysicianInfo.PhysicianInfo_FirstName": {"PhysicianInfo_FirstName": "Peter"}, "PrimaryInsurance.PrimaryInsurance_Name": {"PrimaryInsurance_Name": "Name"}, "EmergencyContact.EmergencyContact_Phone1": {"EmergencyContact_Phone1": "(212) 245-2020 "}, "PrimaryInsurance.PrimaryInsurance_PayerID": {"PrimaryInsurance_PayerID": "PayerID"}, "EmergencyContact.EmergencyContact_LastName": {"EmergencyContact_LastName": "Conway"}, "PrimaryInsurance.PrimaryInsurance_PolicyID": {"PrimaryInsurance_PolicyID": "PolicyID"}, "SecondaryInsurance.SecondaryInsurance_Name": {"SecondaryInsurance_Name": "Name2"}, "EmergencyContact.EmergencyContact_FirstName": {"EmergencyContact_FirstName": "Betty"}, "PrimaryInsurance.PrimaryInsurance_GroupNumber": {"PrimaryInsurance_GroupNumber": "Group Number"}, "SecondaryInsurance.SecondaryInsurance_PayerID": {"SecondaryInsurance_PayerID": "PayerID2"}, "EmergencyContact.EmergencyContact_Relationship": {"EmergencyContact_Relationship": "Spouse"}, "PrimaryInsurance.PrimaryInsurance_PolicyHolder": {"PrimaryInsurance_PolicyHolder": "Policy Holder"}, "SecondaryInsurance.SecondaryInsurance_PolicyID": {"SecondaryInsurance_PolicyID": "PolicyID2"}, "SecondaryInsurance.SecondaryInsurance_GroupNumber": {"SecondaryInsurance_GroupNumber": "Group Number2"}, "SecondaryInsurance.SecondaryInsurance_PolicyHolder": {"SecondaryInsurance_PolicyHolder": "Policy Holder2"}}, "DispositionWide": {"moved": {"model": {"buttons": [{"id": "Initial", "img": "check-circle-o", "str": "Initial", "choice": "on"}, {"id": "Return", "img": "check-circle-o", "str": "Return", "choice": "on"}, {"id": "Transfer", "img": "check-circle-o", "str": "Transfer", "choice": "on"}, {"id": "OtherUnit", "img": "check-circle-o", "str": "Transferred Care to Other Unit", "choice": "on", "factorWidth": 3}]}}}, "DispositionNarrow": {"moved": {"model": {"buttons": [{"id": "MetAtAmbulance", "img": "check-circle-o", "str": "Met At Ambulance", "choice": "off"}, {"id": "Chair", "img": "check-circle-o", "str": "Chair", "choice": "off"}, {"id": "Carried", "img": "check-circle-o", "str": "Carried", "choice": "off"}, {"id": "Scoop", "img": "check-circle-o", "str": "Scooop", "choice": "off"}, {"id": "Stretcher", "img": "check-circle-o", "str": "Stretcher", "choice": "off"}, {"id": "StretcherLongboard", "img": "check-circle-o", "str": "Stretcher/Longboard", "choice": "off"}, {"id": "Walked", "img": "check-circle-o", "str": "Walked", "choice": "off"}]}}}, "GEN:DNR (refusedCprList)": {"97d738ec-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "97d738ec-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "On file"}]}}}, "GEN:2nd (cprMapPulseList2)": {"a135d887-03e4-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "9622ce50-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "9622d45c-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "No", "choice": "off"}]}}}, "GEN:3rd (cprMapPulseList3)": {"962317b6-0610-11e0-9c66-0ba20c568bb6": {"choice": "More Information"}, "a1b5c8f9-03e4-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "96230b7d-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "962311b2-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "No", "choice": "off"}]}}}, "GEN:AED (cprAssessMapAEDList)": {"06f6352b-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "Lots of shock"}, "06f63fe6-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "electrocuted him"}, "36ba0910-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06f62afb-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "06f6300d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "No", "choice": "off"}]}}}, "GEN:Arm (rightHandMapArmList)": {"02793f25-71ea-11e1-bd51-842b2b4bbc99": {"choice": "all cut up"}, "06b4732c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4732c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Deformity"}]}}, "06b47cec-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b47cec-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Abrasion"}]}}, "06b48694-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b48694-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Swelling"}]}}, "06b49017-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b49017-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Numbness"}]}}, "06b499bb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b499bb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Amputation"}]}}, "06b49e8f-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b49e8f-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Puncture"}]}}, "06b4a34a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4a34a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Penetration"}]}}, "06b4a812-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4a812-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Paresthesia"}]}}, "06b4ace6-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4ace6-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Rash"}]}}, "06b4b669-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4b669-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Bleeding"}]}}, "06b4bb2c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4bb2c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1st Degree Burn"}]}}, "06b4c5eb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4c5eb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "3rd Degree Burn"}]}}, "06b533c7-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "a real mess - will need amputation"}, "1f33b6c9-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06b4cb12-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Mild", "choice": "off"}, {"id": "06b4d02b-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Mod", "choice": "off"}, {"id": "06b4d53d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Severe", "choice": "on"}]}}, "1f5a47f2-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06b4ebf7-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "1+", "choice": "off"}, {"id": "06b4f109-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "2+", "choice": "off"}, {"id": "06b4f62f-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "3+", "choice": "on"}, {"id": "06b4fb61-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "4+", "choice": "off"}]}}, "1f6331f2-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06b5008c-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "1", "choice": "off"}, {"id": "06b5059d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "2", "choice": "off"}, {"id": "06b50aa2-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "3", "choice": "on"}, {"id": "06b50fc9-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "4", "choice": "off"}, {"id": "06b5154d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "5", "choice": "off"}, {"id": "06b51a7f-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "6", "choice": "off"}, {"id": "06b51f85-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "7", "choice": "off"}, {"id": "06b524ab-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "8", "choice": "off"}, {"id": "06b529b0-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "9", "choice": "off"}, {"id": "06b52ebd-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "10", "choice": "off"}]}}, "f91d05d2-d1b1-4f6b-9e05-a90ce6418213": {"model": {"buttons": [{"id": "f91d05d2-d1b1-4f6b-9e05-a90ce6418213", "str": "", "choice": "on", "caption": "Celulitis"}]}}}, "GEN:3 Lead (ekgAssessMap4LList4)": {"06f8572e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8572e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Presenting Rhythm?"}]}}, "06f860fb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f860fb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Normal Sinus"}]}}, "06f86a61-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f86a61-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Tach"}]}}, "06f875c0-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f875c0-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-fib"}]}}, "06f87f48-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f87f48-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1 Degree AV Block"}]}}, "06f8894a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8894a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 1"}]}}, "06f892c0-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f892c0-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "3 Degree AV Block"}]}}, "06f8a05f-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8a05f-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "PVC"}]}}, "06f8a9de-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8a9de-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Fib"}]}}}, "GEN:12 Lead (ekgAssessMap12LList1)": {"06f98e21-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f98e21-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Presenting Rhythm?"}]}}, "06f992e0-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f992e0-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Asystole"}]}}, "06f99b79-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f99b79-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Normal Sinus"}]}}, "06f9a055-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9a055-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Brady"}]}}, "06f9a54a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9a54a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Tach"}]}}, "06f9aa1a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9aa1a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Pac`s"}]}}, "06f9aec9-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9aec9-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-fib"}]}}, "06f9b37c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9b37c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-flutter"}]}}, "06f9b844-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9b844-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1 Degree AV Block"}]}}, "06f9bd55-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9bd55-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 Degree AV Block"}]}}, "06f9c23e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9c23e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 1"}]}}, "06f9c6fd-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9c6fd-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 2"}]}}, "06f9cbc5-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9cbc5-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "3 Degree AV Block"}]}}, "06f9d074-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9d074-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Junctional"}]}}, "06f9d527-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9d527-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "PVC"}]}}, "06f9d9de-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9d9de-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Tach"}]}}, "06f9dea6-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9dea6-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Fib"}]}}, "38446b36-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06f9f095-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "06f9f5ae-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "No", "choice": "off"}]}}, "3859639a-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06fa046c-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V1", "choice": "off"}, {"id": "06fa30c2-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVF", "choice": "off"}, {"id": "06fa35a6-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVR", "choice": "on"}, {"id": "06fa3a7e-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVL", "choice": "off"}, {"id": "06fa0965-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V2", "choice": "off"}, {"id": "06fa0e5a-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V3", "choice": "off"}, {"id": "06fa1357-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V4", "choice": "off"}, {"id": "06fa1848-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V5", "choice": "off"}, {"id": "06fa1d59-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V6", "choice": "off"}, {"id": "06fa222d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "I", "choice": "off"}, {"id": "06fa2709-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "II", "choice": "off"}, {"id": "06fa2bd9-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "III", "choice": "off"}]}}}, "GEN:12 Lead (ekgAssessMap12LList2)": {"06fa492b-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa492b-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Presenting Rhythm?"}]}}, "06fa52bb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa52bb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Normal Sinus"}]}}, "06fa5c5e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa5c5e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Tach"}]}}, "06fa65e1-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa65e1-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-fib"}]}}, "06fa72d3-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa72d3-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1 Degree AV Block"}]}}, "06fa812e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa812e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 2"}]}}, "06fa8a8c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa8a8c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Junctional"}]}}, "06fa93de-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa93de-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Tach"}]}}, "388ae791-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06faa71d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Yes", "choice": "off"}, {"id": "06faac33-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "No", "choice": "on"}]}}, "38e74c93-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06fabadc-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V1", "choice": "on"}, {"id": "06faea4a-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVF", "choice": "off"}, {"id": "06faef22-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVR", "choice": "off"}, {"id": "06faf3ee-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVL", "choice": "off"}, {"id": "06fabfbc-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V2", "choice": "off"}, {"id": "06fac7d2-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V3", "choice": "off"}, {"id": "06facccf-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V4", "choice": "off"}, {"id": "06fad209-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V5", "choice": "off"}, {"id": "06fad702-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V6", "choice": "off"}, {"id": "06fadbdf-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "I", "choice": "off"}, {"id": "06fae0a6-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "II", "choice": "off"}, {"id": "06fae57e-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "III", "choice": "off"}]}}}}',
+received = '2017-02-14 05:28:25',
+sent = '1970-01-01 12:00:00' where id ='5db404f9-d2eb-11e6-b953-3052cb650342'

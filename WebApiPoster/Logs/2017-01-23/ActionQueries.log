@@ -1,0 +1,3688 @@
+
+1/23/2017 1:20:03 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','82688acd-be30-4384-8f61-68cef9dd2f62')
+
+1/23/2017 1:20:03 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='82688acd-be30-4384-8f61-68cef9dd2f62'
+
+1/23/2017 1:20:03 PM
+insert into phone_number(id)
+values
+('88cf5d5c-e3a0-4cba-99d1-04c1161e47cb')
+
+1/23/2017 1:20:03 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('82688acd-be30-4384-8f61-68cef9dd2f62','88cf5d5c-e3a0-4cba-99d1-04c1161e47cb','7d9aea3b-b31f-4921-8684-b498b9d0797d')
+
+1/23/2017 1:20:03 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='82688acd-be30-4384-8f61-68cef9dd2f62'
+
+1/23/2017 1:20:03 PM
+insert into phone_number(id)
+values
+('2fb34cc8-58f2-49c0-81c7-6e5ffeb56975')
+
+1/23/2017 1:20:03 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('82688acd-be30-4384-8f61-68cef9dd2f62','2fb34cc8-58f2-49c0-81c7-6e5ffeb56975','8c147238-6edf-49ef-b3e1-97c4df021ba9')
+
+1/23/2017 1:20:03 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','25239c23-1e38-44fb-ab9a-bb01ad903b77')
+
+1/23/2017 1:20:03 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('25239c23-1e38-44fb-ab9a-bb01ad903b77','82688acd-be30-4384-8f61-68cef9dd2f62','1','a0459a49-ccd1-46a1-a424-e7fe0c36eb35')
+
+1/23/2017 1:20:04 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','d4f9a7c0-bd49-40f3-9572-b307692ada38')
+
+1/23/2017 1:20:04 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','95ea9ae0-2772-42a7-a694-9ae0ad81d016')
+
+1/23/2017 1:20:04 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='d4f9a7c0-bd49-40f3-9572-b307692ada38'
+
+1/23/2017 1:20:04 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='95ea9ae0-2772-42a7-a694-9ae0ad81d016'
+
+1/23/2017 1:20:04 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('d4f9a7c0-bd49-40f3-9572-b307692ada38','95ea9ae0-2772-42a7-a694-9ae0ad81d016','1','ff05b77b-8ddc-47e5-807b-04fdbc22c919')
+
+1/23/2017 1:20:04 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='d4f9a7c0-bd49-40f3-9572-b307692ada38'
+
+1/23/2017 1:20:04 PM
+insert into phone_number(id)
+values
+('0844b10e-4c42-49d7-9fbf-33c941a41b99')
+
+1/23/2017 1:20:04 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('d4f9a7c0-bd49-40f3-9572-b307692ada38','0844b10e-4c42-49d7-9fbf-33c941a41b99','50e27f1b-0539-4a3d-a3f2-7c1f5958885a')
+
+1/23/2017 1:20:04 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','e41f3c04-36ce-4802-9b6b-e12c51ccf27a')
+
+1/23/2017 1:20:04 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('e41f3c04-36ce-4802-9b6b-e12c51ccf27a','d4f9a7c0-bd49-40f3-9572-b307692ada38','1','ac702bb1-fb4f-4495-9313-bbb185d873eb')
+
+1/23/2017 1:20:04 PM
+insert into person(active,id)
+values
+('1','f9a41809-2d36-4a9c-9890-d70003305647')
+
+1/23/2017 1:20:04 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('f9a41809-2d36-4a9c-9890-d70003305647','d4f9a7c0-bd49-40f3-9572-b307692ada38','b0b28262-0c81-11e0-99b7-08d30bba8775','d23fc4d1-2799-4dcd-b94e-003653cd73f7')
+
+1/23/2017 1:20:06 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','001abda0-7ef5-48eb-8b0f-51fc7e64c3a2')
+
+1/23/2017 1:20:06 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','14d4081c-b1c1-48bc-8f9e-b8e9b2b831db')
+
+1/23/2017 1:20:06 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='001abda0-7ef5-48eb-8b0f-51fc7e64c3a2'
+
+1/23/2017 1:20:06 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='14d4081c-b1c1-48bc-8f9e-b8e9b2b831db'
+
+1/23/2017 1:20:06 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('001abda0-7ef5-48eb-8b0f-51fc7e64c3a2','14d4081c-b1c1-48bc-8f9e-b8e9b2b831db','1','469273df-6cde-4e35-9e53-176421424fe4')
+
+1/23/2017 1:20:06 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='001abda0-7ef5-48eb-8b0f-51fc7e64c3a2'
+
+1/23/2017 1:20:06 PM
+insert into phone_number(id)
+values
+('bbb096e6-4e53-43b2-bb8d-59912b704109')
+
+1/23/2017 1:20:06 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('001abda0-7ef5-48eb-8b0f-51fc7e64c3a2','bbb096e6-4e53-43b2-bb8d-59912b704109','396d2741-3ec0-4b77-8bd0-8f117a9ef322')
+
+1/23/2017 1:20:06 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','d9d20f2b-42c5-4ff1-ac31-c83a1644be19')
+
+1/23/2017 1:20:06 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('d9d20f2b-42c5-4ff1-ac31-c83a1644be19','001abda0-7ef5-48eb-8b0f-51fc7e64c3a2','1','4f2eec3b-c3dd-4cdd-bfcb-091b3a126d4a')
+
+1/23/2017 1:20:07 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','fcfed0ec-9ae2-413b-a074-1deea2c39022')
+
+1/23/2017 1:20:07 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','43caf99c-00e6-41e1-a9a8-a5e79cb04175')
+
+1/23/2017 1:20:07 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','90db8d0d-ccf3-4794-a3d0-d4c70548c624')
+
+1/23/2017 1:20:07 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','9ee1f428-c7a8-4f08-9691-0add99e1b1cb')
+
+1/23/2017 1:20:07 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='82688acd-be30-4384-8f61-68cef9dd2f62'
+
+1/23/2017 1:20:07 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='d4f9a7c0-bd49-40f3-9572-b307692ada38'
+
+1/23/2017 1:20:07 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='001abda0-7ef5-48eb-8b0f-51fc7e64c3a2'
+
+1/23/2017 1:20:07 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='43caf99c-00e6-41e1-a9a8-a5e79cb04175'
+
+1/23/2017 1:20:07 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='9ee1f428-c7a8-4f08-9691-0add99e1b1cb'
+
+1/23/2017 1:20:07 PM
+insert into insurance_policy(id)
+values
+('2183eeda-8647-492d-9127-f874c3156e2e')
+
+1/23/2017 1:20:07 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('82688acd-be30-4384-8f61-68cef9dd2f62','d4f9a7c0-bd49-40f3-9572-b307692ada38','001abda0-7ef5-48eb-8b0f-51fc7e64c3a2','43caf99c-00e6-41e1-a9a8-a5e79cb04175','9ee1f428-c7a8-4f08-9691-0add99e1b1cb','9ee1f428-c7a8-4f08-9691-0add99e1b1cb','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','2783b726-3922-4253-b859-e9bf5e3700f0')
+
+1/23/2017 1:20:07 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','4acec0ed-cbf4-4e9e-a198-131efcb2faf1')
+
+1/23/2017 1:20:07 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','f53054cf-05e8-453e-b1d3-f251a62db15e')
+
+1/23/2017 1:20:07 PM
+insert into business(name,id)
+values
+('Name','5cbe5f09-d25c-4981-a9c3-00458867ccd4')
+
+1/23/2017 1:20:07 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','4acec0ed-cbf4-4e9e-a198-131efcb2faf1','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','f53054cf-05e8-453e-b1d3-f251a62db15e','5cbe5f09-d25c-4981-a9c3-00458867ccd4','9f3202ee-0d09-4a45-9347-b537613d881f')
+
+1/23/2017 4:25:18 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','c93671aa-e15b-4b35-a458-d9f1feca95f9')
+
+1/23/2017 4:25:18 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='c93671aa-e15b-4b35-a458-d9f1feca95f9'
+
+1/23/2017 4:25:18 PM
+insert into phone_number(id)
+values
+('66496e8b-2ff4-48a6-b802-a9ce9acad57e')
+
+1/23/2017 4:25:18 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('c93671aa-e15b-4b35-a458-d9f1feca95f9','66496e8b-2ff4-48a6-b802-a9ce9acad57e','ef16de76-3a66-4f08-9314-1eb106fd86d7')
+
+1/23/2017 4:25:18 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='c93671aa-e15b-4b35-a458-d9f1feca95f9'
+
+1/23/2017 4:25:18 PM
+insert into phone_number(id)
+values
+('789e2a76-564b-4513-b142-1ac145a85e11')
+
+1/23/2017 4:25:18 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('c93671aa-e15b-4b35-a458-d9f1feca95f9','789e2a76-564b-4513-b142-1ac145a85e11','5b5b7cc2-5553-42bc-8ae1-6a6a2b5a5bf6')
+
+1/23/2017 4:25:18 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','7cc09071-d507-4882-9126-37b1ea411219')
+
+1/23/2017 4:25:18 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('7cc09071-d507-4882-9126-37b1ea411219','c93671aa-e15b-4b35-a458-d9f1feca95f9','1','910177ba-a234-43b4-acb1-d12d3d89a180')
+
+1/23/2017 4:25:18 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','50e9a310-edcf-4da7-8d08-b5a606d52759')
+
+1/23/2017 4:25:19 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','cd41e1fe-9b8c-41df-9f98-bb9f79814894')
+
+1/23/2017 4:25:19 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='50e9a310-edcf-4da7-8d08-b5a606d52759'
+
+1/23/2017 4:25:19 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='cd41e1fe-9b8c-41df-9f98-bb9f79814894'
+
+1/23/2017 4:25:19 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('50e9a310-edcf-4da7-8d08-b5a606d52759','cd41e1fe-9b8c-41df-9f98-bb9f79814894','1','76075f96-0dc3-41e4-a6ba-e77a8cac4e39')
+
+1/23/2017 4:25:19 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='50e9a310-edcf-4da7-8d08-b5a606d52759'
+
+1/23/2017 4:25:19 PM
+insert into phone_number(id)
+values
+('5b43d154-b987-4663-8a37-7ae846139811')
+
+1/23/2017 4:25:19 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('50e9a310-edcf-4da7-8d08-b5a606d52759','5b43d154-b987-4663-8a37-7ae846139811','468a8863-7e88-4ba2-ae42-57c4b0fa0b23')
+
+1/23/2017 4:25:19 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','37f16d86-89e8-4d73-b3ff-11d9d3f3d5e7')
+
+1/23/2017 4:25:19 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('37f16d86-89e8-4d73-b3ff-11d9d3f3d5e7','50e9a310-edcf-4da7-8d08-b5a606d52759','1','c9a72a7e-fabf-4d1c-badf-cdf882c1d1dc')
+
+1/23/2017 4:25:20 PM
+insert into person(active,id)
+values
+('1','10d5a49e-48de-4cdc-8d85-c7886d52bce1')
+
+1/23/2017 4:25:20 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('10d5a49e-48de-4cdc-8d85-c7886d52bce1','50e9a310-edcf-4da7-8d08-b5a606d52759','b0b28262-0c81-11e0-99b7-08d30bba8775','5ac25e0f-c10a-43cc-b81a-1d6894cb6094')
+
+1/23/2017 4:25:21 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','b2c0b568-05a1-4653-8284-bde4f7b5f91d')
+
+1/23/2017 4:25:22 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','8dd3de55-e931-4c52-889d-2afa3bf34cf6')
+
+1/23/2017 4:25:22 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='b2c0b568-05a1-4653-8284-bde4f7b5f91d'
+
+1/23/2017 4:25:22 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='8dd3de55-e931-4c52-889d-2afa3bf34cf6'
+
+1/23/2017 4:25:22 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('b2c0b568-05a1-4653-8284-bde4f7b5f91d','8dd3de55-e931-4c52-889d-2afa3bf34cf6','1','aa8b0f70-6f45-44b2-885e-447299d1f7be')
+
+1/23/2017 4:25:22 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='b2c0b568-05a1-4653-8284-bde4f7b5f91d'
+
+1/23/2017 4:25:22 PM
+insert into phone_number(id)
+values
+('84a6bcdf-2ae0-4dbb-90a9-d58c30d04646')
+
+1/23/2017 4:25:22 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b2c0b568-05a1-4653-8284-bde4f7b5f91d','84a6bcdf-2ae0-4dbb-90a9-d58c30d04646','38a29dc6-a783-45b5-bb91-c4eeb3b39ffb')
+
+1/23/2017 4:25:22 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','0d51782e-4e32-4c55-81c6-4140ca669342')
+
+1/23/2017 4:25:22 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('0d51782e-4e32-4c55-81c6-4140ca669342','b2c0b568-05a1-4653-8284-bde4f7b5f91d','1','c8933ece-0179-4295-8b25-02f922418d03')
+
+1/23/2017 4:25:22 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','28ad3a6f-8a60-45f0-81a2-ba10844dfb74')
+
+1/23/2017 4:25:22 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','3bb2480c-09b5-486e-9f76-3e3439fb71d9')
+
+1/23/2017 4:25:22 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','be46b732-043d-4c0d-b1c6-5e289741ad16')
+
+1/23/2017 4:25:22 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','1b008345-acf6-4e82-be7f-a8fd1c3a9263')
+
+1/23/2017 4:25:22 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='c93671aa-e15b-4b35-a458-d9f1feca95f9'
+
+1/23/2017 4:25:22 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='50e9a310-edcf-4da7-8d08-b5a606d52759'
+
+1/23/2017 4:25:22 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='b2c0b568-05a1-4653-8284-bde4f7b5f91d'
+
+1/23/2017 4:25:22 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='3bb2480c-09b5-486e-9f76-3e3439fb71d9'
+
+1/23/2017 4:25:22 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='1b008345-acf6-4e82-be7f-a8fd1c3a9263'
+
+1/23/2017 4:25:23 PM
+insert into insurance_policy(id)
+values
+('80325178-0c38-4c48-bfed-a831f494243d')
+
+1/23/2017 4:25:23 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('c93671aa-e15b-4b35-a458-d9f1feca95f9','50e9a310-edcf-4da7-8d08-b5a606d52759','b2c0b568-05a1-4653-8284-bde4f7b5f91d','3bb2480c-09b5-486e-9f76-3e3439fb71d9','1b008345-acf6-4e82-be7f-a8fd1c3a9263','1b008345-acf6-4e82-be7f-a8fd1c3a9263','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','e3cd22e4-12e4-4d48-82e6-e6ba3a618726')
+
+1/23/2017 4:25:23 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','a84fbb09-1322-425b-a7e8-07cb525a85ed')
+
+1/23/2017 4:25:23 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','b333e739-50bc-4069-b010-1de604cfaae4')
+
+1/23/2017 4:25:23 PM
+insert into business(name,id)
+values
+('Name','1cbdce41-8dda-429a-a4ec-a27ec9bfc5db')
+
+1/23/2017 4:25:23 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','a84fbb09-1322-425b-a7e8-07cb525a85ed','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','b333e739-50bc-4069-b010-1de604cfaae4','1cbdce41-8dda-429a-a4ec-a27ec9bfc5db','d0c45118-375a-467c-8e12-a2a22e17a913')
+
+1/23/2017 4:27:13 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','b1f647fa-670b-42a9-8e2f-2ae4b9251763')
+
+1/23/2017 4:27:14 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='b1f647fa-670b-42a9-8e2f-2ae4b9251763'
+
+1/23/2017 4:27:14 PM
+insert into phone_number(id)
+values
+('54653a7f-7def-4b30-9b62-64c54db8d3ac')
+
+1/23/2017 4:27:14 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b1f647fa-670b-42a9-8e2f-2ae4b9251763','54653a7f-7def-4b30-9b62-64c54db8d3ac','7d6cf4a1-9ee4-4dcf-941c-bf2761a9e380')
+
+1/23/2017 4:27:14 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='b1f647fa-670b-42a9-8e2f-2ae4b9251763'
+
+1/23/2017 4:27:14 PM
+insert into phone_number(id)
+values
+('4577e3c6-d467-443e-88d4-43036f66a5e3')
+
+1/23/2017 4:27:14 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b1f647fa-670b-42a9-8e2f-2ae4b9251763','4577e3c6-d467-443e-88d4-43036f66a5e3','3bacea5c-cc2f-4104-aebc-2b1668a5f724')
+
+1/23/2017 4:27:14 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','76d0b075-bd35-44b0-ae1b-1ec689890dd3')
+
+1/23/2017 4:27:14 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('76d0b075-bd35-44b0-ae1b-1ec689890dd3','b1f647fa-670b-42a9-8e2f-2ae4b9251763','1','c3a7b6a4-cf3c-4e20-b097-bda867a150c6')
+
+1/23/2017 4:27:14 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','e8a98019-b063-462f-9fac-b9d3d6f0ba54')
+
+1/23/2017 4:27:14 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','a34b96d2-30c4-4325-a30a-fa5b3a20c7be')
+
+1/23/2017 4:27:14 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='e8a98019-b063-462f-9fac-b9d3d6f0ba54'
+
+1/23/2017 4:27:14 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='a34b96d2-30c4-4325-a30a-fa5b3a20c7be'
+
+1/23/2017 4:27:14 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('e8a98019-b063-462f-9fac-b9d3d6f0ba54','a34b96d2-30c4-4325-a30a-fa5b3a20c7be','1','4717f1b1-06fc-4432-81c5-93d30cac95d0')
+
+1/23/2017 4:27:14 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='e8a98019-b063-462f-9fac-b9d3d6f0ba54'
+
+1/23/2017 4:27:14 PM
+insert into phone_number(id)
+values
+('7731abdb-f00c-49c5-b090-e76ed5196319')
+
+1/23/2017 4:27:15 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e8a98019-b063-462f-9fac-b9d3d6f0ba54','7731abdb-f00c-49c5-b090-e76ed5196319','37a71367-7521-42fa-b56d-4e7c53d6124e')
+
+1/23/2017 4:27:15 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','c8dec93e-0bc9-457e-940d-cd9a3dbb6cd0')
+
+1/23/2017 4:27:15 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('c8dec93e-0bc9-457e-940d-cd9a3dbb6cd0','e8a98019-b063-462f-9fac-b9d3d6f0ba54','1','97807907-5988-4a73-86cf-c1b20aaeb7b6')
+
+1/23/2017 4:27:15 PM
+insert into person(active,id)
+values
+('1','b4452c90-523c-4503-90dd-41baef1e76d3')
+
+1/23/2017 4:27:15 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('b4452c90-523c-4503-90dd-41baef1e76d3','e8a98019-b063-462f-9fac-b9d3d6f0ba54','b0b28262-0c81-11e0-99b7-08d30bba8775','4234aff8-ad5e-4f64-a10c-f533b390cc17')
+
+1/23/2017 4:27:16 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','b9cab62f-3dbc-4578-a6fd-0b9fac074f79')
+
+1/23/2017 4:27:16 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','8cb32331-790c-4dc1-9f99-6bfbd9da3102')
+
+1/23/2017 4:27:16 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='b9cab62f-3dbc-4578-a6fd-0b9fac074f79'
+
+1/23/2017 4:27:16 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='8cb32331-790c-4dc1-9f99-6bfbd9da3102'
+
+1/23/2017 4:27:16 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('b9cab62f-3dbc-4578-a6fd-0b9fac074f79','8cb32331-790c-4dc1-9f99-6bfbd9da3102','1','8bfdec21-1149-452d-b1cf-e683c0fedd97')
+
+1/23/2017 4:27:16 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='b9cab62f-3dbc-4578-a6fd-0b9fac074f79'
+
+1/23/2017 4:27:16 PM
+insert into phone_number(id)
+values
+('4b3f184d-fa8d-4df3-bb22-7413ef2d6012')
+
+1/23/2017 4:27:16 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b9cab62f-3dbc-4578-a6fd-0b9fac074f79','4b3f184d-fa8d-4df3-bb22-7413ef2d6012','7fcef15a-379b-444a-8255-11ffa868f13b')
+
+1/23/2017 4:27:17 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','d0d0abdd-3425-4125-972b-eb7fc5447823')
+
+1/23/2017 4:27:17 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('d0d0abdd-3425-4125-972b-eb7fc5447823','b9cab62f-3dbc-4578-a6fd-0b9fac074f79','1','ae3063b1-b676-4470-8719-35ce6e3ba4b9')
+
+1/23/2017 4:27:17 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','cec52b81-8c12-492b-abb4-35c7b0bd1d31')
+
+1/23/2017 4:27:17 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','c40ecc07-041b-40ef-b4ef-278c23a32b0b')
+
+1/23/2017 4:27:17 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','f5c2cf0a-bbab-4bad-bd56-5f6d0fd0e366')
+
+1/23/2017 4:27:17 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','4ec70180-600c-4f4d-97e6-936d75519493')
+
+1/23/2017 4:27:17 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='b1f647fa-670b-42a9-8e2f-2ae4b9251763'
+
+1/23/2017 4:27:17 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='e8a98019-b063-462f-9fac-b9d3d6f0ba54'
+
+1/23/2017 4:27:17 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='b9cab62f-3dbc-4578-a6fd-0b9fac074f79'
+
+1/23/2017 4:27:17 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='c40ecc07-041b-40ef-b4ef-278c23a32b0b'
+
+1/23/2017 4:27:17 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='4ec70180-600c-4f4d-97e6-936d75519493'
+
+1/23/2017 4:27:17 PM
+insert into insurance_policy(id)
+values
+('51bc89b8-5f4c-4a56-b000-3b8517d0a12a')
+
+1/23/2017 4:27:17 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('b1f647fa-670b-42a9-8e2f-2ae4b9251763','e8a98019-b063-462f-9fac-b9d3d6f0ba54','b9cab62f-3dbc-4578-a6fd-0b9fac074f79','c40ecc07-041b-40ef-b4ef-278c23a32b0b','4ec70180-600c-4f4d-97e6-936d75519493','4ec70180-600c-4f4d-97e6-936d75519493','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','1d46c8e3-065c-4e42-a14e-fd6e8699bbc6')
+
+1/23/2017 4:27:17 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','36f209a2-c206-411c-97f2-55504297cc4e')
+
+1/23/2017 4:27:18 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','ed01305a-ad1e-4d87-9a4a-a63f1923c429')
+
+1/23/2017 4:27:18 PM
+insert into business(name,id)
+values
+('Name','7cf7253d-43e9-4f69-a287-92995b8e819c')
+
+1/23/2017 4:27:18 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','36f209a2-c206-411c-97f2-55504297cc4e','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','ed01305a-ad1e-4d87-9a4a-a63f1923c429','7cf7253d-43e9-4f69-a287-92995b8e819c','c0488f74-1538-4f47-af01-79efd12c8975')
+
+1/23/2017 4:28:16 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','ccaf8408-bb25-4d1b-8d85-da0109a355b3')
+
+1/23/2017 4:28:16 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='ccaf8408-bb25-4d1b-8d85-da0109a355b3'
+
+1/23/2017 4:28:16 PM
+insert into phone_number(id)
+values
+('cce70e9c-0064-4480-9cbf-403cc872075b')
+
+1/23/2017 4:28:16 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('ccaf8408-bb25-4d1b-8d85-da0109a355b3','cce70e9c-0064-4480-9cbf-403cc872075b','620a182f-b7c2-4806-b3ed-adc1f960a065')
+
+1/23/2017 4:28:16 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='ccaf8408-bb25-4d1b-8d85-da0109a355b3'
+
+1/23/2017 4:28:16 PM
+insert into phone_number(id)
+values
+('6774f435-8434-401d-a2c7-4a1ff1222154')
+
+1/23/2017 4:28:16 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('ccaf8408-bb25-4d1b-8d85-da0109a355b3','6774f435-8434-401d-a2c7-4a1ff1222154','100f32cc-5479-4dff-8b77-f215e6ddb6cb')
+
+1/23/2017 4:28:16 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','38b9da2a-b719-4028-bdb5-e7b807dd82e2')
+
+1/23/2017 4:28:16 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('38b9da2a-b719-4028-bdb5-e7b807dd82e2','ccaf8408-bb25-4d1b-8d85-da0109a355b3','1','2772bba3-385f-4668-9050-d4d0c8ab2e8d')
+
+1/23/2017 4:28:17 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','c2fc933f-6fc0-41ae-aed4-93d2be3d923b')
+
+1/23/2017 4:28:17 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','ab4ed2e6-f13e-48f9-bf06-578664cae9e1')
+
+1/23/2017 4:28:17 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='c2fc933f-6fc0-41ae-aed4-93d2be3d923b'
+
+1/23/2017 4:28:17 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='ab4ed2e6-f13e-48f9-bf06-578664cae9e1'
+
+1/23/2017 4:28:17 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('c2fc933f-6fc0-41ae-aed4-93d2be3d923b','ab4ed2e6-f13e-48f9-bf06-578664cae9e1','1','c5c7a490-bcbb-4ed4-b8e5-d77b4f4b1a33')
+
+1/23/2017 4:28:17 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='c2fc933f-6fc0-41ae-aed4-93d2be3d923b'
+
+1/23/2017 4:28:17 PM
+insert into phone_number(id)
+values
+('8bb7a43c-0afe-4d30-82ec-e80294fafb16')
+
+1/23/2017 4:28:17 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('c2fc933f-6fc0-41ae-aed4-93d2be3d923b','8bb7a43c-0afe-4d30-82ec-e80294fafb16','ce31ef76-09e0-46c6-9bbd-b7fd5d7805a5')
+
+1/23/2017 4:28:17 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','727223bc-dab4-440f-846a-fced453db0a0')
+
+1/23/2017 4:28:17 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('727223bc-dab4-440f-846a-fced453db0a0','c2fc933f-6fc0-41ae-aed4-93d2be3d923b','1','2cdbf6a4-23e8-463d-80ae-75a411b92577')
+
+1/23/2017 4:28:17 PM
+insert into person(active,id)
+values
+('1','c9f6d7fd-437e-42ad-8b03-b3118a3f4c15')
+
+1/23/2017 4:28:17 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('c9f6d7fd-437e-42ad-8b03-b3118a3f4c15','c2fc933f-6fc0-41ae-aed4-93d2be3d923b','b0b28262-0c81-11e0-99b7-08d30bba8775','5d6ec63d-b02a-4332-ae5c-f24ce56c3d08')
+
+1/23/2017 4:28:23 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','6f073172-cf1f-4720-a8e6-850d93a44f8a')
+
+1/23/2017 4:28:23 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','aeabd282-1934-40ae-9bbf-67a17554020b')
+
+1/23/2017 4:28:23 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6f073172-cf1f-4720-a8e6-850d93a44f8a'
+
+1/23/2017 4:28:23 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='aeabd282-1934-40ae-9bbf-67a17554020b'
+
+1/23/2017 4:28:23 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('6f073172-cf1f-4720-a8e6-850d93a44f8a','aeabd282-1934-40ae-9bbf-67a17554020b','1','d148af9a-1b2f-4a26-9230-961922dfbd74')
+
+1/23/2017 4:28:23 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6f073172-cf1f-4720-a8e6-850d93a44f8a'
+
+1/23/2017 4:28:23 PM
+insert into phone_number(id)
+values
+('1d98318d-7b42-4837-b239-7f461857a220')
+
+1/23/2017 4:28:23 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('6f073172-cf1f-4720-a8e6-850d93a44f8a','1d98318d-7b42-4837-b239-7f461857a220','49b180cb-7331-4cba-b48d-8c354c817c6c')
+
+1/23/2017 4:28:23 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','9757e017-47fa-4321-800a-621d8f403b34')
+
+1/23/2017 4:28:23 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('9757e017-47fa-4321-800a-621d8f403b34','6f073172-cf1f-4720-a8e6-850d93a44f8a','1','cc3d4103-ee12-44a5-9a0c-2a9da94eb948')
+
+1/23/2017 4:28:23 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','a26e01a9-aaf2-45b8-9028-cd5fbd4c1ed9')
+
+1/23/2017 4:28:23 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','ce0c6961-be31-4ad8-aabb-36ab26faa072')
+
+1/23/2017 4:28:23 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','7808ef35-ae13-443f-9eea-54e8851938a7')
+
+1/23/2017 4:28:24 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','3d734160-be22-4a35-ba10-0430ce84c672')
+
+1/23/2017 4:28:24 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='ccaf8408-bb25-4d1b-8d85-da0109a355b3'
+
+1/23/2017 4:28:24 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='c2fc933f-6fc0-41ae-aed4-93d2be3d923b'
+
+1/23/2017 4:28:24 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6f073172-cf1f-4720-a8e6-850d93a44f8a'
+
+1/23/2017 4:28:24 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='ce0c6961-be31-4ad8-aabb-36ab26faa072'
+
+1/23/2017 4:28:24 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='3d734160-be22-4a35-ba10-0430ce84c672'
+
+1/23/2017 4:28:24 PM
+insert into insurance_policy(id)
+values
+('aec4639c-2339-43e8-a2e1-3fa367080c28')
+
+1/23/2017 4:28:24 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('ccaf8408-bb25-4d1b-8d85-da0109a355b3','c2fc933f-6fc0-41ae-aed4-93d2be3d923b','6f073172-cf1f-4720-a8e6-850d93a44f8a','ce0c6961-be31-4ad8-aabb-36ab26faa072','3d734160-be22-4a35-ba10-0430ce84c672','3d734160-be22-4a35-ba10-0430ce84c672','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','c7183e2b-0c7d-472c-b70d-b42aa33ac94c')
+
+1/23/2017 4:28:24 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','b7ee2c11-f81c-426a-87ed-0fc74b22e092')
+
+1/23/2017 4:28:24 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','50c571e2-db74-4b0b-b734-016e8e1dfa35')
+
+1/23/2017 4:28:24 PM
+insert into business(name,id)
+values
+('Name','5fc7702b-0ad7-4630-9bb9-9d69e08e6847')
+
+1/23/2017 4:28:24 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','b7ee2c11-f81c-426a-87ed-0fc74b22e092','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','50c571e2-db74-4b0b-b734-016e8e1dfa35','5fc7702b-0ad7-4630-9bb9-9d69e08e6847','7ac42d45-3308-4d50-b46a-cead05517159')
+
+1/23/2017 4:49:21 PM
+insert into person(is_male,active,id)
+values
+('0','1','77c626df-d700-41ba-afb6-e1972123f912')
+
+1/23/2017 4:49:21 PM
+update person set 
+is_male = '0',
+active = '1' where id ='77c626df-d700-41ba-afb6-e1972123f912'
+
+1/23/2017 4:49:21 PM
+insert into phone_number(id)
+values
+('1bcb7b30-550b-45ad-a845-94b6f20f95f1')
+
+1/23/2017 4:49:21 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('77c626df-d700-41ba-afb6-e1972123f912','1bcb7b30-550b-45ad-a845-94b6f20f95f1','ea4c6227-4532-456c-a1cb-3868b3690233')
+
+1/23/2017 4:49:21 PM
+update person set 
+is_male = '0',
+active = '1' where id ='77c626df-d700-41ba-afb6-e1972123f912'
+
+1/23/2017 4:49:21 PM
+insert into phone_number(id)
+values
+('18eaefe1-22c7-464c-9ddc-3e4997c92aea')
+
+1/23/2017 4:49:21 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('77c626df-d700-41ba-afb6-e1972123f912','18eaefe1-22c7-464c-9ddc-3e4997c92aea','84d7f1db-0dbd-4663-a5a0-0ab4d0360c2a')
+
+1/23/2017 4:49:21 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','48fe9ab5-758b-41c0-8866-0fa184c866a7')
+
+1/23/2017 4:49:22 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('48fe9ab5-758b-41c0-8866-0fa184c866a7','77c626df-d700-41ba-afb6-e1972123f912','1','a9b8e763-f33a-4114-a562-592d2a86fee9')
+
+1/23/2017 4:49:22 PM
+insert into person(active,id)
+values
+('1','53fa5b32-5681-4edb-9dca-d28dce7eed87')
+
+1/23/2017 4:49:22 PM
+update person set 
+active = '1' where id ='53fa5b32-5681-4edb-9dca-d28dce7eed87'
+
+1/23/2017 4:49:22 PM
+insert into phone_number(id)
+values
+('fc3be03e-6bb5-4155-ad78-58da56e30860')
+
+1/23/2017 4:49:22 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('53fa5b32-5681-4edb-9dca-d28dce7eed87','fc3be03e-6bb5-4155-ad78-58da56e30860','a6925fa1-d2ee-4535-86c1-bb73628e7d76')
+
+1/23/2017 4:49:22 PM
+update person set 
+active = '1' where id ='53fa5b32-5681-4edb-9dca-d28dce7eed87'
+
+1/23/2017 4:49:22 PM
+insert into phone_number(id)
+values
+('7cbe1ed9-cf6d-4d2c-91e2-b87be263d30f')
+
+1/23/2017 4:49:22 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('53fa5b32-5681-4edb-9dca-d28dce7eed87','7cbe1ed9-cf6d-4d2c-91e2-b87be263d30f','071473c4-0b24-4ca1-9af6-50e19573a11b')
+
+1/23/2017 4:49:22 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','8b2c8378-7960-4a88-a064-3c680ab71d32')
+
+1/23/2017 4:49:22 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('8b2c8378-7960-4a88-a064-3c680ab71d32','53fa5b32-5681-4edb-9dca-d28dce7eed87','1','64b8ce01-405e-422f-b4c3-8c2ab2ab1da8')
+
+1/23/2017 4:49:26 PM
+insert into person(active,id)
+values
+('1','3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec')
+
+1/23/2017 4:49:27 PM
+update person set 
+active = '1' where id ='3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec'
+
+1/23/2017 4:49:27 PM
+insert into phone_number(id)
+values
+('5d1415b5-f1d8-4bd2-8078-f775cd4faf11')
+
+1/23/2017 4:49:27 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec','5d1415b5-f1d8-4bd2-8078-f775cd4faf11','5b708d7c-bae9-4354-bbf2-8331903cd4ef')
+
+1/23/2017 4:49:27 PM
+update person set 
+active = '1' where id ='3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec'
+
+1/23/2017 4:49:27 PM
+insert into phone_number(id)
+values
+('7ceb835c-e533-4400-a952-d3fccf1d970f')
+
+1/23/2017 4:49:27 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec','7ceb835c-e533-4400-a952-d3fccf1d970f','be0a594d-7862-4a93-8d5a-838e3a868a46')
+
+1/23/2017 4:49:27 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','0714d8e6-de9a-479f-a3b6-3e2186780634')
+
+1/23/2017 4:49:27 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('0714d8e6-de9a-479f-a3b6-3e2186780634','3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec','1','4fed21b0-9101-4ee8-85c0-63be95505340')
+
+1/23/2017 4:49:27 PM
+update person set 
+is_male = '0',
+active = '1' where id ='77c626df-d700-41ba-afb6-e1972123f912'
+
+1/23/2017 4:49:27 PM
+update person set 
+active = '1' where id ='53fa5b32-5681-4edb-9dca-d28dce7eed87'
+
+1/23/2017 4:49:27 PM
+update person set 
+active = '1' where id ='3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec'
+
+1/23/2017 4:49:27 PM
+insert into insurance_policy(id)
+values
+('9d9f51d2-7590-4e34-9415-6f375db455a4')
+
+1/23/2017 4:49:28 PM
+insert into insurance_policy(id)
+values
+('73d28aa2-3919-41cd-ab6e-d3fc450c667e')
+
+1/23/2017 4:49:28 PM
+insert into insurance_policy(id)
+values
+('939f8a44-1424-4815-b698-58561627701c')
+
+1/23/2017 4:49:28 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,agency_id,id)
+values
+('77c626df-d700-41ba-afb6-e1972123f912','53fa5b32-5681-4edb-9dca-d28dce7eed87','3cfdd2fb-3fcd-4d9d-8e29-8f2b729662ec','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','7acec03c-0952-44ee-9b65-4806350ab295')
+
+1/23/2017 4:56:26 PM
+insert into person(is_male,active,id)
+values
+('0','1','0194ffcd-4309-4d34-a7f2-108ac5ebbfbd')
+
+1/23/2017 4:56:26 PM
+update person set 
+is_male = '0',
+active = '1' where id ='0194ffcd-4309-4d34-a7f2-108ac5ebbfbd'
+
+1/23/2017 4:56:26 PM
+insert into phone_number(id)
+values
+('813c382d-8d79-4492-a3b2-28c756fde46e')
+
+1/23/2017 4:56:26 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('0194ffcd-4309-4d34-a7f2-108ac5ebbfbd','813c382d-8d79-4492-a3b2-28c756fde46e','35aeeeea-2fca-4878-93a8-30526ff40bfc')
+
+1/23/2017 4:56:26 PM
+update person set 
+is_male = '0',
+active = '1' where id ='0194ffcd-4309-4d34-a7f2-108ac5ebbfbd'
+
+1/23/2017 4:56:27 PM
+insert into phone_number(id)
+values
+('4196c741-068c-4afe-8539-36f11a2c538c')
+
+1/23/2017 4:56:27 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('0194ffcd-4309-4d34-a7f2-108ac5ebbfbd','4196c741-068c-4afe-8539-36f11a2c538c','629e044b-ed45-49ba-976d-20df1c154b0e')
+
+1/23/2017 4:56:27 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','89ad5cb4-19a5-4f14-a780-f3fd776aadc4')
+
+1/23/2017 4:56:27 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('89ad5cb4-19a5-4f14-a780-f3fd776aadc4','0194ffcd-4309-4d34-a7f2-108ac5ebbfbd','1','8200e1d9-bec8-4eff-9c5f-0591cbd80af0')
+
+1/23/2017 4:56:27 PM
+insert into person(active,id)
+values
+('1','cd423188-26c1-4ed7-a762-09a1b2c50216')
+
+1/23/2017 4:56:27 PM
+update person set 
+active = '1' where id ='cd423188-26c1-4ed7-a762-09a1b2c50216'
+
+1/23/2017 4:56:27 PM
+insert into phone_number(id)
+values
+('52e1f8d2-743a-40e6-9915-c4808e1599e1')
+
+1/23/2017 4:56:27 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('cd423188-26c1-4ed7-a762-09a1b2c50216','52e1f8d2-743a-40e6-9915-c4808e1599e1','c5947efb-397a-4ac9-8835-1fd4d2d84dd1')
+
+1/23/2017 4:56:27 PM
+update person set 
+active = '1' where id ='cd423188-26c1-4ed7-a762-09a1b2c50216'
+
+1/23/2017 4:56:27 PM
+insert into phone_number(id)
+values
+('072c3597-bb3a-4d90-a052-2ea87c3f7bea')
+
+1/23/2017 4:56:27 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('cd423188-26c1-4ed7-a762-09a1b2c50216','072c3597-bb3a-4d90-a052-2ea87c3f7bea','910d696d-5fd0-4fbd-8efa-144af3489581')
+
+1/23/2017 4:56:28 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','939d76a1-e402-4bc7-afe2-2d7f1a029895')
+
+1/23/2017 4:56:28 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('939d76a1-e402-4bc7-afe2-2d7f1a029895','cd423188-26c1-4ed7-a762-09a1b2c50216','1','e9741d92-d40b-4a1c-8fef-195cfa052bd9')
+
+1/23/2017 4:56:33 PM
+insert into person(active,id)
+values
+('1','d8bcd727-1767-4177-a893-8596f00e801b')
+
+1/23/2017 4:56:33 PM
+update person set 
+active = '1' where id ='d8bcd727-1767-4177-a893-8596f00e801b'
+
+1/23/2017 4:56:33 PM
+insert into phone_number(id)
+values
+('65ef13f3-3215-4226-a507-a370ed87e422')
+
+1/23/2017 4:56:33 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('d8bcd727-1767-4177-a893-8596f00e801b','65ef13f3-3215-4226-a507-a370ed87e422','45babbd4-c1c1-4c5e-84ec-092fd9b3d475')
+
+1/23/2017 4:56:34 PM
+update person set 
+active = '1' where id ='d8bcd727-1767-4177-a893-8596f00e801b'
+
+1/23/2017 4:56:34 PM
+insert into phone_number(id)
+values
+('e4b73380-25f2-41de-9ce7-56060080b2a3')
+
+1/23/2017 4:56:34 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('d8bcd727-1767-4177-a893-8596f00e801b','e4b73380-25f2-41de-9ce7-56060080b2a3','0fd1f748-0e30-4f4f-b631-91ae6d0db26e')
+
+1/23/2017 4:56:34 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','1df3bd3c-f07a-4fa3-b782-91d6f00236aa')
+
+1/23/2017 4:56:34 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('1df3bd3c-f07a-4fa3-b782-91d6f00236aa','d8bcd727-1767-4177-a893-8596f00e801b','1','8923578a-5949-4b00-9370-518e713dbc8b')
+
+1/23/2017 4:56:34 PM
+update person set 
+is_male = '0',
+active = '1' where id ='0194ffcd-4309-4d34-a7f2-108ac5ebbfbd'
+
+1/23/2017 4:56:34 PM
+update person set 
+active = '1' where id ='cd423188-26c1-4ed7-a762-09a1b2c50216'
+
+1/23/2017 4:56:34 PM
+update person set 
+active = '1' where id ='d8bcd727-1767-4177-a893-8596f00e801b'
+
+1/23/2017 4:56:34 PM
+insert into insurance_policy(id)
+values
+('b3c3f57d-b1a5-4b6d-a7ff-59489e6209fc')
+
+1/23/2017 4:56:35 PM
+insert into insurance_policy(id)
+values
+('39c5114c-bbfa-43b7-aa7a-3d90d93b6bfa')
+
+1/23/2017 4:56:35 PM
+insert into insurance_policy(id)
+values
+('9b9ed931-c245-4823-a7c1-7eeb8747c5c8')
+
+1/23/2017 4:56:35 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,agency_id,id)
+values
+('0194ffcd-4309-4d34-a7f2-108ac5ebbfbd','cd423188-26c1-4ed7-a762-09a1b2c50216','d8bcd727-1767-4177-a893-8596f00e801b','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','cda4a05a-ea78-4393-8e72-c7f5c27248be')
+
+1/23/2017 5:05:35 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','cab63cad-6423-4a57-9468-d973d2a267d9')
+
+1/23/2017 5:05:35 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='cab63cad-6423-4a57-9468-d973d2a267d9'
+
+1/23/2017 5:05:35 PM
+insert into phone_number(id)
+values
+('ebb328dd-e188-4b80-82f3-9fc442990a03')
+
+1/23/2017 5:05:35 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('cab63cad-6423-4a57-9468-d973d2a267d9','ebb328dd-e188-4b80-82f3-9fc442990a03','56efdfe8-a5ed-4b43-8e6d-d9ef3744c36c')
+
+1/23/2017 5:05:36 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='cab63cad-6423-4a57-9468-d973d2a267d9'
+
+1/23/2017 5:05:36 PM
+insert into phone_number(id)
+values
+('7c023844-d58e-4eb6-b6ef-633798f37653')
+
+1/23/2017 5:05:36 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('cab63cad-6423-4a57-9468-d973d2a267d9','7c023844-d58e-4eb6-b6ef-633798f37653','836b588f-cc87-4d43-b7f9-12077449884d')
+
+1/23/2017 5:05:36 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','7abe170b-a36a-42ac-86e7-e093788e95f6')
+
+1/23/2017 5:05:36 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('7abe170b-a36a-42ac-86e7-e093788e95f6','cab63cad-6423-4a57-9468-d973d2a267d9','1','1bb6a376-ca1e-4ee6-bea3-09dd8a8e90b0')
+
+1/23/2017 5:05:36 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','1ccf675c-5d06-4bd4-a474-8555f825ba74')
+
+1/23/2017 5:05:36 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','54cde8fa-a0a4-40e2-807d-b743bd1d060c')
+
+1/23/2017 5:05:36 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='1ccf675c-5d06-4bd4-a474-8555f825ba74'
+
+1/23/2017 5:05:36 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='54cde8fa-a0a4-40e2-807d-b743bd1d060c'
+
+1/23/2017 5:05:36 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('1ccf675c-5d06-4bd4-a474-8555f825ba74','54cde8fa-a0a4-40e2-807d-b743bd1d060c','1','93ab9356-8a3d-4c19-a183-3ccdf6e90504')
+
+1/23/2017 5:05:36 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='1ccf675c-5d06-4bd4-a474-8555f825ba74'
+
+1/23/2017 5:05:36 PM
+insert into phone_number(id)
+values
+('b9c27b26-45f0-40aa-af91-e45fc107862a')
+
+1/23/2017 5:05:36 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('1ccf675c-5d06-4bd4-a474-8555f825ba74','b9c27b26-45f0-40aa-af91-e45fc107862a','8e1f2daf-76c4-41cd-8a80-6f1e86fea578')
+
+1/23/2017 5:05:36 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','a9470adb-f190-4557-a61d-777c09ccccde')
+
+1/23/2017 5:05:36 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('a9470adb-f190-4557-a61d-777c09ccccde','1ccf675c-5d06-4bd4-a474-8555f825ba74','1','5b60fa7f-a832-402d-bc4e-2292a03f3a55')
+
+1/23/2017 5:05:37 PM
+insert into person(active,id)
+values
+('1','8c0719e3-b63e-4c29-b383-98a13b7235aa')
+
+1/23/2017 5:05:37 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('8c0719e3-b63e-4c29-b383-98a13b7235aa','1ccf675c-5d06-4bd4-a474-8555f825ba74','b0b28262-0c81-11e0-99b7-08d30bba8775','2fc497db-3b5c-4f43-850d-7d4ce220c7ea')
+
+1/23/2017 5:05:39 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671')
+
+1/23/2017 5:05:39 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','fe4130ec-ba2e-403b-a0aa-408cb1ce91e4')
+
+1/23/2017 5:05:39 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671'
+
+1/23/2017 5:05:39 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='fe4130ec-ba2e-403b-a0aa-408cb1ce91e4'
+
+1/23/2017 5:05:39 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671','fe4130ec-ba2e-403b-a0aa-408cb1ce91e4','1','8848cf21-8393-4a7b-acf5-99bc46c7f8f6')
+
+1/23/2017 5:05:39 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671'
+
+1/23/2017 5:05:39 PM
+insert into phone_number(id)
+values
+('1833a525-c452-4f5d-94db-ae6f8e9f62cc')
+
+1/23/2017 5:05:39 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671','1833a525-c452-4f5d-94db-ae6f8e9f62cc','bbd2ae68-565b-4d3b-966a-45fbdf956656')
+
+1/23/2017 5:05:39 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','f4e7848c-2651-4f0a-9d90-6421c74f054b')
+
+1/23/2017 5:05:39 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('f4e7848c-2651-4f0a-9d90-6421c74f054b','bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671','1','d7cbc5a5-65a5-4ab2-9ff9-04f81e87b12d')
+
+1/23/2017 5:05:39 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','404b0a91-608d-4a8b-9149-1e776f64f6f9')
+
+1/23/2017 5:05:39 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','197d58e7-7e21-495b-897e-32c11e8824b8')
+
+1/23/2017 5:05:39 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','3fd3ddac-d349-46bb-9834-a0265cc504a9')
+
+1/23/2017 5:05:39 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','1e6a34a8-243a-4da0-8168-f034839977fd')
+
+1/23/2017 5:05:39 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='cab63cad-6423-4a57-9468-d973d2a267d9'
+
+1/23/2017 5:05:39 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='1ccf675c-5d06-4bd4-a474-8555f825ba74'
+
+1/23/2017 5:05:40 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671'
+
+1/23/2017 5:05:40 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='197d58e7-7e21-495b-897e-32c11e8824b8'
+
+1/23/2017 5:05:40 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='1e6a34a8-243a-4da0-8168-f034839977fd'
+
+1/23/2017 5:05:40 PM
+insert into insurance_policy(id)
+values
+('0909a9f0-368e-41a0-bdac-1fb82616c180')
+
+1/23/2017 5:05:40 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('cab63cad-6423-4a57-9468-d973d2a267d9','1ccf675c-5d06-4bd4-a474-8555f825ba74','bad29a1e-0f5c-4ad8-8f10-ba04d8ba6671','197d58e7-7e21-495b-897e-32c11e8824b8','1e6a34a8-243a-4da0-8168-f034839977fd','1e6a34a8-243a-4da0-8168-f034839977fd','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','3294483d-ddbc-484f-b727-57463059be27')
+
+1/23/2017 5:05:40 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','34be6ff5-621a-40da-9e7a-c8b7639d12d1')
+
+1/23/2017 5:05:40 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','64957608-1ddb-4312-a43f-d024fa12007b')
+
+1/23/2017 5:05:40 PM
+insert into business(name,id)
+values
+('Name','b70532e1-57b5-4e05-ba4d-790e152ebf32')
+
+1/23/2017 5:05:40 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','34be6ff5-621a-40da-9e7a-c8b7639d12d1','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','64957608-1ddb-4312-a43f-d024fa12007b','b70532e1-57b5-4e05-ba4d-790e152ebf32','9343ccc5-f17a-4ec8-acb5-33097a2ab40c')
+
+1/23/2017 5:12:36 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','09b39280-5a64-4b3f-bce0-73f9fe052919')
+
+1/23/2017 5:12:36 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='09b39280-5a64-4b3f-bce0-73f9fe052919'
+
+1/23/2017 5:12:37 PM
+insert into phone_number(id)
+values
+('3b51d152-7608-45e4-8211-185ccdb92650')
+
+1/23/2017 5:12:37 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('09b39280-5a64-4b3f-bce0-73f9fe052919','3b51d152-7608-45e4-8211-185ccdb92650','b4048e40-628a-4ad9-af92-2156cbb3daf1')
+
+1/23/2017 5:12:37 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='09b39280-5a64-4b3f-bce0-73f9fe052919'
+
+1/23/2017 5:12:37 PM
+insert into phone_number(id)
+values
+('afde3871-1532-4faf-b695-5f4f55ba2ca4')
+
+1/23/2017 5:12:37 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('09b39280-5a64-4b3f-bce0-73f9fe052919','afde3871-1532-4faf-b695-5f4f55ba2ca4','109f2568-b907-4005-8c9c-8b70a1c4859e')
+
+1/23/2017 5:12:37 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','8d1fcb4f-4022-4ee4-9e96-0faec71a9443')
+
+1/23/2017 5:12:37 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('8d1fcb4f-4022-4ee4-9e96-0faec71a9443','09b39280-5a64-4b3f-bce0-73f9fe052919','1','c6bf5b44-8910-46b2-ab77-390e4eaacef0')
+
+1/23/2017 5:12:37 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee')
+
+1/23/2017 5:12:37 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','3a363aaf-4759-4dbe-b307-b4d09599c6e7')
+
+1/23/2017 5:12:37 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee'
+
+1/23/2017 5:12:37 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='3a363aaf-4759-4dbe-b307-b4d09599c6e7'
+
+1/23/2017 5:12:37 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee','3a363aaf-4759-4dbe-b307-b4d09599c6e7','1','7367dd1f-272e-4625-978f-34b05cb904b5')
+
+1/23/2017 5:12:37 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee'
+
+1/23/2017 5:12:37 PM
+insert into phone_number(id)
+values
+('8f549263-afca-4a0b-b46c-6a99b65316d2')
+
+1/23/2017 5:12:37 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee','8f549263-afca-4a0b-b46c-6a99b65316d2','4733239d-25de-48eb-b772-001ef29b5609')
+
+1/23/2017 5:12:37 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','5a4e124d-2f1c-450a-9342-d5ae51281705')
+
+1/23/2017 5:12:37 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('5a4e124d-2f1c-450a-9342-d5ae51281705','0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee','1','a4f4029c-3f15-4307-8155-dcd4fbcbf2a2')
+
+1/23/2017 5:12:38 PM
+insert into person(active,id)
+values
+('1','5c135cdf-30df-4b74-82f4-61fa8d01a87d')
+
+1/23/2017 5:12:38 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('5c135cdf-30df-4b74-82f4-61fa8d01a87d','0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee','b0b28262-0c81-11e0-99b7-08d30bba8775','a61093cd-3e98-4598-b84b-29f566d8c8a8')
+
+1/23/2017 5:12:39 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','fc438956-f070-43a4-bd27-db403bf4846d')
+
+1/23/2017 5:12:39 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','fa5805da-1778-4063-b4c1-a91787a697be')
+
+1/23/2017 5:12:40 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='fc438956-f070-43a4-bd27-db403bf4846d'
+
+1/23/2017 5:12:40 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='fa5805da-1778-4063-b4c1-a91787a697be'
+
+1/23/2017 5:12:40 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('fc438956-f070-43a4-bd27-db403bf4846d','fa5805da-1778-4063-b4c1-a91787a697be','1','9cc2ab2f-a912-4271-9818-97239cde0688')
+
+1/23/2017 5:12:40 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='fc438956-f070-43a4-bd27-db403bf4846d'
+
+1/23/2017 5:12:40 PM
+insert into phone_number(id)
+values
+('9efe9067-2863-404d-b3e2-397e1f45ef5d')
+
+1/23/2017 5:12:40 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('fc438956-f070-43a4-bd27-db403bf4846d','9efe9067-2863-404d-b3e2-397e1f45ef5d','978cb749-7606-4f51-837d-cb2a51ede073')
+
+1/23/2017 5:12:40 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','e22d879f-c209-4790-a19a-3d77ba943ecd')
+
+1/23/2017 5:12:40 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('e22d879f-c209-4790-a19a-3d77ba943ecd','fc438956-f070-43a4-bd27-db403bf4846d','1','473aebc3-1b30-4476-a991-d8ab71618f5f')
+
+1/23/2017 5:12:40 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','2b415806-c815-478f-b695-8846dc040957')
+
+1/23/2017 5:12:40 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','2c780165-9a67-43b9-9bac-3c909e77c319')
+
+1/23/2017 5:12:40 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','f49f063f-fe0e-45d7-9fbc-d928edab1fa7')
+
+1/23/2017 5:12:40 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','7c965b48-566c-433f-a86d-ae3ae719967d')
+
+1/23/2017 5:12:40 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='09b39280-5a64-4b3f-bce0-73f9fe052919'
+
+1/23/2017 5:12:40 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee'
+
+1/23/2017 5:12:40 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='fc438956-f070-43a4-bd27-db403bf4846d'
+
+1/23/2017 5:12:40 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='2c780165-9a67-43b9-9bac-3c909e77c319'
+
+1/23/2017 5:12:40 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='7c965b48-566c-433f-a86d-ae3ae719967d'
+
+1/23/2017 5:12:40 PM
+insert into insurance_policy(id)
+values
+('12049d3e-5439-4e23-bdfa-e8d19fc38892')
+
+1/23/2017 5:12:41 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('09b39280-5a64-4b3f-bce0-73f9fe052919','0c1c4bb0-edf9-4cb0-8685-0b5d65eabaee','fc438956-f070-43a4-bd27-db403bf4846d','2c780165-9a67-43b9-9bac-3c909e77c319','7c965b48-566c-433f-a86d-ae3ae719967d','7c965b48-566c-433f-a86d-ae3ae719967d','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','d3d79dfa-d1b0-4f3f-991d-c0ae19f5b8c7')
+
+1/23/2017 5:12:41 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','2d68ac72-09f8-40dd-bd82-e4d641f48696')
+
+1/23/2017 5:12:41 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','a76df124-6993-44d0-9a56-87bc80e2b114')
+
+1/23/2017 5:12:41 PM
+insert into business(name,id)
+values
+('Name','2140139c-ca83-49da-b84f-e5809e3a1979')
+
+1/23/2017 5:12:41 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','2d68ac72-09f8-40dd-bd82-e4d641f48696','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','a76df124-6993-44d0-9a56-87bc80e2b114','2140139c-ca83-49da-b84f-e5809e3a1979','37b9fdae-943e-4376-9b43-1566206cedb3')
+
+1/23/2017 5:15:55 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','d207bdc4-e26f-4b97-8112-e1d26f38cf89')
+
+1/23/2017 5:15:56 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='d207bdc4-e26f-4b97-8112-e1d26f38cf89'
+
+1/23/2017 5:15:56 PM
+insert into phone_number(id)
+values
+('9347a6c4-62b7-4ee7-9f3e-424e24609902')
+
+1/23/2017 5:15:56 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('d207bdc4-e26f-4b97-8112-e1d26f38cf89','9347a6c4-62b7-4ee7-9f3e-424e24609902','f08348fe-8d67-42b6-aff4-ab9b86b915b0')
+
+1/23/2017 5:15:56 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='d207bdc4-e26f-4b97-8112-e1d26f38cf89'
+
+1/23/2017 5:15:56 PM
+insert into phone_number(id)
+values
+('e492cdd3-568a-4cc7-9533-b696da76ea00')
+
+1/23/2017 5:15:56 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('d207bdc4-e26f-4b97-8112-e1d26f38cf89','e492cdd3-568a-4cc7-9533-b696da76ea00','07120071-7b13-429f-86d2-6c5ea4e4a9c5')
+
+1/23/2017 5:15:56 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','46a55d1a-a999-4ceb-9175-3a423d6ef5b7')
+
+1/23/2017 5:15:56 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('46a55d1a-a999-4ceb-9175-3a423d6ef5b7','d207bdc4-e26f-4b97-8112-e1d26f38cf89','1','c5bffe25-3bad-42b4-924d-400fb7eb3a02')
+
+1/23/2017 5:15:56 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','0870d744-bf3e-4126-acec-afcf86560d72')
+
+1/23/2017 5:15:56 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','b5cc3d70-e4e1-47c3-bdb7-2c5ad16138f0')
+
+1/23/2017 5:15:56 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='0870d744-bf3e-4126-acec-afcf86560d72'
+
+1/23/2017 5:15:56 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='b5cc3d70-e4e1-47c3-bdb7-2c5ad16138f0'
+
+1/23/2017 5:15:56 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('0870d744-bf3e-4126-acec-afcf86560d72','b5cc3d70-e4e1-47c3-bdb7-2c5ad16138f0','1','4b79e79a-b707-43d0-bd14-1cd4e5c531f1')
+
+1/23/2017 5:15:56 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='0870d744-bf3e-4126-acec-afcf86560d72'
+
+1/23/2017 5:15:57 PM
+insert into phone_number(id)
+values
+('1f84cb49-8af3-40e8-9fdc-de1571df00c4')
+
+1/23/2017 5:15:57 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('0870d744-bf3e-4126-acec-afcf86560d72','1f84cb49-8af3-40e8-9fdc-de1571df00c4','ae5d7bef-2c70-40e9-b17c-01b35d31d15d')
+
+1/23/2017 5:15:57 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','cebc0b5f-ded8-45e8-95bd-45b435c2ac61')
+
+1/23/2017 5:15:57 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('cebc0b5f-ded8-45e8-95bd-45b435c2ac61','0870d744-bf3e-4126-acec-afcf86560d72','1','28f46d51-9b51-439c-aef2-34c5b8280043')
+
+1/23/2017 5:15:57 PM
+insert into person(active,id)
+values
+('1','50f5f910-3f97-42ee-b050-c851cd248f40')
+
+1/23/2017 5:15:57 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('50f5f910-3f97-42ee-b050-c851cd248f40','0870d744-bf3e-4126-acec-afcf86560d72','b0b28262-0c81-11e0-99b7-08d30bba8775','fef460ed-5ee6-45bc-bc8f-423958d51257')
+
+1/23/2017 5:15:59 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','ec842bdf-b835-4d7d-a772-9d5e8c5acfb3')
+
+1/23/2017 5:15:59 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','83a0d62b-17b7-486d-a5d1-a956ee85a747')
+
+1/23/2017 5:15:59 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='ec842bdf-b835-4d7d-a772-9d5e8c5acfb3'
+
+1/23/2017 5:15:59 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='83a0d62b-17b7-486d-a5d1-a956ee85a747'
+
+1/23/2017 5:15:59 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('ec842bdf-b835-4d7d-a772-9d5e8c5acfb3','83a0d62b-17b7-486d-a5d1-a956ee85a747','1','2ffa5f5d-b2cf-4d5f-a120-18ff957ebc6a')
+
+1/23/2017 5:15:59 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='ec842bdf-b835-4d7d-a772-9d5e8c5acfb3'
+
+1/23/2017 5:15:59 PM
+insert into phone_number(id)
+values
+('fb432da5-1bb4-46f2-85bd-3c1ee8e07726')
+
+1/23/2017 5:15:59 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('ec842bdf-b835-4d7d-a772-9d5e8c5acfb3','fb432da5-1bb4-46f2-85bd-3c1ee8e07726','5884676b-927a-40eb-af56-386e3ea1b1e3')
+
+1/23/2017 5:16:00 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','c77ef0cf-85c0-4ca8-8b76-b5997d07093a')
+
+1/23/2017 5:16:00 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('c77ef0cf-85c0-4ca8-8b76-b5997d07093a','ec842bdf-b835-4d7d-a772-9d5e8c5acfb3','1','ad892126-df78-4d8f-bd63-c768d791532b')
+
+1/23/2017 5:16:00 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','3459832f-87f4-4110-bd2c-d612742ac595')
+
+1/23/2017 5:16:00 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','e025ba3f-4a51-4551-9b97-70820ab6b9aa')
+
+1/23/2017 5:16:00 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','f6d476b5-9ad0-4318-964b-975c5fc1769b')
+
+1/23/2017 5:16:00 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','1bc355cd-1fac-42ec-a7af-bd66152e33a8')
+
+1/23/2017 5:16:00 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='d207bdc4-e26f-4b97-8112-e1d26f38cf89'
+
+1/23/2017 5:16:00 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='0870d744-bf3e-4126-acec-afcf86560d72'
+
+1/23/2017 5:16:00 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='ec842bdf-b835-4d7d-a772-9d5e8c5acfb3'
+
+1/23/2017 5:16:00 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='e025ba3f-4a51-4551-9b97-70820ab6b9aa'
+
+1/23/2017 5:16:00 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='1bc355cd-1fac-42ec-a7af-bd66152e33a8'
+
+1/23/2017 5:16:00 PM
+insert into insurance_policy(id)
+values
+('37a252c2-cb12-42ff-acfd-9bc65bb90eb9')
+
+1/23/2017 5:16:00 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('d207bdc4-e26f-4b97-8112-e1d26f38cf89','0870d744-bf3e-4126-acec-afcf86560d72','ec842bdf-b835-4d7d-a772-9d5e8c5acfb3','e025ba3f-4a51-4551-9b97-70820ab6b9aa','1bc355cd-1fac-42ec-a7af-bd66152e33a8','1bc355cd-1fac-42ec-a7af-bd66152e33a8','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','a49f9c87-b542-40bb-b7d4-4b5d7bd7e6fb')
+
+1/23/2017 5:16:00 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','4a87f816-8503-448b-b00a-4606ec8afee9')
+
+1/23/2017 5:16:01 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','a2bd12e4-1e0f-4440-a96b-10bd0e7ee3bb')
+
+1/23/2017 5:16:01 PM
+insert into business(name,id)
+values
+('Name','cc1dbfbf-1641-4fee-9fdd-83ad972091e5')
+
+1/23/2017 5:16:01 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','4a87f816-8503-448b-b00a-4606ec8afee9','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','a2bd12e4-1e0f-4440-a96b-10bd0e7ee3bb','cc1dbfbf-1641-4fee-9fdd-83ad972091e5','7ef1d3f6-4bc0-40ce-824c-4f4c54155047')
+
+1/23/2017 5:26:50 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','e1d7b156-264c-4abc-95fd-bc71078db06b')
+
+1/23/2017 5:26:50 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='e1d7b156-264c-4abc-95fd-bc71078db06b'
+
+1/23/2017 5:26:50 PM
+insert into phone_number(id)
+values
+('847135fa-96f0-4441-8d71-7b472176ac8e')
+
+1/23/2017 5:26:50 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e1d7b156-264c-4abc-95fd-bc71078db06b','847135fa-96f0-4441-8d71-7b472176ac8e','97a945b4-62f2-4b32-b636-20af74722599')
+
+1/23/2017 5:26:50 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='e1d7b156-264c-4abc-95fd-bc71078db06b'
+
+1/23/2017 5:26:50 PM
+insert into phone_number(id)
+values
+('4b817dd5-855c-455d-8573-9335e7441427')
+
+1/23/2017 5:26:50 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e1d7b156-264c-4abc-95fd-bc71078db06b','4b817dd5-855c-455d-8573-9335e7441427','1174792f-9a73-49a9-949f-f10a7f2ea7a7')
+
+1/23/2017 5:26:50 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','1e4e4ab6-47d9-44ba-a6ef-16a189c200e3')
+
+1/23/2017 5:26:50 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('1e4e4ab6-47d9-44ba-a6ef-16a189c200e3','e1d7b156-264c-4abc-95fd-bc71078db06b','1','69ddae8c-91ab-416f-a080-59d8dcc89a58')
+
+1/23/2017 5:26:50 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','4338f673-9aa5-4969-80ab-8968ec3fe882')
+
+1/23/2017 5:26:50 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','d554b3b4-ac08-4868-b449-dc4f2c3acd47')
+
+1/23/2017 5:26:51 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='4338f673-9aa5-4969-80ab-8968ec3fe882'
+
+1/23/2017 5:26:51 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='d554b3b4-ac08-4868-b449-dc4f2c3acd47'
+
+1/23/2017 5:26:51 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('4338f673-9aa5-4969-80ab-8968ec3fe882','d554b3b4-ac08-4868-b449-dc4f2c3acd47','1','21d08469-8948-4b9e-a590-9f45bb8228bb')
+
+1/23/2017 5:26:51 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='4338f673-9aa5-4969-80ab-8968ec3fe882'
+
+1/23/2017 5:26:51 PM
+insert into phone_number(id)
+values
+('30fc41ef-7e70-466f-9ef3-ce867d79e664')
+
+1/23/2017 5:26:51 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('4338f673-9aa5-4969-80ab-8968ec3fe882','30fc41ef-7e70-466f-9ef3-ce867d79e664','0271c9df-7dc7-4752-99c3-495f2d9c21f9')
+
+1/23/2017 5:26:51 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','6097ca40-8cae-482e-940d-10c169c337c6')
+
+1/23/2017 5:26:51 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('6097ca40-8cae-482e-940d-10c169c337c6','4338f673-9aa5-4969-80ab-8968ec3fe882','1','9aa645c3-b4d3-4c66-8be2-c6ee4eddb374')
+
+1/23/2017 5:26:51 PM
+insert into person(active,id)
+values
+('1','e08d50cb-e5aa-4373-9cfb-dbb04319fa78')
+
+1/23/2017 5:26:51 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('e08d50cb-e5aa-4373-9cfb-dbb04319fa78','4338f673-9aa5-4969-80ab-8968ec3fe882','b0b28262-0c81-11e0-99b7-08d30bba8775','4539cb22-25ef-42e0-b50c-5d75a0bc9762')
+
+1/23/2017 5:26:53 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','325446c6-9ae9-4133-8890-95af34237f1b')
+
+1/23/2017 5:26:53 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','cb16e7ec-2efe-424d-8097-dda5f8c037ac')
+
+1/23/2017 5:26:54 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='325446c6-9ae9-4133-8890-95af34237f1b'
+
+1/23/2017 5:26:54 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='cb16e7ec-2efe-424d-8097-dda5f8c037ac'
+
+1/23/2017 5:26:54 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('325446c6-9ae9-4133-8890-95af34237f1b','cb16e7ec-2efe-424d-8097-dda5f8c037ac','1','afcf91e2-e9d5-4b8b-8d8e-8f17358b9036')
+
+1/23/2017 5:26:54 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='325446c6-9ae9-4133-8890-95af34237f1b'
+
+1/23/2017 5:26:54 PM
+insert into phone_number(id)
+values
+('86f07fb4-9874-43f4-aa0a-1ae9937b336c')
+
+1/23/2017 5:26:54 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('325446c6-9ae9-4133-8890-95af34237f1b','86f07fb4-9874-43f4-aa0a-1ae9937b336c','fc342dc2-2303-49a3-86eb-15ad6bb080a3')
+
+1/23/2017 5:26:54 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','a7fa35b5-d796-4f21-bb58-8a39b7185664')
+
+1/23/2017 5:26:54 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('a7fa35b5-d796-4f21-bb58-8a39b7185664','325446c6-9ae9-4133-8890-95af34237f1b','1','3f5ce214-bb06-4e1d-a192-295f48b65feb')
+
+1/23/2017 5:26:54 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','744bbd4c-bc97-4037-845f-e70e791a81a1')
+
+1/23/2017 5:26:54 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','95f929c3-4cba-4f08-877c-d40ed3a2ade6')
+
+1/23/2017 5:26:54 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','e56dab6b-b6e6-4f99-b952-ed2867ee3481')
+
+1/23/2017 5:26:54 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','e23dc7b5-e85e-4a8d-b778-7aa5fb17dd8b')
+
+1/23/2017 5:26:54 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='e1d7b156-264c-4abc-95fd-bc71078db06b'
+
+1/23/2017 5:26:54 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='4338f673-9aa5-4969-80ab-8968ec3fe882'
+
+1/23/2017 5:26:54 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='325446c6-9ae9-4133-8890-95af34237f1b'
+
+1/23/2017 5:26:54 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='95f929c3-4cba-4f08-877c-d40ed3a2ade6'
+
+1/23/2017 5:26:54 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='e23dc7b5-e85e-4a8d-b778-7aa5fb17dd8b'
+
+1/23/2017 5:26:55 PM
+insert into insurance_policy(id)
+values
+('d60775be-c125-47ee-a871-a26ee0937672')
+
+1/23/2017 5:26:55 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('e1d7b156-264c-4abc-95fd-bc71078db06b','4338f673-9aa5-4969-80ab-8968ec3fe882','325446c6-9ae9-4133-8890-95af34237f1b','95f929c3-4cba-4f08-877c-d40ed3a2ade6','e23dc7b5-e85e-4a8d-b778-7aa5fb17dd8b','e23dc7b5-e85e-4a8d-b778-7aa5fb17dd8b','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','01a9cc9d-0db4-433d-be73-9de26177df3d')
+
+1/23/2017 5:27:03 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','613f0104-96e0-4882-b181-407ec46b3f4d')
+
+1/23/2017 5:27:03 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','ab582ed0-9842-4eb7-93a1-d99bd0dff6eb')
+
+1/23/2017 5:27:03 PM
+insert into business(name,id)
+values
+('Name','822334be-6d36-4fa3-8b50-aeca479256b4')
+
+1/23/2017 5:27:03 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','613f0104-96e0-4882-b181-407ec46b3f4d','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','ab582ed0-9842-4eb7-93a1-d99bd0dff6eb','822334be-6d36-4fa3-8b50-aeca479256b4','268dcdb2-1af5-4d75-b7b6-7cca9d06fd7e')
+
+1/23/2017 5:30:40 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','2043746f-2184-42a1-b337-978d777cc18d')
+
+1/23/2017 5:30:40 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='2043746f-2184-42a1-b337-978d777cc18d'
+
+1/23/2017 5:30:40 PM
+insert into phone_number(id)
+values
+('bfa790e3-d8a7-4801-aade-ea3469ada778')
+
+1/23/2017 5:30:40 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('2043746f-2184-42a1-b337-978d777cc18d','bfa790e3-d8a7-4801-aade-ea3469ada778','40822bbb-a5eb-4209-bcc0-779a12a15229')
+
+1/23/2017 5:30:40 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='2043746f-2184-42a1-b337-978d777cc18d'
+
+1/23/2017 5:30:40 PM
+insert into phone_number(id)
+values
+('04859ce6-a78b-4fa5-8cbd-aed7cfd209d6')
+
+1/23/2017 5:30:40 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('2043746f-2184-42a1-b337-978d777cc18d','04859ce6-a78b-4fa5-8cbd-aed7cfd209d6','9f038e4e-b04f-420b-9cbe-72ab0f8637f7')
+
+1/23/2017 5:30:40 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','bc8738ef-156a-4ef5-a5ba-28b34882783e')
+
+1/23/2017 5:30:40 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('bc8738ef-156a-4ef5-a5ba-28b34882783e','2043746f-2184-42a1-b337-978d777cc18d','1','3b578d7c-ef35-4d23-8110-86ac5c988786')
+
+1/23/2017 5:30:41 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','b86aae13-ce56-435d-a157-41b9e501ff1a')
+
+1/23/2017 5:30:41 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','07fbacc4-e252-422a-9745-975fb648f3eb')
+
+1/23/2017 5:30:41 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='b86aae13-ce56-435d-a157-41b9e501ff1a'
+
+1/23/2017 5:30:41 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='07fbacc4-e252-422a-9745-975fb648f3eb'
+
+1/23/2017 5:30:41 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('b86aae13-ce56-435d-a157-41b9e501ff1a','07fbacc4-e252-422a-9745-975fb648f3eb','1','723a662e-5c58-4023-8dae-6152637d2787')
+
+1/23/2017 5:30:41 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='b86aae13-ce56-435d-a157-41b9e501ff1a'
+
+1/23/2017 5:30:41 PM
+insert into phone_number(id)
+values
+('02981658-93d6-4371-a03a-3732c81d4348')
+
+1/23/2017 5:30:41 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b86aae13-ce56-435d-a157-41b9e501ff1a','02981658-93d6-4371-a03a-3732c81d4348','bfa83cde-5834-4a79-8313-b77949dac62c')
+
+1/23/2017 5:30:41 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','d427b502-3ae7-4242-8adf-8ccf5e8f3aa9')
+
+1/23/2017 5:30:41 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('d427b502-3ae7-4242-8adf-8ccf5e8f3aa9','b86aae13-ce56-435d-a157-41b9e501ff1a','1','6afabf5f-590e-43e8-a0d2-3a7e1d363dbd')
+
+1/23/2017 5:30:41 PM
+insert into person(active,id)
+values
+('1','7f3abe13-170a-4f46-8a61-83b11b95ce05')
+
+1/23/2017 5:30:41 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('7f3abe13-170a-4f46-8a61-83b11b95ce05','b86aae13-ce56-435d-a157-41b9e501ff1a','b0b28262-0c81-11e0-99b7-08d30bba8775','fb6c1dab-ef32-45ef-83ce-f9000c9af57a')
+
+1/23/2017 5:30:43 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','6d777551-5c50-488d-846a-247211ad9bee')
+
+1/23/2017 5:30:43 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','c883f337-dbbb-4a58-ad0b-da954d6a5ee0')
+
+1/23/2017 5:30:43 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6d777551-5c50-488d-846a-247211ad9bee'
+
+1/23/2017 5:30:43 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='c883f337-dbbb-4a58-ad0b-da954d6a5ee0'
+
+1/23/2017 5:30:43 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('6d777551-5c50-488d-846a-247211ad9bee','c883f337-dbbb-4a58-ad0b-da954d6a5ee0','1','8c23b600-e35c-470a-83ee-fd0f48c4460c')
+
+1/23/2017 5:30:43 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6d777551-5c50-488d-846a-247211ad9bee'
+
+1/23/2017 5:30:43 PM
+insert into phone_number(id)
+values
+('774065c7-bd45-410a-ac1f-c5e6bb44ea0c')
+
+1/23/2017 5:30:43 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('6d777551-5c50-488d-846a-247211ad9bee','774065c7-bd45-410a-ac1f-c5e6bb44ea0c','802b7939-7c02-40cb-ba37-07c14171cdd1')
+
+1/23/2017 5:30:43 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','2bb4a888-34eb-49b7-8577-2bc0a139705b')
+
+1/23/2017 5:30:43 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('2bb4a888-34eb-49b7-8577-2bc0a139705b','6d777551-5c50-488d-846a-247211ad9bee','1','a5217dd8-3647-4d11-b1ab-ee6ae7324718')
+
+1/23/2017 5:30:43 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','cb49c42f-a85d-42d0-820f-6ae96c7e3f42')
+
+1/23/2017 5:30:43 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','ce3c6813-e6c6-4854-ae36-7c2a29f1708c')
+
+1/23/2017 5:30:43 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','b2a7a019-56bc-464e-9b93-bb83e5426535')
+
+1/23/2017 5:30:43 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','2bcc1cf9-8740-40eb-b030-ba91b17d1d54')
+
+1/23/2017 5:30:43 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='2043746f-2184-42a1-b337-978d777cc18d'
+
+1/23/2017 5:30:43 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='b86aae13-ce56-435d-a157-41b9e501ff1a'
+
+1/23/2017 5:30:43 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6d777551-5c50-488d-846a-247211ad9bee'
+
+1/23/2017 5:30:44 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='ce3c6813-e6c6-4854-ae36-7c2a29f1708c'
+
+1/23/2017 5:30:44 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='2bcc1cf9-8740-40eb-b030-ba91b17d1d54'
+
+1/23/2017 5:30:44 PM
+insert into insurance_policy(id)
+values
+('6aea729e-3030-43a9-a2c9-09bbfcf41d81')
+
+1/23/2017 5:30:44 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('2043746f-2184-42a1-b337-978d777cc18d','b86aae13-ce56-435d-a157-41b9e501ff1a','6d777551-5c50-488d-846a-247211ad9bee','ce3c6813-e6c6-4854-ae36-7c2a29f1708c','2bcc1cf9-8740-40eb-b030-ba91b17d1d54','2bcc1cf9-8740-40eb-b030-ba91b17d1d54','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','15ccdca7-8f31-4da3-acea-60233df57ebb')
+
+1/23/2017 5:30:44 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','08267544-f4f6-4422-9734-7730b42b5a90')
+
+1/23/2017 5:30:44 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','074bd268-802e-450b-a77c-c18312119846')
+
+1/23/2017 5:30:44 PM
+insert into business(name,id)
+values
+('Name','0b4d8572-41c2-4c76-b57a-cb3535e144bf')
+
+1/23/2017 5:30:44 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','08267544-f4f6-4422-9734-7730b42b5a90','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','074bd268-802e-450b-a77c-c18312119846','0b4d8572-41c2-4c76-b57a-cb3535e144bf','594dcef2-8808-4f05-97df-da957a0a24fc')
+
+1/23/2017 5:57:19 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','eba1c7d1-c667-48ec-b73e-0a4872f8fc9f')
+
+1/23/2017 5:57:19 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='eba1c7d1-c667-48ec-b73e-0a4872f8fc9f'
+
+1/23/2017 5:57:19 PM
+insert into phone_number(id)
+values
+('4b8e24d7-a6f9-4efe-8738-2476f8670303')
+
+1/23/2017 5:57:19 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('eba1c7d1-c667-48ec-b73e-0a4872f8fc9f','4b8e24d7-a6f9-4efe-8738-2476f8670303','5a7627b5-fc71-4320-bfca-4a911a568521')
+
+1/23/2017 5:57:19 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='eba1c7d1-c667-48ec-b73e-0a4872f8fc9f'
+
+1/23/2017 5:57:19 PM
+insert into phone_number(id)
+values
+('a21e7ad0-ce6c-4677-a1e4-69896cede840')
+
+1/23/2017 5:57:19 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('eba1c7d1-c667-48ec-b73e-0a4872f8fc9f','a21e7ad0-ce6c-4677-a1e4-69896cede840','86043d37-e11d-4d62-b124-34d6db941b67')
+
+1/23/2017 5:57:19 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','24f3b381-68f6-4e36-89a3-8299a414601c')
+
+1/23/2017 5:57:19 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('24f3b381-68f6-4e36-89a3-8299a414601c','eba1c7d1-c667-48ec-b73e-0a4872f8fc9f','1','91966e36-d533-4f33-b50c-8dfedd652c98')
+
+1/23/2017 5:57:19 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','913e3778-f54b-4d5c-a3d6-745402888be1')
+
+1/23/2017 5:57:19 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','5c2f36d2-b84b-43ab-b6d2-4e58c0b41113')
+
+1/23/2017 5:57:19 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='913e3778-f54b-4d5c-a3d6-745402888be1'
+
+1/23/2017 5:57:20 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='5c2f36d2-b84b-43ab-b6d2-4e58c0b41113'
+
+1/23/2017 5:57:20 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('913e3778-f54b-4d5c-a3d6-745402888be1','5c2f36d2-b84b-43ab-b6d2-4e58c0b41113','1','60e8b266-5e15-47a3-b491-c3b9685b3891')
+
+1/23/2017 5:57:20 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='913e3778-f54b-4d5c-a3d6-745402888be1'
+
+1/23/2017 5:57:20 PM
+insert into phone_number(id)
+values
+('0ffcc5af-26bd-416a-91fd-6e58e8b694a8')
+
+1/23/2017 5:57:20 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('913e3778-f54b-4d5c-a3d6-745402888be1','0ffcc5af-26bd-416a-91fd-6e58e8b694a8','a16c3010-faff-4d71-960a-ce423683dfa5')
+
+1/23/2017 5:57:20 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','26901aee-c0e2-44ed-918e-bab3b6f9ea60')
+
+1/23/2017 5:57:20 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('26901aee-c0e2-44ed-918e-bab3b6f9ea60','913e3778-f54b-4d5c-a3d6-745402888be1','1','4e62d891-85f5-4190-938a-bdf5874b7da4')
+
+1/23/2017 5:57:20 PM
+insert into person(active,id)
+values
+('1','61dc83c4-177b-433a-9b17-17271d95734d')
+
+1/23/2017 5:57:20 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('61dc83c4-177b-433a-9b17-17271d95734d','913e3778-f54b-4d5c-a3d6-745402888be1','b0b28262-0c81-11e0-99b7-08d30bba8775','608fa857-e8c3-4e78-8918-0abfb3ebf9b0')
+
+1/23/2017 5:57:23 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','6e9c9d1a-050f-4595-a01f-ad2512ce9413')
+
+1/23/2017 5:57:23 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','038854d3-256b-4229-81d6-d2d4c7c0f7b9')
+
+1/23/2017 5:57:23 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6e9c9d1a-050f-4595-a01f-ad2512ce9413'
+
+1/23/2017 5:57:23 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='038854d3-256b-4229-81d6-d2d4c7c0f7b9'
+
+1/23/2017 5:57:23 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('6e9c9d1a-050f-4595-a01f-ad2512ce9413','038854d3-256b-4229-81d6-d2d4c7c0f7b9','1','0dbf0ff0-2225-42c5-adf0-940e8f84d7d0')
+
+1/23/2017 5:57:23 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6e9c9d1a-050f-4595-a01f-ad2512ce9413'
+
+1/23/2017 5:57:23 PM
+insert into phone_number(id)
+values
+('698d0e71-87c8-4e23-852f-3db77b802cd8')
+
+1/23/2017 5:57:23 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('6e9c9d1a-050f-4595-a01f-ad2512ce9413','698d0e71-87c8-4e23-852f-3db77b802cd8','fae5ac3e-2458-49bb-ab5f-b43fdd4776e1')
+
+1/23/2017 5:57:23 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','a98dc84c-3a37-4e1a-879d-9a4ee80c1662')
+
+1/23/2017 5:57:23 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('a98dc84c-3a37-4e1a-879d-9a4ee80c1662','6e9c9d1a-050f-4595-a01f-ad2512ce9413','1','1f880e08-2953-4d34-9619-a24ab9738271')
+
+1/23/2017 5:57:24 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','ac2b13d7-7e70-4c64-ab19-fd5b213d2f56')
+
+1/23/2017 5:57:24 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','9e4a558e-a6fe-48b0-8a20-8f1cea6e7d40')
+
+1/23/2017 5:57:24 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','dee21beb-463d-454d-a16f-6c9025bd77dd')
+
+1/23/2017 5:57:24 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','a26f065c-99b4-425d-8512-69f5763bdedd')
+
+1/23/2017 5:57:24 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='eba1c7d1-c667-48ec-b73e-0a4872f8fc9f'
+
+1/23/2017 5:57:24 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='913e3778-f54b-4d5c-a3d6-745402888be1'
+
+1/23/2017 5:57:24 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='6e9c9d1a-050f-4595-a01f-ad2512ce9413'
+
+1/23/2017 5:57:24 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='9e4a558e-a6fe-48b0-8a20-8f1cea6e7d40'
+
+1/23/2017 5:57:24 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='a26f065c-99b4-425d-8512-69f5763bdedd'
+
+1/23/2017 5:57:24 PM
+insert into insurance_policy(id)
+values
+('f190ffa7-ba32-4a1f-b81e-1c85c570b20a')
+
+1/23/2017 5:57:24 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('eba1c7d1-c667-48ec-b73e-0a4872f8fc9f','913e3778-f54b-4d5c-a3d6-745402888be1','6e9c9d1a-050f-4595-a01f-ad2512ce9413','9e4a558e-a6fe-48b0-8a20-8f1cea6e7d40','a26f065c-99b4-425d-8512-69f5763bdedd','a26f065c-99b4-425d-8512-69f5763bdedd','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','a174757d-4129-4e4e-8aec-2bf3ff28290b')
+
+1/23/2017 5:57:24 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','7423a50f-f8dd-472e-97d6-80ed68efcdb8')
+
+1/23/2017 5:57:24 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','96dd1c5f-7c2e-4406-868c-1b1fc7860ed6')
+
+1/23/2017 5:57:24 PM
+insert into business(name,id)
+values
+('Name','45d4d1e5-ed01-4809-8751-798bfbaa59b6')
+
+1/23/2017 5:57:24 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','7423a50f-f8dd-472e-97d6-80ed68efcdb8','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','96dd1c5f-7c2e-4406-868c-1b1fc7860ed6','45d4d1e5-ed01-4809-8751-798bfbaa59b6','49dd3337-bcaf-4206-9a6d-27e186ba95e6')
+
+1/23/2017 6:00:02 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06c7fb21-07a7-11e0-bdc9-8e92303c9d5f','1','6eb0b090-d4da-4ba8-adb4-fdc2cad427b1')
+
+1/23/2017 6:00:11 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','3c9df40f-9306-46cc-a6af-35a4f820935d','1','42c5d124-1328-4e5f-a302-2e4ee3f7c866')
+
+1/23/2017 6:00:15 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','5454e00d-2a59-11e5-b454-842b2b4bbc99','1','afb04338-6231-44cb-827e-774a3f2d1f69')
+
+1/23/2017 6:00:15 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','ca530e59-24b8-497c-a55b-05e2701a8f9a')
+
+1/23/2017 6:00:16 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','63e865d5-3e56-42e6-82cd-3a795a3cc4fa')
+
+1/23/2017 6:00:16 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','cf6893e5-ae98-4215-840b-91950c5e148b')
+
+1/23/2017 6:00:21 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','d5f872ef-a0a1-44fc-a81a-7ee6bc21f55e')
+
+1/23/2017 6:00:21 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','65369da0-bb26-4b63-b912-663fbd35cc9c')
+
+1/23/2017 6:00:21 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','a8688810-bc1e-4385-b02b-14b46d9a60c1')
+
+1/23/2017 6:00:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06c7fb21-07a7-11e0-bdc9-8e92303c9d5f','1','f9f2b8e2-8c30-4a51-87db-da63b2576f2f')
+
+1/23/2017 6:00:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','3c9df40f-9306-46cc-a6af-35a4f820935d','1','178d44bf-a708-41e5-adf2-e5ae961f5439')
+
+1/23/2017 6:00:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','5454e00d-2a59-11e5-b454-842b2b4bbc99','1','629028b7-32ec-47f1-9cbd-3419edca366e')
+
+1/23/2017 6:00:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','5bc57501-d37c-4448-be96-d02e87006e1c')
+
+1/23/2017 6:00:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','a8496d10-2e93-4a73-a666-efdef314baaa')
+
+1/23/2017 6:00:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','315ce230-c061-4e57-9216-d7ec0f353d7d')
+
+1/23/2017 6:00:28 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','484e0c9f-038a-4b11-a557-e082ac8c0b29')
+
+1/23/2017 6:00:28 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','2de59a00-7f43-49cf-937f-70aeb992588b')
+
+1/23/2017 6:00:28 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','267b01ff-487f-46fa-b8e6-af9a48f2f04e')
+
+1/23/2017 6:08:36 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','c802e3ba-6d09-449d-8472-09d6281d4157')
+
+1/23/2017 6:08:36 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='c802e3ba-6d09-449d-8472-09d6281d4157'
+
+1/23/2017 6:08:37 PM
+insert into phone_number(id)
+values
+('ba76b32b-cc49-4803-8f7e-dbd09486b396')
+
+1/23/2017 6:08:37 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('c802e3ba-6d09-449d-8472-09d6281d4157','ba76b32b-cc49-4803-8f7e-dbd09486b396','86ea5634-afb1-486c-bfbd-c7f8729b2e41')
+
+1/23/2017 6:08:37 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='c802e3ba-6d09-449d-8472-09d6281d4157'
+
+1/23/2017 6:08:37 PM
+insert into phone_number(id)
+values
+('f3962564-6cb0-480e-90fa-5b3cc84be563')
+
+1/23/2017 6:08:37 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('c802e3ba-6d09-449d-8472-09d6281d4157','f3962564-6cb0-480e-90fa-5b3cc84be563','fb39d25f-61ae-4623-b545-f943c2dc2e7a')
+
+1/23/2017 6:08:37 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','933c9d9a-6766-419f-9e68-684ece6ac4c6')
+
+1/23/2017 6:08:37 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('933c9d9a-6766-419f-9e68-684ece6ac4c6','c802e3ba-6d09-449d-8472-09d6281d4157','1','4f4b203a-9e3b-42b3-ba49-5ace5d188d23')
+
+1/23/2017 6:08:37 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','959ca183-ecaf-4371-ac4f-76a140d5fd09')
+
+1/23/2017 6:08:37 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','633d9011-29f2-4624-818e-4c1894cf87ce')
+
+1/23/2017 6:08:38 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='959ca183-ecaf-4371-ac4f-76a140d5fd09'
+
+1/23/2017 6:08:38 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='633d9011-29f2-4624-818e-4c1894cf87ce'
+
+1/23/2017 6:08:38 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('959ca183-ecaf-4371-ac4f-76a140d5fd09','633d9011-29f2-4624-818e-4c1894cf87ce','1','89ba1b1a-12c6-408a-8e1d-722722456143')
+
+1/23/2017 6:08:38 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='959ca183-ecaf-4371-ac4f-76a140d5fd09'
+
+1/23/2017 6:08:38 PM
+insert into phone_number(id)
+values
+('b156121e-91e8-481b-84bd-68aa0ff25b94')
+
+1/23/2017 6:08:38 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('959ca183-ecaf-4371-ac4f-76a140d5fd09','b156121e-91e8-481b-84bd-68aa0ff25b94','9da60f40-507d-42ed-98f5-7f0fa4081264')
+
+1/23/2017 6:08:38 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','1aa0769a-8fac-43bb-9cd1-f2dd503e766f')
+
+1/23/2017 6:08:38 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('1aa0769a-8fac-43bb-9cd1-f2dd503e766f','959ca183-ecaf-4371-ac4f-76a140d5fd09','1','dbbce4db-b792-498d-8854-6506d11f8a28')
+
+1/23/2017 6:08:38 PM
+insert into person(active,id)
+values
+('1','78b61f98-7974-4452-a08e-4a6e85497b3c')
+
+1/23/2017 6:08:38 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('78b61f98-7974-4452-a08e-4a6e85497b3c','959ca183-ecaf-4371-ac4f-76a140d5fd09','b0b28262-0c81-11e0-99b7-08d30bba8775','760d4867-f664-41fc-a12f-67d274976bd4')
+
+1/23/2017 6:08:41 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','37c4665a-69d4-4556-9aa7-366e73058754')
+
+1/23/2017 6:08:41 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','c1d91c17-ce73-4751-8cd2-63f99cd2f820')
+
+1/23/2017 6:08:41 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='37c4665a-69d4-4556-9aa7-366e73058754'
+
+1/23/2017 6:08:41 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='c1d91c17-ce73-4751-8cd2-63f99cd2f820'
+
+1/23/2017 6:08:41 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('37c4665a-69d4-4556-9aa7-366e73058754','c1d91c17-ce73-4751-8cd2-63f99cd2f820','1','45f2fbcf-2982-4849-ae58-965aafca8e8e')
+
+1/23/2017 6:08:42 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='37c4665a-69d4-4556-9aa7-366e73058754'
+
+1/23/2017 6:08:42 PM
+insert into phone_number(id)
+values
+('898e08a8-c4bd-4ce6-aad9-1307e6463e43')
+
+1/23/2017 6:08:42 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('37c4665a-69d4-4556-9aa7-366e73058754','898e08a8-c4bd-4ce6-aad9-1307e6463e43','26038e70-37f7-4b85-94ee-02ee43018249')
+
+1/23/2017 6:08:42 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','ef29aad1-8c65-44de-9a4a-98b049e8e067')
+
+1/23/2017 6:08:42 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('ef29aad1-8c65-44de-9a4a-98b049e8e067','37c4665a-69d4-4556-9aa7-366e73058754','1','0fd349e6-9f1b-4b42-a571-359435486137')
+
+1/23/2017 6:08:42 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','2e34d98d-62fe-41c7-bff8-e9cb11ed2bce')
+
+1/23/2017 6:08:42 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','4de1d896-3ef8-406e-a70b-b61a0658caa3')
+
+1/23/2017 6:08:42 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','6bca70d9-f5e2-40d3-8f21-b614cb8ffdbd')
+
+1/23/2017 6:08:42 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','164c2d3b-c715-4283-a9e5-b202f84b9862')
+
+1/23/2017 6:08:42 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='c802e3ba-6d09-449d-8472-09d6281d4157'
+
+1/23/2017 6:08:42 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='959ca183-ecaf-4371-ac4f-76a140d5fd09'
+
+1/23/2017 6:08:42 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='37c4665a-69d4-4556-9aa7-366e73058754'
+
+1/23/2017 6:08:42 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='4de1d896-3ef8-406e-a70b-b61a0658caa3'
+
+1/23/2017 6:08:42 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='164c2d3b-c715-4283-a9e5-b202f84b9862'
+
+1/23/2017 6:08:42 PM
+insert into insurance_policy(id)
+values
+('2039c97b-4559-4cca-af75-dd1c65717be4')
+
+1/23/2017 6:08:43 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('c802e3ba-6d09-449d-8472-09d6281d4157','959ca183-ecaf-4371-ac4f-76a140d5fd09','37c4665a-69d4-4556-9aa7-366e73058754','4de1d896-3ef8-406e-a70b-b61a0658caa3','164c2d3b-c715-4283-a9e5-b202f84b9862','164c2d3b-c715-4283-a9e5-b202f84b9862','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','9091caa0-67d9-48ea-84ce-7c89af90184c')
+
+1/23/2017 6:08:43 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','dfa96ef4-993d-41bf-ae81-d9665839d403')
+
+1/23/2017 6:08:43 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','fa9d2edc-5e88-4bcb-b738-8e17aaab8e5c')
+
+1/23/2017 6:08:43 PM
+insert into business(name,id)
+values
+('Name','18d9cb58-d745-4d60-b1b9-261c103f0975')
+
+1/23/2017 6:08:43 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','dfa96ef4-993d-41bf-ae81-d9665839d403','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','fa9d2edc-5e88-4bcb-b738-8e17aaab8e5c','18d9cb58-d745-4d60-b1b9-261c103f0975','e3b57609-50a3-4789-abed-c4aa503bf494')
+
+1/23/2017 6:14:03 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','76f349c9-457c-4986-8852-aa78d02518a1')
+
+1/23/2017 6:14:03 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='76f349c9-457c-4986-8852-aa78d02518a1'
+
+1/23/2017 6:14:03 PM
+insert into phone_number(id)
+values
+('9ccd0b4e-bb04-4401-b68c-8747e6f2b7c9')
+
+1/23/2017 6:14:04 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('76f349c9-457c-4986-8852-aa78d02518a1','9ccd0b4e-bb04-4401-b68c-8747e6f2b7c9','55e36424-2995-4b86-b23f-8f0f5cea62e6')
+
+1/23/2017 6:14:04 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='76f349c9-457c-4986-8852-aa78d02518a1'
+
+1/23/2017 6:14:04 PM
+insert into phone_number(id)
+values
+('ea2420a9-ec35-4e1e-9acd-261306ad5da5')
+
+1/23/2017 6:14:04 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('76f349c9-457c-4986-8852-aa78d02518a1','ea2420a9-ec35-4e1e-9acd-261306ad5da5','f7caeae5-ed3d-4f55-8406-184fc634bc44')
+
+1/23/2017 6:14:04 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','860dce07-6d4d-4f07-957a-c10de7c4fb1c')
+
+1/23/2017 6:14:04 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('860dce07-6d4d-4f07-957a-c10de7c4fb1c','76f349c9-457c-4986-8852-aa78d02518a1','1','a9c4dfd8-f142-492f-8cde-592f3361a986')
+
+1/23/2017 6:14:04 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','20dbbf78-4978-41e6-b4ed-35e91a00bb13')
+
+1/23/2017 6:14:04 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','4e73dff4-873b-4fb9-b391-725cb090ee73')
+
+1/23/2017 6:14:04 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='20dbbf78-4978-41e6-b4ed-35e91a00bb13'
+
+1/23/2017 6:14:04 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='4e73dff4-873b-4fb9-b391-725cb090ee73'
+
+1/23/2017 6:14:04 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('20dbbf78-4978-41e6-b4ed-35e91a00bb13','4e73dff4-873b-4fb9-b391-725cb090ee73','1','44c38cf6-24b1-477d-ba47-1690f1a60969')
+
+1/23/2017 6:14:04 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='20dbbf78-4978-41e6-b4ed-35e91a00bb13'
+
+1/23/2017 6:14:04 PM
+insert into phone_number(id)
+values
+('a5f88d0a-fa4e-4c6d-a420-5888492c614b')
+
+1/23/2017 6:14:04 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('20dbbf78-4978-41e6-b4ed-35e91a00bb13','a5f88d0a-fa4e-4c6d-a420-5888492c614b','81b517fe-cc82-41c8-9e32-d50e6a557862')
+
+1/23/2017 6:14:04 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','13e93840-e53c-4227-b237-e1681d286b36')
+
+1/23/2017 6:14:04 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('13e93840-e53c-4227-b237-e1681d286b36','20dbbf78-4978-41e6-b4ed-35e91a00bb13','1','aeccd5e3-39d9-4039-a613-dc6e22f65c9a')
+
+1/23/2017 6:14:04 PM
+insert into person(active,id)
+values
+('1','1d7f26f9-04f3-4769-9f8e-1807360adedf')
+
+1/23/2017 6:14:05 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('1d7f26f9-04f3-4769-9f8e-1807360adedf','20dbbf78-4978-41e6-b4ed-35e91a00bb13','b0b28262-0c81-11e0-99b7-08d30bba8775','24dd1e19-554c-426a-a36b-70259b0eed73')
+
+1/23/2017 6:14:07 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','bf02bc5c-6946-4c6d-8ebe-402323c6ce24')
+
+1/23/2017 6:14:07 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','7b968139-6ac4-4022-96f6-ae45526a493d')
+
+1/23/2017 6:14:07 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='bf02bc5c-6946-4c6d-8ebe-402323c6ce24'
+
+1/23/2017 6:14:07 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='7b968139-6ac4-4022-96f6-ae45526a493d'
+
+1/23/2017 6:14:07 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('bf02bc5c-6946-4c6d-8ebe-402323c6ce24','7b968139-6ac4-4022-96f6-ae45526a493d','1','d685c797-26fd-41d5-8bad-a0deea6ee836')
+
+1/23/2017 6:14:07 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='bf02bc5c-6946-4c6d-8ebe-402323c6ce24'
+
+1/23/2017 6:14:07 PM
+insert into phone_number(id)
+values
+('d6aafe36-83a3-4ac2-a4eb-0f94f1e7e796')
+
+1/23/2017 6:14:07 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('bf02bc5c-6946-4c6d-8ebe-402323c6ce24','d6aafe36-83a3-4ac2-a4eb-0f94f1e7e796','6277e60e-7c3e-4619-8bb2-9a1a36680f10')
+
+1/23/2017 6:14:07 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','0fbe7611-52d5-40a5-ab47-597829f1c7f9')
+
+1/23/2017 6:14:07 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('0fbe7611-52d5-40a5-ab47-597829f1c7f9','bf02bc5c-6946-4c6d-8ebe-402323c6ce24','1','4a729a6e-07b7-4843-ad8b-55ed19c12754')
+
+1/23/2017 6:14:07 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','f311a277-5f90-440c-a2f0-48f3a732d5e7')
+
+1/23/2017 6:14:08 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','00c6e558-b490-4965-9eaa-8925bebba88b')
+
+1/23/2017 6:14:08 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','1a4ad522-92e7-4085-a918-d9430f2708d5')
+
+1/23/2017 6:14:08 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','c6282a99-2e41-431c-846f-1dd74630c195')
+
+1/23/2017 6:14:08 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='76f349c9-457c-4986-8852-aa78d02518a1'
+
+1/23/2017 6:14:08 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='20dbbf78-4978-41e6-b4ed-35e91a00bb13'
+
+1/23/2017 6:14:08 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='bf02bc5c-6946-4c6d-8ebe-402323c6ce24'
+
+1/23/2017 6:14:08 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='00c6e558-b490-4965-9eaa-8925bebba88b'
+
+1/23/2017 6:14:08 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='c6282a99-2e41-431c-846f-1dd74630c195'
+
+1/23/2017 6:14:08 PM
+insert into insurance_policy(id)
+values
+('1cf07d47-99fb-4fda-bf31-c08afc5f4c46')
+
+1/23/2017 6:14:08 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('76f349c9-457c-4986-8852-aa78d02518a1','20dbbf78-4978-41e6-b4ed-35e91a00bb13','bf02bc5c-6946-4c6d-8ebe-402323c6ce24','00c6e558-b490-4965-9eaa-8925bebba88b','c6282a99-2e41-431c-846f-1dd74630c195','c6282a99-2e41-431c-846f-1dd74630c195','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','2dfc8714-bdd9-43ee-afd1-8d77a2bc0dc7')
+
+1/23/2017 6:14:08 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','3a449ff0-47d3-4863-ba22-6f196650a576')
+
+1/23/2017 6:14:08 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','175ea235-90ac-42b5-8e95-da7f5bc9454b')
+
+1/23/2017 6:14:08 PM
+insert into business(name,id)
+values
+('Name','591cb4cf-eed2-47cf-95f9-86c40e432edc')
+
+1/23/2017 6:14:08 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','3a449ff0-47d3-4863-ba22-6f196650a576','Residence,Hospital,Facility','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','2017-01-23 20:51:00','1','Method','21007','21046','175ea235-90ac-42b5-8e95-da7f5bc9454b','591cb4cf-eed2-47cf-95f9-86c40e432edc','86bf29f2-ea93-476a-8813-69d702025da8')
+
+1/23/2017 6:27:43 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','429b51ac-e12c-4c71-b5a7-e40dd1f153f6','1','2c71873a-50f0-424b-a80b-f7ff0100561f')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','3c9df40f-9306-46cc-a6af-35a4f820935d','1','4e25e671-30e9-4550-aab5-e04286ab0a6d')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','f398960b-2a34-11e5-b454-842b2b4bbc99','1','00c55730-2b6a-4dea-85b7-f9f2a7d3eb06')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','7a4f773a-1fa5-4479-8de7-9c1c78fb9595')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','40d2adb7-d341-4acc-84dd-7b37091dd873')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','0e399682-f096-4852-8aef-512e37c4866d')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','5ea4ba2d-8bb5-426a-bb5b-6f007e9c6556')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','069c5810-c4f3-402c-be94-ac2707f771c2')
+
+1/23/2017 6:27:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','af417f4b-2301-4546-82d9-c3c73190607f')
+
+1/23/2017 6:27:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','53b31cdb-a9f6-4c59-8c08-35894f9c98cc','1','23374a8b-b2a8-423c-b6d5-88dbc8c4cb42')
+
+1/23/2017 6:27:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','6d9b5ef3-512c-47ac-b0f7-86416ac015e3','1','3dd5be8c-c0ee-4467-a1cd-7dff973ba626')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','e7d57961-2a41-11e5-b454-842b2b4bbc99','1','193c3e31-a9d2-4657-8517-10bead88ced0')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','975b78c7-0610-11e0-9c66-0ba20c568bb6','1','ee2cfe01-d5ed-415a-b6ca-195efc3fedb2')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','6b5eefa0-8fd9-11e1-b08b-842b2b4bbc99','1','3d15991d-a27f-4a31-be05-35a15feaaf96')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','975ba90f-0610-11e0-9c66-0ba20c568bb6','1','19242e1a-8eae-4725-a25b-2697195932b7')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','975ba90f-0610-11e0-9c66-0ba20c568bb6','1','76cbf67e-f7bb-482c-a9e3-0c0d4c1c2a03')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','975b78c7-0610-11e0-9c66-0ba20c568bb6','1','750f9c28-5af3-4390-bceb-f6f96c203361')
+
+1/23/2017 6:27:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','975be590-0610-11e0-9c66-0ba20c568bb6','1','f206e500-c847-4303-b0fb-1505f7cf89a3')
+
+1/23/2017 10:27:00 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','b3a3af8d-03e8-4e7f-b7d6-65174f8e473a')
+
+1/23/2017 10:27:00 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='b3a3af8d-03e8-4e7f-b7d6-65174f8e473a'
+
+1/23/2017 10:27:00 PM
+insert into phone_number(id)
+values
+('e0af85c2-a610-4fe3-a4fe-a6b22f631dda')
+
+1/23/2017 10:27:00 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b3a3af8d-03e8-4e7f-b7d6-65174f8e473a','e0af85c2-a610-4fe3-a4fe-a6b22f631dda','0c77bfaa-6563-4b38-ae9a-6e10f7d153c0')
+
+1/23/2017 10:27:01 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='b3a3af8d-03e8-4e7f-b7d6-65174f8e473a'
+
+1/23/2017 10:27:01 PM
+insert into phone_number(id)
+values
+('cbf3a14d-18c5-4f1a-a0d7-5f2f622449c8')
+
+1/23/2017 10:27:01 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('b3a3af8d-03e8-4e7f-b7d6-65174f8e473a','cbf3a14d-18c5-4f1a-a0d7-5f2f622449c8','4d1e3932-a1a5-4528-a9b4-67630080a515')
+
+1/23/2017 10:27:01 PM
+insert into Address(address,unit,country_id,id)
+values
+('Address','Apartment','14b00896-d006-480c-9d74-00f2995ce168','cc71382d-67e0-4f6a-950b-04ba0ef6d1f0')
+
+1/23/2017 10:27:01 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('cc71382d-67e0-4f6a-950b-04ba0ef6d1f0','b3a3af8d-03e8-4e7f-b7d6-65174f8e473a','1','ef7ad05a-e935-4876-bc35-4018acf43080')
+
+1/23/2017 10:27:01 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','2e2faf87-8de5-47e2-9de5-cb988d3fdcb4')
+
+1/23/2017 10:27:01 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','67daf883-134a-4e2d-8aa5-26d87c382707')
+
+1/23/2017 10:27:01 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='2e2faf87-8de5-47e2-9de5-cb988d3fdcb4'
+
+1/23/2017 10:27:01 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='67daf883-134a-4e2d-8aa5-26d87c382707'
+
+1/23/2017 10:27:01 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('2e2faf87-8de5-47e2-9de5-cb988d3fdcb4','67daf883-134a-4e2d-8aa5-26d87c382707','1','f90caa48-6833-46c5-b125-cd59b263b17f')
+
+1/23/2017 10:27:01 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='2e2faf87-8de5-47e2-9de5-cb988d3fdcb4'
+
+1/23/2017 10:27:01 PM
+insert into phone_number(id)
+values
+('dbbb0e87-8563-48bf-93f6-e100ab56d8c5')
+
+1/23/2017 10:27:01 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('2e2faf87-8de5-47e2-9de5-cb988d3fdcb4','dbbb0e87-8563-48bf-93f6-e100ab56d8c5','ac322a91-89a3-4cc0-9b45-01376a575d51')
+
+1/23/2017 10:27:02 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','9a868234-5d6d-40c0-85e6-00cf3693f12a')
+
+1/23/2017 10:27:02 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('9a868234-5d6d-40c0-85e6-00cf3693f12a','2e2faf87-8de5-47e2-9de5-cb988d3fdcb4','1','a5ec7ad4-436c-4719-94d5-13ec6e3c7a50')
+
+1/23/2017 10:27:02 PM
+insert into person(active,id)
+values
+('1','a82f7b71-a1c2-4fe7-9804-b363be22cac7')
+
+1/23/2017 10:27:02 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('a82f7b71-a1c2-4fe7-9804-b363be22cac7','2e2faf87-8de5-47e2-9de5-cb988d3fdcb4','b0b28262-0c81-11e0-99b7-08d30bba8775','1f8ff5c1-d36e-4472-92aa-9ee353db881f')

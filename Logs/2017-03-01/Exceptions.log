@@ -1,0 +1,279 @@
+
+3/1/2017 10:56:53 AM
+Unexpected character encountered while parsing number: @. Path 'DispositionWide.moved.model.buttons[9].factorWidth', line 1, position 9768.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 185
+Source: Newtonsoft.Json
+
+3/1/2017 10:57:48 AM
+Unexpected character encountered while parsing number: @. Path 'DispositionWide.moved.model.buttons[9].factorWidth', line 1, position 9768.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 185
+Source: Newtonsoft.Json
+
+3/1/2017 11:09:49 AM
+Unexpected character encountered while parsing number: @. Path 'DispositionWide.moved.model.buttons[9].factorWidth', line 1, position 9768.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+3/1/2017 11:11:31 AM
+Unexpected character encountered while parsing number: @. Path 'DispositionWide.moved.model.buttons[9].factorWidth', line 1, position 9768.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+3/1/2017 11:11:51 AM
+Unexpected character encountered while parsing number: @. Path 'DispositionWide.moved.model.buttons[9].factorWidth', line 1, position 9768.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 66
+Source: Newtonsoft.Json
+
+3/1/2017 12:14:55 PM
+Field 'agency_id' doesn't have a default value:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 124
+Source: MySql.Data
+
+3/1/2017 12:15:15 PM
+Field 'agency_id' doesn't have a default value:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 124
+Source: MySql.Data
+
+3/1/2017 12:15:30 PM
+Field 'driver_user_id' doesn't have a default value:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 124
+Source: MySql.Data
+
+3/1/2017 12:59:44 PM
+Column '_form_800_id' does not belong to table .:
+Stack trace: at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 253
+Source: System.Data
+
+3/1/2017 1:00:12 PM
+Column '_form_800_id' does not belong to table .:
+Stack trace: at System.Data.DataRow.GetDataColumn(String columnName)
+   at System.Data.DataRow.get_Item(String columnName)
+   at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 253
+Source: System.Data
+
+3/1/2017 1:02:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 158
+Source: WebApiPoster
+
+3/1/2017 1:02:57 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 158
+Source: WebApiPoster
+
+3/1/2017 1:03:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 158
+Source: WebApiPoster
+
+3/1/2017 1:05:42 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 158
+Source: WebApiPoster
+
+3/1/2017 1:08:18 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 158
+Source: WebApiPoster
+
+3/1/2017 1:09:56 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 158
+Source: WebApiPoster
+
+3/1/2017 1:22:37 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+3/1/2017 1:48:39 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+3/1/2017 1:53:04 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+3/1/2017 1:54:21 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\PCR\Demographic.cs:line 87
+Source: WebApiPoster
+
+3/1/2017 1:59:10 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+3/1/2017 2:06:42 PM
+Unexpected character encountered while parsing number: @. Path 'DispositionWide.moved.model.buttons[9].factorWidth', line 757, position 29.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ReadNumberIntoBuffer()
+   at Newtonsoft.Json.JsonTextReader.ParseNumber()
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadContentFrom(JsonReader r)
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.ModifyArrayItem(String Path, String SearchField, String SearchValue, String ModifyField, String ModifyValue)
+   at WebApiPoster.PCR.Buttons.LoadButton(String Path)
+   at WebApiPoster.PCR.Pcr.MapIntoIOSJson(Object JsonData, String pcr_id)
+   at WebApiPoster.Controllers.CEMSController.GetJsonFromEMS(String pcr_id)
+Source: Newtonsoft.Json
+
+3/1/2017 6:19:41 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 156
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 77
+Source: WebApiPoster
+
+3/1/2017 6:20:26 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 156
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 77
+Source: WebApiPoster
+
+3/1/2017 6:20:49 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 156
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 77
+Source: WebApiPoster
+
+3/1/2017 6:22:05 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 156
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 77
+Source: WebApiPoster
+
+3/1/2017 6:24:31 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name)
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList)
+Source: WebApiPoster
+
+3/1/2017 6:25:34 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 157
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 78
+Source: WebApiPoster
+
+3/1/2017 6:26:15 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 157
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 78
+Source: WebApiPoster
+
+3/1/2017 6:26:52 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Members.GetUserIDByName(String name) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 157
+   at WebApiPoster.PCR.Members.MapFromIOSJson(Object JsonData, List`1 DriverList) in c:\Work Area\WebApi\WebApiPoster\PCR\Members.cs:line 78
+Source: WebApiPoster
+
+3/1/2017 11:47:31 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField) in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 235
+Source: WebApiPoster
+
+3/1/2017 11:58:12 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Select fb.*, ab.name, ab.ButtonID from form_800_buttons fb inner join form_800 f' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\Utilities.cs:line 264
+Source: MySql.Data
+
+3/1/2017 11:58:19 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\Utilities.cs:line 222
+Source: System.Data.DataSetExtensions
+
+3/1/2017 11:59:06 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'Select fb.*, ab.name, ab.ButtonID from form_800_buttons fb inner join form_800 f' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\Utilities.cs:line 264
+Source: MySql.Data

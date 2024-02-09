@@ -1,0 +1,317 @@
+
+1/19/2017 4:07:27 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 4:21:57 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 7.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+1/19/2017 4:22:14 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 7.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+1/19/2017 4:22:23 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 7.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+1/19/2017 4:34:05 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 4:38:50 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 4:39:40 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 4:44:16 PM
+Unexpected end while parsing path.:
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParsePath(List`1 filters, Int32 currentPartStartIndex, Boolean query)
+   at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\JsonMaker.cs:line 67
+Source: Newtonsoft.Json
+
+1/19/2017 4:45:07 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:00:51 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:05:34 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 7.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+1/19/2017 5:05:44 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 7.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, String Input)
+Source: Newtonsoft.Json
+
+1/19/2017 5:10:28 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:18:50 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:19:15 PM
+Error reading JObject from JsonReader. Current JsonReader item is not an object: String. Path '', line 1, position 7.:
+Stack trace: at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 142
+Source: Newtonsoft.Json
+
+1/19/2017 5:19:29 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:22:39 PM
+Invalid property identifier character: {. Path '', line 1, position 1.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: Newtonsoft.Json
+
+1/19/2017 5:22:55 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/19/2017 5:23:31 PM
+Invalid property identifier character: {. Path '', line 1, position 1.:
+Stack trace: at Newtonsoft.Json.JsonTextReader.ParseProperty()
+   at Newtonsoft.Json.JsonTextReader.ParseObject()
+   at Newtonsoft.Json.JsonTextReader.ReadInternal()
+   at Newtonsoft.Json.JsonTextReader.Read()
+   at Newtonsoft.Json.Linq.JContainer.ReadTokenFrom(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JObject.Parse(String json)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: Newtonsoft.Json
+
+1/19/2017 5:23:38 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/19/2017 5:29:54 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:30:16 PM
+Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.:
+Stack trace: at Newtonsoft.Json.Linq.JArray.Load(JsonReader reader)
+   at Newtonsoft.Json.Linq.JArray.Parse(String json)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 142
+Source: Newtonsoft.Json
+
+1/19/2017 5:31:25 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:33:34 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:37:23 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:40:19 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:46:23 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/19/2017 5:57:53 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data

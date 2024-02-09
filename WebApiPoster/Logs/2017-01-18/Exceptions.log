@@ -1,0 +1,139 @@
+
+1/18/2017 5:05:37 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/18/2017 5:07:15 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ab.* from (select form_800_id, all_buttons from form_800_buttons union select fo' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.PCR.Pcr_Buttons.GetLSButtonID(String LS_Type, String name) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr_Buttons.cs:line 58
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 135
+Source: MySql.Data
+
+1/18/2017 5:07:42 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/18/2017 5:07:53 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Pcr.cs:line 131
+Source: WebApiPoster
+
+1/18/2017 5:08:34 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Global\PcrBase.cs:line 99
+Source: MySql.Data
+
+1/18/2017 5:09:27 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ab.* from (select form_800_id, all_buttons from form_800_buttons union select fo' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.PCR.Pcr_Buttons.GetLSButtonID(String LS_Type, String name)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: MySql.Data
+
+1/18/2017 5:09:41 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/18/2017 5:10:16 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALS'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.PCR.Pcr_Buttons.GetLSButtonID(String LS_Type, String name)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: MySql.Data
+
+1/18/2017 5:10:30 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+1/18/2017 5:11:53 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ALS'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.PCR.Pcr_Buttons.GetLSButtonID(String LS_Type, String name)
+   at WebApiPoster.PCR.Pcr.MapFromIOSJson(Object JsonData)
+Source: MySql.Data
+
+1/18/2017 5:12:04 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data

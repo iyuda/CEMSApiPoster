@@ -1,0 +1,2915 @@
+
+3/5/2017 1:03:53 PM
+insert into person(first_name,mi,last_name,dob,weight,is_male,age,ss,active,id)
+values
+('Terrence','O','Conway','1960-02-12 00:00:00','210','1','56','123-45-6789 ','1','43a9d554-e014-40eb-b59d-51661900270c')
+
+3/5/2017 1:03:54 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='43a9d554-e014-40eb-b59d-51661900270c'
+
+3/5/2017 1:03:54 PM
+insert into phone_number(id)
+values
+('931be078-ebcb-4f1a-916b-079bed134a25')
+
+3/5/2017 1:03:54 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('43a9d554-e014-40eb-b59d-51661900270c','931be078-ebcb-4f1a-916b-079bed134a25','335ff711-3879-494d-b268-6b4f465eaf60')
+
+3/5/2017 1:03:54 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210.00',
+is_male = '1',
+age = '56',
+ss = '123-45-6789',
+active = '1' where id ='43a9d554-e014-40eb-b59d-51661900270c'
+
+3/5/2017 1:03:54 PM
+insert into phone_number(id)
+values
+('0c6d614e-d499-4e03-bceb-cf3d16b3a7e4')
+
+3/5/2017 1:03:54 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('43a9d554-e014-40eb-b59d-51661900270c','0c6d614e-d499-4e03-bceb-cf3d16b3a7e4','5ad96bca-b67e-42cb-9ac4-a25eec5ac634')
+
+3/5/2017 1:03:55 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','d52108c7-db28-4dac-8b43-6fc93d4d6217','14b00896-d006-480c-9d74-00f2995ce168','e8ecff78-a30c-40d7-a8c1-d0115b3980f7')
+
+3/5/2017 1:03:56 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('e8ecff78-a30c-40d7-a8c1-d0115b3980f7','43a9d554-e014-40eb-b59d-51661900270c','1','07c10af1-d7ed-4756-bcfd-800c5787823a')
+
+3/5/2017 1:03:56 PM
+insert into person(first_name,last_name,active,id)
+values
+('Betty','Conway','1','4af3009f-34e7-406b-9cd1-0e82fd2c59fa')
+
+3/5/2017 1:03:56 PM
+insert into phone_number(number,id)
+values
+('(212) 245-2020 ','23b02c23-6d9f-46cd-973d-0d4b69c3f9d9')
+
+3/5/2017 1:03:56 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='4af3009f-34e7-406b-9cd1-0e82fd2c59fa'
+
+3/5/2017 1:03:56 PM
+update phone_number set 
+number = '(212) 245-2020' where id ='23b02c23-6d9f-46cd-973d-0d4b69c3f9d9'
+
+3/5/2017 1:03:56 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('4af3009f-34e7-406b-9cd1-0e82fd2c59fa','23b02c23-6d9f-46cd-973d-0d4b69c3f9d9','1','37c88988-e117-461d-9ac1-1e0703006565')
+
+3/5/2017 1:03:56 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='4af3009f-34e7-406b-9cd1-0e82fd2c59fa'
+
+3/5/2017 1:03:56 PM
+insert into phone_number(id)
+values
+('849a65cf-6b06-4d08-b2c3-f0225e30aecf')
+
+3/5/2017 1:03:56 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('4af3009f-34e7-406b-9cd1-0e82fd2c59fa','849a65cf-6b06-4d08-b2c3-f0225e30aecf','80ec3e82-8ec3-4b79-a798-1fb27818947e')
+
+3/5/2017 1:03:56 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','94247c69-773c-4cae-8555-8200c5d73e08')
+
+3/5/2017 1:03:57 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('94247c69-773c-4cae-8555-8200c5d73e08','4af3009f-34e7-406b-9cd1-0e82fd2c59fa','1','57a3d752-e4d8-4e8f-a243-14102c914f19')
+
+3/5/2017 1:03:57 PM
+insert into person(active,id)
+values
+('1','32926fa2-b4cd-47e0-85f1-2ed1ba1d59c7')
+
+3/5/2017 1:03:57 PM
+insert into person_relations(person_id,related_to_id,relation_type,id)
+values
+('32926fa2-b4cd-47e0-85f1-2ed1ba1d59c7','4af3009f-34e7-406b-9cd1-0e82fd2c59fa','b0b28262-0c81-11e0-99b7-08d30bba8775','b78adf27-aa3b-4bf3-8eda-e0592e1adf2c')
+
+3/5/2017 1:03:57 PM
+insert into person(first_name,last_name,active,id)
+values
+('Peter','Sullivan','1','0d6c2f13-2763-47a1-a90f-2863490dedac')
+
+3/5/2017 1:03:57 PM
+insert into phone_number(number,id)
+values
+('(201) 826-3774 ','20686248-1a6c-4503-aca7-708b17aa81fb')
+
+3/5/2017 1:03:57 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='0d6c2f13-2763-47a1-a90f-2863490dedac'
+
+3/5/2017 1:03:57 PM
+update phone_number set 
+number = '(201) 826-3774' where id ='20686248-1a6c-4503-aca7-708b17aa81fb'
+
+3/5/2017 1:03:57 PM
+insert into person_phones(person_id,phone_id,is_primary,id)
+values
+('0d6c2f13-2763-47a1-a90f-2863490dedac','20686248-1a6c-4503-aca7-708b17aa81fb','1','2b671e8d-17c7-4a76-80db-4fdb87d9b6cf')
+
+3/5/2017 1:03:57 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='0d6c2f13-2763-47a1-a90f-2863490dedac'
+
+3/5/2017 1:03:58 PM
+insert into phone_number(id)
+values
+('52b6eaa9-764d-4976-b34d-318061cdb92c')
+
+3/5/2017 1:03:58 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('0d6c2f13-2763-47a1-a90f-2863490dedac','52b6eaa9-764d-4976-b34d-318061cdb92c','267dd1eb-d05f-4a01-9ad0-d00d393ff0b8')
+
+3/5/2017 1:03:58 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','75803e7e-dcd5-4fae-b435-0f7516bb7650')
+
+3/5/2017 1:03:58 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('75803e7e-dcd5-4fae-b435-0f7516bb7650','0d6c2f13-2763-47a1-a90f-2863490dedac','1','1fb07412-cd19-4659-bee4-aca32b35b6ff')
+
+3/5/2017 1:03:58 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name','PayerID','0136042a-74cc-4faa-8719-b9734154f3af')
+
+3/5/2017 1:03:59 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID','Group Number','5b19ce44-2c3f-4de6-8898-00660199e6d6')
+
+3/5/2017 1:03:59 PM
+insert into Insurance(name,payer_id,id)
+values
+('Name2','PayerID2','d0818eaa-ec89-4f0e-9a52-ac19ae0357dd')
+
+3/5/2017 1:03:59 PM
+insert into insurance_policy(policy_no,group_no,id)
+values
+('PolicyID2','Group Number2','94802dcd-5897-47d3-8509-fe9bc548367e')
+
+3/5/2017 1:03:59 PM
+update person set 
+first_name = 'Terrence',
+mi = 'O',
+last_name = 'Conway',
+dob = '1960-02-12 12:00:00',
+weight = '210',
+is_male = '1',
+age = '56',
+ss = '123-45-6789 ',
+active = '1' where id ='43a9d554-e014-40eb-b59d-51661900270c'
+
+3/5/2017 1:03:59 PM
+update person set 
+first_name = 'Betty',
+last_name = 'Conway',
+active = '1' where id ='4af3009f-34e7-406b-9cd1-0e82fd2c59fa'
+
+3/5/2017 1:03:59 PM
+update person set 
+first_name = 'Peter',
+last_name = 'Sullivan',
+active = '1' where id ='0d6c2f13-2763-47a1-a90f-2863490dedac'
+
+3/5/2017 1:03:59 PM
+update insurance_policy set 
+policy_no = 'PolicyID',
+group_no = 'Group Number' where id ='5b19ce44-2c3f-4de6-8898-00660199e6d6'
+
+3/5/2017 1:03:59 PM
+update insurance_policy set 
+policy_no = 'PolicyID2',
+group_no = 'Group Number2' where id ='94802dcd-5897-47d3-8509-fe9bc548367e'
+
+3/5/2017 1:03:59 PM
+insert into insurance_policy(id)
+values
+('9ed71149-0835-46ca-9351-ca614a357810')
+
+3/5/2017 1:04:00 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,primary_policy,secondary_policy,terciary_insurance,agency_id,id)
+values
+('43a9d554-e014-40eb-b59d-51661900270c','4af3009f-34e7-406b-9cd1-0e82fd2c59fa','0d6c2f13-2763-47a1-a90f-2863490dedac','5b19ce44-2c3f-4de6-8898-00660199e6d6','94802dcd-5897-47d3-8509-fe9bc548367e','94802dcd-5897-47d3-8509-fe9bc548367e','7ad76866-88c5-11e1-b08b-842b2b4bbc99','bab2583f-c0f7-4176-a128-5a6ce7f72642')
+
+3/5/2017 1:04:00 PM
+insert into town(town_name,location_code,id)
+values
+('Borough','Location C','424982f3-67c5-4a30-8b17-c8a487a8629b')
+
+3/5/2017 1:04:00 PM
+insert into Address(address,unit,zip_id,country_id,id)
+values
+('Address','Apartment','7f5029cb-feea-469a-9593-54a2aa5086ec','14b00896-d006-480c-9d74-00f2995ce168','cfdf8ca6-bbda-4f8e-a4c4-e1906f1b30d7')
+
+3/5/2017 1:04:01 PM
+insert into business(name,id)
+values
+('Name','85d413d8-4a57-4a26-9da9-adf4ae57e299')
+
+3/5/2017 1:04:01 PM
+insert into pcr_dispatch(cad,transported_from,town_id,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('CAD#','Residence','424982f3-67c5-4a30-8b17-c8a487a8629b','Residence,Hospital,Facility','2017-03-05 20:51:00','2017-03-05 20:51:00','2017-03-05 20:51:00','2017-03-05 20:51:00','2017-03-05 20:51:00','2017-03-05 20:51:00','2017-03-05 20:51:00','1','Method','21007','21046','cfdf8ca6-bbda-4f8e-a4c4-e1906f1b30d7','85d413d8-4a57-4a26-9da9-adf4ae57e299','aea9dfb7-db18-49aa-b98a-1b2c6078f02d')
+
+3/5/2017 1:04:03 PM
+insert into ems_run(id)
+values
+('37bee7c3-4e7f-445d-82ee-d23beaead060')
+
+3/5/2017 1:04:06 PM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('08aa738e-f284-4d65-8c88-54339117bebf','28673809-6832-4739-8a4b-c8d34bacb7c4','58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','9e67b928-3d71-4ba0-9362-c72520aa479f','2a0b46cc-a04c-4772-aa4d-76ecc5739c56')
+
+3/5/2017 1:04:06 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('37bee7c3-4e7f-445d-82ee-d23beaead060','2a0b46cc-a04c-4772-aa4d-76ecc5739c56','fe544970-f9fb-4f58-b986-391628c6f08e')
+
+3/5/2017 1:04:07 PM
+insert into pcr_narrative_notes(id)
+values
+('4657d00c-71a6-4ab2-b582-38e79a9c6b94')
+
+3/5/2017 1:04:07 PM
+insert into pcr_rma(id)
+values
+('5d4478ec-2444-4c81-8e36-b931014d47df')
+
+3/5/2017 1:04:08 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','52eea250-4f3d-43f3-bd77-b2bfed556c9a')
+
+3/5/2017 1:04:08 PM
+insert into pcr_Narcotic(id)
+values
+('8c7a3ba3-3646-49f2-b780-e05aaae4f8e5')
+
+3/5/2017 1:04:08 PM
+insert into pcr_Authorization(id)
+values
+('6aad50ae-a826-4db6-8db3-31bab04ffcbf')
+
+3/5/2017 1:04:09 PM
+update pcr set 
+pcr_dispatch_id = 'aea9dfb7-db18-49aa-b98a-1b2c6078f02d',
+pcr_demographic_id = 'bab2583f-c0f7-4176-a128-5a6ce7f72642',
+pcr_assessment_id = '9edf4457-408b-4617-ac88-466694bf93e4',
+pcr_narrative_notes_id = '4657d00c-71a6-4ab2-b582-38e79a9c6b94',
+pcr_rma_id = '5d4478ec-2444-4c81-8e36-b931014d47df',
+pcr_authorization_id = '6aad50ae-a826-4db6-8db3-31bab04ffcbf',
+pcr_apcf_id = '79ee633a-98ff-4cee-a3ef-521088224eed',
+pcr_disposition_id = '52eea250-4f3d-43f3-bd77-b2bfed556c9a',
+ems_run = '37bee7c3-4e7f-445d-82ee-d23beaead060',
+pcr_narcotics_id = '8c7a3ba3-3646-49f2-b780-e05aaae4f8e5',
+agency_id = '7ad76866-88c5-11e1-b08b-842b2b4bbc99' where id ='a04893d6-bf3c-4e5d-ab6f-781c90b83526'
+
+3/5/2017 1:04:13 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','252da90b-0623-11e0-9c66-0ba20c568bb6','1','f9ddcfbe-4ba1-45fb-99c8-24f077a13c1d')
+
+3/5/2017 1:04:14 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','252dae87-0623-11e0-9c66-0ba20c568bb6','1','ce4a7864-0b15-44d7-a494-9379dbbc60c7')
+
+3/5/2017 1:04:14 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','1883effe-0614-11e0-9c66-0ba20c568bb6','1','4bfda1d0-2597-4cfc-a2e1-91ce77b2fd6c')
+
+3/5/2017 1:04:14 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','aa8a5365-e08b-11e5-b3fc-d8cb8a365043','1','c6c734a3-5929-4b54-9e0c-a7c5e349e118')
+
+3/5/2017 1:04:15 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','3ca1090c-aa6e-11e1-bbb3-842b2b4bbc99','1','c9c6e57f-d5a9-4804-9f23-32353531d6d7')
+
+3/5/2017 1:04:16 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','3ca1090c-aa6e-11e1-bbb3-842b2b4bbc99','1','c6c68196-208d-49f8-8fdc-b7e7ec98e7e3')
+
+3/5/2017 1:04:16 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','042aaa7f-224c-4066-a7e4-4162f16179e1','1','c6bdcc16-20ad-4a98-a172-532f47fe9ca0')
+
+3/5/2017 1:04:24 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45ba63-adbf-11e1-bbb3-842b2b4bbc99','1','3a9228c7-aa47-42c0-9583-9b79da4a2fd9')
+
+3/5/2017 1:04:24 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d455b54-adbf-11e1-bbb3-842b2b4bbc99','1','3a31e595-7d76-4164-9b4d-9d657023ae0f')
+
+3/5/2017 1:04:24 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45bf77-adbf-11e1-bbb3-842b2b4bbc99','1','1101a536-a0f2-4f86-baa7-d29eebfc661a')
+
+3/5/2017 1:04:25 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d454b6b-adbf-11e1-bbb3-842b2b4bbc99','1','ea10c975-c0a1-43fc-8664-f5ab87ca9308')
+
+3/5/2017 1:04:25 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45c486-adbf-11e1-bbb3-842b2b4bbc99','1','09361d6f-b9c5-4f19-a332-45c2ecb86e4c')
+
+3/5/2017 1:04:25 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d453212-adbf-11e1-bbb3-842b2b4bbc99','1','35ee4693-cc39-409e-a3b8-22828743c2d5')
+
+3/5/2017 1:04:25 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d452cbf-adbf-11e1-bbb3-842b2b4bbc99','1','009a9d99-8511-415a-b35a-8e6df2ea782b')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45989b-adbf-11e1-bbb3-842b2b4bbc99','1','4b820dce-81ff-4549-8b16-bd6757278d59')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d455695-adbf-11e1-bbb3-842b2b4bbc99','1','bda59a37-6ffe-4d24-843c-daced70ffbfa')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d4546ce-adbf-11e1-bbb3-842b2b4bbc99','1','a451cd24-00ea-4598-8b19-db0e223ff67b')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d4593fe-adbf-11e1-bbb3-842b2b4bbc99','1','6ca3089c-11dd-4e0c-aa4b-32e0426a61e3')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45a1bf-adbf-11e1-bbb3-842b2b4bbc99','1','2cba5097-8b69-4f1e-af54-e046929b1457')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45b04a-adbf-11e1-bbb3-842b2b4bbc99','1','aafc1e42-c1f2-46b9-997e-23765899e7a4')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d453c4a-adbf-11e1-bbb3-842b2b4bbc99','1','61336b95-7e14-46c7-b9cc-f15fdff5fb9d')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d457c6c-adbf-11e1-bbb3-842b2b4bbc99','1','5493f6c2-d5be-43db-9858-d8558a037448')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d459d28-adbf-11e1-bbb3-842b2b4bbc99','1','81c0909e-2c11-451d-ad45-077e17068d50')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d458123-adbf-11e1-bbb3-842b2b4bbc99','1','b1bf6ba3-c6e3-4c07-8e94-0dae699a8e69')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d457424-adbf-11e1-bbb3-842b2b4bbc99','1','3b862d9d-2136-4b60-adff-9d0e00d40095')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d458f72-adbf-11e1-bbb3-842b2b4bbc99','1','f5abda47-bc4d-418a-851e-f971b9c7c256')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d455012-adbf-11e1-bbb3-842b2b4bbc99','1','6c934ce5-413b-40bb-8945-b310aff219c3')
+
+3/5/2017 1:04:26 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d4522fa-adbf-11e1-bbb3-842b2b4bbc99','1','9d8089ed-7705-4d6a-a13d-0de58a07e823')
+
+3/5/2017 1:04:27 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d454186-adbf-11e1-bbb3-842b2b4bbc99','1','a093373e-cfa7-4c0a-90cb-b9820093221e')
+
+3/5/2017 1:04:27 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45c9b9-adbf-11e1-bbb3-842b2b4bbc99','1','cdd03d1d-b47a-4337-9f5b-94e9145e9acb')
+
+3/5/2017 1:04:27 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45b55c-adbf-11e1-bbb3-842b2b4bbc99','1','4f4bcd5b-3072-4f2c-bf3d-bd6a30251de0')
+
+3/5/2017 1:04:27 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('58f2a09e-fe18-488a-b4c3-d2f61e65d2f0','5d45d0f0-adbf-11e1-bbb3-842b2b4bbc99','1','7cf87456-35a8-4c86-ac84-e325906375a5')
+
+3/5/2017 1:04:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','65926e15-9cef-4162-8e79-4b423e130ce8','1','b284b5e9-d940-44bf-b92a-e209afe74a35')
+
+3/5/2017 1:04:28 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','3c9df40f-9306-46cc-a6af-35a4f820935d','1','2c5815b8-15c5-435e-a952-ae259c7d0d50')
+
+3/5/2017 1:04:29 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','f398960b-2a34-11e5-b454-842b2b4bbc99','1','3fe552e4-9418-46f5-aa9f-e51a7e53d2eb')
+
+3/5/2017 1:04:29 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','ac1aa319-bea0-4494-a06a-368d1d72b01a')
+
+3/5/2017 1:04:30 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06a61fa9-07a7-11e0-bdc9-8e92303c9d5f','1','34c7ac90-79a4-4a14-b0d5-c47bf4334a78')
+
+3/5/2017 1:04:31 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','564b9ac7-e5e9-4359-9326-18b65b080509')
+
+3/5/2017 1:04:31 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06a6ef2b-07a7-11e0-bdc9-8e92303c9d5f','1','51e860e1-27fb-4c03-8516-ec00ac4804f6')
+
+3/5/2017 1:04:31 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06a5aaae-07a7-11e0-bdc9-8e92303c9d5f','1','3163705d-c17c-4371-9916-40ea34327ac9')
+
+3/5/2017 1:04:32 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06a65c4a-07a7-11e0-bdc9-8e92303c9d5f','1','432a499b-e556-4d78-a11e-3a565b884afc')
+
+3/5/2017 1:04:33 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','cf11b1e4-24be-11e5-b454-842b2b4bbc99','1','2e5f5444-a85a-4e22-b28c-607580951dd7')
+
+3/5/2017 1:04:33 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','067157f3-07a7-11e0-bdc9-8e92303c9d5f','1','f1d796d8-8127-47da-9e5b-67bd47adc5da')
+
+3/5/2017 1:04:33 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06a67cb9-07a7-11e0-bdc9-8e92303c9d5f','1','a298727d-e9f7-49c2-b2d1-c220f4d3545e')
+
+3/5/2017 1:04:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','067569e5-07a7-11e0-bdc9-8e92303c9d5f','1','713c51ec-0d24-49bc-88a8-eadd0e702957')
+
+3/5/2017 1:04:35 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06751742-07a7-11e0-bdc9-8e92303c9d5f','1','496320d5-6223-4588-9917-573996cdeed6')
+
+3/5/2017 1:04:35 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','b703a365-a2f0-4022-9278-6c403fdebcb5')
+
+3/5/2017 1:04:35 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','067686e0-07a7-11e0-bdc9-8e92303c9d5f','1','3b0f4c6e-3dc1-475b-bff0-6e7cb13b22e2')
+
+3/5/2017 1:04:36 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','297d04b8-0527-406e-98c4-4759e2342177')
+
+3/5/2017 1:04:37 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','0674c31d-07a7-11e0-bdc9-8e92303c9d5f','1','3335469d-8041-4327-bfb7-8cbb04a6c6ec')
+
+3/5/2017 1:04:37 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06746e27-07a7-11e0-bdc9-8e92303c9d5f','1','a3cba2f1-cc37-4b37-be20-7157fe16e762')
+
+3/5/2017 1:04:37 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06716e4f-07a7-11e0-bdc9-8e92303c9d5f','1','da15f92d-4ecc-49de-8a83-602f1375b039')
+
+3/5/2017 1:04:38 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','aebd28b2-5b00-43fb-9617-72b4ecaa2143','1','dd5e83ad-42c0-414a-8c1d-12b18a422977')
+
+3/5/2017 1:04:38 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','6d9b5ef3-512c-47ac-b0f7-86416ac015e3','1','22d2be6c-657c-4225-8b69-799d58a54e71')
+
+3/5/2017 1:04:39 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975bf929-0610-11e0-9c66-0ba20c568bb6','1','baa6d5a1-3fc1-40d9-a49c-7cf79092e829')
+
+3/5/2017 1:04:39 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975b78c7-0610-11e0-9c66-0ba20c568bb6','1','2417b684-e789-449b-ade6-5fa79bfdfc9b')
+
+3/5/2017 1:04:41 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','6b5eefa0-8fd9-11e1-b08b-842b2b4bbc99','1','650ecc36-48b3-467d-aa5a-2af9f19e18d6')
+
+3/5/2017 1:04:41 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975d95e6-0610-11e0-9c66-0ba20c568bb6','1','1d863a9f-c08f-4ca7-8b6e-5c99b50b7fcf')
+
+3/5/2017 1:04:41 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975c36e6-0610-11e0-9c66-0ba20c568bb6','1','75850bdd-e588-4a72-85e7-0fb1aeb7c712')
+
+3/5/2017 1:04:41 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975ba3a3-0610-11e0-9c66-0ba20c568bb6','1','e35716b6-a828-480e-a8ff-e12bebb83d51')
+
+3/5/2017 1:04:41 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975ce58f-0610-11e0-9c66-0ba20c568bb6','1','1cdd4a23-c921-4476-b54e-50dad34dc8a1')
+
+3/5/2017 1:04:41 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975ba90f-0610-11e0-9c66-0ba20c568bb6','1','27b66112-2db5-4413-bbab-392a83450901')
+
+3/5/2017 1:04:43 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975cc813-0610-11e0-9c66-0ba20c568bb6','1','3667f422-7af5-49d4-9a4e-71b322658733')
+
+3/5/2017 1:04:43 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975ca379-0610-11e0-9c66-0ba20c568bb6','1','667c4ac9-5492-4572-816c-34ace3b2ca6e')
+
+3/5/2017 1:04:43 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975c4b5e-0610-11e0-9c66-0ba20c568bb6','1','75b2f3e4-f1b6-4686-b3d5-b5c99eafde1a')
+
+3/5/2017 1:04:44 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975c1c3e-0610-11e0-9c66-0ba20c568bb6','1','5b05f04a-710f-48c2-bbf1-6a85de252d3d')
+
+3/5/2017 1:04:44 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975be590-0610-11e0-9c66-0ba20c568bb6','1','9401b274-2c42-435d-8564-5b5170660b6d')
+
+3/5/2017 1:04:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975c815b-0610-11e0-9c66-0ba20c568bb6','1','df68eb5b-cf77-4fae-b369-271e3ba3bca9')
+
+3/5/2017 1:04:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975c5f21-0610-11e0-9c66-0ba20c568bb6','1','f8e8d13d-a2a6-4554-a349-affd99d65c60')
+
+3/5/2017 1:04:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','975cfb67-0610-11e0-9c66-0ba20c568bb6','1','6faf3047-5dd3-4d93-b67a-bda2064c96da')
+
+3/5/2017 1:04:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','97d738ec-0610-11e0-9c66-0ba20c568bb6','1','f1f26661-3fbb-47ce-8cab-ea08c4405cc0')
+
+3/5/2017 1:04:45 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','9622ce50-0610-11e0-9c66-0ba20c568bb6','1','155217cb-9609-4b12-806e-20149fed1c95')
+
+3/5/2017 1:04:46 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('More Information','a04893d6-bf3c-4e5d-ab6f-781c90b83526','962317b6-0610-11e0-9c66-0ba20c568bb6','d552cef4-2b8d-4f6a-a95b-016a511d3ecf')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','96230b7d-0610-11e0-9c66-0ba20c568bb6','1','05a5d011-bf9b-4e4d-a49b-83d337688588')
+
+3/5/2017 1:04:46 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('Lots of shock','a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f6352b-07a7-11e0-bdc9-8e92303c9d5f','14fb6efe-0c61-4d5f-bc17-78e53a8cf843')
+
+3/5/2017 1:04:46 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('electrocuted him','a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f63fe6-07a7-11e0-bdc9-8e92303c9d5f','73727a4a-35d3-44db-91ee-170d43f6b379')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f62afb-07a7-11e0-bdc9-8e92303c9d5f','1','bbaf965b-10f5-4d4a-a183-8d513579014e')
+
+3/5/2017 1:04:46 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('all cut up','a04893d6-bf3c-4e5d-ab6f-781c90b83526','02793f25-71ea-11e1-bd51-842b2b4bbc99','e43b78c0-99ce-4cd1-b71a-f51beae80773')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4732c-07a7-11e0-bdc9-8e92303c9d5f','1','09b9c603-b2aa-444c-a79d-a6ccd2b89ee0')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b47cec-07a7-11e0-bdc9-8e92303c9d5f','1','75e5a62d-7dc8-4f61-8cfc-6ef602adf7f5')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b48694-07a7-11e0-bdc9-8e92303c9d5f','1','1c2e0331-f232-46f8-a49c-a95f0d519b38')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b49017-07a7-11e0-bdc9-8e92303c9d5f','1','f1b292a3-4c7e-40b5-9a1d-26f6bb5f84a8')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b499bb-07a7-11e0-bdc9-8e92303c9d5f','1','5b1f80b7-88db-4b79-9508-3c01c02c8f84')
+
+3/5/2017 1:04:46 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b49e8f-07a7-11e0-bdc9-8e92303c9d5f','1','51c45141-1693-40ca-a7ad-2569d379acb2')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4a34a-07a7-11e0-bdc9-8e92303c9d5f','1','240bf6b1-7d72-4684-9379-3e14752d78b0')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4a812-07a7-11e0-bdc9-8e92303c9d5f','1','efbd34ae-8fac-4935-9c57-e42a6f8dd754')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4ace6-07a7-11e0-bdc9-8e92303c9d5f','1','53138605-4e57-4e73-92aa-137b7c385d16')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4b669-07a7-11e0-bdc9-8e92303c9d5f','1','4bc8f4d2-ea61-480a-8a31-f096950e0886')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4bb2c-07a7-11e0-bdc9-8e92303c9d5f','1','ad7a7675-295e-472a-bf89-8d3a2c236ee7')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4c5eb-07a7-11e0-bdc9-8e92303c9d5f','1','0a3eee2f-52ea-4cf4-b884-17c13ee8db8f')
+
+3/5/2017 1:04:47 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('a real mess - will need amputation','a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b533c7-07a7-11e0-bdc9-8e92303c9d5f','e20ca653-31fd-42e6-8c8f-604e0157f3ac')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4d53d-07a7-11e0-bdc9-8e92303c9d5f','1','19610785-03be-4489-a0a3-60c81f0b7561')
+
+3/5/2017 1:04:47 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b4f62f-07a7-11e0-bdc9-8e92303c9d5f','1','fcf5c1a9-efde-459d-9601-e09e3c1e8deb')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06b50aa2-07a7-11e0-bdc9-8e92303c9d5f','1','a91ec8d3-83e5-4e71-9b83-b6e3adca017b')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','f91d05d2-d1b1-4f6b-9e05-a90ce6418213','1','efb8f880-1a58-4999-b776-a15cc223f741')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f8572e-07a7-11e0-bdc9-8e92303c9d5f','1','5bf0ec4c-7796-42f5-955b-6acfbaf06370')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f860fb-07a7-11e0-bdc9-8e92303c9d5f','1','59b3d4f6-7744-4fbc-8260-92ada26237a4')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f86a61-07a7-11e0-bdc9-8e92303c9d5f','1','a5ff3ace-7545-43d7-90a8-24afd5e5c10b')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f875c0-07a7-11e0-bdc9-8e92303c9d5f','1','4f8f46a7-1171-47f2-9e9c-629eb386d0e6')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f87f48-07a7-11e0-bdc9-8e92303c9d5f','1','6f6894e5-c447-4ba0-bd96-f060d48c0ea7')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f8894a-07a7-11e0-bdc9-8e92303c9d5f','1','a94dd391-d8d1-4e9b-8db3-4853e2decf7d')
+
+3/5/2017 1:04:48 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f892c0-07a7-11e0-bdc9-8e92303c9d5f','1','9d40ff05-cd38-490c-8ba3-c12714a7bfda')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f8a05f-07a7-11e0-bdc9-8e92303c9d5f','1','43682975-9bee-490b-80cf-ff944826d490')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f8a9de-07a7-11e0-bdc9-8e92303c9d5f','1','64b7fb69-b534-4516-909f-f6c0c6455cef')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f98e21-07a7-11e0-bdc9-8e92303c9d5f','1','07663e2b-840b-4d6b-b64f-68e8690b52b2')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f992e0-07a7-11e0-bdc9-8e92303c9d5f','1','f586b45f-8d17-458a-809c-c55d12a54dbc')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f99b79-07a7-11e0-bdc9-8e92303c9d5f','1','0533ba4a-1575-41ac-b38b-b55974b928ac')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9a055-07a7-11e0-bdc9-8e92303c9d5f','1','4dc179ee-79df-4787-83c2-416898a3bc95')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9a54a-07a7-11e0-bdc9-8e92303c9d5f','1','b8dff366-d944-40a7-841c-e5c5f5abe49a')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9aa1a-07a7-11e0-bdc9-8e92303c9d5f','1','691692c5-6f4f-4cab-8f73-659f97648481')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9aec9-07a7-11e0-bdc9-8e92303c9d5f','1','bbed034b-045e-4dd8-9977-e281cffc9e57')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9b37c-07a7-11e0-bdc9-8e92303c9d5f','1','726d2ce7-edc5-4339-8378-18e7814128e6')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9b844-07a7-11e0-bdc9-8e92303c9d5f','1','5e89edfa-864f-45f4-bd41-d6e4b1f020a4')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9bd55-07a7-11e0-bdc9-8e92303c9d5f','1','c1f4b4e5-9339-49b2-b472-722b3e757bde')
+
+3/5/2017 1:04:49 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9c23e-07a7-11e0-bdc9-8e92303c9d5f','1','b665ae1e-7f75-4ffa-beb2-efec02fba95c')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9c6fd-07a7-11e0-bdc9-8e92303c9d5f','1','f85a3a23-95f8-4177-930d-a0e055c9c793')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9cbc5-07a7-11e0-bdc9-8e92303c9d5f','1','370f6ec4-7540-4328-b1d1-69adb984a609')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9d074-07a7-11e0-bdc9-8e92303c9d5f','1','cf1b969a-8b2f-4e9b-afb2-78134a9c636b')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9d527-07a7-11e0-bdc9-8e92303c9d5f','1','a7dd93d4-788d-4c76-8e3f-8beb98c64979')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9d9de-07a7-11e0-bdc9-8e92303c9d5f','1','4160c4b3-d3fa-445e-bf1a-e1a1a8eee81d')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9dea6-07a7-11e0-bdc9-8e92303c9d5f','1','fa8ff53f-c369-4cee-a1da-28dd2c796a52')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06f9f095-07a7-11e0-bdc9-8e92303c9d5f','1','d016b1d1-0790-4ede-bf10-a0ddb4c0c901')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa35a6-07a7-11e0-bdc9-8e92303c9d5f','1','47de9702-f346-4a8b-aa4a-75f61190b8de')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa492b-07a7-11e0-bdc9-8e92303c9d5f','1','c3c45c8c-d65d-4c60-9a98-540bdfeb66e3')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa52bb-07a7-11e0-bdc9-8e92303c9d5f','1','c371995e-f02d-48ad-bf94-fc60c8520191')
+
+3/5/2017 1:04:50 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa5c5e-07a7-11e0-bdc9-8e92303c9d5f','1','91e0d03a-03fc-4b35-8579-cd3a61a1a24b')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa65e1-07a7-11e0-bdc9-8e92303c9d5f','1','763b3e5f-afdc-4fd5-8cb4-aeec1952b08a')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa72d3-07a7-11e0-bdc9-8e92303c9d5f','1','83de2fd4-14f4-4847-acec-5cf65c4515df')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa812e-07a7-11e0-bdc9-8e92303c9d5f','1','2dad0979-c809-473f-9910-6391d48fbcf3')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa8a8c-07a7-11e0-bdc9-8e92303c9d5f','1','0a016e35-eff1-4734-b7ab-8f78b547d853')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fa93de-07a7-11e0-bdc9-8e92303c9d5f','1','0e03aeb0-b5fe-4da6-bc14-0762f499b001')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06faac33-07a7-11e0-bdc9-8e92303c9d5f','1','bf1a312a-9a94-436b-a735-7bb3411a29ac')
+
+3/5/2017 1:04:51 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('a04893d6-bf3c-4e5d-ab6f-781c90b83526','06fabadc-07a7-11e0-bdc9-8e92303c9d5f','1','11da8564-e282-45a7-96d9-fcaed715c9e2')
+
+3/5/2017 1:04:53 PM
+update json_pcr set 
+data = '{"ALS": {"1_EDD": {"choice": "on"}, "5_Lancets": {"choice": "on"}, "1_Adult_NC": {"choice": "on"}, "1_Adult_NRB": {"choice": "on"}, "1_Glucometer": {"choice": "on"}, "1_10cc_Syringe": {"choice": "on"}, "2_2mg_Nalaxone": {"choice": "on"}, "10_Saline_Locks": {"choice": "on"}, "1_12_Lead_Cable": {"choice": "on"}, "1_Glucose_Paste": {"choice": "on"}, "5_IV_Start_Kits": {"choice": "on"}, "1_ETCO2_Detector": {"choice": "on"}, "1_ET_Tube_Holder": {"choice": "on"}, "1_Pulse_Oximeter": {"choice": "on"}, "1_Adult_Miller_#3": {"choice": "on"}, "1_Adult_Miller_#4": {"choice": "on"}, "2_Petroleum_Gauze": {"choice": "on"}, "6_Macrodip_Tubing": {"choice": "on"}, "1_Padded_Hemostats": {"choice": "on"}, "1_Standard_BP_Cuff": {"choice": "on"}, "2_Adult_Defib_Pads": {"choice": "on"}, "2_Tube_Introducers": {"choice": "on"}, "6_Microdrip_Tubing": {"choice": "on"}, "Drug_Bag_w/_ET_Kit": {"choice": "on"}, "Resp_Sense_Monitor": {"choice": "on"}, "10_Adult_Electrodes": {"choice": "on"}, "1_1mg_Glucagon_Vial": {"choice": "on"}, "1_Aspirin_Container": {"choice": "on"}, "1Pediatric_Miller_#1": {"choice": "on"}, "1_Adult_Macintosh_#3": {"choice": "on"}, "1_Adult_Macintosh_#4": {"choice": "on"}, "1_LA_Co_Policy_806.1": {"choice": "on"}, "1_Rhythm_Strip_Cable": {"choice": "on"}, "2_Handheld_Nebulizer": {"choice": "on"}, "Asst._Needles_18-22G": {"choice": "on"}, "IV_Pump_w/_cassettes": {"choice": "on"}, "Waveform_Capnography": {"choice": "on"}, "1_400mg_Dopamine_Vial": {"choice": "on"}, "1_ALS_Treatment_Guide": {"choice": "on"}, "1_Pediatric_Miller_#2": {"choice": "on"}, "1_pair_Sterile_Gloves": {"choice": "on"}, "4_4mg_Ondansetron_ODT": {"choice": "on"}, "1_Adult_Magill_Forceps": {"choice": "on"}, "1_LA_Co_Peds_Drug_Dose": {"choice": "on"}, "1_Nitroglycerine_Spray": {"choice": "on"}, "1_box_Alcohol_Prep_Pad": {"choice": "on"}, "2_Pediatric_Defib_Pads": {"choice": "on"}, "4_1mg_Atropine_Preload": {"choice": "on"}, "10_Pediatric_Electrodes": {"choice": "on"}, "2_6mg_Adenosine_Preload": {"choice": "on"}, "5_Micron_Filter_Needles": {"choice": "on"}, "Asst._Syringes_1mL-60mL": {"choice": "on"}, "Needle_Thoracostomy_Kit": {"choice": "on"}, "1_12mg_Adenosine_Preload": {"choice": "on"}, "1_Two_Way_portable_radio": {"choice": "on"}, "6_150mg_Amiodarione_Vial": {"choice": "on"}, "1_Pediatric_Broselow_Tape": {"choice": "on"}, "2_500mL_Normal_Saline_bag": {"choice": "on"}, "4_4mg_Ondansetron_Preload": {"choice": "on"}, "5_5mL_Normal_Saline_Flush": {"choice": "on"}, "7_1:1K_Epinephrine_Ampule": {"choice": "on"}, "8_2.5mg_Albuterol_Bullets": {"choice": "on"}, "1_Adult_Laryngoscope_Blade": {"choice": "on"}, "1_Pediatric_Magill_Forceps": {"choice": "on"}, "1_each_King_LTS-D_Size_3-5": {"choice": "on"}, "5_each_IV_Catheters_14-24G": {"choice": "on"}, "2_50mg_Diphenhydramine_Vial": {"choice": "on"}, "3_25gm_Dextrose_50%_Preload": {"choice": "on"}, "6_1,000mL_Normal_Saline_Bag": {"choice": "on"}, "10_1:10K_Epinephrine_Preload": {"choice": "on"}, "2_Mucosal_Atomization_Device": {"choice": "on"}, "1_50mEq_Sodium_Bicarb_Preload": {"choice": "on"}, "3_Vent_Circuits/_Viral_Filter": {"choice": "on"}, "8_(min._4)_5mg_Midazolam_Vial": {"choice": "on"}, "1_1gm_Calcium_Chloride_Preload": {"choice": "on"}, "1_Pediatric_Laryngoscope_Blade": {"choice": "on"}, "10_(min._8)_4mg_Morphine_Carpuject": {"choice": "on"}, "2_each_ET_Tubes_with_stylets_Sizes_6.0-8.0": {"choice": "on"}}, "BLS": {"12_2x2s": {"choice": "on"}, "12_3x3s": {"choice": "on"}, "24_4x4s": {"choice": "on"}, "2_Gowns": {"choice": "on"}, "1_Shears": {"choice": "on"}, "2_Urinals": {"choice": "on"}, "1_Adult_BP": {"choice": "on"}, "1_Penlight": {"choice": "on"}, "1_Thigh_BP": {"choice": "on"}, "4_ABD_Pads": {"choice": "on"}, "6_Adult_NC": {"choice": "on"}, "1_Adult_BVM": {"choice": "on"}, "1_Infant_BP": {"choice": "on"}, "1_Infant_NC": {"choice": "on"}, "4_Ice_Packs": {"choice": "on"}, "6_Adult_NRB": {"choice": "on"}, "1_Bite_Stick": {"choice": "on"}, "1_Infant_BVM": {"choice": "on"}, "24_Band-Aids": {"choice": "on"}, "6_Infant_NRB": {"choice": "on"}, "1_Set_of_OPAs": {"choice": "on"}, "1_Stethoscope": {"choice": "on"}, "2_1000cc_NaCL": {"choice": "on"}, "2_Burn_Sheets": {"choice": "on"}, "1_Pediatric_BP": {"choice": "on"}, "2_Blue_Helmets": {"choice": "on"}, "2_Vent_Circuit": {"choice": "on"}, "2_Yellow_Vests": {"choice": "on"}, "6_Pediatric_NC": {"choice": "on"}, "1_22_French_NPA": {"choice": "on"}, "1_26_French_NPA": {"choice": "on"}, "1_30_French_NPA": {"choice": "on"}, "1_34_French_NPA": {"choice": "on"}, "1_Box_N95_Masks": {"choice": "on"}, "1_Pediatric_BVM": {"choice": "on"}, "2_Emesis_Basins": {"choice": "on"}, "2_Fracture_Pans": {"choice": "on"}, "2_Kidney_Basins": {"choice": "on"}, "2_Rolls_Webbing": {"choice": "on"}, "6_Pediatric_NRB": {"choice": "on"}, "1_Large_Adult_BP": {"choice": "on"}, "2_MAT_Tourniquet": {"choice": "on"}, "2_Sets_Head_Beds": {"choice": "on"}, "2_Suction_Tubing": {"choice": "on"}, "4_Adult_C-Collar": {"choice": "on"}, "5_Biohazard_Bags": {"choice": "on"}, "1_each_1,2,3_Tape": {"choice": "on"}, "2_Petroleum_Gauze": {"choice": "on"}, "2_Sets_Hearing_Pro": {"choice": "on"}, "1_250cc_Sterile_H2O": {"choice": "on"}, "1_Each_BVM_Mask_0-5": {"choice": "on"}, "6_Tongue_Depressors": {"choice": "on"}, "1_Box_Surgical_Masks": {"choice": "on"}, "1_Set_Sterile_Gloves": {"choice": "on"}, "2_1000cc_Sterile_H2O": {"choice": "on"}, "3_Suction_Cannisters": {"choice": "on"}, "4_Pediatric_C-Collar": {"choice": "on"}, "2_Sets_Leather_Gloves": {"choice": "on"}, "3_Each_2,3,4,6_Kerlix": {"choice": "on"}, "4_Triangular_Bandages": {"choice": "on"}, "1_Each_Regulator_&_Key": {"choice": "on"}, "1_Each_SM/Med/Lg_Gloves": {"choice": "on"}, "1_OB_Kit_w/Clamp_Cutter": {"choice": "on"}, "1_Unit_Portable_Suction": {"choice": "on"}, "2_Multitrauma_Dressings": {"choice": "on"}, "12_Bloodstopper_Dressings": {"choice": "on"}, "1_Each_Sm/Med/Lg/XL_Gloves": {"choice": "on"}, "2_Each_6_-_18_French_Caths": {"choice": "on"}, "1_Adult_Tract_(If_Sager-Type)": {"choice": "on"}}, "debug": false, "Vehicle": {"Radio": {"choice": "on"}, "Siren": {"choice": "on"}, "Mirrors": {"choice": "on"}, "Vehicle": {"sig1_Encoding": "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"}, "Light_Bar": {"choice": "on"}, "Tires_(OK)": {"choice": "on"}, "Tail_Lights": {"choice": "on"}, "Brake_Lights": {"choice": "on"}, "Oil_Level_OK": {"choice": "on"}, "Scene_Lights": {"choice": "on"}, "Turn_Signals": {"choice": "on"}, "License_Plate": {"choice": "on"}, "Fuel_Above_3/4": {"choice": "on"}, "Power_Steering": {"choice": "on"}, "Radiator_Fluid": {"choice": "on"}, "Reverse_Lights": {"choice": "on"}, "Jack/Lug_Wrench": {"choice": "on"}, "Transmission_OK": {"choice": "on"}, "Incident_Reports": {"choice": "on"}, "Accident_Form/Kit": {"choice": "on"}, "Clean_In/Clean_Out": {"choice": "on"}, "Emergency_Flashers": {"choice": "on"}, "Instrumental_Lights": {"choice": "on"}, "Headlights/High_Beams": {"choice": "on"}, "Air_Conditioning/Heating": {"choice": "on"}, "Equipment_Clean/Sanitary": {"choice": "on"}, "Exhaust_System_(No_Leaks)": {"choice": "on"}, "Seat_Belts_(Front_&_Rear)": {"choice": "on"}}, "Dispatch": {"Members": {"model": {"buttons": [{"id": "jrubin", "img": "check-circle-o", "str": "Rubin, Joel, Owner & CEO", "choice": "off"}, {"id": "E099692", "img": "check-circle-o", "str": "ACOSTA, CYNTHIA", "choice": "off"}, {"id": "E113251", "img": "check-circle-o", "str": "Acosta, Pedro", "choice": "off"}, {"id": "E114592", "img": "check-circle-o", "str": "Aguila Gallardo, Oscar", "choice": "off"}, {"id": "P33820", "img": "check-circle-o", "str": "Aguilar, Amilcar", "choice": "off"}, {"id": "Jenna", "img": "check-circle-o", "str": "Ahern, Jenna", "choice": "off"}, {"id": "A6316", "img": "check-circle-o", "str": "Ahern, Jenna", "choice": "off"}, {"id": "E092674", "img": "check-circle-o", "str": "Ali, Brandon", "choice": "off"}, {"id": "jane", "img": "check-circle-o", "str": "Almansky, Zhanna", "choice": "off"}, {"id": "E090137", "img": "check-circle-o", "str": "Apelian, Ararat", "choice": "off"}, {"id": "E082561", "img": "check-circle-o", "str": "Ardon, Stacey", "choice": "off"}, {"id": "E082561", "img": "check-circle-o", "str": "ARDON, STACEY", "choice": "off"}, {"id": "P21173", "img": "check-circle-o", "str": "Askin, Lisa", "choice": "off"}, {"id": "E113654", "img": "check-circle-o", "str": "Aung, May", "choice": "off"}, {"id": "P26681", "img": "check-circle-o", "str": "Baca, Abraham", "choice": "off"}, {"id": "Baca", "img": "check-circle-o", "str": "Baca, Abraham", "choice": "off"}, {"id": "E119990", "img": "check-circle-o", "str": "BARBA, KIANA", "choice": "off"}, {"id": "E119990", "img": "check-circle-o", "str": "Barba, Kiana", "choice": "off"}, {"id": "E121181", "img": "check-circle-o", "str": "Barocio, Joseph", "choice": "off"}, {"id": "E084802", "img": "check-circle-o", "str": "BARRAGAN, EMMANUEL", "choice": "off"}, {"id": "E073548", "img": "check-circle-o", "str": "Barreras, Rafael", "choice": "off"}, {"id": "E093329", "img": "check-circle-o", "str": "BARRIOS, MIGUEL", "choice": "off"}, {"id": "E117813", "img": "check-circle-o", "str": "Barstad, Jefferson", "choice": "off"}, {"id": "E095343", "img": "check-circle-o", "str": "BLANCO, JOHN", "choice": "off"}, {"id": "E072739", "img": "check-circle-o", "str": "Bowles, Logan", "choice": "off"}, {"id": "Nichole", "img": "check-circle-o", "str": "Brookshire, Nichole", "choice": "off"}, {"id": "E101634", "img": "check-circle-o", "str": "Brotherly, Brian", "choice": "off"}, {"id": "Burova", "img": "check-circle-o", "str": "Burova, Nicole", "choice": "off"}, {"id": "E114862", "img": "check-circle-o", "str": "Burris, David", "choice": "off"}, {"id": "CHERRY", "img": "check-circle-o", "str": "CALAUNAN, CHERRY", "choice": "off"}, {"id": "P35443", "img": "check-circle-o", "str": "Calkins, Nicolas", "choice": "off"}, {"id": "Camacho", "img": "check-circle-o", "str": "Camacho, Peter", "choice": "off"}, {"id": "Campbell", "img": "check-circle-o", "str": "Campbell, William", "choice": "off"}, {"id": "P17736", "img": "check-circle-o", "str": "Campbell, Michael", "choice": "off"}, {"id": "99999", "img": "check-circle-o", "str": "Campbell, Will", "choice": "off"}, {"id": "E116526", "img": "check-circle-o", "str": "CAO, DAVID", "choice": "off"}, {"id": "E119956", "img": "check-circle-o", "str": "Cardenas, Joshua", "choice": "off"}, {"id": "E111738", "img": "check-circle-o", "str": "Carlin, David", "choice": "on"}, {"id": "E105505", "img": "check-circle-o", "str": "CARPENTER JR, RICHARD", "choice": "off"}, {"id": "E118012", "img": "check-circle-o", "str": "CARUANA, KOHLBY D", "choice": "off"}, {"id": "E108444", "img": "check-circle-o", "str": "CASTANEDA, SAUL", "choice": "off"}, {"id": "E116008", "img": "check-circle-o", "str": "CENDANA, BRYAN", "choice": "off"}, {"id": "E116008", "img": "check-circle-o", "str": "Cendana, Bryan", "choice": "off"}, {"id": "E114540", "img": "check-circle-o", "str": "Chan, Jeffrey", "choice": "off"}, {"id": "E096976", "img": "check-circle-o", "str": "Chavez, Judah", "choice": "off"}, {"id": "E079219", "img": "check-circle-o", "str": "CHIPRES, ALAN", "choice": "off"}, {"id": "E095779", "img": "check-circle-o", "str": "Choo, Edmund", "choice": "off"}, {"id": "E098564", "img": "check-circle-o", "str": "Christman, Levi", "choice": "off"}, {"id": "P10308", "img": "check-circle-o", "str": "Chu, Fleming", "choice": "off"}, {"id": "Danielle", "img": "check-circle-o", "str": "Cisneros, Danielle", "choice": "off"}, {"id": "Jrcoleman", "img": "check-circle-o", "str": "Coleman, Jordan", "choice": "off"}, {"id": "E113128", "img": "check-circle-o", "str": "Cortez, Jose", "choice": "off"}, {"id": "E113128", "img": "check-circle-o", "str": "Cortez, Jose", "choice": "off"}, {"id": "E101724", "img": "check-circle-o", "str": "Cowan, Joshua", "choice": "off"}, {"id": "E093406", "img": "check-circle-o", "str": "CRAIG, TAYLOR", "choice": "off"}, {"id": "E113772", "img": "check-circle-o", "str": "Crumbaker, James", "choice": "off"}, {"id": "E109347", "img": "check-circle-o", "str": "CRUZ, DANIEL", "choice": "off"}, {"id": "E081976", "img": "check-circle-o", "str": "CUELLAR, LUIS", "choice": "off"}, {"id": "E080586", "img": "check-circle-o", "str": "Del Valle, Gustavo", "choice": "off"}, {"id": "E109077", "img": "check-circle-o", "str": "Delgado, Rudy", "choice": "off"}, {"id": "E093690", "img": "check-circle-o", "str": "Dhillon, Navneet", "choice": "off"}, {"id": "E118539", "img": "check-circle-o", "str": "Diaz, Eric", "choice": "off"}, {"id": "E118362", "img": "check-circle-o", "str": "DiCamillo, Roxanne", "choice": "off"}, {"id": "E053729", "img": "check-circle-o", "str": "Downs, Anne", "choice": "off"}, {"id": "E113030", "img": "check-circle-o", "str": "Duarte, Joshua", "choice": "off"}, {"id": "E119931", "img": "check-circle-o", "str": "Eddy, Andrew", "choice": "off"}, {"id": "E115643", "img": "check-circle-o", "str": "EDWARDS, JONATHAN", "choice": "off"}, {"id": "E102013", "img": "check-circle-o", "str": "Elias, Irene", "choice": "off"}, {"id": "E102013", "img": "check-circle-o", "str": "Elias, Irene", "choice": "off"}, {"id": "EricEll", "img": "check-circle-o", "str": "Ell, Eric", "choice": "off"}, {"id": "Eell", "img": "check-circle-o", "str": "Ell, Eric", "choice": "off"}, {"id": "E113508", "img": "check-circle-o", "str": "Emerson, Cory", "choice": "off"}, {"id": "E102268", "img": "check-circle-o", "str": "Erivez, Jessie", "choice": "off"}, {"id": "E110409", "img": "check-circle-o", "str": "Erro, Justin", "choice": "off"}, {"id": "E117347", "img": "check-circle-o", "str": "Escandon, Lashay", "choice": "off"}, {"id": "P33385", "img": "check-circle-o", "str": "Estrada, Nicholas", "choice": "off"}, {"id": "E111754", "img": "check-circle-o", "str": "Evans, Amir", "choice": "off"}, {"id": "Fair", "img": "check-circle-o", "str": "Fair, David", "choice": "off"}, {"id": "E088403", "img": "check-circle-o", "str": "Farrow, Shannon", "choice": "off"}, {"id": "E111908", "img": "check-circle-o", "str": "Figueroa, Michelle", "choice": "off"}, {"id": "E107782", "img": "check-circle-o", "str": "Fischer, Anton", "choice": "off"}, {"id": "Fly", "img": "check-circle-o", "str": "Fly, Fly", "choice": "off"}, {"id": "E123802", "img": "check-circle-o", "str": "Fort, Taylor", "choice": "off"}, {"id": "E110403", "img": "check-circle-o", "str": "FOUTCH, BRIAN", "choice": "off"}, {"id": "E118785", "img": "check-circle-o", "str": "FREGOSO, ALAN", "choice": "off"}, {"id": "E112504", "img": "check-circle-o", "str": "FRIAS, JARED", "choice": "off"}, {"id": "F0370", "img": "check-circle-o", "str": "Fuentes, Susana", "choice": "off"}, {"id": "E106842", "img": "check-circle-o", "str": "FUNG, JOSEPH", "choice": "off"}, {"id": "E112529", "img": "check-circle-o", "str": "Garcia, Jonathan", "choice": "off"}, {"id": "E105026", "img": "check-circle-o", "str": "GATLIFF, ARTHUR A", "choice": "off"}, {"id": "E097846", "img": "check-circle-o", "str": "Gibson, Jacob", "choice": "off"}, {"id": "G2974", "img": "check-circle-o", "str": "Gilpatrick, Jonathan", "choice": "off"}, {"id": "Zelig", "img": "check-circle-o", "str": "Gitelis, Zelig", "choice": "off"}, {"id": "E081812", "img": "check-circle-o", "str": "GLICKMAN, TODD", "choice": "off"}, {"id": "E108820", "img": "check-circle-o", "str": "Glover, Chanel", "choice": "off"}, {"id": "E102299", "img": "check-circle-o", "str": "Go, Darwin", "choice": "off"}, {"id": "G0676", "img": "check-circle-o", "str": "Gonzales, Timothy", "choice": "off"}, {"id": "Timoty", "img": "check-circle-o", "str": "Gonzales, Timoty", "choice": "off"}, {"id": "E121806", "img": "check-circle-o", "str": "GONZALEZ, ADRIEENE", "choice": "off"}, {"id": "E109599", "img": "check-circle-o", "str": "GONZALEZ, FERNANDO", "choice": "off"}, {"id": "E042746", "img": "check-circle-o", "str": "GOODWIN, BRAD", "choice": "off"}, {"id": "E114491", "img": "check-circle-o", "str": "GRANT, LAMAR", "choice": "off"}, {"id": "E119827", "img": "check-circle-o", "str": "HACKENBERG, JOSHUA", "choice": "off"}, {"id": "E117390", "img": "check-circle-o", "str": "Harada, Allison", "choice": "off"}, {"id": "E115658", "img": "check-circle-o", "str": "Hardy, Christina", "choice": "off"}, {"id": "Arth", "img": "check-circle-o", "str": "Hartoyan, Artoush", "choice": "off"}, {"id": "E109326", "img": "check-circle-o", "str": "Hauck, Alysha", "choice": "off"}, {"id": "E104222", "img": "check-circle-o", "str": "Hein, Taylor", "choice": "off"}, {"id": "P20374", "img": "check-circle-o", "str": "Hennessy, Veronica", "choice": "off"}, {"id": "E092802", "img": "check-circle-o", "str": "Hernandez, Alexandro", "choice": "off"}, {"id": "H6930", "img": "check-circle-o", "str": "Hester, Cheri", "choice": "off"}, {"id": "E115197", "img": "check-circle-o", "str": "HO, JASON", "choice": "off"}, {"id": "E116374", "img": "check-circle-o", "str": "Houston, Jake", "choice": "off"}, {"id": "E113678", "img": "check-circle-o", "str": "Hoxie, Tiffany", "choice": "off"}, {"id": "E098418", "img": "check-circle-o", "str": "Hunnewell, Troy", "choice": "off"}, {"id": "Hyam", "img": "check-circle-o", "str": "Hyam, Sarah", "choice": "off"}, {"id": "Taylor", "img": "check-circle-o", "str": "Hynes, Taylor", "choice": "off"}, {"id": "E105973", "img": "check-circle-o", "str": "Jackson, Daniel", "choice": "off"}, {"id": "E109312", "img": "check-circle-o", "str": "Jackson, Benjamin", "choice": "off"}, {"id": "E121194", "img": "check-circle-o", "str": "Japlit, Timothy", "choice": "off"}, {"id": "cathi", "img": "check-circle-o", "str": "Johnson, Cathi", "choice": "off"}, {"id": "E118131", "img": "check-circle-o", "str": "Johnson, Dajon", "choice": "off"}, {"id": "E113690", "img": "check-circle-o", "str": "Kerney, James", "choice": "off"}, {"id": "E120587", "img": "check-circle-o", "str": "Lansang, William", "choice": "off"}, {"id": "E123086", "img": "check-circle-o", "str": "Larrazabal, Emilio", "choice": "off"}, {"id": "E118055", "img": "check-circle-o", "str": "Law, Colten", "choice": "off"}, {"id": "E111104", "img": "check-circle-o", "str": "Lee, Daniel", "choice": "off"}, {"id": "E111744", "img": "check-circle-o", "str": "LEE, JENNY", "choice": "off"}, {"id": "E103418", "img": "check-circle-o", "str": "LINARES, FLOR", "choice": "off"}, {"id": "E113260", "img": "check-circle-o", "str": "LIU, CHERYL", "choice": "off"}, {"id": "E107617", "img": "check-circle-o", "str": "Lo, Tsz", "choice": "off"}, {"id": "E107617", "img": "check-circle-o", "str": "Lo, Tsz", "choice": "off"}, {"id": "E091065", "img": "check-circle-o", "str": "LOMELI, MICHAEL", "choice": "off"}, {"id": "E119563", "img": "check-circle-o", "str": "LOPEZ, MEDARDO", "choice": "off"}, {"id": "DanL", "img": "check-circle-o", "str": "Louk, Dan", "choice": "off"}, {"id": "Dlouk", "img": "check-circle-o", "str": "Louk, Dan", "choice": "off"}, {"id": "E102132", "img": "check-circle-o", "str": "Mahmoudi, Clara", "choice": "off"}, {"id": "E115193", "img": "check-circle-o", "str": "Major, Jasmine", "choice": "off"}, {"id": "E117761", "img": "check-circle-o", "str": "Mank, Eric", "choice": "off"}, {"id": "E116927", "img": "check-circle-o", "str": "Manobanda, Daniel", "choice": "off"}, {"id": "E101302", "img": "check-circle-o", "str": "Marijne, Kevin", "choice": "off"}, {"id": "E114899", "img": "check-circle-o", "str": "MARRUFO, IVAN", "choice": "off"}, {"id": "E122375", "img": "check-circle-o", "str": "Martinez, Anthony", "choice": "off"}, {"id": "E122371", "img": "check-circle-o", "str": "Mast, Abbey", "choice": "off"}, {"id": "E108913", "img": "check-circle-o", "str": "MATSUNE, KENNETH", "choice": "off"}, {"id": "E113289", "img": "check-circle-o", "str": "MAYO, ARIEL N", "choice": "off"}, {"id": "E096092", "img": "check-circle-o", "str": "McConnell, Andrew", "choice": "off"}, {"id": "E092107", "img": "check-circle-o", "str": "McNamee, Nathan", "choice": "off"}, {"id": "E103994", "img": "check-circle-o", "str": "MEDINA, RONALD", "choice": "off"}, {"id": "E099325", "img": "check-circle-o", "str": "Mendez, David", "choice": "off"}, {"id": "E104608", "img": "check-circle-o", "str": "Mendez, Lenard", "choice": "off"}, {"id": "M1029", "img": "check-circle-o", "str": "Mikell, John", "choice": "off"}, {"id": "E111880", "img": "check-circle-o", "str": "Milleman, Benjamin", "choice": "off"}, {"id": "E102237", "img": "check-circle-o", "str": "Moffatt, Kelan", "choice": "off"}, {"id": "E099704", "img": "check-circle-o", "str": "Monreal, Julio", "choice": "off"}, {"id": "E120479", "img": "check-circle-o", "str": "Montenegro, Michael", "choice": "off"}, {"id": "E121458", "img": "check-circle-o", "str": "Monteverde, Jonathan", "choice": "off"}, {"id": "E112300", "img": "check-circle-o", "str": "Moore, Daejon", "choice": "off"}, {"id": "E117345", "img": "check-circle-o", "str": "MOSELEY, ALLEN", "choice": "off"}, {"id": "E032569", "img": "check-circle-o", "str": "Munoz, Jose", "choice": "off"}, {"id": "E074876", "img": "check-circle-o", "str": "Murtha, Kelly", "choice": "off"}, {"id": "E122531", "img": "check-circle-o", "str": "MUTYABA, JOHNNY", "choice": "off"}, {"id": "E120612", "img": "check-circle-o", "str": "Najera, Alberto", "choice": "off"}, {"id": "E086567", "img": "check-circle-o", "str": "Nelson, Alex", "choice": "off"}, {"id": "E078655", "img": "check-circle-o", "str": "NELSON, ADAM", "choice": "off"}, {"id": "E113388", "img": "check-circle-o", "str": "NGUYEN, JOHN", "choice": "off"}, {"id": "GIZELLE", "img": "check-circle-o", "str": "NICHOLS, GIZELLE", "choice": "off"}, {"id": "E108740", "img": "check-circle-o", "str": "NOLEN, LAUREN", "choice": "off"}, {"id": "E116816", "img": "check-circle-o", "str": "Ntzouras, George", "choice": "off"}, {"id": "E119502", "img": "check-circle-o", "str": "Nune, Eric", "choice": "off"}, {"id": "E113031", "img": "check-circle-o", "str": "Nunez, Miguel", "choice": "off"}, {"id": "Andre", "img": "check-circle-o", "str": "Oberholzer, Andre", "choice": "off"}, {"id": "Pachita", "img": "check-circle-o", "str": "Obeso, Pachita", "choice": "off"}, {"id": "E107250", "img": "check-circle-o", "str": "Orange, Ellon", "choice": "off"}, {"id": "E061850", "img": "check-circle-o", "str": "OVERHOLT, ASHLY", "choice": "off"}, {"id": "E103202", "img": "check-circle-o", "str": "PACHECO, CHRISTOPHER C", "choice": "off"}, {"id": "P2255", "img": "check-circle-o", "str": "PADILLA, ISAAC", "choice": "off"}, {"id": "Parsons", "img": "check-circle-o", "str": "Parsons, Dana", "choice": "off"}, {"id": "E022814", "img": "check-circle-o", "str": "Parsons, Ryan", "choice": "off"}, {"id": "RELIEF", "img": "check-circle-o", "str": "Partner, Relief", "choice": "off"}, {"id": "E084072", "img": "check-circle-o", "str": "Pashabezyan, Sarkis", "choice": "off"}, {"id": "E115716", "img": "check-circle-o", "str": "Perales, Jordan", "choice": "off"}, {"id": "E773818", "img": "check-circle-o", "str": "Perez, Keila", "choice": "off"}, {"id": "Pinsky", "img": "check-circle-o", "str": "Pinsky, Vince", "choice": "off"}, {"id": "E011675", "img": "check-circle-o", "str": "Pitchford, Charlene", "choice": "off"}, {"id": "E100248", "img": "check-circle-o", "str": "Predom, Deandre", "choice": "off"}, {"id": "E093000", "img": "check-circle-o", "str": "QUACH, CUONG", "choice": "off"}, {"id": "E103575", "img": "check-circle-o", "str": "Quijada, Maria", "choice": "off"}, {"id": "E118262", "img": "check-circle-o", "str": "Quintana, Jorge", "choice": "off"}, {"id": "E103208", "img": "check-circle-o", "str": "Ramirez, Hazahel", "choice": "off"}, {"id": "E078879", "img": "check-circle-o", "str": "RAYA, JONATHAN", "choice": "off"}, {"id": "E054345", "img": "check-circle-o", "str": "REED, SCOTT", "choice": "off"}, {"id": "E115968", "img": "check-circle-o", "str": "REMLEY, MYLON", "choice": "off"}, {"id": "prichart", "img": "check-circle-o", "str": "Richart, Paul", "choice": "off"}, {"id": "E104703", "img": "check-circle-o", "str": "Rivera, Esteban", "choice": "off"}, {"id": "E105614", "img": "check-circle-o", "str": "Rodriguez, Esther", "choice": "off"}, {"id": "E105614", "img": "check-circle-o", "str": "Rodriguez, Esther", "choice": "off"}, {"id": "E122355", "img": "check-circle-o", "str": "Rogina, CODY", "choice": "off"}, {"id": "E098620", "img": "check-circle-o", "str": "Ros, Denise", "choice": "off"}, {"id": "Rosenfeld", "img": "check-circle-o", "str": "Rosenfeld, Abraham", "choice": "off"}, {"id": "4732", "img": "check-circle-o", "str": "Rubin, Joel", "choice": "off"}, {"id": "Ruffo", "img": "check-circle-o", "str": "Ruffo, Ozzy", "choice": "off"}, {"id": "E026016", "img": "check-circle-o", "str": "Ruiz, Eddy", "choice": "off"}, {"id": "S8745", "img": "check-circle-o", "str": "SALAS, JASON", "choice": "off"}, {"id": "Jason", "img": "check-circle-o", "str": "Salas, Jason", "choice": "off"}, {"id": "E082546", "img": "check-circle-o", "str": "SALAS, JOESPH", "choice": "off"}, {"id": "E098894", "img": "check-circle-o", "str": "SANDOVAL, MICHAEL", "choice": "off"}, {"id": "E113198", "img": "check-circle-o", "str": "Santana, Ruben", "choice": "off"}, {"id": "P31724", "img": "check-circle-o", "str": "Santos, John", "choice": "off"}, {"id": "E111194", "img": "check-circle-o", "str": "SCALZO, JOHN", "choice": "off"}, {"id": "DispatchScreen", "img": "check-circle-o", "str": "Screen, Dispatch", "choice": "off"}, {"id": "E100534", "img": "check-circle-o", "str": "Sequeira, Christian", "choice": "off"}, {"id": "E107514", "img": "check-circle-o", "str": "SEQUEIRA, NATALIA", "choice": "off"}, {"id": "E110237", "img": "check-circle-o", "str": "SERRANO, ANDREW", "choice": "off"}, {"id": "E118601", "img": "check-circle-o", "str": "SERRANO, BAUDELIO", "choice": "off"}, {"id": "S3533", "img": "check-circle-o", "str": "SHARMA, ROHAN", "choice": "off"}, {"id": "E105819", "img": "check-circle-o", "str": "SHERRATT, JACOB", "choice": "off"}, {"id": "E117398", "img": "check-circle-o", "str": "Siasi, Alexander", "choice": "off"}, {"id": "S1851", "img": "check-circle-o", "str": "Sibley-Thomas, Lanette", "choice": "off"}, {"id": "E117049", "img": "check-circle-o", "str": "Singleton, Marcus", "choice": "off"}, {"id": "P33704", "img": "check-circle-o", "str": "Skaggs, Mickle", "choice": "off"}, {"id": "E113582", "img": "check-circle-o", "str": "Smith, Alexandra", "choice": "off"}, {"id": "E114625", "img": "check-circle-o", "str": "SOBRITO, JACOB", "choice": "off"}, {"id": "E046265", "img": "check-circle-o", "str": "SOLORIO, JOSE J", "choice": "off"}, {"id": "E101919", "img": "check-circle-o", "str": "Sosa, Edwardo", "choice": "off"}, {"id": "E101919", "img": "check-circle-o", "str": "Sosa, Edwardo", "choice": "off"}, {"id": "29175", "img": "check-circle-o", "str": "Stepanov, Mikhail", "choice": "off"}, {"id": "E112419", "img": "check-circle-o", "str": "Stewart, Rachel", "choice": "off"}, {"id": "E109101", "img": "check-circle-o", "str": "Tabu, Johnenric", "choice": "off"}, {"id": "E115376", "img": "check-circle-o", "str": "Tapia, Franco", "choice": "off"}, {"id": "testtest", "img": "check-circle-o", "str": "Test, Test", "choice": "off"}, {"id": "kris", "img": "check-circle-o", "str": "Thomas, Kris", "choice": "off"}, {"id": "E109478", "img": "check-circle-o", "str": "Tosello, Chris", "choice": "off"}, {"id": "Trasovan", "img": "check-circle-o", "str": "Trasovan, Yakov", "choice": "off"}, {"id": "E105560", "img": "check-circle-o", "str": "Trevare, Julien", "choice": "off"}, {"id": "E032761", "img": "check-circle-o", "str": "TRIPODI, JIMMY", "choice": "off"}, {"id": "Turk", "img": "check-circle-o", "str": "Turk, Gregg", "choice": "off"}, {"id": "user1", "img": "check-circle-o", "str": "User1, User1", "choice": "off"}, {"id": "user2", "img": "check-circle-o", "str": "User2, User2", "choice": "off"}, {"id": "vashovsky", "img": "check-circle-o", "str": "Vashovsky, Stan", "choice": "off"}, {"id": "Orlando", "img": "check-circle-o", "str": "Vasquez, Orlando", "choice": "off"}, {"id": "E110225", "img": "check-circle-o", "str": "Vogt, Megan", "choice": "off"}, {"id": "E095405", "img": "check-circle-o", "str": "Wegner, Samuel", "choice": "off"}, {"id": "E121555", "img": "check-circle-o", "str": "WEISSENBORN, BREE", "choice": "off"}, {"id": "Naima", "img": "check-circle-o", "str": "Welcome, Naima", "choice": "off"}, {"id": "E120688", "img": "check-circle-o", "str": "White, Carter", "choice": "off"}, {"id": "mike", "img": "check-circle-o", "str": "Whitehead, Mike", "choice": "off"}, {"id": "E000241", "img": "check-circle-o", "str": "Wiedemann, Russell", "choice": "off"}, {"id": "Wolfman", "img": "check-circle-o", "str": "Wolfman, Shachar", "choice": "off"}, {"id": "E084071", "img": "check-circle-o", "str": "Wong, Dillon", "choice": "off"}, {"id": "E117768", "img": "check-circle-o", "str": "WONG, ERNEST", "choice": "off"}, {"id": "E116180", "img": "check-circle-o", "str": "Xu, Mike", "choice": "off"}, {"id": "E122172", "img": "check-circle-o", "str": "Yan, Courtley", "choice": "off"}, {"id": "Zandstra", "img": "check-circle-o", "str": "Zandstra, Jeanie", "choice": "off"}, {"id": "E122295", "img": "check-circle-o", "str": "Zhitnitsky, Michael", "choice": "off"}]}}, "CallLocation": {"model": {"buttons": [{"id": "R", "img": "check-square-o", "str": "Residence", "choice": "on"}, {"id": "H", "img": "check-square-o", "str": "Hospital", "choice": "on"}, {"id": "F", "img": "check-square-o", "str": "Facility", "choice": "on"}]}}, "DispatchInfo": {"model": {"buttons": [{"id": "R", "img": "check-circle-o", "str": "Residence", "choice": "on"}, {"id": "S", "img": "check-circle-o", "str": "Street", "choice": "off"}, {"id": "H", "img": "check-circle-o", "str": "Health", "choice": "off"}, {"id": "I", "img": "check-circle-o", "str": "Industrial", "choice": "off"}, {"id": "C", "img": "check-circle-o", "str": "Scene", "choice": "off"}]}}, "LightsSirens": {"model": {"buttons": [{"id": "LSToScene", "img": "check-square-o", "str": "To Scene", "choice": "on"}, {"id": "LSToDestination", "img": "check-square-o", "str": "To Destination", "choice": "on"}]}}, "CALLTYPE.5150": {"model": {"buttons": [{"id": "CALLTYPE.5150", "str": "", "choice": "on", "caption": "Psychiatric Hold (5150) 72 HH"}]}}, "CALLTYPE.5250": {"model": {"buttons": [{"id": "CALLTYPE.5250", "str": "", "choice": "on", "caption": "Psychiatric Hold (5250) 14 DH"}]}}, "CALLTYPE.5350": {"model": {"buttons": [{"id": "CALLTYPE.5350", "str": "", "choice": "on", "caption": "Psychiatric Hold (5350) 1 YH"}]}}, "DispatchAborted": {"model": {"buttons": [{"id": "DryRun", "img": "check-circle-o", "str": "Dry Run", "choice": "on"}, {"id": "DOA", "img": "check-circle-o", "str": "DOA", "choice": "off"}, {"id": "Gone", "img": "check-circle-o", "str": "Gone", "choice": "off"}, {"id": "NotFound", "img": "check-circle-o", "str": "Not Found", "choice": "off"}, {"id": "Transported", "img": "check-circle-o", "str": "Transported", "choice": "off"}, {"id": "PDMatter", "img": "check-circle-o", "str": "PD Matter", "choice": "off"}]}}, "CALLTYPE.Discharge": {"model": {"buttons": [{"id": "CALLTYPE.Discharge", "str": "", "choice": "on", "caption": "Discharge"}]}}, "Members.Members_M1": {"Members_M1": "Barba, Kiana"}, "Members.Members_M2": {"Members_M2": "BARRIOS, MIGUEL"}, "Members.Members_M3": {"Members_M3": "Camacho, Peter"}, "Members.Members_M4": {"Members_M4": "Carlin, David"}, "CALLTYPE.ALSStandby": {"model": {"buttons": [{"id": "CALLTYPE.ALSStandby", "str": "", "choice": "on", "caption": "ALS Standby"}]}}, "CALLTYPE.WaitReturn": {"model": {"buttons": [{"id": "CALLTYPE.WaitReturn", "str": "", "choice": "on", "caption": "Wait and Return"}]}}, "Mileage.Mileage_End": {"Mileage_End": "21046"}, "Mileage.Mileage_Begin": {"Mileage_Begin": "21007"}, "Mileage.Mileage_Total": {"Mileage_Total": "39"}, "Timeline.Timeline_EnRoute": {"Timeline_EnRoute": "20:51"}, "Timeline.Timeline_OnScene": {"Timeline_OnScene": "20:51"}, "Timeline.Timeline_Assigned": {"Timeline_Assigned": "20:51"}, "Timeline.Timeline_FromScene": {"Timeline_FromScene": "20:51"}, "Timeline.Timeline_InService": {"Timeline_InService": "20:51"}, "DispatchInfo.DispatchInfo_CAD": {"DispatchInfo_CAD": "CAD#"}, "CallLocation.CallLocation_City": {"CallLocation_City": "City"}, "CallLocation.CallLocation_Name": {"CallLocation_Name": "Name"}, "CallLocation.CallLocation_Room": {"CallLocation_Room": "Room"}, "CallLocation.CallLocation_State": {"CallLocation_State": "STATE"}, "Timeline.Timeline_AtDestination": {"Timeline_AtDestination": "20:51"}, "Timeline.Timeline_PatientContact": {"Timeline_PatientContact": "20:51"}, "CallLocation.CallLocation_Address": {"CallLocation_Address": "Address"}, "CallLocation.CallLocation_ZipCode": {"CallLocation_ZipCode": "12301-0030 "}, "DispatchInfo.DispatchInfo_Borough": {"DispatchInfo_Borough": "Borough"}, "CallLocation.CallLocation_Apartment": {"CallLocation_Apartment": "Apartment"}, "DispatchInfo.DispatchInfo_LocationCode": {"DispatchInfo_LocationCode": "Location Code"}, "CallLocation.CallLocation_RespondedFrom": {"CallLocation_RespondedFrom": "Residence,Hospital,Facility"}, "DispatchInfo.DispatchInfo_DispatchMethod": {"DispatchInfo_DispatchMethod": "Method"}, "DispatchInfo.DispatchInfo_TransportedFrom": {"DispatchInfo_TransportedFrom": "Residence"}}, "Vitals_1": {"BP": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "on"}, {"id": "PALP", "img": "check-circle-o", "str": "PALP", "choice": "on"}]}}, "SP02": {"model": {"buttons": [{"id": "ORA", "img": "check-circle-o", "str": "ORA", "choice": "off"}, {"id": "W02", "img": "check-circle-o", "str": "W02", "choice": "on"}]}}, "Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "TakenBy": {"selected": "EMT"}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "TempScale": {"model": {"buttons": [{"id": "Ferenheit", "img": "check-circle-o", "str": "F", "choice": "on"}, {"id": "Centegrade", "img": "check-circle-o", "str": "C", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Clear"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "Vitals_2": {"BP": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "on"}, {"id": "PALP", "img": "check-circle-o", "str": "PALP", "choice": "on"}]}}, "SP02": {"model": {"buttons": [{"id": "ORA", "img": "check-circle-o", "str": "ORA", "choice": "off"}, {"id": "W02", "img": "check-circle-o", "str": "W02", "choice": "on"}]}}, "Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "TakenBy": {"selected": "Driver"}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Clear"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "logmount": false, "transcript": [], "Demographics": {"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str": "Male", "choice": "on"}, {"id": 1, "img": "check-circle-o", "str": "Female", "choice": "off"}, {"id": 2, "img": "check-circle-o", "str": "Unknown", "choice": "off"}]}}, "EmergencyContact": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str": "Spouse", "choice": "on"}, {"id": 1, "img": "check-circle-o", "str": "Parent", "choice": "off"}, {"id": 2, "img": "check-circle-o", "str": "Child", "choice": "off"}, {"id": 3, "img": "check-circle-o", "str": "Other", "choice": "off"}]}}, "PatientInfo.PatientInfo_Zip": {"PatientInfo_Zip": "20303-0030 "}, "PatientInfo.PatientInfo_City": {"PatientInfo_City": "City"}, "PatientInfo.PatientInfo_State": {"PatientInfo_State": "State"}, "PatientDetail.PatientDetail_Age": {"PatientDetail_Age": "56"}, "PatientDetail.PatientDetail_DOB": {"PatientDetail_DOB": "02/12/1960 "}, "PatientDetail.PatientDetail_SSN": {"PatientDetail_SSN": "123-45-6789 "}, "PatientInfo.PatientInfo_Address": {"PatientInfo_Address": "Address"}, "PatientInfo.PatientInfo_LastName": {"PatientInfo_LastName": "Conway"}, "PatientInfo.PatientInfo_Apartment": {"PatientInfo_Apartment": "Apartment"}, "PatientInfo.PatientInfo_FirstName": {"PatientInfo_FirstName": "Terrence"}, "PatientDetail.PatientDetail_Gender": {"PatientDetail_Gender": "Male"}, "PatientDetail.PatientDetail_Phone1": {"PatientDetail_Phone1": "(201) 245-2020 "}, "PatientDetail.PatientDetail_Phone2": {"PatientDetail_Phone2": "(201) 245-2021 "}, "PhysicianInfo.PhysicianInfo_Phone1": {"PhysicianInfo_Phone1": "(201) 826-3774 "}, "PhysicianInfo.PhysicianInfo_LastName": {"PhysicianInfo_LastName": "Sullivan"}, "PatientDetail.PatientDetail_WeightLbs": {"PatientDetail_WeightLbs": "210"}, "PatientInfo.PatientInfo_MiddleInitial": {"PatientInfo_MiddleInitial": "O"}, "PhysicianInfo.PhysicianInfo_FirstName": {"PhysicianInfo_FirstName": "Peter"}, "PrimaryInsurance.PrimaryInsurance_Name": {"PrimaryInsurance_Name": "Name"}, "EmergencyContact.EmergencyContact_Phone1": {"EmergencyContact_Phone1": "(212) 245-2020 "}, "PrimaryInsurance.PrimaryInsurance_PayerID": {"PrimaryInsurance_PayerID": "PayerID"}, "EmergencyContact.EmergencyContact_LastName": {"EmergencyContact_LastName": "Conway"}, "PrimaryInsurance.PrimaryInsurance_PolicyID": {"PrimaryInsurance_PolicyID": "PolicyID"}, "SecondaryInsurance.SecondaryInsurance_Name": {"SecondaryInsurance_Name": "Name2"}, "EmergencyContact.EmergencyContact_FirstName": {"EmergencyContact_FirstName": "Betty"}, "PrimaryInsurance.PrimaryInsurance_GroupNumber": {"PrimaryInsurance_GroupNumber": "Group Number"}, "SecondaryInsurance.SecondaryInsurance_PayerID": {"SecondaryInsurance_PayerID": "PayerID2"}, "EmergencyContact.EmergencyContact_Relationship": {"EmergencyContact_Relationship": "Spouse"}, "PrimaryInsurance.PrimaryInsurance_PolicyHolder": {"PrimaryInsurance_PolicyHolder": "Policy Holder"}, "SecondaryInsurance.SecondaryInsurance_PolicyID": {"SecondaryInsurance_PolicyID": "PolicyID2"}, "SecondaryInsurance.SecondaryInsurance_GroupNumber": {"SecondaryInsurance_GroupNumber": "Group Number2"}, "SecondaryInsurance.SecondaryInsurance_PolicyHolder": {"SecondaryInsurance_PolicyHolder": "Policy Holder2"}}, "DispositionWide": {"moved": {"model": {"buttons": [{"id": "Initial", "img": "check-circle-o", "str": "Initial", "choice": "on"}, {"id": "Return", "img": "check-circle-o", "str": "Return", "choice": "on"}, {"id": "Transfer", "img": "check-circle-o", "str": "Transfer", "choice": "on"}, {"id": "OtherUnit", "img": "check-circle-o", "str": "Transferred Care to Other Unit", "choice": "on", "factorWidth": 3}]}}}, "DispositionNarrow": {"moved": {"model": {"buttons": [{"id": "MetAtAmbulance", "img": "check-circle-o", "str": "Met At Ambulance", "choice": "off"}, {"id": "Chair", "img": "check-circle-o", "str": "Chair", "choice": "off"}, {"id": "Carried", "img": "check-circle-o", "str": "Carried", "choice": "off"}, {"id": "Scoop", "img": "check-circle-o", "str": "Scooop", "choice": "off"}, {"id": "Stretcher", "img": "check-circle-o", "str": "Stretcher", "choice": "off"}, {"id": "StretcherLongboard", "img": "check-circle-o", "str": "Stretcher/Longboard", "choice": "off"}, {"id": "Walked", "img": "check-circle-o", "str": "Walked", "choice": "off"}]}}}, "GEN:DNR (refusedCprList)": {"97d738ec-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "97d738ec-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "On file"}]}}}, "GEN:2nd (cprMapPulseList2)": {"a135d887-03e4-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "9622ce50-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "9622d45c-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "No", "choice": "off"}]}}}, "GEN:3rd (cprMapPulseList3)": {"962317b6-0610-11e0-9c66-0ba20c568bb6": {"choice": "More Information"}, "a1b5c8f9-03e4-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "96230b7d-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "962311b2-0610-11e0-9c66-0ba20c568bb6", "img": "check-circle-o", "str": "No", "choice": "off"}]}}}, "GEN:AED (cprAssessMapAEDList)": {"06f6352b-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "Lots of shock"}, "06f63fe6-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "electrocuted him"}, "36ba0910-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06f62afb-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "06f6300d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "No", "choice": "off"}]}}}, "GEN:Arm (rightHandMapArmList)": {"02793f25-71ea-11e1-bd51-842b2b4bbc99": {"choice": "all cut up"}, "06b4732c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4732c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Deformity"}]}}, "06b47cec-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b47cec-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Abrasion"}]}}, "06b48694-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b48694-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Swelling"}]}}, "06b49017-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b49017-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Numbness"}]}}, "06b499bb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b499bb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Amputation"}]}}, "06b49e8f-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b49e8f-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Puncture"}]}}, "06b4a34a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4a34a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Penetration"}]}}, "06b4a812-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4a812-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Paresthesia"}]}}, "06b4ace6-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4ace6-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Rash"}]}}, "06b4b669-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4b669-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Bleeding"}]}}, "06b4bb2c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4bb2c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1st Degree Burn"}]}}, "06b4c5eb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b4c5eb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "3rd Degree Burn"}]}}, "06b533c7-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "a real mess - will need amputation"}, "1f33b6c9-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06b4cb12-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Mild", "choice": "off"}, {"id": "06b4d02b-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Mod", "choice": "off"}, {"id": "06b4d53d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Severe", "choice": "on"}]}}, "1f5a47f2-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06b4ebf7-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "1+", "choice": "off"}, {"id": "06b4f109-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "2+", "choice": "off"}, {"id": "06b4f62f-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "3+", "choice": "on"}, {"id": "06b4fb61-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "4+", "choice": "off"}]}}, "1f6331f2-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06b5008c-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "1", "choice": "off"}, {"id": "06b5059d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "2", "choice": "off"}, {"id": "06b50aa2-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "3", "choice": "on"}, {"id": "06b50fc9-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "4", "choice": "off"}, {"id": "06b5154d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "5", "choice": "off"}, {"id": "06b51a7f-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "6", "choice": "off"}, {"id": "06b51f85-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "7", "choice": "off"}, {"id": "06b524ab-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "8", "choice": "off"}, {"id": "06b529b0-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "9", "choice": "off"}, {"id": "06b52ebd-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "10", "choice": "off"}]}}, "f91d05d2-d1b1-4f6b-9e05-a90ce6418213": {"model": {"buttons": [{"id": "f91d05d2-d1b1-4f6b-9e05-a90ce6418213", "str": "", "choice": "on", "caption": "Celulitis"}]}}}, "GEN:3 Lead (ekgAssessMap4LList4)": {"06f8572e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8572e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Presenting Rhythm?"}]}}, "06f860fb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f860fb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Normal Sinus"}]}}, "06f86a61-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f86a61-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Tach"}]}}, "06f875c0-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f875c0-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-fib"}]}}, "06f87f48-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f87f48-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1 Degree AV Block"}]}}, "06f8894a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8894a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 1"}]}}, "06f892c0-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f892c0-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "3 Degree AV Block"}]}}, "06f8a05f-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8a05f-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "PVC"}]}}, "06f8a9de-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f8a9de-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Fib"}]}}}, "GEN:12 Lead (ekgAssessMap12LList1)": {"06f98e21-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f98e21-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Presenting Rhythm?"}]}}, "06f992e0-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f992e0-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Asystole"}]}}, "06f99b79-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f99b79-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Normal Sinus"}]}}, "06f9a055-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9a055-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Brady"}]}}, "06f9a54a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9a54a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Tach"}]}}, "06f9aa1a-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9aa1a-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Pac`s"}]}}, "06f9aec9-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9aec9-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-fib"}]}}, "06f9b37c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9b37c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-flutter"}]}}, "06f9b844-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9b844-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1 Degree AV Block"}]}}, "06f9bd55-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9bd55-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 Degree AV Block"}]}}, "06f9c23e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9c23e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 1"}]}}, "06f9c6fd-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9c6fd-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 2"}]}}, "06f9cbc5-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9cbc5-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "3 Degree AV Block"}]}}, "06f9d074-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9d074-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Junctional"}]}}, "06f9d527-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9d527-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "PVC"}]}}, "06f9d9de-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9d9de-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Tach"}]}}, "06f9dea6-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06f9dea6-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Fib"}]}}, "38446b36-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06f9f095-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Yes", "choice": "on"}, {"id": "06f9f5ae-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "No", "choice": "off"}]}}, "3859639a-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06fa046c-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V1", "choice": "off"}, {"id": "06fa30c2-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVF", "choice": "off"}, {"id": "06fa35a6-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVR", "choice": "on"}, {"id": "06fa3a7e-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVL", "choice": "off"}, {"id": "06fa0965-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V2", "choice": "off"}, {"id": "06fa0e5a-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V3", "choice": "off"}, {"id": "06fa1357-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V4", "choice": "off"}, {"id": "06fa1848-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V5", "choice": "off"}, {"id": "06fa1d59-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V6", "choice": "off"}, {"id": "06fa222d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "I", "choice": "off"}, {"id": "06fa2709-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "II", "choice": "off"}, {"id": "06fa2bd9-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "III", "choice": "off"}]}}}, "GEN:12 Lead (ekgAssessMap12LList2)": {"06fa492b-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa492b-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Presenting Rhythm?"}]}}, "06fa52bb-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa52bb-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Normal Sinus"}]}}, "06fa5c5e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa5c5e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Sinus Tach"}]}}, "06fa65e1-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa65e1-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "A-fib"}]}}, "06fa72d3-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa72d3-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "1 Degree AV Block"}]}}, "06fa812e-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa812e-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "2 DegreeType 2"}]}}, "06fa8a8c-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa8a8c-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Junctional"}]}}, "06fa93de-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06fa93de-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "V-Tach"}]}}, "388ae791-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06faa71d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Yes", "choice": "off"}, {"id": "06faac33-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "No", "choice": "on"}]}}, "38e74c93-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06fabadc-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V1", "choice": "on"}, {"id": "06faea4a-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVF", "choice": "off"}, {"id": "06faef22-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVR", "choice": "off"}, {"id": "06faf3ee-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "AVL", "choice": "off"}, {"id": "06fabfbc-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V2", "choice": "off"}, {"id": "06fac7d2-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V3", "choice": "off"}, {"id": "06facccf-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V4", "choice": "off"}, {"id": "06fad209-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V5", "choice": "off"}, {"id": "06fad702-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "V6", "choice": "off"}, {"id": "06fadbdf-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "I", "choice": "off"}, {"id": "06fae0a6-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "II", "choice": "off"}, {"id": "06fae57e-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "III", "choice": "off"}]}}}}',
+received = '2017-03-05 01:04:51',
+sent = '1970-01-01 12:00:00' where id ='a04893d6-bf3c-4e5d-ab6f-781c90b83526'
+
+3/5/2017 2:13:35 PM
+insert into pcr_Demographic(agency_id,id)
+values
+('180a9ed5-b386-4820-9679-bbb2162f196a','cc65c28e-0fda-49b5-bb13-ad80a1fda6d6')
+
+3/5/2017 2:13:36 PM
+insert into pcr_dispatch(id)
+values
+('98592d93-f7f6-42d7-8a86-2818adfd772e')
+
+3/5/2017 2:13:37 PM
+insert into ems_run(id)
+values
+('2dc11c98-9ffe-4b81-90b7-6929f1c5a4ef')
+
+3/5/2017 2:13:38 PM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('6f79bbd8-c01b-4b73-b6a9-841ff40de9d3','6f4ada40-3ed3-4871-832d-b8d01d15305e','f05c2e18-cf77-4b25-a5d0-24ee42575054','3b7380b1-f9f4-48ed-8dd5-0b26126b0e83','9af9e6ef-218a-408a-9abb-4c225034d56a')
+
+3/5/2017 2:13:39 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('2dc11c98-9ffe-4b81-90b7-6929f1c5a4ef','9af9e6ef-218a-408a-9abb-4c225034d56a','30c6d6eb-e2c8-431f-ae82-6e69b3117e48')
+
+3/5/2017 2:13:39 PM
+insert into pcr_narrative_notes(id)
+values
+('2e7b0b51-6673-471f-8e02-85051ce78ded')
+
+3/5/2017 2:13:40 PM
+insert into pcr_rma(id)
+values
+('dd69aa20-e1b2-4712-8c84-40273d18abc5')
+
+3/5/2017 2:13:40 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','320e6591-41cf-48db-84fc-95f9a0d94588')
+
+3/5/2017 2:13:40 PM
+insert into pcr_Narcotic(id)
+values
+('b706928c-0405-434b-a52e-928f32d97a4b')
+
+3/5/2017 2:13:41 PM
+insert into pcr_Authorization(id)
+values
+('4b9ccd6a-da75-4b25-ae4d-2c4b4054aec4')
+
+3/5/2017 2:13:42 PM
+insert into pcr(pcr_dispatch_id,pcr_demographic_id,pcr_assessment_id,pcr_narrative_notes_id,pcr_rma_id,pcr_authorization_id,pcr_apcf_id,pcr_disposition_id,ems_run,pcr_narcotics_id,agency_id,id)
+values
+('98592d93-f7f6-42d7-8a86-2818adfd772e','cc65c28e-0fda-49b5-bb13-ad80a1fda6d6','0d0a1651-d429-442a-9702-d8e80da98b96','2e7b0b51-6673-471f-8e02-85051ce78ded','dd69aa20-e1b2-4712-8c84-40273d18abc5','4b9ccd6a-da75-4b25-ae4d-2c4b4054aec4','2053fd60-85b8-4914-ac16-cfd745d9f7de','320e6591-41cf-48db-84fc-95f9a0d94588','2dc11c98-9ffe-4b81-90b7-6929f1c5a4ef','b706928c-0405-434b-a52e-928f32d97a4b','180a9ed5-b386-4820-9679-bbb2162f196a','8ef21dd9-18da-429b-b71b-027503869d2e')
+
+3/5/2017 2:14:19 PM
+insert into pcr_Demographic(agency_id,id)
+values
+('180a9ed5-b386-4820-9679-bbb2162f196a','16c17295-2582-4c0f-a909-4685a4a0ec78')
+
+3/5/2017 2:14:22 PM
+insert into pcr_dispatch(id)
+values
+('f52c7d50-afb0-4463-8717-2cb388a635b4')
+
+3/5/2017 2:14:26 PM
+insert into ems_run(id)
+values
+('239d9788-a235-4bce-820b-4ffbb370a669')
+
+3/5/2017 2:14:30 PM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('6f79bbd8-c01b-4b73-b6a9-841ff40de9d3','6f4ada40-3ed3-4871-832d-b8d01d15305e','9dacb38e-c6e0-4854-b3b6-d90c8a911e66','3b7380b1-f9f4-48ed-8dd5-0b26126b0e83','a56fc626-6e99-4a2a-81d2-f2c7fb8f2b14')
+
+3/5/2017 2:14:35 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('239d9788-a235-4bce-820b-4ffbb370a669','a56fc626-6e99-4a2a-81d2-f2c7fb8f2b14','fdc21f22-c6a7-4125-a34a-4d42844a7117')
+
+3/5/2017 2:14:41 PM
+insert into pcr_narrative_notes(id)
+values
+('dd39111a-c83f-4682-80c2-aff932cdd4bb')
+
+3/5/2017 2:14:42 PM
+insert into pcr_rma(id)
+values
+('484609d6-b2d5-4fbb-afbd-b2e0f31b62e0')
+
+3/5/2017 2:14:42 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','97b6b716-75a3-47f1-bc4a-3cad99684975')
+
+3/5/2017 2:14:42 PM
+insert into pcr_Narcotic(id)
+values
+('b9af16a2-a026-44a3-8971-18a9aba0a761')
+
+3/5/2017 2:14:42 PM
+insert into pcr_Authorization(id)
+values
+('2628fe31-b906-4335-ab6c-7de9038e6153')
+
+3/5/2017 2:14:43 PM
+update pcr set 
+pcr_dispatch_id = 'f52c7d50-afb0-4463-8717-2cb388a635b4',
+pcr_demographic_id = '16c17295-2582-4c0f-a909-4685a4a0ec78',
+pcr_assessment_id = 'ba10f32e-7b6a-4a73-84fa-6826aa1c3ecd',
+pcr_narrative_notes_id = 'dd39111a-c83f-4682-80c2-aff932cdd4bb',
+pcr_rma_id = '484609d6-b2d5-4fbb-afbd-b2e0f31b62e0',
+pcr_authorization_id = '2628fe31-b906-4335-ab6c-7de9038e6153',
+pcr_apcf_id = 'd40fafc8-b654-4e16-b01a-8eb96fdc4777',
+pcr_disposition_id = '97b6b716-75a3-47f1-bc4a-3cad99684975',
+ems_run = '239d9788-a235-4bce-820b-4ffbb370a669',
+pcr_narcotics_id = 'b9af16a2-a026-44a3-8971-18a9aba0a761',
+agency_id = '180a9ed5-b386-4820-9679-bbb2162f196a' where id ='8ef21dd9-18da-429b-b71b-027503869d2e'
+
+3/5/2017 2:15:01 PM
+insert into pcr_Demographic(agency_id,id)
+values
+('180a9ed5-b386-4820-9679-bbb2162f196a','c4bbf6b8-7a30-42c8-a482-b38efc430907')
+
+3/5/2017 2:15:01 PM
+insert into pcr_dispatch(id)
+values
+('19398964-9767-44b5-b9c9-311672875627')
+
+3/5/2017 2:15:06 PM
+insert into ems_run(id)
+values
+('149ca8aa-a17b-4445-891e-65279172a0c9')
+
+3/5/2017 2:15:08 PM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('6f79bbd8-c01b-4b73-b6a9-841ff40de9d3','6f4ada40-3ed3-4871-832d-b8d01d15305e','cba21781-2de4-4d05-842c-1986f79fc591','3b7380b1-f9f4-48ed-8dd5-0b26126b0e83','0af9f4e4-bf9b-4f27-9d18-5ddfa95da67c')
+
+3/5/2017 2:15:08 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('149ca8aa-a17b-4445-891e-65279172a0c9','0af9f4e4-bf9b-4f27-9d18-5ddfa95da67c','eaa9ae95-3e95-47f4-a397-c3cd320a9ece')
+
+3/5/2017 2:15:08 PM
+insert into pcr_narrative_notes(id)
+values
+('51552358-e260-4712-9b9d-7222e7ee11a8')
+
+3/5/2017 2:15:08 PM
+insert into pcr_rma(id)
+values
+('266de01c-559f-4515-8d44-c0ba8155011b')
+
+3/5/2017 2:15:08 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','04f2507f-45af-4c20-8d8a-2e931f094b95')
+
+3/5/2017 2:15:08 PM
+insert into pcr_Narcotic(id)
+values
+('5b57adc1-91a7-4db3-8f74-8180eff8de10')
+
+3/5/2017 2:15:08 PM
+insert into pcr_Authorization(id)
+values
+('5fdd4cac-8289-484f-97d0-4e7c6b05c524')
+
+3/5/2017 2:15:09 PM
+update pcr set 
+pcr_dispatch_id = '19398964-9767-44b5-b9c9-311672875627',
+pcr_demographic_id = 'c4bbf6b8-7a30-42c8-a482-b38efc430907',
+pcr_assessment_id = '3d9bc261-7b51-4e00-9ba8-042b98da6d43',
+pcr_narrative_notes_id = '51552358-e260-4712-9b9d-7222e7ee11a8',
+pcr_rma_id = '266de01c-559f-4515-8d44-c0ba8155011b',
+pcr_authorization_id = '5fdd4cac-8289-484f-97d0-4e7c6b05c524',
+pcr_apcf_id = 'b50e0e5d-7035-4b76-94c7-b19fc9f70820',
+pcr_disposition_id = '04f2507f-45af-4c20-8d8a-2e931f094b95',
+ems_run = '149ca8aa-a17b-4445-891e-65279172a0c9',
+pcr_narcotics_id = '5b57adc1-91a7-4db3-8f74-8180eff8de10',
+agency_id = '180a9ed5-b386-4820-9679-bbb2162f196a' where id ='8ef21dd9-18da-429b-b71b-027503869d2e'
+
+3/5/2017 2:15:18 PM
+update json_pcr set 
+data = '{"debug": false, "logmount": false, "transcript": [], "auth_created": {"user": "userone", "badge": ""}, "auth_uploaded": {"user": "userone", "badge": ""}}',
+agency = ' ',
+received = '2017-03-05 02:15:18',
+sent = '1970-01-01 12:00:00' where id ='8ef21dd9-18da-429b-b71b-027503869d2e'
+
+3/5/2017 2:18:22 PM
+insert into pcr_Demographic(agency_id,id)
+values
+('180a9ed5-b386-4820-9679-bbb2162f196a','eca9fbd5-df2c-45b0-87db-78caf710cae9')
+
+3/5/2017 2:18:22 PM
+insert into pcr_dispatch(id)
+values
+('92eb80bd-4fb6-481f-9ac4-4e71c6f5b551')
+
+3/5/2017 2:18:22 PM
+insert into ems_run(id)
+values
+('ed630dce-08c3-4591-8c95-1dc632222505')
+
+3/5/2017 2:18:23 PM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('6f79bbd8-c01b-4b73-b6a9-841ff40de9d3','6f4ada40-3ed3-4871-832d-b8d01d15305e','9f637c2b-672a-485a-b5fd-d68106882e3d','3b7380b1-f9f4-48ed-8dd5-0b26126b0e83','2239c594-a5b9-4a04-be27-2dcd4ca1a262')
+
+3/5/2017 2:18:23 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('ed630dce-08c3-4591-8c95-1dc632222505','2239c594-a5b9-4a04-be27-2dcd4ca1a262','e5b48811-dc37-43d6-9e8b-e101266c0b16')
+
+3/5/2017 2:18:23 PM
+insert into pcr_narrative_notes(id)
+values
+('cabaca4f-b718-4e9f-b195-3787948bf0d5')
+
+3/5/2017 2:18:23 PM
+insert into pcr_rma(id)
+values
+('fdf5dc39-f7fb-44a7-adf8-f4ce6dea42f5')
+
+3/5/2017 2:18:23 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','e7fd7cd8-e5c5-4440-8446-43f5a8806974')
+
+3/5/2017 2:18:24 PM
+insert into pcr_Narcotic(id)
+values
+('82680e96-bbdd-481f-941d-3e81ff72d397')
+
+3/5/2017 2:18:24 PM
+insert into pcr_Authorization(id)
+values
+('ec072f19-e7e5-400c-90ec-c4a79e16d44e')
+
+3/5/2017 2:18:25 PM
+update pcr set 
+pcr_dispatch_id = '92eb80bd-4fb6-481f-9ac4-4e71c6f5b551',
+pcr_demographic_id = 'eca9fbd5-df2c-45b0-87db-78caf710cae9',
+pcr_assessment_id = '7c47a2a4-0435-4334-8a3d-c6f6ab82c8ac',
+pcr_narrative_notes_id = 'cabaca4f-b718-4e9f-b195-3787948bf0d5',
+pcr_rma_id = 'fdf5dc39-f7fb-44a7-adf8-f4ce6dea42f5',
+pcr_authorization_id = 'ec072f19-e7e5-400c-90ec-c4a79e16d44e',
+pcr_apcf_id = '17c64c30-b087-4eb6-926b-2fd91c3b2ac6',
+pcr_disposition_id = 'e7fd7cd8-e5c5-4440-8446-43f5a8806974',
+ems_run = 'ed630dce-08c3-4591-8c95-1dc632222505',
+pcr_narcotics_id = '82680e96-bbdd-481f-941d-3e81ff72d397',
+agency_id = '180a9ed5-b386-4820-9679-bbb2162f196a' where id ='8ef21dd9-18da-429b-b71b-027503869d2e'
+
+3/5/2017 2:50:36 PM
+update json_pcr set 
+data = '{"ALS": {"1_Pediatric_Laryngoscope_Blade": {"choice": "on"}}, "BLS": {"1_26_French_NPA": {"choice": "off"}}, "debug": false, "NEMSIS": {"CustomConfiguration": {"model": {"buttons": [{"id": "9903001", "img": "check-circle-o", "str": "Mandatory", "choice": "off"}, {"id": "9903003", "img": "check-circle-o", "str": "Required", "choice": "on"}, {"id": "9903005", "img": "check-circle-o", "str": "Recommended", "choice": "off"}, {"id": "9903007", "img": "check-circle-o", "str": "Optional", "choice": "off"}]}}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.03": {"CustomConfiguration_dCustomConfiguration.03": "Other"}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.05": {"CustomConfiguration_dCustomConfiguration.05": "Required"}}, "Vehicle": {"Radio": {"choice": "off"}, "Siren": {"choice": "off"}, "Mirrors": {"choice": "off"}, "Light_Bar": {"choice": "on"}, "Tires_(OK)": {"choice": "on"}, "Tail_Lights": {"choice": "on"}, "Brake_Lights": {"choice": "on"}, "Oil_Level_OK": {"choice": "on"}, "Scene_Lights": {"choice": "on"}, "Turn_Signals": {"choice": "on"}, "License_Plate": {"choice": "on"}, "Fuel_Above_3/4": {"choice": "on"}, "Power_Steering": {"choice": "on"}, "Radiator_Fluid": {"choice": "on"}, "Reverse_Lights": {"choice": "on"}, "Jack/Lug_Wrench": {"choice": "on"}, "Transmission_OK": {"choice": "on"}, "Incident_Reports": {"choice": "on"}, "Accident_Form/Kit": {"choice": "on"}, "Clean_In/Clean_Out": {"choice": "on"}, "Emergency_Flashers": {"choice": "on"}, "Instrumental_Lights": {"choice": "on"}, "Headlights/High_Beams": {"choice": "on"}, "Air_Conditioning/Heating": {"choice": "on"}, "Equipment_Clean/Sanitary": {"choice": "on"}, "Exhaust_System_(No_Leaks)": {"choice": "on"}, "Seat_Belts_(Front_&_Rear)": {"choice": "on"}}, "Dispatch": {"Members": {"model": {"buttons": [{"id": "userone", "img": "check-circle-o", "str": "Last Name 1, First Name 1", "choice": "off"}, {"id": "usertwo", "img": "check-circle-o", "str": "Last Name 2, First Name 2", "choice": "off"}, {"id": "userthree", "img": "check-circle-o", "str": "Last Name 3, First Name 3", "choice": "off"}, {"id": "userfour", "img": "check-circle-o", "str": "Last Name 4, First Name 4", "choice": "off"}, {"id": "userfive", "img": "check-circle-o", "str": "Last Name 5, First Name 5", "choice": "off"}]}}, "DispatchInfo": {"model": {"buttons": [{"id": "R", "img": "check-circle-o", "str": "Residence", "choice": "off"}, {"id": "S", "img": "check-circle-o", "str": "Street", "choice": "off"}, {"id": "H", "img": "check-circle-o", "str": "Health", "choice": "on"}, {"id": "I", "img": "check-circle-o", "str": "Industrial", "choice": "off"}, {"id": "C", "img": "check-circle-o", "str": "Scene", "choice": "off"}]}}, "LightsSirens": {"model": {"buttons": [{"id": "LSToScene", "img": "check-square-o", "str": "To Scene", "choice": "on"}, {"id": "LSToDestination", "img": "check-square-o", "str": "To Destination", "choice": "on"}]}}, "DispatchAborted": {"model": {"buttons": [{"id": "DryRun", "img": "check-circle-o", "str": "Dry Run", "choice": "off"}, {"id": "DOA", "img": "check-circle-o", "str": "DOA", "choice": "off"}, {"id": "Gone", "img": "check-circle-o", "str": "Gone", "choice": "off"}, {"id": "NotFound", "img": "check-circle-o", "str": "Not Found", "choice": "off"}, {"id": "Transported", "img": "check-circle-o", "str": "Transported", "choice": "on"}, {"id": "PDMatter", "img": "check-circle-o", "str": "PD Matter", "choice": "off"}]}}, "Members.Members_M1": {"Members_M1": "Last Name 3, First Name 3"}, "Members.Members_M2": {"Members_M2": "Last Name 4, First Name 4"}, "Members.Members_M3": {"Members_M3": "Last Name 5, First Name 5"}, "Mileage.Mileage_End": {"Mileage_End": "0.0"}, "Mileage.Mileage_Begin": {"Mileage_Begin": "0.0"}, "Timeline.Timeline_EnRoute": {"Timeline_EnRoute": "11:28"}, "Timeline.Timeline_OnScene": {"Timeline_OnScene": "11:29"}, "Timeline.Timeline_Assigned": {"Timeline_Assigned": "11:28"}, "Timeline.Timeline_FromScene": {"Timeline_FromScene": "11:29"}, "Timeline.Timeline_InService": {"Timeline_InService": "11:29"}, "DispatchInfo.DispatchInfo_CAD": {"DispatchInfo_CAD": "1222222"}, "CallLocation.CallLocation_City": {"CallLocation_City": ""}, "CallLocation.CallLocation_Name": {"CallLocation_Name": ""}, "CallLocation.CallLocation_State": {"CallLocation_State": ""}, "Timeline.Timeline_AtDestination": {"Timeline_AtDestination": "11:29"}, "Timeline.Timeline_PatientContact": {"Timeline_PatientContact": "11:29"}, "CallLocation.CallLocation_Address": {"CallLocation_Address": ""}, "CallLocation.CallLocation_ZipCode": {"CallLocation_ZipCode": ""}, "CallLocation.CallLocation_Apartment": {"CallLocation_Apartment": ""}, "CallLocation.CallLocation_RespondedFrom": {"CallLocation_RespondedFrom": ""}, "DispatchInfo.DispatchInfo_DispatchMethod": {"DispatchInfo_DispatchMethod": ""}, "DispatchInfo.DispatchInfo_TransportedFrom": {"DispatchInfo_TransportedFrom": "Health"}}, "Vitals_1": {"Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Absent"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "logmount": false, "transcript": [], "Demographics": {"PatientInfo.PatientInfo_LastName": {"PatientInfo_LastName": "Sunday"}, "PatientInfo.PatientInfo_FirstName": {"PatientInfo_FirstName": "Test"}, "PhysicianInfo.PhysicianInfo_LastName": {"PhysicianInfo_LastName": ""}, "PatientDetail.PatientDetail_WeightLbs": {"PatientDetail_WeightLbs": "123"}, "PatientInfo.PatientInfo_MiddleInitial": {"PatientInfo_MiddleInitial": ""}, "PhysicianInfo.PhysicianInfo_FirstName": {"PhysicianInfo_FirstName": ""}, "PhysicianInfo.PhysicianInfo_MiddleInitial": {"PhysicianInfo_MiddleInitial": ""}, "EmergencyContact.EmergencyContact_LastName": {"EmergencyContact_LastName": ""}, "EmergencyContact.EmergencyContact_FirstName": {"EmergencyContact_FirstName": ""}, "EmergencyContact.EmergencyContact_MiddleInitial": {"EmergencyContact_MiddleInitial": ""}}, "auth_created": {"user": "userone", "badge": ""}, "auth_uploaded": {"user": "userone", "badge": ""}, "DispositionWide": {"moved": {"model": {"buttons": [{"id": "MetAtAmbulance", "img": "check-circle-o", "str": "Met At Ambulance", "choice": "on"}, {"id": "Chair", "img": "check-circle-o", "str": "Chair", "choice": "off"}, {"id": "Carried", "img": "check-circle-o", "str": "Carried", "choice": "off"}, {"id": "Scoop", "img": "check-circle-o", "str": "Scooop", "choice": "off"}, {"id": "Stretcher", "img": "check-circle-o", "str": "Stretcher", "choice": "off"}, {"id": "StretcherLongboard", "img": "check-circle-o", "str": "Stretcher/Longboard", "choice": "off"}, {"id": "Walked", "img": "check-circle-o", "str": "Walked", "choice": "off"}]}}}, "GEN:neckMapNeckList": {"06b3b144-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3b144-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "JVD"}]}}, "06b3b64d-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3b64d-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Supple"}]}}, "06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Enlarged Thyroid"}]}}, "06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Stiffness"}]}}, "06b3c978-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3c978-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Contusion"}]}}, "06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Abrasion"}]}}, "78308af2-3a7f-11e3-912c-842b2b4bbc99": {"model": {"buttons": [{"id": "78308af2-3a7f-11e3-912c-842b2b4bbc99", "str": "", "choice": "on", "caption": "Trach"}]}}}, "GEN:initMapAirwayList": {"e283c4a7-1ac7-11e1-9e8f-842b2b4bbc99": {"model": {"buttons": [{"id": "06735cbc-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Patent", "choice": "on"}, {"id": "06736198-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Not Patent", "choice": "off"}, {"id": "0673666c-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Obstructed", "choice": "off"}]}}}, "GEN:mapBreathingList2": {"0674c31d-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "0674c31d-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Clear"}]}}, "06750015-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06750015-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Absent"}]}}, "167b38b0-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "0674eb37-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "At Bases", "choice": "on"}, {"id": "0674f044-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Midway", "choice": "off"}, {"id": "0674f54d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Apitic", "choice": "off"}]}}}, "GEN:mapBreathingList4": {"067569e5-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "067569e5-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Clear"}]}}, "0675a867-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "0675a867-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Absent"}]}}, "16f33f4f-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06758025-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "At Bases", "choice": "on"}, {"id": "0675852a-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Midway", "choice": "off"}, {"id": "06758a1f-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Apitic", "choice": "off"}]}}, "16fe11cf-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06759411-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "At Bases", "choice": "on"}, {"id": "06759947-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Midway", "choice": "off"}, {"id": "06759e5d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Apitic", "choice": "off"}]}}, "edca14c2-8fa6-11e1-b08b-842b2b4bbc99": {"model": {"buttons": [{"id": "edca14c2-8fa6-11e1-b08b-842b2b4bbc99", "str": "", "choice": "off", "caption": "Rales"}]}}}, "GEN:allMapBreathingList": {"06737847-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "12"}, "067387ad-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "100"}, "59e658a0-a80b-11e5-b94a-842b2b4bbc99": {"model": {"buttons": [{"id": "71718b4d-2a34-11e5-b454-842b2b4bbc99", "img": "check-circle-o", "str": "ORA", "choice": "on"}, {"id": "f398960b-2a34-11e5-b454-842b2b4bbc99", "img": "check-circle-o", "str": "W02", "choice": "off"}]}}, "98ebaedf-0797-11e0-b2a2-65a2fc0a3d12": {"model": {"buttons": [{"id": "06742347-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Regular", "choice": "on"}, {"id": "06742848-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Shallow", "choice": "off"}, {"id": "06742d59-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Labored", "choice": "off"}, {"id": "06745c86-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Access Mus. Use", "choice": "off"}, {"id": "067461b4-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Decreased B.S.", "choice": "off"}]}}}, "GEN:bleedingMapMethList": {"749212be-6640-11e1-b65f-842b2b4bbc99": {"model": {"buttons": [{"id": "749212be-6640-11e1-b65f-842b2b4bbc99", "str": "", "choice": "on", "caption": "Tourniquet"}]}}, "96348525-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96348525-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Direct Pressure"}]}}, "96348a0e-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96348a0e-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Elevation"}]}}, "96348ed1-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96348ed1-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Pressure Dressing"}]}}, "963493a5-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "963493a5-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Pressure Point"}]}}, "96349d49-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96349d49-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Cold Pack Applied"}]}}}}',
+agency = ' ',
+received = '1970-01-01 12:00:00',
+sent = '1970-01-01 12:00:00' where id ='b652d1a0-c96d-4a9b-b29f-207777647497'
+
+3/5/2017 2:51:44 PM
+insert into person(first_name,mi,last_name,weight,is_male,age,active,id)
+values
+('Test','','Sunday','123','0','0','1','a058a670-3040-40d5-a0f5-4feea8684d05')
+
+3/5/2017 2:51:44 PM
+update person set 
+first_name = 'Test',
+last_name = 'Sunday',
+weight = '123.00',
+is_male = '0',
+age = '0',
+active = '1' where id ='a058a670-3040-40d5-a0f5-4feea8684d05'
+
+3/5/2017 2:51:45 PM
+insert into phone_number(id)
+values
+('57eccbf2-54c1-45e9-bd64-42d0ec6770c5')
+
+3/5/2017 2:51:45 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('a058a670-3040-40d5-a0f5-4feea8684d05','57eccbf2-54c1-45e9-bd64-42d0ec6770c5','f33fb9b2-937e-4696-b71a-ea484940fe42')
+
+3/5/2017 2:51:45 PM
+update person set 
+first_name = 'Test',
+last_name = 'Sunday',
+weight = '123.00',
+is_male = '0',
+age = '0',
+active = '1' where id ='a058a670-3040-40d5-a0f5-4feea8684d05'
+
+3/5/2017 2:51:45 PM
+insert into phone_number(id)
+values
+('f72ad653-f45d-4b7b-b94d-2a5917eff0f1')
+
+3/5/2017 2:51:45 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('a058a670-3040-40d5-a0f5-4feea8684d05','f72ad653-f45d-4b7b-b94d-2a5917eff0f1','6b20c464-133b-4073-901b-2080edf1dcf4')
+
+3/5/2017 2:51:46 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','91b06a6c-ea8e-4dea-b3fe-05ca279a9bb3')
+
+3/5/2017 2:51:46 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('91b06a6c-ea8e-4dea-b3fe-05ca279a9bb3','a058a670-3040-40d5-a0f5-4feea8684d05','1','2897de0e-722b-4cab-985f-f0f3b97ec682')
+
+3/5/2017 2:51:46 PM
+insert into person(first_name,mi,last_name,active,id)
+values
+('','','','1','e0cc9fb8-ac2d-4adc-970c-039de13fd5ee')
+
+3/5/2017 2:51:46 PM
+update person set 
+active = '1' where id ='e0cc9fb8-ac2d-4adc-970c-039de13fd5ee'
+
+3/5/2017 2:51:46 PM
+insert into phone_number(id)
+values
+('495606db-d58c-4c5c-b53a-b4269f0709b4')
+
+3/5/2017 2:51:46 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e0cc9fb8-ac2d-4adc-970c-039de13fd5ee','495606db-d58c-4c5c-b53a-b4269f0709b4','9c28e04c-100f-4ae6-9b30-12ffd75ac32f')
+
+3/5/2017 2:51:46 PM
+update person set 
+active = '1' where id ='e0cc9fb8-ac2d-4adc-970c-039de13fd5ee'
+
+3/5/2017 2:51:46 PM
+insert into phone_number(id)
+values
+('ea92c325-09b4-4093-9e5a-4a48323096dc')
+
+3/5/2017 2:51:46 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e0cc9fb8-ac2d-4adc-970c-039de13fd5ee','ea92c325-09b4-4093-9e5a-4a48323096dc','30c2e1c4-2534-4c42-b334-768fd4486cc0')
+
+3/5/2017 2:51:46 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','5ea32959-78df-4418-b76c-20ffd0326822')
+
+3/5/2017 2:51:46 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('5ea32959-78df-4418-b76c-20ffd0326822','e0cc9fb8-ac2d-4adc-970c-039de13fd5ee','1','df05d3d3-7782-43ff-b286-2d010faf7978')
+
+3/5/2017 2:51:46 PM
+insert into person(first_name,mi,last_name,active,id)
+values
+('','','','1','ff685e11-d9db-4036-8b91-13950195b61f')
+
+3/5/2017 2:51:46 PM
+update person set 
+active = '1' where id ='ff685e11-d9db-4036-8b91-13950195b61f'
+
+3/5/2017 2:51:46 PM
+insert into phone_number(id)
+values
+('ad0c75b3-1147-4209-9c01-c8ef095038d9')
+
+3/5/2017 2:51:47 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('ff685e11-d9db-4036-8b91-13950195b61f','ad0c75b3-1147-4209-9c01-c8ef095038d9','2f01b444-4e48-4800-b724-e481894b9680')
+
+3/5/2017 2:51:47 PM
+update person set 
+active = '1' where id ='ff685e11-d9db-4036-8b91-13950195b61f'
+
+3/5/2017 2:51:47 PM
+insert into phone_number(id)
+values
+('f97ed72f-9d21-4065-9224-85f1f46f97c4')
+
+3/5/2017 2:51:47 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('ff685e11-d9db-4036-8b91-13950195b61f','f97ed72f-9d21-4065-9224-85f1f46f97c4','73035524-49ba-4bc9-abd2-d5ecd266b3c7')
+
+3/5/2017 2:51:47 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','2d6b6616-bffe-4dd1-a01d-76d59b938510')
+
+3/5/2017 2:51:47 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('2d6b6616-bffe-4dd1-a01d-76d59b938510','ff685e11-d9db-4036-8b91-13950195b61f','1','bb303336-a8bb-44eb-8166-228b1e54eb97')
+
+3/5/2017 2:51:47 PM
+update person set 
+first_name = 'Test',
+mi = '',
+last_name = 'Sunday',
+weight = '123',
+is_male = '0',
+age = '0',
+active = '1' where id ='a058a670-3040-40d5-a0f5-4feea8684d05'
+
+3/5/2017 2:51:47 PM
+update person set 
+first_name = '',
+mi = '',
+last_name = '',
+active = '1' where id ='e0cc9fb8-ac2d-4adc-970c-039de13fd5ee'
+
+3/5/2017 2:51:47 PM
+update person set 
+first_name = '',
+mi = '',
+last_name = '',
+active = '1' where id ='ff685e11-d9db-4036-8b91-13950195b61f'
+
+3/5/2017 2:51:47 PM
+insert into insurance_policy(id)
+values
+('c16309f0-12e5-4646-9641-0271c04421d5')
+
+3/5/2017 2:51:47 PM
+insert into insurance_policy(id)
+values
+('f4525579-51a9-463b-8ff2-c3a08eb3eada')
+
+3/5/2017 2:51:47 PM
+insert into insurance_policy(id)
+values
+('2ac22152-4ea5-4984-ac79-5d73dc8ba027')
+
+3/5/2017 2:51:48 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,agency_id,id)
+values
+('a058a670-3040-40d5-a0f5-4feea8684d05','e0cc9fb8-ac2d-4adc-970c-039de13fd5ee','ff685e11-d9db-4036-8b91-13950195b61f','180a9ed5-b386-4820-9679-bbb2162f196a','e9edeb92-1279-4df0-8882-baebf4cab7d9')
+
+3/5/2017 2:51:48 PM
+insert into Address(address,unit,country_id,id)
+values
+('','','14b00896-d006-480c-9d74-00f2995ce168','43e37faf-5172-450b-b2cd-b72dfc5ce945')
+
+3/5/2017 2:51:48 PM
+insert into business(name,id)
+values
+('','2830efd8-e9b9-42e3-b235-7e01755faca3')
+
+3/5/2017 2:51:48 PM
+insert into pcr_dispatch(cad,transported_from,cross_street,assigned,en_route_63,on_scene_84,pt_contact,from_scene_82,at_destination,in_service,pt_count,dispatch_method,mileage_begin,mileage_end,address_id,facility_id,id)
+values
+('1222222','Health','','2017-03-05 11:28:00','2017-03-05 11:28:00','2017-03-05 11:29:00','2017-03-05 11:29:00','2017-03-05 11:29:00','2017-03-05 11:29:00','2017-03-05 11:29:00','1','','0.0','0.0','43e37faf-5172-450b-b2cd-b72dfc5ce945','2830efd8-e9b9-42e3-b235-7e01755faca3','9904b4ad-87ef-4255-8def-64e3fa853d83')
+
+3/5/2017 2:51:49 PM
+insert into ems_run(id)
+values
+('d3588b62-0b85-4add-9cdf-5a8af715ac9f')
+
+3/5/2017 2:51:49 PM
+insert into user_login(driver_user_id,emt_user_id,form800_id,bus_id,id)
+values
+('6f79bbd8-c01b-4b73-b6a9-841ff40de9d3','6f4ada40-3ed3-4871-832d-b8d01d15305e','d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','3b7380b1-f9f4-48ed-8dd5-0b26126b0e83','a0f3edc5-29e2-4c6f-8017-36919e25abcf')
+
+3/5/2017 2:51:49 PM
+insert into run_logins(ems_run,user_login,id)
+values
+('d3588b62-0b85-4add-9cdf-5a8af715ac9f','a0f3edc5-29e2-4c6f-8017-36919e25abcf','2ad30931-a364-4213-abe0-a87c7e914596')
+
+3/5/2017 2:51:50 PM
+insert into pcr_narrative_notes(id)
+values
+('b327e178-1f30-4e7e-9236-90a2c232bed9')
+
+3/5/2017 2:51:50 PM
+insert into pcr_rma(id)
+values
+('aebe1c1a-b3f1-4634-89af-d101b402cd51')
+
+3/5/2017 2:51:50 PM
+insert into pcr_Disposition(out_of_area_exists,id)
+values
+('0','6a6ce473-194a-4786-8515-e73fcd52e432')
+
+3/5/2017 2:51:51 PM
+insert into pcr_Narcotic(id)
+values
+('6ab1c8b7-4046-4462-99ea-82b94aa8e444')
+
+3/5/2017 2:51:51 PM
+insert into pcr_Authorization(id)
+values
+('5f962019-0eb3-4a22-a5a3-eed386fc709b')
+
+3/5/2017 2:51:52 PM
+insert into pcr(pcr_dispatch_id,pcr_demographic_id,pcr_assessment_id,pcr_narrative_notes_id,pcr_rma_id,pcr_authorization_id,pcr_apcf_id,pcr_disposition_id,ems_run,pcr_narcotics_id,agency_id,id)
+values
+('9904b4ad-87ef-4255-8def-64e3fa853d83','e9edeb92-1279-4df0-8882-baebf4cab7d9','5a48ae35-9268-4437-a41a-64b2dffc6672','b327e178-1f30-4e7e-9236-90a2c232bed9','aebe1c1a-b3f1-4634-89af-d101b402cd51','5f962019-0eb3-4a22-a5a3-eed386fc709b','3eebb41b-ff93-4af6-ac2d-1a54482bfed6','6a6ce473-194a-4786-8515-e73fcd52e432','d3588b62-0b85-4add-9cdf-5a8af715ac9f','6ab1c8b7-4046-4462-99ea-82b94aa8e444','180a9ed5-b386-4820-9679-bbb2162f196a','b652d1a0-c96d-4a9b-b29f-207777647497')
+
+3/5/2017 2:51:55 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','2528e4b3-0623-11e0-9c66-0ba20c568bb6','1','f6d6bbc1-131f-499e-8440-5abdb1ce161e')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45ba63-adbf-11e1-bbb3-842b2b4bbc99','0','b38de187-8a16-45b3-b5f1-2cc468f14340')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d455b54-adbf-11e1-bbb3-842b2b4bbc99','0','3785a142-74b2-41a6-9ac7-8c66142a73a3')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45bf77-adbf-11e1-bbb3-842b2b4bbc99','0','929542bc-d91f-4273-92ad-6b8c3963724f')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d454b6b-adbf-11e1-bbb3-842b2b4bbc99','1','0527bb38-2e27-4926-ab41-b889427ddde8')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45c486-adbf-11e1-bbb3-842b2b4bbc99','1','c614de0d-9ca2-4692-bde0-8de4f608b6c8')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d453212-adbf-11e1-bbb3-842b2b4bbc99','1','4284cbfd-7bbc-4b83-86f1-fee06dcbbf65')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d452cbf-adbf-11e1-bbb3-842b2b4bbc99','1','fd61a523-a3f7-4f86-be97-9d4e859b6b9e')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45989b-adbf-11e1-bbb3-842b2b4bbc99','1','546d8fc5-69d0-4554-b422-68112ab092da')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d455695-adbf-11e1-bbb3-842b2b4bbc99','1','b01eaca8-e78d-4d37-a65b-a41b87f17ef1')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d4546ce-adbf-11e1-bbb3-842b2b4bbc99','1','81f4e8ba-32e5-49e7-9bc9-37446c1f05df')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d4593fe-adbf-11e1-bbb3-842b2b4bbc99','1','3243f26d-2bda-4fa4-94b9-93b18d30072f')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45a1bf-adbf-11e1-bbb3-842b2b4bbc99','1','7a0dd71c-abea-42a4-9cba-f28633abff3a')
+
+3/5/2017 2:51:58 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45b04a-adbf-11e1-bbb3-842b2b4bbc99','1','8539d9d1-336a-430a-aea5-7a6d4642d9b7')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d453c4a-adbf-11e1-bbb3-842b2b4bbc99','1','a3caf728-b938-47d2-baa0-97b3dc558426')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d457c6c-adbf-11e1-bbb3-842b2b4bbc99','1','0afa2ad3-3cf2-4a05-be3c-8f9badae4bd0')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d459d28-adbf-11e1-bbb3-842b2b4bbc99','1','cf6dc201-49c0-41dc-ac44-4d7214478ffb')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d458123-adbf-11e1-bbb3-842b2b4bbc99','1','8bba2d7a-0a43-41f3-85af-c011230ad830')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d457424-adbf-11e1-bbb3-842b2b4bbc99','1','fc8e8710-b834-4a39-927f-945326a306b3')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d458f72-adbf-11e1-bbb3-842b2b4bbc99','1','8daebfed-59aa-43bf-a397-e464d38b3ea0')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d455012-adbf-11e1-bbb3-842b2b4bbc99','1','8630b3fa-e7a3-48a5-81d8-f0807dd8841e')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d4522fa-adbf-11e1-bbb3-842b2b4bbc99','1','db35f3da-b1d1-4a46-ae03-24140e00330a')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d454186-adbf-11e1-bbb3-842b2b4bbc99','1','fa41fcc4-5a50-4e43-b290-1481b54d0cd0')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45c9b9-adbf-11e1-bbb3-842b2b4bbc99','1','6cfebc2d-8dcf-4ecf-bf28-ad36cd78b4c8')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45b55c-adbf-11e1-bbb3-842b2b4bbc99','1','f7b7154e-aa90-4538-818c-ce10cd9c3dc1')
+
+3/5/2017 2:51:59 PM
+insert into form_800_buttons(form_800_id,all_buttons,clicked,id)
+values
+('d443bf4c-8f7e-40bb-b22e-b27a96c1ad1c','5d45d0f0-adbf-11e1-bbb3-842b2b4bbc99','1','cefdf451-53e9-45d5-9871-4050da681340')
+
+3/5/2017 2:51:59 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','76c27b88-413f-45b4-94d8-a681ad6ce18d')
+
+3/5/2017 2:52:00 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06a61fa9-07a7-11e0-bdc9-8e92303c9d5f','1','bc65298e-8df7-4a99-8663-4881e988be93')
+
+3/5/2017 2:52:01 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','a8b9416a-6f2b-46e1-b790-d18477e3e725')
+
+3/5/2017 2:52:01 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06a5aaae-07a7-11e0-bdc9-8e92303c9d5f','1','f98f2430-c4fc-456e-8dea-8d02d4b63544')
+
+3/5/2017 2:52:01 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06a65c4a-07a7-11e0-bdc9-8e92303c9d5f','1','8ac4c584-3236-47e5-b778-9902c84a6a72')
+
+3/5/2017 2:52:02 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','067157f3-07a7-11e0-bdc9-8e92303c9d5f','1','def926dd-9451-477b-97fc-c64d1d123516')
+
+3/5/2017 2:52:03 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06a67cb9-07a7-11e0-bdc9-8e92303c9d5f','1','19dc6bf0-ea79-41b0-93fe-5ede54c58127')
+
+3/5/2017 2:52:04 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','067569e5-07a7-11e0-bdc9-8e92303c9d5f','1','a4dd6961-f8b4-4f10-b31d-06bff97dd378')
+
+3/5/2017 2:52:04 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06751742-07a7-11e0-bdc9-8e92303c9d5f','1','08a005d8-b780-457f-9a4a-e7e3955ef562')
+
+3/5/2017 2:52:04 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','31aa5529-21fe-4dca-a547-1b90497283c8')
+
+3/5/2017 2:52:05 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','067686e0-07a7-11e0-bdc9-8e92303c9d5f','1','2374a160-2f77-4382-831e-35bdcd443ac4')
+
+3/5/2017 2:52:05 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','cf07042d-c1c3-4636-ae1e-f14752a6a08c')
+
+3/5/2017 2:52:06 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06750015-07a7-11e0-bdc9-8e92303c9d5f','1','1244721a-8a99-48f7-819d-ff2bd917297d')
+
+3/5/2017 2:52:06 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06746e27-07a7-11e0-bdc9-8e92303c9d5f','1','8a66b398-6dc6-4cf5-8fb9-fa6186bfc0dc')
+
+3/5/2017 2:52:06 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06716e4f-07a7-11e0-bdc9-8e92303c9d5f','1','dcd40a50-2cc0-4430-b982-88048d5b6753')
+
+3/5/2017 2:52:06 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06b3b144-07a7-11e0-bdc9-8e92303c9d5f','1','0310d787-aad0-4c7f-a6d9-c1d7760bb81a')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06b3b64d-07a7-11e0-bdc9-8e92303c9d5f','1','1131c6a9-929f-4459-91f0-5192c7cd4458')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f','1','4b9a937f-cfe9-4c47-88d4-4ad09cea6946')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f','1','aa812e5b-c839-4b7c-bf03-68ceec0d08d2')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06b3c978-07a7-11e0-bdc9-8e92303c9d5f','1','b820e2ac-746b-4d7a-9662-b14eb57e8097')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f','1','96c73e0a-be62-4ffc-b5a5-2a50567f9eb5')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','78308af2-3a7f-11e3-912c-842b2b4bbc99','1','49c4a581-7dd0-42e5-9fe2-287cc4c5dd7f')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06735cbc-07a7-11e0-bdc9-8e92303c9d5f','1','c3b4f41a-efb9-4e28-972f-7296f0c88d61')
+
+3/5/2017 2:52:07 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','0674c31d-07a7-11e0-bdc9-8e92303c9d5f','1','20821c3d-da73-4338-adfd-937e73edc811')
+
+3/5/2017 2:52:08 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06750015-07a7-11e0-bdc9-8e92303c9d5f','1','fcd36098-ae1e-49d6-a958-f047d074ce8c')
+
+3/5/2017 2:52:08 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','0674eb37-07a7-11e0-bdc9-8e92303c9d5f','1','08257e80-4fa0-46e4-b942-237ef3f43020')
+
+3/5/2017 2:52:08 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','067569e5-07a7-11e0-bdc9-8e92303c9d5f','1','54dc1b35-4d21-4c93-b8f5-19635b8b5010')
+
+3/5/2017 2:52:08 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','0675a867-07a7-11e0-bdc9-8e92303c9d5f','1','dcaeb8fb-7011-4c7d-be76-e34b1bb865c7')
+
+3/5/2017 2:52:08 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06758025-07a7-11e0-bdc9-8e92303c9d5f','1','4b2b0d20-1616-4f30-a374-cdc062920772')
+
+3/5/2017 2:52:08 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06759411-07a7-11e0-bdc9-8e92303c9d5f','1','6ebfaf84-679d-4740-aaf5-dc3ae1c1107f')
+
+3/5/2017 2:52:09 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('12','b652d1a0-c96d-4a9b-b29f-207777647497','06737847-07a7-11e0-bdc9-8e92303c9d5f','08fbfc1b-d2fc-4486-83f5-829469c3a7bd')
+
+3/5/2017 2:52:09 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('100','b652d1a0-c96d-4a9b-b29f-207777647497','067387ad-07a7-11e0-bdc9-8e92303c9d5f','97da5a7f-130a-4a12-ae2d-724fd93f6307')
+
+3/5/2017 2:52:09 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','71718b4d-2a34-11e5-b454-842b2b4bbc99','1','64e7efff-32ba-484a-b015-82f1ce0183d3')
+
+3/5/2017 2:52:09 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','3c716524-3c85-4d12-a4d8-40687154380d')
+
+3/5/2017 2:52:09 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','749212be-6640-11e1-b65f-842b2b4bbc99','1','07d878e3-1780-43d9-b393-b2a336cc9ba7')
+
+3/5/2017 2:52:09 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','96348525-0610-11e0-9c66-0ba20c568bb6','1','1bbea4dc-dc23-44c3-82be-c8506d959790')
+
+3/5/2017 2:52:09 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','96348a0e-0610-11e0-9c66-0ba20c568bb6','1','8d2e0e58-b4b3-4ab0-8644-f34f09490764')
+
+3/5/2017 2:52:09 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','96348ed1-0610-11e0-9c66-0ba20c568bb6','1','b15f078d-48b6-4899-9f7f-73e0b7b6848f')
+
+3/5/2017 2:52:10 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','963493a5-0610-11e0-9c66-0ba20c568bb6','1','36467d9e-d636-4b25-98f0-58b3fa7fac7b')
+
+3/5/2017 2:52:10 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('b652d1a0-c96d-4a9b-b29f-207777647497','96349d49-0610-11e0-9c66-0ba20c568bb6','1','7cfd3d4d-317c-4851-b5ce-b42a8541f919')
+
+3/5/2017 2:52:10 PM
+update json_pcr set 
+data = '{"ALS": {"1_Pediatric_Laryngoscope_Blade": {"choice": "on"}}, "BLS": {"1_26_French_NPA": {"choice": "off"}}, "debug": false, "NEMSIS": {"CustomConfiguration": {"model": {"buttons": [{"id": "9903001", "img": "check-circle-o", "str": "Mandatory", "choice": "off"}, {"id": "9903003", "img": "check-circle-o", "str": "Required", "choice": "on"}, {"id": "9903005", "img": "check-circle-o", "str": "Recommended", "choice": "off"}, {"id": "9903007", "img": "check-circle-o", "str": "Optional", "choice": "off"}]}}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.03": {"CustomConfiguration_dCustomConfiguration.03": "Other"}, "CustomConfiguration.CustomConfiguration_dCustomConfiguration.05": {"CustomConfiguration_dCustomConfiguration.05": "Required"}}, "Vehicle": {"Radio": {"choice": "off"}, "Siren": {"choice": "off"}, "Mirrors": {"choice": "off"}, "Light_Bar": {"choice": "on"}, "Tires_(OK)": {"choice": "on"}, "Tail_Lights": {"choice": "on"}, "Brake_Lights": {"choice": "on"}, "Oil_Level_OK": {"choice": "on"}, "Scene_Lights": {"choice": "on"}, "Turn_Signals": {"choice": "on"}, "License_Plate": {"choice": "on"}, "Fuel_Above_3/4": {"choice": "on"}, "Power_Steering": {"choice": "on"}, "Radiator_Fluid": {"choice": "on"}, "Reverse_Lights": {"choice": "on"}, "Jack/Lug_Wrench": {"choice": "on"}, "Transmission_OK": {"choice": "on"}, "Incident_Reports": {"choice": "on"}, "Accident_Form/Kit": {"choice": "on"}, "Clean_In/Clean_Out": {"choice": "on"}, "Emergency_Flashers": {"choice": "on"}, "Instrumental_Lights": {"choice": "on"}, "Headlights/High_Beams": {"choice": "on"}, "Air_Conditioning/Heating": {"choice": "on"}, "Equipment_Clean/Sanitary": {"choice": "on"}, "Exhaust_System_(No_Leaks)": {"choice": "on"}, "Seat_Belts_(Front_&_Rear)": {"choice": "on"}}, "Dispatch": {"Members": {"model": {"buttons": [{"id": "userone", "img": "check-circle-o", "str": "Last Name 1, First Name 1", "choice": "off"}, {"id": "usertwo", "img": "check-circle-o", "str": "Last Name 2, First Name 2", "choice": "off"}, {"id": "userthree", "img": "check-circle-o", "str": "Last Name 3, First Name 3", "choice": "off"}, {"id": "userfour", "img": "check-circle-o", "str": "Last Name 4, First Name 4", "choice": "off"}, {"id": "userfive", "img": "check-circle-o", "str": "Last Name 5, First Name 5", "choice": "off"}]}}, "DispatchInfo": {"model": {"buttons": [{"id": "R", "img": "check-circle-o", "str": "Residence", "choice": "off"}, {"id": "S", "img": "check-circle-o", "str": "Street", "choice": "off"}, {"id": "H", "img": "check-circle-o", "str": "Health", "choice": "on"}, {"id": "I", "img": "check-circle-o", "str": "Industrial", "choice": "off"}, {"id": "C", "img": "check-circle-o", "str": "Scene", "choice": "off"}]}}, "LightsSirens": {"model": {"buttons": [{"id": "LSToScene", "img": "check-square-o", "str": "To Scene", "choice": "on"}, {"id": "LSToDestination", "img": "check-square-o", "str": "To Destination", "choice": "on"}]}}, "DispatchAborted": {"model": {"buttons": [{"id": "DryRun", "img": "check-circle-o", "str": "Dry Run", "choice": "off"}, {"id": "DOA", "img": "check-circle-o", "str": "DOA", "choice": "off"}, {"id": "Gone", "img": "check-circle-o", "str": "Gone", "choice": "off"}, {"id": "NotFound", "img": "check-circle-o", "str": "Not Found", "choice": "off"}, {"id": "Transported", "img": "check-circle-o", "str": "Transported", "choice": "on"}, {"id": "PDMatter", "img": "check-circle-o", "str": "PD Matter", "choice": "off"}]}}, "Members.Members_M1": {"Members_M1": "Last Name 3, First Name 3"}, "Members.Members_M2": {"Members_M2": "Last Name 4, First Name 4"}, "Members.Members_M3": {"Members_M3": "Last Name 5, First Name 5"}, "Mileage.Mileage_End": {"Mileage_End": "0.0"}, "Mileage.Mileage_Begin": {"Mileage_Begin": "0.0"}, "Timeline.Timeline_EnRoute": {"Timeline_EnRoute": "11:28"}, "Timeline.Timeline_OnScene": {"Timeline_OnScene": "11:29"}, "Timeline.Timeline_Assigned": {"Timeline_Assigned": "11:28"}, "Timeline.Timeline_FromScene": {"Timeline_FromScene": "11:29"}, "Timeline.Timeline_InService": {"Timeline_InService": "11:29"}, "DispatchInfo.DispatchInfo_CAD": {"DispatchInfo_CAD": "1222222"}, "CallLocation.CallLocation_City": {"CallLocation_City": ""}, "CallLocation.CallLocation_Name": {"CallLocation_Name": ""}, "CallLocation.CallLocation_State": {"CallLocation_State": ""}, "Timeline.Timeline_AtDestination": {"Timeline_AtDestination": "11:29"}, "Timeline.Timeline_PatientContact": {"Timeline_PatientContact": "11:29"}, "CallLocation.CallLocation_Address": {"CallLocation_Address": ""}, "CallLocation.CallLocation_ZipCode": {"CallLocation_ZipCode": ""}, "CallLocation.CallLocation_Apartment": {"CallLocation_Apartment": ""}, "CallLocation.CallLocation_RespondedFrom": {"CallLocation_RespondedFrom": ""}, "DispatchInfo.DispatchInfo_DispatchMethod": {"DispatchInfo_DispatchMethod": ""}, "DispatchInfo.DispatchInfo_TransportedFrom": {"DispatchInfo_TransportedFrom": "Health"}}, "Vitals_1": {"Color": {"selected": "Normal"}, "Pulse": {"model": {"buttons": [{"id": "UTO", "img": "check-circle-o", "str": "UTO", "choice": "off"}, {"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Irregular", "img": "check-circle-o", "str": "Irregular", "choice": "off"}]}}, "Status": {"model": {"buttons": [{"id": "Critical", "img": "check-circle-o", "str": "Critical", "choice": "off"}, {"id": "Unstable", "img": "check-circle-o", "str": "Unstable", "choice": "off"}, {"id": "PartiallyUnstable", "img": "check-circle-o", "str": "Partially Unstable", "choice": "off"}, {"id": "Stable", "img": "check-circle-o", "str": "Stable", "choice": "on"}]}}, "Condition": {"selected": "Normal"}, "LeftPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "EyeOpening": {"selected": "Spontaneous"}, "RightPupil": {"model": {"buttons": [{"id": "Normal", "img": "check-circle-o", "str": "Normal", "choice": "on"}, {"id": "Dilated", "img": "check-circle-o", "str": "Dilated", "choice": "off"}, {"id": "Constrict", "img": "check-circle-o", "str": "Constrict", "choice": "off"}, {"id": "Sluggish", "img": "check-circle-o", "str": "Sluggish", "choice": "off"}, {"id": "NoReaction", "img": "check-circle-o", "str": "No Reaction", "choice": "off"}]}}, "LeftLungExp": {"selected": "Clear"}, "LeftLungIns": {"selected": "Clear"}, "Respiration": {"model": {"buttons": [{"id": "Regular", "img": "check-circle-o", "str": "Regular", "choice": "on"}, {"id": "Shallow", "img": "check-circle-o", "str": "Shallow", "choice": "off"}, {"id": "Labored", "img": "check-circle-o", "str": "Labored", "choice": "off"}]}}, "Temperature": {"selected": "Normal"}, "MentalStatus": {"model": {"buttons": [{"id": "Alert", "img": "check-circle-o", "str": "Alert", "choice": "on"}, {"id": "Voice", "img": "check-circle-o", "str": "Voice", "choice": "off"}, {"id": "Pain", "img": "check-circle-o", "str": "Pain", "choice": "off"}, {"id": "Unresponsive", "img": "check-circle-o", "str": "Unresponsive", "choice": "off"}]}}, "RightLungExp": {"selected": "Absent"}, "RightLungIns": {"selected": "Clear"}, "MotorResponse": {"selected": "Obeys Commands"}, "VerbalResponse": {"selected": "Oriented"}}, "logmount": false, "transcript": [], "Demographics": {"PatientInfo.PatientInfo_LastName": {"PatientInfo_LastName": "Sunday"}, "PatientInfo.PatientInfo_FirstName": {"PatientInfo_FirstName": "Test"}, "PhysicianInfo.PhysicianInfo_LastName": {"PhysicianInfo_LastName": ""}, "PatientDetail.PatientDetail_WeightLbs": {"PatientDetail_WeightLbs": "123"}, "PatientInfo.PatientInfo_MiddleInitial": {"PatientInfo_MiddleInitial": ""}, "PhysicianInfo.PhysicianInfo_FirstName": {"PhysicianInfo_FirstName": ""}, "PhysicianInfo.PhysicianInfo_MiddleInitial": {"PhysicianInfo_MiddleInitial": ""}, "EmergencyContact.EmergencyContact_LastName": {"EmergencyContact_LastName": ""}, "EmergencyContact.EmergencyContact_FirstName": {"EmergencyContact_FirstName": ""}, "EmergencyContact.EmergencyContact_MiddleInitial": {"EmergencyContact_MiddleInitial": ""}}, "auth_created": {"user": "userone", "badge": ""}, "auth_uploaded": {"user": "userone", "badge": ""}, "DispositionWide": {"moved": {"model": {"buttons": [{"id": "MetAtAmbulance", "img": "check-circle-o", "str": "Met At Ambulance", "choice": "on"}, {"id": "Chair", "img": "check-circle-o", "str": "Chair", "choice": "off"}, {"id": "Carried", "img": "check-circle-o", "str": "Carried", "choice": "off"}, {"id": "Scoop", "img": "check-circle-o", "str": "Scooop", "choice": "off"}, {"id": "Stretcher", "img": "check-circle-o", "str": "Stretcher", "choice": "off"}, {"id": "StretcherLongboard", "img": "check-circle-o", "str": "Stretcher/Longboard", "choice": "off"}, {"id": "Walked", "img": "check-circle-o", "str": "Walked", "choice": "off"}]}}}, "GEN:neckMapNeckList": {"06b3b144-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3b144-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "JVD"}]}}, "06b3b64d-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3b64d-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Supple"}]}}, "06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Enlarged Thyroid"}]}}, "06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Stiffness"}]}}, "06b3c978-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3c978-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Contusion"}]}}, "06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Abrasion"}]}}, "78308af2-3a7f-11e3-912c-842b2b4bbc99": {"model": {"buttons": [{"id": "78308af2-3a7f-11e3-912c-842b2b4bbc99", "str": "", "choice": "on", "caption": "Trach"}]}}}, "GEN:initMapAirwayList": {"e283c4a7-1ac7-11e1-9e8f-842b2b4bbc99": {"model": {"buttons": [{"id": "06735cbc-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Patent", "choice": "on"}, {"id": "06736198-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Not Patent", "choice": "off"}, {"id": "0673666c-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Obstructed", "choice": "off"}]}}}, "GEN:mapBreathingList2": {"0674c31d-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "0674c31d-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Clear"}]}}, "06750015-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "06750015-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Absent"}]}}, "167b38b0-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "0674eb37-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "At Bases", "choice": "on"}, {"id": "0674f044-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Midway", "choice": "off"}, {"id": "0674f54d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Apitic", "choice": "off"}]}}}, "GEN:mapBreathingList4": {"067569e5-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "067569e5-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Clear"}]}}, "0675a867-07a7-11e0-bdc9-8e92303c9d5f": {"model": {"buttons": [{"id": "0675a867-07a7-11e0-bdc9-8e92303c9d5f", "str": "", "choice": "on", "caption": "Absent"}]}}, "16f33f4f-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06758025-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "At Bases", "choice": "on"}, {"id": "0675852a-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Midway", "choice": "off"}, {"id": "06758a1f-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Apitic", "choice": "off"}]}}, "16fe11cf-03de-11e0-8458-b228b30b1b68": {"model": {"buttons": [{"id": "06759411-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "At Bases", "choice": "on"}, {"id": "06759947-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Midway", "choice": "off"}, {"id": "06759e5d-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-circle-o", "str": "Apitic", "choice": "off"}]}}, "edca14c2-8fa6-11e1-b08b-842b2b4bbc99": {"model": {"buttons": [{"id": "edca14c2-8fa6-11e1-b08b-842b2b4bbc99", "str": "", "choice": "off", "caption": "Rales"}]}}}, "GEN:allMapBreathingList": {"06737847-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "12"}, "067387ad-07a7-11e0-bdc9-8e92303c9d5f": {"choice": "100"}, "59e658a0-a80b-11e5-b94a-842b2b4bbc99": {"model": {"buttons": [{"id": "71718b4d-2a34-11e5-b454-842b2b4bbc99", "img": "check-circle-o", "str": "ORA", "choice": "on"}, {"id": "f398960b-2a34-11e5-b454-842b2b4bbc99", "img": "check-circle-o", "str": "W02", "choice": "off"}]}}, "98ebaedf-0797-11e0-b2a2-65a2fc0a3d12": {"model": {"buttons": [{"id": "06742347-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Regular", "choice": "on"}, {"id": "06742848-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Shallow", "choice": "off"}, {"id": "06742d59-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Labored", "choice": "off"}, {"id": "06745c86-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Access Mus. Use", "choice": "off"}, {"id": "067461b4-07a7-11e0-bdc9-8e92303c9d5f", "img": "check-square-o", "str": "Decreased B.S.", "choice": "off"}]}}}, "GEN:bleedingMapMethList": {"749212be-6640-11e1-b65f-842b2b4bbc99": {"model": {"buttons": [{"id": "749212be-6640-11e1-b65f-842b2b4bbc99", "str": "", "choice": "on", "caption": "Tourniquet"}]}}, "96348525-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96348525-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Direct Pressure"}]}}, "96348a0e-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96348a0e-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Elevation"}]}}, "96348ed1-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96348ed1-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Pressure Dressing"}]}}, "963493a5-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "963493a5-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Pressure Point"}]}}, "96349d49-0610-11e0-9c66-0ba20c568bb6": {"model": {"buttons": [{"id": "96349d49-0610-11e0-9c66-0ba20c568bb6", "str": "", "choice": "on", "caption": "Cold Pack Applied"}]}}}}',
+agency = ' ',
+received = '2017-03-05 02:52:10',
+sent = '1970-01-01 12:00:00' where id ='b652d1a0-c96d-4a9b-b29f-207777647497'
+
+3/5/2017 3:14:37 PM
+update json_pcr set 
+data = '{
+  "ALS": {
+    "1_Pediatric_Laryngoscope_Blade": {
+      "choice": "on"
+    }
+  },
+  "BLS": {
+    "1_26_French_NPA": {
+      "choice": "off"
+    }
+  },
+  "debug": false,
+  "NEMSIS": {
+    "CustomConfiguration": {
+      "model": {
+        "buttons": [
+          {
+            "id": "9903001",
+            "img": "check-circle-o",
+            "str": "Mandatory",
+            "choice": "off"
+          },
+          {
+            "id": "9903003",
+            "img": "check-circle-o",
+            "str": "Required",
+            "choice": "on"
+          },
+          {
+            "id": "9903005",
+            "img": "check-circle-o",
+            "str": "Recommended",
+            "choice": "off"
+          },
+          {
+            "id": "9903007",
+            "img": "check-circle-o",
+            "str": "Optional",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "CustomConfiguration.CustomConfiguration_dCustomConfiguration.03": {
+      "CustomConfiguration_dCustomConfiguration.03": "Other"
+    },
+    "CustomConfiguration.CustomConfiguration_dCustomConfiguration.05": {
+      "CustomConfiguration_dCustomConfiguration.05": "Required"
+    }
+  },
+  "Vehicle": {
+    "Radio": {
+      "choice": "off"
+    },
+    "Siren": {
+      "choice": "off"
+    },
+    "Mirrors": {
+      "choice": "off"
+    },
+    "Light_Bar": {
+      "choice": "off"
+    },
+    "Tires_(OK)": {
+      "choice": "on"
+    },
+    "Tail_Lights": {
+      "choice": "on"
+    },
+    "Brake_Lights": {
+      "choice": "on"
+    },
+    "Oil_Level_OK": {
+      "choice": "on"
+    },
+    "Scene_Lights": {
+      "choice": "on"
+    },
+    "Turn_Signals": {
+      "choice": "on"
+    },
+    "License_Plate": {
+      "choice": "on"
+    },
+    "Fuel_Above_3/4": {
+      "choice": "on"
+    },
+    "Power_Steering": {
+      "choice": "on"
+    },
+    "Radiator_Fluid": {
+      "choice": "on"
+    },
+    "Reverse_Lights": {
+      "choice": "on"
+    },
+    "Jack/Lug_Wrench": {
+      "choice": "on"
+    },
+    "Transmission_OK": {
+      "choice": "on"
+    },
+    "Incident_Reports": {
+      "choice": "on"
+    },
+    "Accident_Form/Kit": {
+      "choice": "on"
+    },
+    "Clean_In/Clean_Out": {
+      "choice": "on"
+    },
+    "Emergency_Flashers": {
+      "choice": "on"
+    },
+    "Instrumental_Lights": {
+      "choice": "on"
+    },
+    "Headlights/High_Beams": {
+      "choice": "on"
+    },
+    "Air_Conditioning/Heating": {
+      "choice": "on"
+    },
+    "Equipment_Clean/Sanitary": {
+      "choice": "on"
+    },
+    "Exhaust_System_(No_Leaks)": {
+      "choice": "on"
+    },
+    "Seat_Belts_(Front_&_Rear)": {
+      "choice": "on"
+    },
+    "Light Bar": {
+      "choice": "on"
+    },
+    "Jack/Lug Wrench": {
+      "choice": "on"
+    },
+    "License Plate": {
+      "choice": "on"
+    },
+    "Tail Lights": {
+      "choice": "on"
+    },
+    "Oil Level ok": {
+      "choice": "on"
+    },
+    "Air Conditioning/Heating": {
+      "choice": "on"
+    },
+    "Power steering": {
+      "choice": "on"
+    },
+    "Turn Signals": {
+      "choice": "on"
+    },
+    "Radiator Fluid": {
+      "choice": "on"
+    },
+    "Emergency Flashers": {
+      "choice": "on"
+    },
+    "Incident Reports": {
+      "choice": "on"
+    },
+    "Clean In/Clean Out": {
+      "choice": "on"
+    },
+    "Reverse Lights": {
+      "choice": "on"
+    },
+    "Scene Lights": {
+      "choice": "on"
+    },
+    "Tires (ok)": {
+      "choice": "on"
+    },
+    "Seat Belts (front & Rear)": {
+      "choice": "on"
+    },
+    "Transmission ok": {
+      "choice": "on"
+    },
+    "Instrumental Lights": {
+      "choice": "on"
+    },
+    "Exhaust System (no Leaks)": {
+      "choice": "on"
+    },
+    "Headlights/High Beams": {
+      "choice": "on"
+    },
+    "Accident Form/Kit": {
+      "choice": "on"
+    },
+    "Brake Lights": {
+      "choice": "on"
+    }
+  },
+  "Dispatch": {
+    "Members": {
+      "model": {
+        "buttons": [
+          {
+            "id": "userone",
+            "img": "check-circle-o",
+            "str": "Last Name 1, First Name 1",
+            "choice": "off"
+          },
+          {
+            "id": "usertwo",
+            "img": "check-circle-o",
+            "str": "Last Name 2, First Name 2",
+            "choice": "off"
+          },
+          {
+            "id": "userthree",
+            "img": "check-circle-o",
+            "str": "Last Name 3, First Name 3",
+            "choice": "off"
+          },
+          {
+            "id": "userfour",
+            "img": "check-circle-o",
+            "str": "Last Name 4, First Name 4",
+            "choice": "off"
+          },
+          {
+            "id": "userfive",
+            "img": "check-circle-o",
+            "str": "Last Name 5, First Name 5",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "DispatchInfo": {
+      "model": {
+        "buttons": [
+          {
+            "id": "R",
+            "img": "check-circle-o",
+            "str": "Residence",
+            "choice": "off"
+          },
+          {
+            "id": "S",
+            "img": "check-circle-o",
+            "str": "Street",
+            "choice": "off"
+          },
+          {
+            "id": "H",
+            "img": "check-circle-o",
+            "str": "Health",
+            "choice": "on"
+          },
+          {
+            "id": "I",
+            "img": "check-circle-o",
+            "str": "Industrial",
+            "choice": "off"
+          },
+          {
+            "id": "C",
+            "img": "check-circle-o",
+            "str": "Scene",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "LightsSirens": {
+      "model": {
+        "buttons": [
+          {
+            "id": "LSToScene",
+            "img": "check-square-o",
+            "str": "To Scene",
+            "choice": "on"
+          },
+          {
+            "id": "LSToDestination",
+            "img": "check-square-o",
+            "str": "To Destination",
+            "choice": "on"
+          }
+        ]
+      }
+    },
+    "DispatchAborted": {
+      "model": {
+        "buttons": [
+          {
+            "id": "DryRun",
+            "img": "check-circle-o",
+            "str": "Dry Run",
+            "choice": "off"
+          },
+          {
+            "id": "DOA",
+            "img": "check-circle-o",
+            "str": "DOA",
+            "choice": "off"
+          },
+          {
+            "id": "Gone",
+            "img": "check-circle-o",
+            "str": "Gone",
+            "choice": "off"
+          },
+          {
+            "id": "NotFound",
+            "img": "check-circle-o",
+            "str": "Not Found",
+            "choice": "off"
+          },
+          {
+            "id": "Transported",
+            "img": "check-circle-o",
+            "str": "Transported",
+            "choice": "on"
+          },
+          {
+            "id": "PDMatter",
+            "img": "check-circle-o",
+            "str": "PD Matter",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "Members.Members_M1": {
+      "Members_M1": "Last Name 3, First Name 3"
+    },
+    "Members.Members_M2": {
+      "Members_M2": "Last Name 4, First Name 4"
+    },
+    "Members.Members_M3": {
+      "Members_M3": "Last Name 5, First Name 5"
+    },
+    "Mileage.Mileage_End": {
+      "Mileage_End": "0.0"
+    },
+    "Mileage.Mileage_Begin": {
+      "Mileage_Begin": "0.0"
+    },
+    "Timeline.Timeline_EnRoute": {
+      "Timeline_EnRoute": "11:28"
+    },
+    "Timeline.Timeline_OnScene": {
+      "Timeline_OnScene": "11:29"
+    },
+    "Timeline.Timeline_Assigned": {
+      "Timeline_Assigned": "11:28"
+    },
+    "Timeline.Timeline_FromScene": {
+      "Timeline_FromScene": "11:29"
+    },
+    "Timeline.Timeline_InService": {
+      "Timeline_InService": "11:29"
+    },
+    "DispatchInfo.DispatchInfo_CAD": {
+      "DispatchInfo_CAD": "1222222"
+    },
+    "CallLocation.CallLocation_City": {
+      "CallLocation_City": ""
+    },
+    "CallLocation.CallLocation_Name": {
+      "CallLocation_Name": ""
+    },
+    "CallLocation.CallLocation_State": {
+      "CallLocation_State": ""
+    },
+    "Timeline.Timeline_AtDestination": {
+      "Timeline_AtDestination": "11:29"
+    },
+    "Timeline.Timeline_PatientContact": {
+      "Timeline_PatientContact": "11:29"
+    },
+    "CallLocation.CallLocation_Address": {
+      "CallLocation_Address": ""
+    },
+    "CallLocation.CallLocation_ZipCode": {
+      "CallLocation_ZipCode": ""
+    },
+    "CallLocation.CallLocation_Apartment": {
+      "CallLocation_Apartment": ""
+    },
+    "CallLocation.CallLocation_RespondedFrom": {
+      "CallLocation_RespondedFrom": ""
+    },
+    "DispatchInfo.DispatchInfo_DispatchMethod": {
+      "DispatchInfo_DispatchMethod": ""
+    },
+    "DispatchInfo.DispatchInfo_TransportedFrom": {
+      "DispatchInfo_TransportedFrom": "Health"
+    }
+  },
+  "Vitals_1": {
+    "Color": {
+      "selected": "Normal"
+    },
+    "Pulse": {
+      "model": {
+        "buttons": [
+          {
+            "id": "UTO",
+            "img": "check-circle-o",
+            "str": "UTO",
+            "choice": "off"
+          },
+          {
+            "id": "Regular",
+            "img": "check-circle-o",
+            "str": "Regular",
+            "choice": "on"
+          },
+          {
+            "id": "Irregular",
+            "img": "check-circle-o",
+            "str": "Irregular",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "Status": {
+      "model": {
+        "buttons": [
+          {
+            "id": "Critical",
+            "img": "check-circle-o",
+            "str": "Critical",
+            "choice": "off"
+          },
+          {
+            "id": "Unstable",
+            "img": "check-circle-o",
+            "str": "Unstable",
+            "choice": "off"
+          },
+          {
+            "id": "PartiallyUnstable",
+            "img": "check-circle-o",
+            "str": "Partially Unstable",
+            "choice": "off"
+          },
+          {
+            "id": "Stable",
+            "img": "check-circle-o",
+            "str": "Stable",
+            "choice": "on"
+          }
+        ]
+      }
+    },
+    "Condition": {
+      "selected": "Normal"
+    },
+    "LeftPupil": {
+      "model": {
+        "buttons": [
+          {
+            "id": "Normal",
+            "img": "check-circle-o",
+            "str": "Normal",
+            "choice": "on"
+          },
+          {
+            "id": "Dilated",
+            "img": "check-circle-o",
+            "str": "Dilated",
+            "choice": "off"
+          },
+          {
+            "id": "Constrict",
+            "img": "check-circle-o",
+            "str": "Constrict",
+            "choice": "off"
+          },
+          {
+            "id": "Sluggish",
+            "img": "check-circle-o",
+            "str": "Sluggish",
+            "choice": "off"
+          },
+          {
+            "id": "NoReaction",
+            "img": "check-circle-o",
+            "str": "No Reaction",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "EyeOpening": {
+      "selected": "Spontaneous"
+    },
+    "RightPupil": {
+      "model": {
+        "buttons": [
+          {
+            "id": "Normal",
+            "img": "check-circle-o",
+            "str": "Normal",
+            "choice": "on"
+          },
+          {
+            "id": "Dilated",
+            "img": "check-circle-o",
+            "str": "Dilated",
+            "choice": "off"
+          },
+          {
+            "id": "Constrict",
+            "img": "check-circle-o",
+            "str": "Constrict",
+            "choice": "off"
+          },
+          {
+            "id": "Sluggish",
+            "img": "check-circle-o",
+            "str": "Sluggish",
+            "choice": "off"
+          },
+          {
+            "id": "NoReaction",
+            "img": "check-circle-o",
+            "str": "No Reaction",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "LeftLungExp": {
+      "selected": "Absent"
+    },
+    "LeftLungIns": {
+      "selected": "Clear"
+    },
+    "Respiration": {
+      "model": {
+        "buttons": [
+          {
+            "id": "Regular",
+            "img": "check-circle-o",
+            "str": "Regular",
+            "choice": "on"
+          },
+          {
+            "id": "Shallow",
+            "img": "check-circle-o",
+            "str": "Shallow",
+            "choice": "off"
+          },
+          {
+            "id": "Labored",
+            "img": "check-circle-o",
+            "str": "Labored",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "Temperature": {
+      "selected": "Normal"
+    },
+    "MentalStatus": {
+      "model": {
+        "buttons": [
+          {
+            "id": "Alert",
+            "img": "check-circle-o",
+            "str": "Alert",
+            "choice": "on"
+          },
+          {
+            "id": "Voice",
+            "img": "check-circle-o",
+            "str": "Voice",
+            "choice": "off"
+          },
+          {
+            "id": "Pain",
+            "img": "check-circle-o",
+            "str": "Pain",
+            "choice": "off"
+          },
+          {
+            "id": "Unresponsive",
+            "img": "check-circle-o",
+            "str": "Unresponsive",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "RightLungExp": {
+      "selected": "Absent"
+    },
+    "RightLungIns": {
+      "selected": "Clear"
+    },
+    "MotorResponse": {
+      "selected": "Obeys Commands"
+    },
+    "VerbalResponse": {
+      "selected": "Oriented"
+    }
+  },
+  "logmount": false,
+  "transcript": [],
+  "Demographics": {
+    "PatientInfo.PatientInfo_LastName": {
+      "PatientInfo_LastName": "Sunday"
+    },
+    "PatientInfo.PatientInfo_FirstName": {
+      "PatientInfo_FirstName": "Test"
+    },
+    "PhysicianInfo.PhysicianInfo_LastName": {
+      "PhysicianInfo_LastName": ""
+    },
+    "PatientDetail.PatientDetail_WeightLbs": {
+      "PatientDetail_WeightLbs": "123"
+    },
+    "PatientInfo.PatientInfo_MiddleInitial": {
+      "PatientInfo_MiddleInitial": ""
+    },
+    "PhysicianInfo.PhysicianInfo_FirstName": {
+      "PhysicianInfo_FirstName": ""
+    },
+    "PhysicianInfo.PhysicianInfo_MiddleInitial": {
+      "PhysicianInfo_MiddleInitial": ""
+    },
+    "EmergencyContact.EmergencyContact_LastName": {
+      "EmergencyContact_LastName": ""
+    },
+    "EmergencyContact.EmergencyContact_FirstName": {
+      "EmergencyContact_FirstName": ""
+    },
+    "EmergencyContact.EmergencyContact_MiddleInitial": {
+      "EmergencyContact_MiddleInitial": ""
+    }
+  },
+  "auth_created": {
+    "user": "userone",
+    "badge": ""
+  },
+  "auth_uploaded": {
+    "user": "userone",
+    "badge": ""
+  },
+  "DispositionWide": {
+    "moved": {
+      "model": {
+        "buttons": [
+          {
+            "id": "MetAtAmbulance",
+            "img": "check-circle-o",
+            "str": "Met At Ambulance",
+            "choice": "on"
+          },
+          {
+            "id": "Chair",
+            "img": "check-circle-o",
+            "str": "Chair",
+            "choice": "off"
+          },
+          {
+            "id": "Carried",
+            "img": "check-circle-o",
+            "str": "Carried",
+            "choice": "off"
+          },
+          {
+            "id": "Scoop",
+            "img": "check-circle-o",
+            "str": "Scooop",
+            "choice": "off"
+          },
+          {
+            "id": "Stretcher",
+            "img": "check-circle-o",
+            "str": "Stretcher",
+            "choice": "off"
+          },
+          {
+            "id": "StretcherLongboard",
+            "img": "check-circle-o",
+            "str": "Stretcher/Longboard",
+            "choice": "off"
+          },
+          {
+            "id": "Walked",
+            "img": "check-circle-o",
+            "str": "Walked",
+            "choice": "off"
+          }
+        ]
+      }
+    }
+  },
+  "GEN:neckMapNeckList": {
+    "06b3b144-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06b3b144-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "JVD"
+          }
+        ]
+      }
+    },
+    "06b3b64d-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06b3b64d-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Supple"
+          }
+        ]
+      }
+    },
+    "06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06b3bb0d-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Enlarged Thyroid"
+          }
+        ]
+      }
+    },
+    "06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06b3bfd8-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Stiffness"
+          }
+        ]
+      }
+    },
+    "06b3c978-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06b3c978-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Contusion"
+          }
+        ]
+      }
+    },
+    "06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06b3ce2f-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Abrasion"
+          }
+        ]
+      }
+    },
+    "78308af2-3a7f-11e3-912c-842b2b4bbc99": {
+      "model": {
+        "buttons": [
+          {
+            "id": "78308af2-3a7f-11e3-912c-842b2b4bbc99",
+            "str": "",
+            "choice": "on",
+            "caption": "Trach"
+          }
+        ]
+      }
+    }
+  },
+  "GEN:initMapAirwayList": {
+    "e283c4a7-1ac7-11e1-9e8f-842b2b4bbc99": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06735cbc-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Patent",
+            "choice": "on"
+          },
+          {
+            "id": "06736198-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Not Patent",
+            "choice": "off"
+          },
+          {
+            "id": "0673666c-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Obstructed",
+            "choice": "off"
+          }
+        ]
+      }
+    }
+  },
+  "GEN:mapBreathingList2": {
+    "0674c31d-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "0674c31d-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Clear"
+          }
+        ]
+      }
+    },
+    "06750015-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06750015-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Absent"
+          }
+        ]
+      }
+    },
+    "167b38b0-03de-11e0-8458-b228b30b1b68": {
+      "model": {
+        "buttons": [
+          {
+            "id": "0674eb37-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "At Bases",
+            "choice": "on"
+          },
+          {
+            "id": "0674f044-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Midway",
+            "choice": "off"
+          },
+          {
+            "id": "0674f54d-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Apitic",
+            "choice": "off"
+          }
+        ]
+      }
+    }
+  },
+  "GEN:mapBreathingList4": {
+    "067569e5-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "067569e5-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Clear"
+          }
+        ]
+      }
+    },
+    "0675a867-07a7-11e0-bdc9-8e92303c9d5f": {
+      "model": {
+        "buttons": [
+          {
+            "id": "0675a867-07a7-11e0-bdc9-8e92303c9d5f",
+            "str": "",
+            "choice": "on",
+            "caption": "Absent"
+          }
+        ]
+      }
+    },
+    "16f33f4f-03de-11e0-8458-b228b30b1b68": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06758025-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "At Bases",
+            "choice": "on"
+          },
+          {
+            "id": "0675852a-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Midway",
+            "choice": "off"
+          },
+          {
+            "id": "06758a1f-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Apitic",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "16fe11cf-03de-11e0-8458-b228b30b1b68": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06759411-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "At Bases",
+            "choice": "on"
+          },
+          {
+            "id": "06759947-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Midway",
+            "choice": "off"
+          },
+          {
+            "id": "06759e5d-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-circle-o",
+            "str": "Apitic",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "edca14c2-8fa6-11e1-b08b-842b2b4bbc99": {
+      "model": {
+        "buttons": [
+          {
+            "id": "edca14c2-8fa6-11e1-b08b-842b2b4bbc99",
+            "str": "",
+            "choice": "off",
+            "caption": "Rales"
+          }
+        ]
+      }
+    }
+  },
+  "GEN:allMapBreathingList": {
+    "06737847-07a7-11e0-bdc9-8e92303c9d5f": {
+      "choice": "12"
+    },
+    "067387ad-07a7-11e0-bdc9-8e92303c9d5f": {
+      "choice": "100"
+    },
+    "59e658a0-a80b-11e5-b94a-842b2b4bbc99": {
+      "model": {
+        "buttons": [
+          {
+            "id": "71718b4d-2a34-11e5-b454-842b2b4bbc99",
+            "img": "check-circle-o",
+            "str": "ORA",
+            "choice": "on"
+          },
+          {
+            "id": "f398960b-2a34-11e5-b454-842b2b4bbc99",
+            "img": "check-circle-o",
+            "str": "W02",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "98ebaedf-0797-11e0-b2a2-65a2fc0a3d12": {
+      "model": {
+        "buttons": [
+          {
+            "id": "06742347-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-square-o",
+            "str": "Regular",
+            "choice": "on"
+          },
+          {
+            "id": "06742848-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-square-o",
+            "str": "Shallow",
+            "choice": "off"
+          },
+          {
+            "id": "06742d59-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-square-o",
+            "str": "Labored",
+            "choice": "off"
+          },
+          {
+            "id": "06745c86-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-square-o",
+            "str": "Access Mus. Use",
+            "choice": "off"
+          },
+          {
+            "id": "067461b4-07a7-11e0-bdc9-8e92303c9d5f",
+            "img": "check-square-o",
+            "str": "Decreased B.S.",
+            "choice": "off"
+          }
+        ]
+      }
+    }
+  },
+  "GEN:bleedingMapMethList": {
+    "749212be-6640-11e1-b65f-842b2b4bbc99": {
+      "model": {
+        "buttons": [
+          {
+            "id": "749212be-6640-11e1-b65f-842b2b4bbc99",
+            "str": "",
+            "choice": "on",
+            "caption": "Tourniquet"
+          }
+        ]
+      }
+    },
+    "96348525-0610-11e0-9c66-0ba20c568bb6": {
+      "model": {
+        "buttons": [
+          {
+            "id": "96348525-0610-11e0-9c66-0ba20c568bb6",
+            "str": "",
+            "choice": "on",
+            "caption": "Direct Pressure"
+          }
+        ]
+      }
+    },
+    "96348a0e-0610-11e0-9c66-0ba20c568bb6": {
+      "model": {
+        "buttons": [
+          {
+            "id": "96348a0e-0610-11e0-9c66-0ba20c568bb6",
+            "str": "",
+            "choice": "on",
+            "caption": "Elevation"
+          }
+        ]
+      }
+    },
+    "96348ed1-0610-11e0-9c66-0ba20c568bb6": {
+      "model": {
+        "buttons": [
+          {
+            "id": "96348ed1-0610-11e0-9c66-0ba20c568bb6",
+            "str": "",
+            "choice": "on",
+            "caption": "Pressure Dressing"
+          }
+        ]
+      }
+    },
+    "963493a5-0610-11e0-9c66-0ba20c568bb6": {
+      "model": {
+        "buttons": [
+          {
+            "id": "963493a5-0610-11e0-9c66-0ba20c568bb6",
+            "str": "",
+            "choice": "on",
+            "caption": "Pressure Point"
+          }
+        ]
+      }
+    },
+    "96349d49-0610-11e0-9c66-0ba20c568bb6": {
+      "model": {
+        "buttons": [
+          {
+            "id": "96349d49-0610-11e0-9c66-0ba20c568bb6",
+            "str": "",
+            "choice": "on",
+            "caption": "Cold Pack Applied"
+          }
+        ]
+      }
+    }
+  }
+}',
+agency = ' ',
+received = '2017-03-05 02:52:10',
+sent = '1970-01-01 12:00:00' where id ='b652d1a0-c96d-4a9b-b29f-207777647497'

@@ -1,0 +1,326 @@
+
+2/1/2017 12:31:01 PM
+insert into person(first_name,last_name,dob,is_male,age,active,id)
+values
+('Harry','Wells','2017-01-11 00:00:00','0','0','1','226c4504-df7e-42e1-9496-9e43ad10fa1f')
+
+2/1/2017 12:31:01 PM
+update person set 
+first_name = 'Harry',
+last_name = 'Wells',
+dob = '2017-01-11 12:00:00',
+is_male = '0',
+age = '0',
+active = '1' where id ='226c4504-df7e-42e1-9496-9e43ad10fa1f'
+
+2/1/2017 12:31:01 PM
+insert into phone_number(id)
+values
+('d401b7dd-e2e6-40b8-a42d-21ad8884525b')
+
+2/1/2017 12:31:01 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('226c4504-df7e-42e1-9496-9e43ad10fa1f','d401b7dd-e2e6-40b8-a42d-21ad8884525b','2f2d7acc-2b6e-4e49-a52d-42a3cc39e5f8')
+
+2/1/2017 12:31:02 PM
+update person set 
+first_name = 'Harry',
+last_name = 'Wells',
+dob = '2017-01-11 12:00:00',
+is_male = '0',
+age = '0',
+active = '1' where id ='226c4504-df7e-42e1-9496-9e43ad10fa1f'
+
+2/1/2017 12:31:02 PM
+insert into phone_number(id)
+values
+('51930f1b-1124-4892-b162-006a7deb72d1')
+
+2/1/2017 12:31:02 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('226c4504-df7e-42e1-9496-9e43ad10fa1f','51930f1b-1124-4892-b162-006a7deb72d1','e525888d-f3d5-4c45-a222-779dc7224d5e')
+
+2/1/2017 12:31:02 PM
+insert into Address(address,city_id,state_id,country_id,id)
+values
+('11 Star Labs Drive','d03ac2d7-ef81-4550-85df-2dff053f6d2b','eef5a97f-6eac-4a80-a130-9a52de8a6b2b','14b00896-d006-480c-9d74-00f2995ce168','c0678bc5-1cb6-437f-8819-6065d69b4eaf')
+
+2/1/2017 12:31:02 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('c0678bc5-1cb6-437f-8819-6065d69b4eaf','226c4504-df7e-42e1-9496-9e43ad10fa1f','1','6dfe7feb-2e2f-471d-846e-d86259344faa')
+
+2/1/2017 12:31:02 PM
+insert into person(active,id)
+values
+('1','5fe1181c-8454-4d6e-8636-aba9e7a6909e')
+
+2/1/2017 12:31:02 PM
+update person set 
+active = '1' where id ='5fe1181c-8454-4d6e-8636-aba9e7a6909e'
+
+2/1/2017 12:31:02 PM
+insert into phone_number(id)
+values
+('ef136071-a903-4ca1-8b34-ce7bb9bf6d14')
+
+2/1/2017 12:31:02 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('5fe1181c-8454-4d6e-8636-aba9e7a6909e','ef136071-a903-4ca1-8b34-ce7bb9bf6d14','23f86e08-209f-4cee-b42e-04ddd17a1bdb')
+
+2/1/2017 12:31:02 PM
+update person set 
+active = '1' where id ='5fe1181c-8454-4d6e-8636-aba9e7a6909e'
+
+2/1/2017 12:31:02 PM
+insert into phone_number(id)
+values
+('2b919b0f-5599-4716-a607-475443434278')
+
+2/1/2017 12:31:03 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('5fe1181c-8454-4d6e-8636-aba9e7a6909e','2b919b0f-5599-4716-a607-475443434278','084aceb8-9b0e-44b4-be6c-26ff89e23147')
+
+2/1/2017 12:31:03 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','c771fef5-3ac3-4001-acce-7fdedcff3260')
+
+2/1/2017 12:31:03 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('c771fef5-3ac3-4001-acce-7fdedcff3260','5fe1181c-8454-4d6e-8636-aba9e7a6909e','1','35932be7-0418-480a-bf04-bb907bb2e709')
+
+2/1/2017 12:31:03 PM
+insert into person(active,id)
+values
+('1','e584ed93-4185-433d-acc9-452388ccd626')
+
+2/1/2017 12:31:03 PM
+update person set 
+active = '1' where id ='e584ed93-4185-433d-acc9-452388ccd626'
+
+2/1/2017 12:31:03 PM
+insert into phone_number(id)
+values
+('94d30bc3-43cf-4f2c-a97d-4502e99120dc')
+
+2/1/2017 12:31:03 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e584ed93-4185-433d-acc9-452388ccd626','94d30bc3-43cf-4f2c-a97d-4502e99120dc','aba1ea76-a341-4f6f-a0cb-5516bd47c73e')
+
+2/1/2017 12:31:03 PM
+update person set 
+active = '1' where id ='e584ed93-4185-433d-acc9-452388ccd626'
+
+2/1/2017 12:31:03 PM
+insert into phone_number(id)
+values
+('77fe4889-ead8-4956-ba7a-781fd3f382a8')
+
+2/1/2017 12:31:03 PM
+insert into person_phones(person_id,phone_id,id)
+values
+('e584ed93-4185-433d-acc9-452388ccd626','77fe4889-ead8-4956-ba7a-781fd3f382a8','b88b0e7e-b16c-4c80-8eb3-ae7c6811f490')
+
+2/1/2017 12:31:03 PM
+insert into Address(country_id,id)
+values
+('14b00896-d006-480c-9d74-00f2995ce168','b092fcae-dd32-459e-850f-4348debc97e9')
+
+2/1/2017 12:31:03 PM
+insert into personal_addresses(address,person,is_primary,id)
+values
+('b092fcae-dd32-459e-850f-4348debc97e9','e584ed93-4185-433d-acc9-452388ccd626','1','2c608b97-eb07-4014-98b0-b575507ac945')
+
+2/1/2017 12:31:03 PM
+update person set 
+first_name = 'Harry',
+last_name = 'Wells',
+dob = '2017-01-11 12:00:00',
+is_male = '0',
+age = '0',
+active = '1' where id ='226c4504-df7e-42e1-9496-9e43ad10fa1f'
+
+2/1/2017 12:31:03 PM
+update person set 
+active = '1' where id ='5fe1181c-8454-4d6e-8636-aba9e7a6909e'
+
+2/1/2017 12:31:03 PM
+update person set 
+active = '1' where id ='e584ed93-4185-433d-acc9-452388ccd626'
+
+2/1/2017 12:31:03 PM
+insert into insurance_policy(id)
+values
+('36e5519b-ccc1-461c-b966-f96472c312a5')
+
+2/1/2017 12:31:04 PM
+insert into insurance_policy(id)
+values
+('3e6316a0-e38d-4bd2-99ff-5cc831b6fefe')
+
+2/1/2017 12:31:04 PM
+insert into insurance_policy(id)
+values
+('40a5e93a-cd8f-4ae9-ab51-c1fc322a64a4')
+
+2/1/2017 12:31:04 PM
+insert into pcr_Demographic(pt_person,emr_contact_person,phy_contact_person,agency_id,id)
+values
+('226c4504-df7e-42e1-9496-9e43ad10fa1f','5fe1181c-8454-4d6e-8636-aba9e7a6909e','e584ed93-4185-433d-acc9-452388ccd626','90b16e1c-aa76-11e5-b94a-842b2b4bbc99','124c9ddb-20c7-444f-81e6-301e15b0e2e8')
+
+2/1/2017 12:31:04 PM
+insert into pcr_dispatch(transported_from,cross_street,pt_count,id)
+values
+('Street','Residence','1','6e352efa-575f-4962-81b2-fbfd72e05033')
+
+2/1/2017 12:31:15 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','066ed28d-07a7-11e0-bdc9-8e92303c9d5f','1','1f9b26f7-73a6-4b0d-b575-7374e85ac82a')
+
+2/1/2017 12:31:15 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','252c16d4-0623-11e0-9c66-0ba20c568bb6','1','a1c86d72-360c-4bae-99ae-0013a5b90fbd')
+
+2/1/2017 12:31:18 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06704812-07a7-11e0-bdc9-8e92303c9d5f','1','16d7b0c8-6211-4fcf-a7f8-d1ade674c531')
+
+2/1/2017 12:31:18 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','e6b24d0d-e6ef-11e5-9a7d-3052cb650342','1','b0e14ad0-6cbb-4a9c-adcc-641226e6caa2')
+
+2/1/2017 12:31:19 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06705bea-07a7-11e0-bdc9-8e92303c9d5f','1','f22fa8f2-af72-453e-b538-e715bed4a72c')
+
+2/1/2017 12:31:19 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','18821032-0614-11e0-9c66-0ba20c568bb6','1','aaa41a10-0023-4a71-bb9a-1ed83337915a')
+
+2/1/2017 12:31:23 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06ea7725-1509-11e5-b454-842b2b4bbc99','1','41a01f0c-6983-4cee-8b62-32832a5cb4cc')
+
+2/1/2017 12:31:25 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067667a5-07a7-11e0-bdc9-8e92303c9d5f','1','ca177313-c857-43fb-88c2-3882083cec9f')
+
+2/1/2017 12:31:26 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','031146c5-8fd7-11e1-b08b-842b2b4bbc99','1','63f732d5-db93-4dce-ae99-6b99aa612346')
+
+2/1/2017 12:31:26 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06a6ef2b-07a7-11e0-bdc9-8e92303c9d5f','1','704afdc8-5de9-4ed4-9c24-016cb2a5f60c')
+
+2/1/2017 12:31:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06a5aaae-07a7-11e0-bdc9-8e92303c9d5f','1','e035c806-23ac-4fde-9b61-0ba63c4c546a')
+
+2/1/2017 12:31:27 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06a65c4a-07a7-11e0-bdc9-8e92303c9d5f','1','02c691fe-4417-410c-9fd4-17433534246d')
+
+2/1/2017 12:31:28 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067157f3-07a7-11e0-bdc9-8e92303c9d5f','1','564abaa4-730d-49f1-b4db-fd9df503c931')
+
+2/1/2017 12:31:28 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06a67cb9-07a7-11e0-bdc9-8e92303c9d5f','1','9c378ea8-16ec-4e11-a519-d3c9fa2750cd')
+
+2/1/2017 12:31:29 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067569e5-07a7-11e0-bdc9-8e92303c9d5f','1','89e37df1-6e42-4cbf-a10d-0d4d5e12123d')
+
+2/1/2017 12:31:29 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06751742-07a7-11e0-bdc9-8e92303c9d5f','1','a097587c-d806-4d38-b5b5-54546066300a')
+
+2/1/2017 12:31:30 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06742347-07a7-11e0-bdc9-8e92303c9d5f','1','36c3aea8-e94e-463e-a37b-202a0a6f5e46')
+
+2/1/2017 12:31:31 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','067686e0-07a7-11e0-bdc9-8e92303c9d5f','1','c7e3441b-0334-42b0-802b-b39e8a0f2e6d')
+
+2/1/2017 12:31:32 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06712025-07a7-11e0-bdc9-8e92303c9d5f','1','6a671ea9-140c-4a32-836d-31b36a0111fc')
+
+2/1/2017 12:31:33 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','0674c31d-07a7-11e0-bdc9-8e92303c9d5f','1','679beb81-f47c-4b4c-9274-52383710070f')
+
+2/1/2017 12:31:33 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06746e27-07a7-11e0-bdc9-8e92303c9d5f','1','e5586f95-1ab4-4b2d-b429-5b0428de478b')
+
+2/1/2017 12:31:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','06716e4f-07a7-11e0-bdc9-8e92303c9d5f','1','1de9948e-73e9-4a40-8010-fa92a59d5b99')
+
+2/1/2017 12:31:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','9634c31c-0610-11e0-9c66-0ba20c568bb6','1','73adf808-f27c-4260-a390-765088913258')
+
+2/1/2017 12:31:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','e2e5eafb-8c7f-4fe4-94d4-d877f6d2f359','1','04530908-c368-46dd-b28e-a5ec3a1c673d')
+
+2/1/2017 12:31:34 PM
+insert into pcr_inputs(value,pcr_id,input_id,id)
+values
+('12:33 ','00251ac0-58e7-4cad-8760-8911aa156d0b','4352bbf1-4a67-11e4-9a60-842b2b4bbc99','6fe194ce-75bc-423a-95b5-0aebbba18b60')
+
+2/1/2017 12:31:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','18822419-0614-11e0-9c66-0ba20c568bb6','1','ae4198f1-3fef-4589-9f3c-bbcc66faf160')
+
+2/1/2017 12:31:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','18824b59-0614-11e0-9c66-0ba20c568bb6','1','26ed5135-f3bb-4a14-8aa4-d2d6575b7f8b')
+
+2/1/2017 12:31:34 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','4fb8a78e-0614-11e0-9c66-0ba20c568bb6','1','bb97fd2b-9211-43b1-89e7-7a7fdf29b63a')
+
+2/1/2017 12:31:35 PM
+insert into pcr_buttons(pcr_id,button_id,Clicked,id)
+values
+('00251ac0-58e7-4cad-8760-8911aa156d0b','4fb8ba94-0614-11e0-9c66-0ba20c568bb6','1','c2c4a1cd-0254-413a-80cd-53eee80874b5')

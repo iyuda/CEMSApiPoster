@@ -1,0 +1,175 @@
+
+2/15/2017 10:53:09 AM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 11:22:45 AM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 11:23:20 AM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 11:27:04 AM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 1:31:11 PM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 1:35:35 PM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 1:56:06 PM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 1:56:07 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'on p.button_id=a.id where  pcr_id = '5db404f9-d2eb-11e6-b953-3052cb650342') t' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 253
+Source: MySql.Data
+
+2/15/2017 1:56:30 PM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 1:58:16 PM
+Unable to cast object of type 'System.UInt32' to type 'System.String'.:
+Stack trace: at WebApiPoster.PCR.Address.GetZipNameById(String id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 179
+   at WebApiPoster.PCR.Address.MapIntoIOSJson(String PathPrefix) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 38
+   at WebApiPoster.PCR.Person.MapIntoIOSJson(String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 57
+   at WebApiPoster.PCR.Demographic.MapIntoIOSJson() in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 83
+Source: WebApiPoster
+
+2/15/2017 6:15:07 PM
+Unknown column '26b7449b' in 'field list':
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 118
+Source: MySql.Data
+
+2/15/2017 6:16:43 PM
+Unknown column '66cd00ec' in 'field list':
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 118
+Source: MySql.Data
+
+2/15/2017 6:17:29 PM
+Unknown column '735bcc7a' in 'field list':
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Utilities.cs:line 118
+Source: MySql.Data
+
+2/15/2017 6:19:26 PM
+Unknown column '735bcc7a' in 'field list':
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/15/2017 6:20:13 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '874beebc-d95c-4172-b607-0a3bf7f006d4'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/15/2017 6:20:14 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'c8dae533-4590-4078-898e-d052ca1ad84b'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/15/2017 6:20:14 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data

@@ -1,0 +1,65 @@
+
+1/11/2017 6:45:45 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str"' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: MySql.Data
+
+1/11/2017 6:50:00 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str"' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: MySql.Data
+
+1/11/2017 6:50:10 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str"' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: MySql.Data
+
+1/11/2017 6:50:24 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str"' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: MySql.Data
+
+1/11/2017 6:50:28 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '"PatientDetail": {"model": {"buttons": [{"id": 0, "img": "check-circle-o", "str"' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteScalar()
+   at WebApiPoster.JsonMaker.GetIOSJsonExtract(String Expression, Object JsonData)
+Source: MySql.Data

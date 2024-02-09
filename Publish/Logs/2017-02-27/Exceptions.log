@@ -1,0 +1,516 @@
+
+2/27/2017 11:27:17 AM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 11:27:23 AM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 11:27:23 AM
+Incorrect decimal value: '21007@0' for column 'mileage_begin' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 11:27:26 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'cd225411-ac9d-4692-8f8f-ef679df3eac0'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 11:27:26 AM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1c79ebb7-9484-4bb3-9b5d-049976791a26'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 11:27:26 AM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 12:06:37 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 12:06:40 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 12:06:41 PM
+Incorrect decimal value: '21007@0' for column 'mileage_begin' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 12:06:43 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '14aaf8fe-e9d2-49d6-9db5-9f6ac088935c'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 12:06:43 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ab6e37d6-9a73-418e-9fe3-f19cb35a1d78'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 12:06:44 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 12:30:10 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 12:30:13 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 12:30:13 PM
+Incorrect decimal value: '21007@0' for column 'mileage_begin' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 12:30:15 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ccba68ce-fbe3-4633-ab96-0a5706792f45'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 12:30:15 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '2c8e293c-6a50-4b9c-aeb3-97edd88e4b81'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 12:30:16 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:30:19 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't where pcr_id = '%'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/27/2017 1:30:19 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/27/2017 1:30:19 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't where pcr_id = '%'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/27/2017 1:30:19 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 1:50:35 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't where pcr_id = '%'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/27/2017 1:50:35 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/27/2017 1:50:35 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't where pcr_id = '%'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/27/2017 1:50:35 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+2/27/2017 2:37:44 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't where pcr_id = '%'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/27/2017 2:37:44 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/27/2017 2:37:44 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 't where pcr_id = '%'' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+2/27/2017 2:37:44 PM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions
+
+2/27/2017 3:47:12 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 3:47:15 PM
+Incorrect decimal value: '210@00' for column 'weight' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data
+
+2/27/2017 3:47:16 PM
+Incorrect decimal value: '21007@0' for column 'mileage_begin' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert()
+Source: MySql.Data
+
+2/27/2017 3:47:18 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '7cb583ac-1c52-49e0-b1bd-a23a65681d3d'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 3:47:18 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'f9bdfa41-537b-4697-a8db-f3684f4c5ad7'')' at line 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+2/27/2017 3:47:20 PM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_assessment` FOREIGN KEY (`pcr_assessment_id`) REFERENCES `pcr_assessment` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField)
+Source: MySql.Data

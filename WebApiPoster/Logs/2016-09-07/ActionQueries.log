@@ -1,0 +1,5 @@
+
+9/7/2016 1:41:19 PM
+insert into New_Change(Table_name,mypath,device_info,id)
+values
+('agency','insert',null,'0a24bc21-bfb7-4b50-aa83-623477801fb6')

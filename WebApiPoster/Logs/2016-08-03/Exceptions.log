@@ -1,0 +1,19 @@
+
+8/3/2016 11:04:02 AM
+Unknown column 'pcr_id' in 'where clause':
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.PCR.Utilities.GetDataTable(String TableName, String Id, String SearchField)
+Source: MySql.Data
+
+8/3/2016 11:04:04 AM
+Value cannot be null.
+Parameter name: source:
+Stack trace: at System.Data.DataTableExtensions.AsEnumerable(DataTable source)
+   at WebApiPoster.PCR.Utilities.GetClassList[T](String TableName, String Id, String SearchField)
+Source: System.Data.DataSetExtensions

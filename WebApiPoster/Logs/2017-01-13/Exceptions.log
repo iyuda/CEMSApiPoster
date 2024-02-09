@@ -1,0 +1,53 @@
+
+1/13/2017 5:20:50 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Dispatch.ValidateFields()
+   at WebApiPoster.PCR.Dispatch.HandleRecord(Int32 InsertUpdate)
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster
+
+1/13/2017 5:22:03 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.PcrBase.Retrieve(String SearchField)
+Source: WebApiPoster
+
+1/13/2017 5:22:10 PM
+Duplicate entry '' for key 'PRIMARY':
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.Utilities.Insert(String TableName, String[] Columns, String[] Values)
+Source: MySql.Data
+
+1/13/2017 5:35:55 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Dispatch.ValidateFields()
+   at WebApiPoster.PCR.Dispatch.HandleRecord(Int32 InsertUpdate)
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster
+
+1/13/2017 5:36:23 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Dispatch.ValidateFields()
+   at WebApiPoster.PCR.Dispatch.HandleRecord(Int32 InsertUpdate)
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster
+
+1/13/2017 5:36:48 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Dispatch.ValidateFields()
+   at WebApiPoster.PCR.Dispatch.HandleRecord(Int32 InsertUpdate)
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster
+
+1/13/2017 5:38:37 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Dispatch.ValidateFields()
+   at WebApiPoster.PCR.Dispatch.HandleRecord(Int32 InsertUpdate)
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData)
+Source: WebApiPoster

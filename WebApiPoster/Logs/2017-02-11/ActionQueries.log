@@ -1,0 +1,240 @@
+
+2/11/2017 1:39:55 AM
+update json_pcr set 
+data = '{
+  "auth": {
+    "user": "jrubin",
+    "badge": ""
+  },
+  "debug": false,
+  "Dispatch": {
+    "LightsSirens": {
+      "model": {
+        "buttons": [
+          {
+            "id": "LSToScene",
+            "img": "check-square-o",
+            "str": "To Scene",
+            "choice": "on"
+          },
+          {
+            "id": "LSToDestination",
+            "img": "check-square-o",
+            "str": "To Destination",
+            "choice": "off"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@5250": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@5250",
+            "str": "",
+            "choice": "on",
+            "caption": "Psychiatric Hold (5250) 14 DH"
+          }
+        ]
+      }
+    },
+    "DispatchAborted": {
+      "model": {
+        "buttons": [
+          {
+            "id": "DryRun",
+            "img": "check-circle-o",
+            "str": "Dry Run",
+            "choice": "off"
+          },
+          {
+            "id": "DOA",
+            "img": "check-circle-o",
+            "str": "DOA",
+            "choice": "off"
+          },
+          {
+            "id": "Gone",
+            "img": "check-circle-o",
+            "str": "Gone",
+            "choice": "off"
+          },
+          {
+            "id": "NotFound",
+            "img": "check-circle-o",
+            "str": "Not Found",
+            "choice": "off"
+          },
+          {
+            "id": "Transported",
+            "img": "check-circle-o",
+            "str": "Transported",
+            "choice": "off"
+          },
+          {
+            "id": "PDMatter",
+            "img": "check-circle-o",
+            "str": "PD Matter",
+            "choice": "on"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@Discharge": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@Discharge",
+            "str": "",
+            "choice": "on",
+            "caption": "Discharge"
+          }
+        ]
+      }
+    },
+    "CALLTYPE@BLSStandby": {
+      "model": {
+        "buttons": [
+          {
+            "id": "CALLTYPE@BLSStandby",
+            "str": "",
+            "choice": "on",
+            "caption": "BLS Standby"
+          }
+        ]
+      }
+    },
+    "Mileage@Mileage_End": {
+      "Mileage_End": null
+    },
+    "Mileage@Mileage_Begin": {
+      "Mileage_Begin": null
+    },
+    "Timeline@Timeline_EnRoute": {
+      "Timeline_EnRoute": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_OnScene": {
+      "Timeline_OnScene": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_Assigned": {
+      "Timeline_Assigned": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_FromScene": {
+      "Timeline_FromScene": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_InService": {
+      "Timeline_InService": "1/1/1970 12:00:00 AM"
+    },
+    "DispatchInfo@DispatchInfo_CAD": {
+      "DispatchInfo_CAD": null
+    },
+    "CallLocation@CallLocation_City": {
+      "CallLocation_City": ""
+    },
+    "CallLocation@CallLocation_Name": {
+      "CallLocation_Name": null
+    },
+    "CallLocation@CallLocation_State": {
+      "CallLocation_State": ""
+    },
+    "Timeline@Timeline_AtDestination": {
+      "Timeline_AtDestination": "1/1/1970 12:00:00 AM"
+    },
+    "Timeline@Timeline_PatientContact": {
+      "Timeline_PatientContact": "1/1/1970 12:00:00 AM"
+    },
+    "CallLocation@CallLocation_Address": {
+      "CallLocation_Address": null
+    },
+    "CallLocation@CallLocation_ZipCode": {
+      "CallLocation_ZipCode": ""
+    },
+    "DispatchInfo@DispatchInfo_Borough": {
+      "DispatchInfo_Borough": null
+    },
+    "CallLocation@CallLocation_Apartment": {
+      "CallLocation_Apartment": null
+    },
+    "DispatchInfo@DispatchInfo_LocationCode": {
+      "DispatchInfo_LocationCode": null
+    },
+    "CallLocation@CallLocation_RespondedFrom": {
+      "CallLocation_RespondedFrom": null
+    },
+    "DispatchInfo@DispatchInfo_DispatchMethod": {
+      "DispatchInfo_DispatchMethod": null
+    },
+    "DispatchInfo@DispatchInfo_TransportedFrom": {
+      "DispatchInfo_TransportedFrom": null
+    }
+  },
+  "logmount": false,
+  "transcript": [],
+  "Demographics": {
+    "PatientInfo@PatientInfo_City": {
+      "PatientInfo_City": ""
+    },
+    "PatientInfo@PatientInfo_State": {
+      "PatientInfo_State": ""
+    },
+    "PatientDetail@PatientDetail_Age": {
+      "PatientDetail_Age": "0"
+    },
+    "PatientDetail@PatientDetail_DOB": {
+      "PatientDetail_DOB": null
+    },
+    "PatientDetail@PatientDetail_SSN": {
+      "PatientDetail_SSN": null
+    },
+    "PatientInfo@PatientInfo_Address": {
+      "PatientInfo_Address": ""
+    },
+    "PatientInfo@PatientInfo_ZipCode": {
+      "PatientInfo_ZipCode": ""
+    },
+    "PatientInfo@PatientInfo_LastName": {
+      "PatientInfo_LastName": "Tester"
+    },
+    "PatientInfo@PatientInfo_Apartment": {
+      "PatientInfo_Apartment": ""
+    },
+    "PatientInfo@PatientInfo_FirstName": {
+      "PatientInfo_FirstName": "Login"
+    },
+    "PatientDetail@PatientDetail_Gender": {
+      "PatientDetail_Gender": "Female"
+    },
+    "PatientDetail@PatientDetail_Phone1": {
+      "PatientDetail_Phone1": ""
+    },
+    "PatientDetail@PatientDetail_Phone2": {
+      "PatientDetail_Phone2": ""
+    },
+    "PhysicianInfo@PhysicianInfo_LastName": {
+      "PhysicianInfo_LastName": null
+    },
+    "PatientDetail@PatientDetail_WeightLbs": {
+      "PatientDetail_WeightLbs": null
+    },
+    "PatientInfo@PatientInfo_MiddleInitial": {
+      "PatientInfo_MiddleInitial": "L"
+    },
+    "PhysicianInfo@PhysicianInfo_FirstName": {
+      "PhysicianInfo_FirstName": null
+    },
+    "PhysicianInfo@PhysicianInfo_MiddleInitial": {
+      "PhysicianInfo_MiddleInitial": null
+    },
+    "EmergencyContact@EmergencyContact_LastName": {
+      "EmergencyContact_LastName": null
+    },
+    "EmergencyContact@EmergencyContact_FirstName": {
+      "EmergencyContact_FirstName": null
+    },
+    "EmergencyContact@EmergencyContact_MiddleInitial": {
+      "EmergencyContact_MiddleInitial": null
+    }
+  }
+}',
+received = '1970-01-01 12:00:00',
+sent = '2017-02-11 01:39:45' where id ='8718afb6-ed67-11e6-99d9-569f0d38ba3c'

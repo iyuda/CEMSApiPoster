@@ -1,0 +1,16 @@
+
+7/24/2016 7:29:31 PM
+'System.Collections.Generic.List<WebApiPoster.PCR.Members>' does not contain a definition for 'GetTableName':
+Stack trace: at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at WebApiPoster.JsonMaker.GetJSON(Object obj, Boolean SkipTableName, String Prefix)
+Source: Anonymously Hosted DynamicMethods Assembly
+
+7/24/2016 7:34:46 PM
+'System.Collections.Generic.List<WebApiPoster.PCR.Members>' does not contain a definition for 'GetTableName':
+Stack trace: at CallSite.Target(Closure , CallSite , Object )
+   at System.Dynamic.UpdateDelegates.UpdateAndExecute1[T0,TRet](CallSite site, T0 arg0)
+   at CallSite.Target(Closure , CallSite , Object )
+   at WebApiPoster.JsonMaker.GetJSON(Object obj, Boolean SkipTableName, String Prefix) in c:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\JsonMaker.cs:line 42
+Source: Anonymously Hosted DynamicMethods Assembly

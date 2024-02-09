@@ -1,0 +1,52 @@
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\Newtonsoft.Json.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\System.Net.Http.Formatting.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\System.Web.Http.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\System.Web.Http.WebHost.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\Newtonsoft.Json.xml
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\System.Net.Http.Formatting.xml
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\System.Web.Http.xml
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\System.Web.Http.WebHost.xml
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\obj\Debug\WebApiPoster.csprojResolveAssemblyReference.cache
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\Parse.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\Parse.Phone.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\Parse.xml
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\Parse.Phone.xml
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\WebApiPoster.dll.config
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\WebApiPoster.pdb
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\obj\Debug\WebApiPoster.dll
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\obj\Debug\WebApiPoster.pdb
+C:\Work Area\Web API Poster\WebApiPoster\WedbApiPoster\bin\WebApiPoster.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\WebApiPoster.dll.config
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\WebApiPoster.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\WebApiPoster.pdb
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\Newtonsoft.Json.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\Parse.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\Parse.Phone.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\System.Net.Http.Formatting.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\System.Web.Http.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\System.Web.Http.WebHost.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\Parse.xml
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\Parse.Phone.xml
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\Newtonsoft.Json.xml
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\System.Net.Http.Formatting.xml
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\System.Web.Http.xml
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\bin\System.Web.Http.WebHost.xml
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\obj\Debug\WebApiPoster.csprojResolveAssemblyReference.cache
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\obj\Debug\WebApiPoster.dll
+C:\Work Area\Web API Poster\WebApiPoster\WebApiPoster\obj\Debug\WebApiPoster.pdb
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\WebApiPoster.dll.config
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\WebApiPoster.dll
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\WebApiPoster.pdb
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\Newtonsoft.Json.dll
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\System.Net.Http.Formatting.dll
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\System.Web.Http.dll
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\System.Web.Http.WebHost.dll
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\Parse.xml
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\Parse.Phone.xml
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\Newtonsoft.Json.xml
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\System.Net.Http.Formatting.xml
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\System.Web.Http.xml
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\bin\System.Web.Http.WebHost.xml
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\obj\Debug\WebApiPoster.csprojResolveAssemblyReference.cache
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\obj\Debug\WebApiPoster.dll
+C:\Work Area\WebApi\WebApiPoster\WebApiPoster\obj\Debug\WebApiPoster.pdb

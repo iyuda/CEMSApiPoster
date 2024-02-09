@@ -1,0 +1,24 @@
+
+12/29/2016 5:33:41 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '02fa583b-6c89-4896-a1d4-99bdcd68eb25' and (ifnull(downloaded_time,0)=0 or year(d' at line 14:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.Controllers.CEMSController.GetCadTable(String device_id, String cad_id, String bus_id) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\Controllers\CEMSController.cs:line 218
+Source: MySql.Data
+
+12/29/2016 5:36:38 PM
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '02fa583b-6c89-4896-a1d4-99bdcd68eb25' and (ifnull(downloaded_time,0)=0 or year(d' at line 14:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at WebApiPoster.Controllers.CEMSController.GetCadTable(String device_id, String cad_id, String bus_id)
+Source: MySql.Data

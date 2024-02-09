@@ -1,0 +1,57 @@
+
+3/2/2017 12:22:41 AM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/2/2017 12:22:57 AM
+Unexpected character while parsing path::
+Stack trace: at Newtonsoft.Json.Linq.JsonPath.JPath.ParseMain()
+   at Newtonsoft.Json.Linq.JsonPath.JPath..ctor(String expression)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path, Boolean errorWhenNoMatch)
+   at Newtonsoft.Json.Linq.JToken.SelectToken(String path)
+   at WebApiPoster.JsonMaker.UpdateJsonValue(String Path, String Value, Boolean MustExist) in c:\Work Area\WebApi\WebApiPoster\JsonMaker.cs:line 133
+Source: Newtonsoft.Json
+
+3/2/2017 11:15:21 AM
+Incorrect datetime value: '1050' for column 'assigned' at row 1:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 124
+Source: MySql.Data
+
+3/2/2017 11:16:43 AM
+Cannot add or update a child row: a foreign key constraint fails (`newcems`.`pcr`, CONSTRAINT `FK_pcr_dispatch` FOREIGN KEY (`pcr_dispatch_id`) REFERENCES `pcr_dispatch` (`id`)):
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Update(String KeyField) in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 204
+Source: MySql.Data
+
+3/2/2017 1:19:34 PM
+Field 'pcr_demographic_id' doesn't have a default value:
+Stack trace: at MySql.Data.MySqlClient.MySqlStream.ReadPacket()
+   at MySql.Data.MySqlClient.NativeDriver.GetResult(Int32& affectedRow, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.GetResult(Int32 statementId, Int32& affectedRows, Int64& insertedId)
+   at MySql.Data.MySqlClient.Driver.NextResult(Int32 statementId, Boolean force)
+   at MySql.Data.MySqlClient.MySqlDataReader.NextResult()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader(CommandBehavior behavior)
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteReader()
+   at MySql.Data.MySqlClient.MySqlCommand.ExecuteNonQuery()
+   at WebApiPoster.PCR.PcrBase.Insert() in c:\Work Area\WebApi\WebApiPoster\PCR\Global\PcrBase.cs:line 124
+Source: MySql.Data

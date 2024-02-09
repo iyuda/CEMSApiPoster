@@ -1,0 +1,22 @@
+
+1/14/2017 12:56:02 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Address..ctor(Object JsonData, String PathPrefix, String is_primary) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 49
+   at WebApiPoster.PCR.personal_addresses..ctor(Object JsonData, String PathPrefix, String is_primary) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\personal_addresses.cs:line 32
+   at WebApiPoster.PCR.Person..ctor(Object JsonData, String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 63
+   at WebApiPoster.PCR.Demographic.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 84
+Source: WebApiPoster
+
+1/14/2017 12:56:06 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Address..ctor(Object JsonData, String PathPrefix, String is_primary) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 49
+   at WebApiPoster.PCR.Dispatch.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Dispatch.cs:line 113
+Source: WebApiPoster
+
+1/14/2017 12:56:18 PM
+Object reference not set to an instance of an object.:
+Stack trace: at WebApiPoster.PCR.Address..ctor(Object JsonData, String PathPrefix, String is_primary) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Address.cs:line 49
+   at WebApiPoster.PCR.personal_addresses..ctor(Object JsonData, String PathPrefix, String is_primary) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\personal_addresses.cs:line 32
+   at WebApiPoster.PCR.Person..ctor(Object JsonData, String PathPrefix, Boolean HasDetail) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Person.cs:line 63
+   at WebApiPoster.PCR.Demographic.MapFromIOSJson(Object JsonData) in c:\Work Area\WebApi\WebApiPoster\WebApiPoster\PCR\Demographic.cs:line 84
+Source: WebApiPoster

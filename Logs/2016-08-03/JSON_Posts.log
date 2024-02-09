@@ -1,0 +1,798 @@
+
+8/3/2016 11:30:03 AM
+{
+  "pcr": {
+    "pcr_dispatch_id": "f10e108b-7165-433e-adbb-0ece7d02336c",
+    "pcr_demographic_id": "d020a76e-18d6-4ae4-804f-b4ead7cfb13f",
+    "pcr_assessment_id": "f5cc6ada-b592-4804-964e-cece23620810",
+    "pcr_narrative_notes_id": "69d4f4e0-dd3b-41a9-b4ae-6d19672d8d8e",
+    "pcr_rma_id": "5fac70cf-3e66-4e5a-9ccd-5973b8ab9e3a",
+    "pcr_authorization_id": "d58eb55f-3198-4930-8a7f-db678c04ac5a",
+    "pcr_apcf_id": "03581230-9d35-4823-9ac1-6309db953cfe",
+    "pcr_disposition_id": "131f1b00-dd0a-4ce8-a12d-9093c27b07a5",
+    "ems_run": "fbf16ac0-84fe-4078-b77b-002732fcbfe9",
+    "pcr_narcotics_id": "8a7aac60-f263-476f-8963-58c0aa0e1975",
+    "cad_number_id": "",
+    "cad_number": null,
+    "pcr_type": "10-93 ",
+    "pcr_number": " -07142015-202456-2",
+    "printed": "False",
+    "admitted": "0",
+    "agency_id": "f282aefd-e695-11e3-8fa5-842b2b4bbc99",
+    "qa": "1",
+    "id": "02fa583b-6c89-4896-a1d4-99bdcd68eb25"
+  },
+  "pcr_dispatch": {
+    "date": "7/14/2015 8:24:55 PM",
+    "cad": "507143210",
+    "transported_from": "",
+    "town_id": "e3514b99-063e-11e0-9c66-0ba20c568bb6",
+    "cross_street": "Bushville Swan Lake Rd Old White Lake Tpke",
+    "assigned": "7/14/2015 8:24:56 PM",
+    "en_route_63": "7/14/2015 8:24:56 PM",
+    "on_scene_84": "7/14/2015 8:25:00 PM",
+    "pt_contact": "7/14/2015 8:27:00 PM",
+    "from_scene_82": "7/14/2015 8:35:00 PM",
+    "at_destination": "7/14/2015 8:35:00 PM",
+    "in_service": "7/14/2015 8:35:00 PM",
+    "pt_count": "1",
+    "dispatch_method": "Emergency",
+    "phone": "",
+    "mileage_begin": "",
+    "mileage_end": "",
+    "address_id": "077c1997-d2de-4ca9-a525-b3a87c3bbeb9",
+    "facility_id": "",
+    "call_type": "Fracture",
+    "CallReceivedTime": "1/1/1970 12:00:00 AM",
+    "neighborhood": "CATSKILL",
+    "id": "f10e108b-7165-433e-adbb-0ece7d02336c"
+  },
+  "Address": {
+    "address": "200 Lee Cole Rd",
+    "unit": "",
+    "city_id": "",
+    "state_id": "",
+    "zip_id": "",
+    "country_id": "",
+    "address_type_id": "",
+    "id": "077c1997-d2de-4ca9-a525-b3a87c3bbeb9"
+  },
+  "business": {
+    "name": null,
+    "id": ""
+  },
+  "pcr_members": [
+    {
+      "pcr_id": "02fa583b-6c89-4896-a1d4-99bdcd68eb25",
+      "user_id": "1b6393c5-0758-11e5-a5ab-00155d0e0b3f",
+      "in_charge": "1",
+      "driver": "0",
+      "transport": "0",
+      "documentary": "1",
+      "scene_only": "1",
+      "active": "1",
+      "id": "3e9fd7f6-3b5a-46ba-a7f7-5e4a95dcb61f"
+    },
+    {
+      "pcr_id": "02fa583b-6c89-4896-a1d4-99bdcd68eb25",
+      "user_id": "4a6e6894-05f4-11e4-ace5-002354f956f4",
+      "in_charge": "0",
+      "driver": "1",
+      "transport": "0",
+      "documentary": "0",
+      "scene_only": "0",
+      "active": "1",
+      "id": "51b29097-44df-4a64-b107-9afd05346900"
+    },
+    {
+      "pcr_id": "02fa583b-6c89-4896-a1d4-99bdcd68eb25",
+      "user_id": "535f0bef-ad70-494d-9354-1534fc0ef740",
+      "in_charge": "0",
+      "driver": "0",
+      "transport": "0",
+      "documentary": "0",
+      "scene_only": "1",
+      "active": "1",
+      "id": "fcfbbcb5-b020-4f1b-908c-923c6b356542"
+    }
+  ],
+  "users": [
+    {
+      "agency_id": "f282aefd-e695-11e3-8fa5-842b2b4bbc99",
+      "user": "W137",
+      "pass": "hatch901",
+      "badge_number": "W137",
+      "license": "373375",
+      "hire_date": "",
+      "termination_date": "",
+      "personnel_status": "",
+      "work_status": "",
+      "salary_type": "",
+      "license_type": "EMT",
+      "is_admin": "0",
+      "is_super_admin": "",
+      "active": "1",
+      "neighborhood": "",
+      "id": "1b6393c5-0758-11e5-a5ab-00155d0e0b3f"
+    },
+    {
+      "agency_id": "f282aefd-e695-11e3-8fa5-842b2b4bbc99",
+      "user": "B311",
+      "pass": "owned667",
+      "badge_number": "B311",
+      "license": "",
+      "hire_date": "",
+      "termination_date": "",
+      "personnel_status": "",
+      "work_status": "",
+      "salary_type": "",
+      "license_type": "",
+      "is_admin": "0",
+      "is_super_admin": "",
+      "active": "1",
+      "neighborhood": "",
+      "id": "4a6e6894-05f4-11e4-ace5-002354f956f4"
+    },
+    {
+      "agency_id": "f282aefd-e695-11e3-8fa5-842b2b4bbc99",
+      "user": "W331",
+      "pass": "hobby946",
+      "badge_number": "W331",
+      "license": "370129",
+      "hire_date": "",
+      "termination_date": "",
+      "personnel_status": "",
+      "work_status": "",
+      "salary_type": "",
+      "license_type": "EMT",
+      "is_admin": "0",
+      "is_super_admin": "False",
+      "active": "1",
+      "neighborhood": "",
+      "id": "535f0bef-ad70-494d-9354-1534fc0ef740"
+    }
+  ],
+  "pcr_Demographic": {
+    "pt_person": "b8b00f2a-6c7a-4666-bfa6-e3890b076f12",
+    "emr_contact_person": "ac70daf0-7151-4ded-aa78-b9f7c73be844",
+    "phy_contact_person": "d1da8704-3db0-49ac-bdbe-51f5dc84fbf0",
+    "primary_policy": "9d788b50-b526-4bdb-a93a-8910bd3e6a00",
+    "secondary_policy": "6d6a2e9c-ee18-4714-823b-49983309bcff",
+    "terciary_insurance": "",
+    "agency_id": "",
+    "id": "d020a76e-18d6-4ae4-804f-b4ead7cfb13f"
+  },
+  "pcr_Assessment": {
+    "chief_complaint": "",
+    "medications": "",
+    "burn_1st": "",
+    "burn_2nd": "",
+    "burn_3rd": "",
+    "total_burn": "",
+    "onset": "",
+    "minutes": "",
+    "hours": "",
+    "days": "",
+    "weeks": "",
+    "months": "",
+    "neckScribble": "",
+    "abdomenScribble": "",
+    "chestScribble": "",
+    "rightHandScribble": "",
+    "leftHandScribble": "",
+    "rightFootScribble": "",
+    "leftFootScribble": "",
+    "backScribble": "",
+    "groinScribble": "",
+    "id": "f5cc6ada-b592-4804-964e-cece23620810"
+  },
+  "pcr_narrative_notes": {
+    "objective_subjective_notes": null,
+    "incident_report": null,
+    "xml_crew_member_signature": null,
+    "receiving_representative_name": null,
+    "crew_member_name": null,
+    "xml_receiving_facility_repres": null,
+    "additional_notes": null,
+    "id": "69d4f4e0-dd3b-41a9-b4ae-6d19672d8d8e"
+  },
+  "pcr_rma": {
+    "rma_text": null,
+    "medical_assistance_refused": null,
+    "signature": null,
+    "witness_signature": null,
+    "witness_name": null,
+    "patient_legal_guardian": null,
+    "id": "5fac70cf-3e66-4e5a-9ccd-5973b8ab9e3a"
+  },
+  "pcr_Apcf": {
+    "reason_appointment": "",
+    "reason_ambulance": "",
+    "reason_medical": "",
+    "physician_name": "",
+    "date_appointment": "7/14/2015 8:24:56 PM",
+    "xml_physician_signature": "",
+    "ems_emt_name": "",
+    "patient_bed_confined": "",
+    "title": "",
+    "patient_bed_confined_after_transport": "",
+    "id": "03581230-9d35-4823-9ac1-6309db953cfe"
+  },
+  "pcr_Disposition": {
+    "disposition_facility_id": "",
+    "address_id": "",
+    "out_of_area": "",
+    "out_of_area_exists": "0",
+    "id": "131f1b00-dd0a-4ce8-a12d-9093c27b07a5"
+  },
+  "ems_run": {
+    "status": "2",
+    "explanation": "",
+    "state_report": "0",
+    "billing_file": "0",
+    "id": "fbf16ac0-84fe-4078-b77b-002732fcbfe9"
+  },
+  "pcr_Narcotic": {
+    "call_location": "",
+    "patient_name": "",
+    "patient_address": "",
+    "patient_csz": "",
+    "patient_ssn": "",
+    "chief_complaint": "",
+    "receiving_hospital": "",
+    "disp_code": "",
+    "ed_chart": "",
+    "paramedic_name": "",
+    "paramedic_signature": "",
+    "witness_name": "",
+    "witness_signature": "",
+    "midazolam_wasted": "",
+    "diazepam_wasted": "",
+    "lorazepam_wasted": "",
+    "morphine_sulfate_wasted": "",
+    "fentanyl_wasted": "",
+    "midazolam_number": "",
+    "diazepam_number": "",
+    "lorazepam_number": "",
+    "morphine_sulfate_number": "",
+    "fentanyl_number": "",
+    "number": "",
+    "id": "8a7aac60-f263-476f-8963-58c0aa0e1975"
+  },
+  "pcr_Authorization": {
+    "xml_patient_signature": null,
+    "xml_witness_signature": null,
+    "witness_name": null,
+    "reason_patient_incapable": null,
+    "repres_signature": null,
+    "repres_name": null,
+    "reason_patient_incapable2": null,
+    "time_at_facility": null,
+    "name_of_facility": null,
+    "name_crewmember": null,
+    "name_facility_repres": null,
+    "signature_facility_repres": null,
+    "signature_crewmember": null,
+    "patient_legal_guardian": null,
+    "patient_health_care_poa": null,
+    "relative_benefits": null,
+    "relative_affairs": null,
+    "repres_agency": null,
+    "patient_care_report": null,
+    "facility_face_sheet": null,
+    "medical_record": null,
+    "facility_record": null,
+    "auth_text": null,
+    "type": null,
+    "patient_repres": null,
+    "id": "d58eb55f-3198-4930-8a7f-db678c04ac5a"
+  },
+  "pcr_buttons": [
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a6ef2b-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "0673d3a2-6e3c-4058-a4ef-85bd97f87380"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "53b31cdb-a9f6-4c59-8c08-35894f9c98cc",
+      "Clicked": "True",
+      "id": "0acb6e46-bc56-49fc-8569-adfe5ce50782"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "252d0fc8-0623-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "0b223d97-7f58-43bf-be4c-60c32df20255"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a8173f-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "103909d6-e97a-4a28-8478-f11977e48be5"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975c36e6-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "10c6753c-9268-4e9f-99b4-9b89db681169"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975b78c7-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "10eae35a-4959-4dc6-bc00-4dc4b53ca58e"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975c815b-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "166b6bca-cecc-4e6f-8c49-5e20b86e7edb"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "5081754e-96ba-480f-b2b5-58d2f7f3fb12",
+      "Clicked": "True",
+      "id": "177c39fd-852e-41a4-979c-5c2717d5c9fc"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "067686e0-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "17907148-1e79-4b61-b423-3bd7f14f7c92"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0671b38d-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "1df26a79-8d6f-463d-96b0-969fbe733b94"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975cc813-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "2270f580-92fa-4f51-b626-9dde014b9a1a"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0673f553-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "24d14e89-fb71-4609-a0b6-235978c95f26"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06751742-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "2576d0e7-5a65-40c5-a1aa-3cb03071d03d"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06710642-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "2b158ce3-ac21-4b1c-aa4b-3b6f34e70ef8"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975be590-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "2bea685f-a765-498a-a485-b3ec46f523ea"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a8ab85-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "2ed503fb-79e2-4fae-a45f-f5b25bd2a300"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "25290662-0623-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "2ff20bb8-8c1f-4892-9e9b-4d7534214840"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975d90b0-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "370eaf2b-c478-4d4e-9007-166dc7ee153c"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06724944-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "3ab72661-846e-4916-8d01-cf7f90d093d3"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06712025-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "41a402cb-1884-43fc-8a81-d9ff9d3a46f8"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975ba90f-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "441ac5dc-fb12-4f9f-a3b8-e06110b3792d"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "031146c5-8fd7-11e1-b08b-842b2b4bbc99",
+      "Clicked": "True",
+      "id": "453f69ad-c4d8-4c50-85e3-bb80fff8f3fa"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "252b1f30-0623-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "457cdf8e-c86b-4266-83e1-75af8b8b4f5d"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a61fa9-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "48dc06da-e96c-4d3d-b08a-812f896f1b2a"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06723e79-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "4a5c9487-b395-493b-9e19-8430db54e2ea"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a5e320-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "4cf84442-48b6-4c42-a327-9a6aeb5ba920"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a7a207-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "513e171c-1d44-4950-b854-ab1a8d1f3c96"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a67cb9-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "60285f68-79ed-46a9-ba79-f18e42806a77"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06713989-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "6209a0f0-b534-4802-94f8-13d19614d033"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975c5f21-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "64d15682-fd63-42f6-b242-c7b9d26968c7"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975c4b5e-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "64d21986-5bb7-430e-9b94-45e9c8b4c7c2"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "6b5eefa0-8fd9-11e1-b08b-842b2b4bbc99",
+      "Clicked": "True",
+      "id": "681ead59-fb89-47ee-8205-9abc06d1429c"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06746e27-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "7fe23155-e69d-42d4-ab9e-6699b1497c8d"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975c1c3e-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "808ab300-1cac-4795-a3f6-71ba1bc3e0ca"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975ca379-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "8b105cde-179a-421d-832b-b49f2fdec2f0"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0670ba8c-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "8e31549a-763d-4084-85b6-1ce244dc6c92"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0674c31d-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "8f879ace-5640-4f2e-8713-d20f1d894512"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "252bc1ea-0623-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "99310e74-6733-426b-afd8-0cee7afa0090"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "429b51ac-e12c-4c71-b5a7-e40dd1f153f6",
+      "Clicked": "True",
+      "id": "9fe8e449-7613-4cb2-b7fb-dd7797c6a84e"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975bc649-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "a2120403-51cc-4bbd-be6b-c6abdbed15ea"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "252da90b-0623-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "a499308d-c17f-4eca-87c1-d94fe3f86f42"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0671440b-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "a7eed898-082b-4deb-9bb9-ac35bc418560"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0673a198-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "abeb36e4-3fee-4838-a6f1-e7330ba3c244"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a65c4a-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "add9178e-1fd4-4a12-a3e4-9106f8d9e459"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0670a543-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "b5a210e5-aa53-4680-b9c3-08510c53d88f"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06717404-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "b765edf8-31a7-48c9-983b-72a7e3f8cce1"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "0670ec87-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "bd2203a3-5426-4bed-9bd7-1a56f5d3d36d"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "964d1ba8-34e1-4f9a-9d75-029b7b693a6e",
+      "Clicked": "True",
+      "id": "cb04ed64-e481-48dd-8eca-7ef1bd177c3e"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "cfe411a1-52a7-4800-b37a-83db65c29ac8",
+      "Clicked": "True",
+      "id": "cb4c7263-07e8-4c1a-bd9d-f31d9111605b"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06714904-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "cbcf22d3-a4b0-431a-833b-4d0809a77161"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "067157f3-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "d04b265d-868c-4a01-9beb-9e4f76edfb5a"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06742347-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "d5fe090c-33fe-4c92-a5f4-18995d98ff18"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a5aaae-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "dcdf1821-ff78-4ea4-b897-90a0d4855633"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "fffb83bb-36a4-4bae-8feb-07d34b281ee6",
+      "Clicked": "True",
+      "id": "e18ff70c-c2c4-493b-916c-e785a28b3ec9"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975bf929-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "e1a30d2a-b7f7-485b-9bf6-7e41d35af3c3"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "252c6321-0623-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "e334c6ee-75b6-4ad6-b75b-522486ddb25f"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975ce58f-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "e5840286-f9dd-4778-ad31-761cbe0bed9d"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a5dcb5-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "e831103b-28ef-4e2b-ad0f-2dcc1a1d3ae2"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06735cbc-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "e88d8869-50da-461a-8cb7-7194c02d274b"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975d365a-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "edbd2a6b-a48a-443b-adf2-69eb1e4a72c9"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "067569e5-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "ee2aa4f9-217a-4ea2-9b25-934a9f019b94"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "975cfb67-0610-11e0-9c66-0ba20c568bb6",
+      "Clicked": "True",
+      "id": "f39ea2e8-8b7f-4193-a415-f5074ed5ff12"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "067667a5-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "fe280ade-6e6f-4ed3-8334-24aad543f948"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a75377-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "ff215ab7-8955-40ef-b9d0-436154816183"
+    },
+    {
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "button_id": "06a771f0-07a7-11e0-bdc9-8e92303c9d5f",
+      "Clicked": "True",
+      "id": "fff96c84-fed8-40ce-9536-d0b58310f552"
+    }
+  ],
+  "pcr_inputs": [
+    {
+      "value": "anxiety, insomnia,",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06a7e9ca-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "03d7a2f8-b29f-4ac8-899e-3da589fb235b"
+    },
+    {
+      "value": "3 straps",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "252af641-0623-11e0-9c66-0ba20c568bb6",
+      "id": "05620e7b-5d39-43fd-8921-3019f118fdb0"
+    },
+    {
+      "value": "73",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "975b6e5a-0610-11e0-9c66-0ba20c568bb6",
+      "id": "1057324f-5461-44a1-a2b1-8305d95ac3e4"
+    },
+    {
+      "value": "110",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06a62c6d-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "2127e143-0bbd-4556-9b1e-a4579c140864"
+    },
+    {
+      "value": "18",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "91a3016a-e92f-11e0-bf52-82e0daa6b185",
+      "id": "21874d43-1f5e-4975-9960-036ed8ead5a2"
+    },
+    {
+      "value": "8:57",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06a605b9-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "24f7ddaa-d4c0-4889-8d2d-6c2561b20ad0"
+    },
+    {
+      "value": "118",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "975b8303-0610-11e0-9c66-0ba20c568bb6",
+      "id": "34bc1791-376a-4809-aebe-4334a901f712"
+    },
+    {
+      "value": "70",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06a6395f-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "386638ce-d740-4054-a7ab-041c108520f7"
+    },
+    {
+      "value": "62",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "975b8d60-0610-11e0-9c66-0ba20c568bb6",
+      "id": "68704942-2546-4869-af57-332edda7e0f4"
+    },
+    {
+      "value": "CT SCAN",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "d24ec0eb-e6cc-4ba5-9d4c-a113f5a1e46c",
+      "id": "69b46211-cd18-4e7d-89a8-ad307d92bc0f"
+    },
+    {
+      "value": "20",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06737847-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "7c3ef70a-1eea-4641-83ef-9c55c0bd175f"
+    },
+    {
+      "value": "14",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "5198e20f-e3d2-11e0-8de6-c373f67770cd",
+      "id": "87e3c399-2f28-496f-adba-361c85da3a62"
+    },
+    {
+      "value": "9:10",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06720412-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "8982e3f1-a6ad-46c9-814a-bdcad7bb0cff"
+    },
+    {
+      "value": "UTO",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06a64913-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "9196efc9-9281-4375-848e-e6a81dadcbff"
+    },
+    {
+      "value": "Urology f/u",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "35e5e9b8-061a-11e0-9c66-0ba20c568bb6",
+      "id": "c4219d5c-f624-4d3f-9dbd-ed5d3cd0b0aa"
+    },
+    {
+      "value": "9:12",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "975b6416-0610-11e0-9c66-0ba20c568bb6",
+      "id": "c606d9cd-58ec-4bd7-94a2-7ae2418558a6"
+    },
+    {
+      "value": "13",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "490070f5-e3d2-11e0-8de6-c373f67770cd",
+      "id": "ce9c5aaa-c8ee-4842-84f2-8877e2019ff6"
+    },
+    {
+      "value": "UTO",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "975b984c-0610-11e0-9c66-0ba20c568bb6",
+      "id": "d2445b3b-c3ed-4311-8edc-cf13175bc753"
+    },
+    {
+      "value": "76",
+      "pcr_id": "77c36b9d-05ba-4390-9989-992ab989cded",
+      "input_id": "06a6129e-07a7-11e0-bdc9-8e92303c9d5f",
+      "id": "f33242f8-46aa-445d-a297-77c4b596f474"
+    }
+  ]
+}
